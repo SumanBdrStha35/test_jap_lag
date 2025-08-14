@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_app/pages/flash/flash_card_page.dart';
-import 'package:flutter_app/pages/grammer/gram_quize.dart';
+import 'package:flutter_app/pages/grammer/gram_page.dart';
 import 'package:flutter_app/pages/voca/voca_quize_list.dart';
 
 class TestPage extends StatefulWidget {
@@ -22,9 +23,9 @@ class _TestPageState extends State<TestPage> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color(0xFF1e3c72),
-              Color(0xFF2a5298),
-              Color(0xFF7e8ba3),
+              Color(0xFF667eea),
+              Color(0xFF764ba2),
+              Color(0xFFf093fb),
             ],
           ),
         ),
@@ -41,7 +42,7 @@ class _TestPageState extends State<TestPage> {
                         IconButton(
                           icon: const Icon(Icons.arrow_back, color: Colors.white),
                           onPressed: () => Navigator.pop(context),
-                        ),
+                        ).animate().scale(duration: 400.ms).fadeIn(duration: 300.ms),
                         const SizedBox(width: 8),
                         Text(
                           widget.title,
@@ -50,7 +51,7 @@ class _TestPageState extends State<TestPage> {
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                           ),
-                        ),
+                        ).animate().fadeIn(duration: 500.ms).slideX(begin: -0.2, end: 0),
                       ],
                     ),
                     const SizedBox(height: 8),
@@ -60,7 +61,7 @@ class _TestPageState extends State<TestPage> {
                         fontSize: 16,
                         color: Colors.white70,
                       ),
-                    ),
+                    ).animate().fadeIn(duration: 600.ms).slideY(begin: -0.2, end: 0),
                   ],
                 ),
               ),
@@ -81,7 +82,7 @@ class _TestPageState extends State<TestPage> {
                           ),
                         );
                       },
-                    ),
+                    ).animate().scale(duration: 600.ms).fadeIn(delay: 200.ms),
                     const SizedBox(height: 20),
                     _buildGlassCard(
                       icon: Icons.menu_book_outlined,
@@ -92,11 +93,11 @@ class _TestPageState extends State<TestPage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const GramQuizePage(),
+                            builder: (context) => const GramPage(title: "Grammar", selectedIndex: 1,),
                           ),
                         );
                       },
-                    ),
+                    ).animate().scale(duration: 600.ms).fadeIn(delay: 400.ms),
                     const SizedBox(height: 20),
                     _buildGlassCard(
                       icon: Icons.flash_on_outlined,
@@ -111,7 +112,7 @@ class _TestPageState extends State<TestPage> {
                           ),
                         );
                       },
-                    ),
+                    ).animate().scale(duration: 600.ms).fadeIn(delay: 600.ms),
                   ],
                 ),
               ),
@@ -134,21 +135,21 @@ class _TestPageState extends State<TestPage> {
         borderRadius: BorderRadius.circular(24),
         gradient: LinearGradient(
           colors: [
-            Colors.white.withOpacity(0.1),
-            Colors.white.withOpacity(0.05),
+            Colors.white.withOpacity(0.15),
+            Colors.white.withOpacity(0.08),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         border: Border.all(
-          color: Colors.white.withOpacity(0.2),
-          width: 1,
+          color: Colors.white.withOpacity(0.3),
+          width: 1.5,
         ),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 20,
-            offset: const Offset(0, 10),
+            color: Colors.black.withOpacity(0.15),
+            blurRadius: 25,
+            offset: const Offset(0, 12),
           ),
         ],
       ),
@@ -177,7 +178,7 @@ class _TestPageState extends State<TestPage> {
                     size: 32,
                     color: Colors.white,
                   ),
-                ),
+                ).animate().scale(duration: 400.ms).shimmer(duration: 800.ms),
                 const SizedBox(width: 20),
                 Expanded(
                   child: Column(
@@ -186,26 +187,26 @@ class _TestPageState extends State<TestPage> {
                       Text(
                         title,
                         style: const TextStyle(
-                          fontSize: 22,
+                          fontSize: 24,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
                         ),
-                      ),
-                      const SizedBox(height: 4),
+                      ).animate().fadeIn(duration: 500.ms).slideX(begin: -0.2, end: 0),
+                      const SizedBox(height: 6),
                       Text(
                         subtitle,
                         style: TextStyle(
-                          fontSize: 14,
-                          color: Colors.white.withOpacity(0.8),
+                          fontSize: 15,
+                          color: Colors.white.withOpacity(0.9),
                         ),
-                      ),
+                      ).animate().fadeIn(duration: 600.ms).slideX(begin: -0.2, end: 0),
                     ],
                   ),
                 ),
                 Container(
                   padding: const EdgeInsets.all(12),
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.2),
+                    color: Colors.white.withOpacity(0.25),
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(
@@ -213,12 +214,17 @@ class _TestPageState extends State<TestPage> {
                     color: Colors.white,
                     size: 20,
                   ),
-                ),
+                ).animate().scale(duration: 300.ms).rotate(duration: 500.ms),
               ],
             ),
           ),
         ),
       ),
-    );
+    ).animate()
+      .scale(duration: 400.ms, curve: Curves.easeOutBack)
+      .fadeIn(duration: 300.ms)
+      .shimmer(duration: 1000.ms)
+      .animate(onPlay: (controller) => controller.repeat())
+      .shimmer(duration: 2000.ms, delay: 1000.ms);
   }
 }

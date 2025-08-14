@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_app/pages/grammer/gramScreen.dart';
 import 'package:flutter_app/pages/grammer/gram_quize.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class GramPage extends StatefulWidget {
   final String title;
+  final int selectedIndex;
 
-  const GramPage({super.key, required this.title});
+  const GramPage({super.key, required this.title, required this.selectedIndex});
   
   @override
   State<GramPage> createState() => _GramPageState();
 }
 
 class _GramPageState extends State<GramPage> {
-  int selectedIndex = 0;
   late Box _progressBox;
+  
   // List of grammar topics
   final List<Map<String, dynamic>> _japaneseGrammar = [
     {
@@ -167,141 +169,198 @@ class _GramPageState extends State<GramPage> {
     });
   }
 
-
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        if (selectedIndex == 1 || selectedIndex == 2) {
-          setState(() {
-            selectedIndex = 0;
-          });
-          return false; // Prevent pop
-        }
-        return true; // Allow pop
-      },
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
+    return Scaffold(
+      // appBar: AppBar(
+      //   title: Text(widget.title).animate().fadeIn(duration: 500.ms),
+      //   centerTitle: true,
+      //   elevation: 0,
+      //   flexibleSpace: Container(
+      //     decoration: BoxDecoration(
+      //       gradient: LinearGradient(
+      //         colors: [Colors.blue.shade700, Colors.blue.shade400],
+      //         begin: Alignment.topLeft,
+      //         end: Alignment.bottomRight,
+      //       ),
+      //     ),
+      //   ),
+      // ),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Colors.blue.shade50, Colors.white],
+          ),
         ),
-        body: selectedIndex == 0
-            ? Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: ListView(
-                  children: [
-                    Card(
-                      child: ListTile(
-                        title: Text(
-                          'Japanese Grammer',
-                          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                        ),
-                        onTap: () {
-                          setState(() {
-                            selectedIndex = 1;
-                          });
-                        },
-                      ),
-                    ),
-                    Card(
-                      child: ListTile(
-                        title: const Text('Grammer with Lesson wise',
-                          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                        ),
-                        onTap: () {
-                          setState(() {
-                            selectedIndex = 2;
-                          });
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-              )
-            : selectedIndex == 1
-                ? ListView.builder(
-                    itemCount: _japaneseGrammar.length,
-                    itemBuilder: (context, index) {
-                      final quiz = _japaneseGrammar[index];
-                      return Card(
-                        margin: const EdgeInsets.all(16),
-                        elevation: 4,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: ListTile(
-                          title: Text(
-                            quiz['title'],
-                            style: const TextStyle( fontSize: 18, fontWeight: FontWeight.w600,)
-                          ),
-                          subtitle: Text(
-                            quiz['subtitle'],
-                            style: const TextStyle(fontSize: 14, color: Colors.grey),
-                          ),
-                          trailing: SizedBox(
-                            width: 40,
-                            height: 40,
-                            child: Stack(
-                              alignment: Alignment.center,
-                              children: [
-                                CircularProgressIndicator(
-                                  value: quiz['progress'] / 100,
-                                  strokeWidth: 4,
-                                  backgroundColor: Colors.grey[300],
-                                  color: Colors.blue,
-                                ),
-                                Text(
-                                  '${quiz['progress']}%',
-                                  style: const TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          onTap: () {
-                            _onTryQuiz(context, quiz['title'], quiz['progress']);
-                          },
-                        ),
-                      );
-                    },
-                  )
-                : ListView.builder(
-                    itemCount: 25, // Assuming 25 lessons
-                    itemBuilder: (context, index) {
-                      final lessonNumber = index + 1;
-                      return Card(
-                        margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                        elevation: 4,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: ListTile(
-                          contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                          title: Text(
-                            'Lesson $lessonNumber',
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                          trailing: const Icon(Icons.arrow_forward_ios, size: 16),
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => GrammarScreen(
-                                  title: 'Lesson $lessonNumber',
-                                ),
-                              ),
-                            );
-                          },
-                        ),
-                      );
-                    },
-                  ),
+        child: widget.selectedIndex == 1
+          ? _buildQuizListView()
+          : _buildLessonListView(),
       ),
     );
+  }
+
+  Widget _buildQuizListView() {
+    return ListView.builder(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      itemCount: _japaneseGrammar.length,
+      itemBuilder: (context, index) {
+        final quiz = _japaneseGrammar[index];
+        return Container(
+          margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Card(
+            elevation: 0,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            ),
+            child: InkWell(
+              borderRadius: BorderRadius.circular(16),
+              onTap: () => _onTryQuiz(context, quiz['title'], quiz['progress']),
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            quiz['title'],
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                            ),
+                          ).animate().fadeIn(delay: (100 * index).ms),
+                          const SizedBox(height: 4),
+                          Text(
+                            quiz['subtitle'],
+                            style: TextStyle(
+                              color: Colors.grey.shade600,
+                              fontSize: 14,
+                            ),
+                          ).animate().fadeIn(delay: (150 * index).ms),
+                        ],
+                      ),
+                    ),
+                    _buildProgressIndicator(quiz['progress'])
+                      .animate()
+                      .scale(delay: (200 * index).ms)
+                      .shake(delay: 300.ms, hz: 4)
+                  ],
+                ),
+              ),
+            ),
+          ).animate()
+            .slideX(
+              begin: index.isEven ? -20 : 20,
+              duration: 400.ms,
+              curve: Curves.easeOutCubic,
+            )
+            .fadeIn(),
+        );
+      },
+    );
+  }
+
+  Widget _buildLessonListView() {
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: 25,
+      itemBuilder: (context, index) {
+        final lessonNumber = index + 1;
+        return Container(
+          margin: const EdgeInsets.only(bottom: 12),
+          child: ListTile(
+            contentPadding: const EdgeInsets.symmetric(
+              horizontal: 20,
+              vertical: 12,
+            ),
+            title: Text(
+              'Lesson $lessonNumber',
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+                color: Colors.blueGrey,
+              ),
+            ).animate().fadeIn(delay: (50 * index).ms),
+            trailing: Container(
+              padding: const EdgeInsets.all(6),
+              decoration: BoxDecoration(
+                color: Colors.blue.shade100,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(
+                Icons.arrow_forward_ios,
+                size: 14,
+                color: Colors.blue.shade800,
+              ),
+            ).animate().rotate(delay: (100 * index).ms),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+            ),
+            tileColor: Colors.blue.shade50,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => GrammarScreen(
+                    title: 'Lesson $lessonNumber',
+                  ),
+                ),
+              );
+            },
+          ).animate()
+            .scaleXY(
+              begin: 0.9,
+              end: 1,
+              delay: (75 * index).ms,
+              duration: 300.ms,
+              curve: Curves.easeOutBack,
+            )
+            .fadeIn(delay: (50 * index).ms),
+        );
+      },
+    );
+  }
+
+  Widget _buildProgressIndicator(int progress) {
+    return SizedBox(
+    width: 60,
+    height: 60,
+    child: Stack(
+      alignment: Alignment.center,
+      children: [
+        CircularProgressIndicator(
+          value: progress / 100,
+          strokeWidth: 6,
+          backgroundColor: Colors.grey.shade200,
+          valueColor: AlwaysStoppedAnimation<Color>(
+            _getProgressColor(progress),
+          ),
+        ).animate(onPlay: (controller) => controller.repeat())
+          .scale(delay: 300.ms, duration: 800.ms)
+          .then(delay: 1.seconds)
+          .scale(end: Offset(1.1, 1.1), duration: 500.ms)
+          .then()
+          .scale(end: Offset(1, 1)),
+        Text(
+          '$progress%',
+          style: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+            color: _getProgressColor(progress),
+          ),
+        ).animate().scale(delay: 200.ms),
+      ],
+    ),
+  );
+  }
+
+  Color _getProgressColor(int progress) {
+    if (progress < 30) return Colors.red.shade400;
+    if (progress < 70) return Colors.orange.shade400;
+    return Colors.green.shade500;
   }
   
   void _onTryQuiz(BuildContext context, title, progress) async{

@@ -1,198 +1,178 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/grammer/gram_page.dart';
 import 'package:flutter_app/pages/kanji/kanji_leaves.dart';
-import 'package:flutter_app/pages/voca/voca_lesson.dart';
+import 'package:flutter_app/pages/voca/voca_lesson_updated.dart';
 
-class LessonTest extends StatefulWidget {
+class LessonTest extends StatelessWidget {
   const LessonTest({super.key});
 
   @override
-  State<LessonTest> createState() => _LessonTestState();
-}
-
-class _LessonTestState extends State<LessonTest> {
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        title: const Text('Choose Your Journey'),
-        centerTitle: true,
-        elevation: 0,
-        backgroundColor: Colors.transparent,
-        foregroundColor: Colors.white,
-      ),
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Color(0xFF667eea),
-              Color(0xFF764ba2),
-            ],
-          ),
-        ),
-        child: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 20.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'Master Japanese',
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
+      backgroundColor: const Color(0xFFFAFAFA),
+      body: SafeArea(
+        child: Column(
+          children: [
+            // Header Section
+            Container(
+              padding: const EdgeInsets.fromLTRB(24, 40, 24, 32),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Row(
+                  //   children: [
+                  //     IconButton(
+                  //       icon: const Icon(Icons.arrow_back_ios, size: 20),
+                  //       onPressed: () => Navigator.pop(context),
+                  //     ),
+                  //     const Spacer(),
+                  //     const Icon(Icons.more_horiz, size: 24),
+                  //   ],
+                  // ),
+                  const SizedBox(height: 24),
+                  const Text(
+                    'Choose Your',
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.w300,
+                      color: Color(0xFF2D3436),
+                    ),
                   ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Select your learning path',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.white.withOpacity(0.8),
+                  const Text(
+                    'Learning Path',
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF2D3436),
+                    ),
                   ),
-                ),
-                const SizedBox(height: 40),
-                Expanded(
-                  child: ListView(
+                  const SizedBox(height: 8),
+                  Text(
+                    'Master Japanese with curated lessons',
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: const Color(0xFF2D3436).withOpacity(0.7),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            
+            // Main Content
+            Expanded(
+              child: ListView(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                children: [
+                  // Lesson Grid
+                  GridView.count(
+                    shrinkWrap: true,
+                    physics: const NeverScrollableScrollPhysics(),
+                    crossAxisCount: 2,
+                    crossAxisSpacing: 16,
+                    mainAxisSpacing: 16,
                     children: [
-                      _buildModernLessonCard(
+                      _buildLessonCard(
                         context,
                         'Greetings',
                         'Start with essential Japanese greetings',
                         Icons.waving_hand,
-                        Color(0xFFFF6B6B),
-                        Color(0xFFFF8E8E),
-                        () => Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const FallingLeavesSpring()),
-                        ),
+                        const Color(0xFFFF6B6B),
+                        const FallingLeavesSpring(),
                       ),
-                      const SizedBox(height: 20),
-                      _buildModernLessonCard(
+                      _buildLessonCard(
                         context,
                         'Vocabulary',
-                        'Expand your word bank with daily phrases',
+                        'Daily phrases & common expressions',
                         Icons.menu_book,
-                        Color(0xFF4ECDC4),
-                        Color(0xFF44A08D),
-                        () => Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const VocaLessonPage()),
-                        ),
+                        const Color(0xFF4ECDC4),
+                        const VocaLessonPageUpdate(),
                       ),
-                      const SizedBox(height: 20),
-                      _buildModernLessonCard(
+                      _buildLessonCard(
                         context,
                         'Grammar',
-                        'Master the structure of Japanese language',
+                        'Master Japanese sentence structure',
                         Icons.psychology,
-                        Color(0xFF667eea),
-                        Color(0xFF764ba2),
-                        () => Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const GramPage(title: "Grammar")),
-                        ),
+                        const Color(0xFF667EEA),
+                        const GramPage(title: "Grammar", selectedIndex: 2,),
+                      ),
+                      _buildLessonCard(
+                        context,
+                        'Kanji',
+                        'Learn Japanese characters visually',
+                        Icons.brush,
+                        const Color(0xFFF093FB),
+                        const FallingLeavesSpring(),
                       ),
                     ],
                   ),
-                ),
-              ],
+                  
+                  const SizedBox(height: 32),
+                ],
+              ),
             ),
-          ),
+          ],
         ),
       ),
     );
   }
 
-  Widget _buildModernLessonCard(
+  Widget _buildLessonCard(
     BuildContext context,
     String title,
     String subtitle,
     IconData icon,
-    Color startColor,
-    Color endColor,
-    VoidCallback onTap,
+    Color color,
+    Widget page,
   ) {
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        gradient: LinearGradient(
-          colors: [startColor, endColor],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: startColor.withOpacity(0.3),
-            blurRadius: 15,
-            offset: const Offset(0, 8),
-          ),
-        ],
+    return GestureDetector(
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => page),
       ),
-      child: Material(
-        color: Colors.transparent,
-        borderRadius: BorderRadius.circular(20),
-        child: InkWell(
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
           borderRadius: BorderRadius.circular(20),
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.all(24.0),
-            child: Row(
-              children: [
-                Container(
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.2),
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  child: Icon(
-                    icon,
-                    size: 32,
-                    color: Colors.white,
-                  ),
-                ),
-                const SizedBox(width: 20),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        title,
-                        style: const TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        subtitle,
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Colors.white.withOpacity(0.9),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.2),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(
-                    Icons.arrow_forward,
-                    color: Colors.white,
-                    size: 24,
-                  ),
-                ),
-              ],
+          boxShadow: [
+            BoxShadow(
+              color: color.withOpacity(0.1),
+              blurRadius: 10,
+              offset: const Offset(0, 4),
             ),
+          ],
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                width: 48,
+                height: 48,
+                decoration: BoxDecoration(
+                  color: color.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Icon(icon, color: color, size: 24),
+              ),
+              const SizedBox(height: 16),
+              Text(
+                title,
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFF2D3436),
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                subtitle,
+                style: TextStyle(
+                  fontSize: 12,
+                  color: const Color(0xFF2D3436).withOpacity(0.7),
+                ),
+              ),
+            ],
           ),
         ),
       ),

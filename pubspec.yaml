@@ -23,8 +23,8 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   path_drawing: ^1.0.1
-  audioplayers: ^6.5.0
   bottom_bar_matu: ^1.5.0
+  flutter_animate: ^4.5.2
 
 dev_dependencies:
   flutter_test:

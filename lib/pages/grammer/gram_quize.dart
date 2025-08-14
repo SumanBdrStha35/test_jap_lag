@@ -3,10 +3,11 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
 class GramQuizePage extends StatefulWidget {
+  final int? id;
   final String? title;
   final int? progress;
 
-  const GramQuizePage({super.key, this.title, this.progress});
+  const GramQuizePage({super.key, this.id, this.title, this.progress});
 
   @override
   State<GramQuizePage> createState() => _GramQuizePageState();
@@ -26,18 +27,12 @@ class _GramQuizePageState extends State<GramQuizePage> {
   @override
   void initState() {
     super.initState();
+    print("widget.id: ${widget.id}");
     _loadQuestions();
   }
 
   Future<void> _loadQuestions() async {
-    if (widget.title == "Japanese Grammar Part 1") {
-      quizeItems = await rootBundle.loadString('assets/json/gram_part1.json');
-    } else if (widget.title == "Japanese Grammar Part 2") {
-      quizeItems = await rootBundle.loadString('assets/json/gram_part2.json');
-    } else {
-      quizeItems = await rootBundle.loadString('assets/json/gram_part1.json');
-    }
-      
+    quizeItems = await rootBundle.loadString('assets/json/gram_part${widget.id}.json');
     final List<dynamic> jsonData = json.decode(quizeItems);
     setState(() {
       questionData = jsonData.cast<Map<String, dynamic>>();

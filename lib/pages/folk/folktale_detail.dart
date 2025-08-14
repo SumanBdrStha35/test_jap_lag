@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 class FolktaleDetailPage extends StatefulWidget {
@@ -11,13 +10,11 @@ class FolktaleDetailPage extends StatefulWidget {
 }
 
 class _FolktaleDetailPageState extends State<FolktaleDetailPage> {
-  final AudioPlayer _audioPlayer = AudioPlayer();
   final FlutterTts _flutterTts = FlutterTts();
   String? _currentlyPlayingUrl;
 
   @override
   void dispose() {
-    _audioPlayer.dispose();
     _flutterTts.stop();
     super.dispose();
   }

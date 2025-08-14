@@ -14,6 +14,7 @@ void main() async {
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
   await Hive.initFlutter();
+  await Hive.openBox('vocaLessonProgress');
   await Hive.openBox('vocaQuizProgress');
   await Hive.openBox('gramQuizProgress');
   await Hive.openBox('flashCardProgress');

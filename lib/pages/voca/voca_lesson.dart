@@ -1,15 +1,53 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/voca/voca_lesson_detail.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:logger/logger.dart';
 
 class VocaLessonPage extends StatefulWidget {
   const VocaLessonPage({super.key});
 
   @override
-  _VocaLessonPageState createState() => _VocaLessonPageState();
+  VocaLessonPageState createState() => VocaLessonPageState();
 }
 
-class _VocaLessonPageState extends State<VocaLessonPage> {
-  final Map<int, int> _lessonProgress = {};
+class VocaLessonPageState extends State<VocaLessonPage> {
+  //store map
+final Map<int, int> lessonProgress = {};
+  //create a hive to store progress
+  @override
+  void initState() {
+    super.initState();
+    _loadLessonProgress();
+  }
+  Future<void> _loadLessonProgress() async {
+    final box = await Hive.openBox('vocaLessonProgress');
+    
+    // Load initial data
+    setState(() {
+      for (var i = 1; i <= 25; i++) {
+        lessonProgress[i] = box.get(i) ?? 0;
+      }
+    });
+    
+    // Set up listener for future changes
+    box.listenable().addListener(() {
+      setState(() {
+        for (var i = 1; i <= 25; i++) {
+          lessonProgress[i] = box.get(i) ?? 0;
+        }
+      });
+    });
+    Logger().d("kdfjndskjbfdjs");
+  }
+
+  Future <void> saveProgress(int lessonNumber, int progress) async {
+    final box = await Hive.openBox('vocaLessonProgress');
+    await box.put(lessonNumber, progress);
+    setState(() {
+      lessonProgress[lessonNumber] = progress;
+    });
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +98,7 @@ class _VocaLessonPageState extends State<VocaLessonPage> {
                     lessonNumber: lessonNumber,
                     title: 'Lesson $lessonNumber',
                     subtitle: 'Vocabulary',
-                    progress: _lessonProgress[lessonNumber] ?? 0,
+                    progress: lessonProgress[lessonNumber] ?? 0,
                     color: _getLessonColor(lessonNumber),
                   );
                 },
@@ -110,13 +148,12 @@ class _VocaLessonPageState extends State<VocaLessonPage> {
                 builder: (context) => VocaLessonDetailPage(lessonNumber: lessonNumber),
               ),
             );
-            if (result != null && result is Map<String, dynamic>) {
+            if (result != null) {
+              Logger().d("result $result");
               final id = result['id'] as int?;
               final progress = result['progress'] as int?;
               if (id != null && progress != null) {
-                setState(() {
-                  _lessonProgress[id] = progress;
-                });
+                await saveProgress(id, progress);
               }
             }
           },

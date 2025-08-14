@@ -175,7 +175,7 @@ class _HomePageState extends State<HomePage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => GramPage(title: item.title),
+                            builder: (context) => GramPage(title: item.title, selectedIndex: 0,),
                           ),
                         );
                       } else if (item.title == 'Global Flashcards' ) {

@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 class VocaQuizePage extends StatefulWidget {
   final int? id;
@@ -32,7 +33,12 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
   void initState() {
     super.initState();
     flutterTts.setLanguage("ja-JP");
+    loadHive();
     _loadQuizItems();
+  }
+
+  Future<void> loadHive() async {
+    final box = await Hive.openBox('vocaLessonProgress');
   }
 
   Future<void> _loadQuizItems() async {
@@ -76,9 +82,15 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
   }
 
   int correctCount = 0;
-  void _completeQuiz() {
+  void _completeQuiz() async {
     int progress = ((correctCount / _quizItems.length) * 100).toInt();
     print('Correct: $correctCount, total: ${_quizItems.length}, progress: $progress%');
+    
+    // Store progress of widget.id in Hive
+    final box = await Hive.openBox('vocaLessonProgress');
+    //update the progress of the lesson
+    await box.put(widget.id, progress); 
+    
     setState(() {
       _completedCount = progress;
       _quizStarted = false;
