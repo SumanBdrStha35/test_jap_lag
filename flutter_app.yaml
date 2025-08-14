@@ -1,0 +1,12 @@
+flutter_native_splash:
+    android: true
+    ios: true
+    web: false
+    
+    color: '#d4e4ed'
+    image: assets/onboarding1.jpg
+    android_gravity: center
+    ios_content_mode: scaleAspectFit
+    fullscreen: true
+    branding: assets/logo.png
+    branding_mode: bottom

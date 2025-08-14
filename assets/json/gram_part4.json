@@ -1,0 +1,124 @@
+[
+  {
+    "translation": {
+      "english": "She walks, right?",
+      "hiragana0": "かのじょ は あるき ます ",
+      "hiragana1": " 。",
+      "romaji0": "ka no jo wa a ru ki ma su ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "だね", "romaji": "da ne"},
+      {"hiragana": "よね", "romaji": "yo ne"},
+      {"hiragana": "くない", "romaji": "ku na i"},
+      {"hiragana": "ですよね", "romaji": "de su yo ne"},
+      {"hiragana": "でしたか", "romaji": "de shi ta ka"}
+    ],
+    "correct_answer": {"hiragana": "ですよね", "romaji": "de su yo ne"}
+  },
+  {
+    "translation": {
+      "english": "He swam.",
+      "hiragana0": "かれ は ",
+      "hiragana1": " ました。",
+      "romaji0": "ka re wa ",
+      "romaji1": " ma shi ta"
+    },
+    "choices": [
+      {"hiragana": "およぐ", "romaji": "o yo gu"},
+      {"hiragana": "およげ", "romaji": "o yo ge"},
+      {"hiragana": "およが", "romaji": "o yo ga"},
+      {"hiragana": "およぎ", "romaji": "o yo gi"}
+    ],
+    "correct_answer": {"hiragana": "およぎ", "romaji": "o yo gi"}
+  },
+  {
+    "translation": {
+      "english": "She doesn’t swim, does she?",
+      "hiragana0": "かのじょ は およぎ ",
+      "hiragana1": " よね。",
+      "romaji0": "ka no jo wa o yo gi ",
+      "romaji1": " yo ne"
+    },
+    "choices": [
+      {"hiragana": "なかった", "romaji": "na ka t ta"},
+      {"hiragana": "ない", "romaji": "na i"},
+      {"hiragana": "ありません", "romaji": "a ri ma se n"},
+      {"hiragana": "ません", "romaji": "ma se n"}
+    ],
+    "correct_answer": {"hiragana": "ません", "romaji": "ma se n"}
+  },
+  {
+    "translation": {
+      "english": "She walked.",
+      "hiragana0": "",
+      "hiragana1": "",
+      "romaji0": "",
+      "romaji1": ""
+    },
+    "choices": [
+        {"hiragana": "は", "romaji": "wa"},
+        {"hiragana": "あるき", "romaji": "a ru ki"},
+        {"hiragana": "かのじょ", "romaji": "ka no jo"},
+        {"hiragana": "なました", "romaji": "ma shi ta"}
+    ],
+    "correct_answer": {"hiragana": "かのじょ は あるき ました", "romaji": "ka no jo wa a ru ki ma shi ta"}
+  },
+  {
+    "translation": {
+      "english": "He didn’t swim.",
+      "hiragana0": "",
+      "hiragana1": "",
+      "romaji0": "",
+      "romaji1": ""
+    },
+    "choices": [
+        {"hiragana": "およぎ", "romaji": "o yo gi"},
+        {"hiragana": "でした", "romaji": "de shi ta"},
+        {"hiragana": "ません", "romaji": "ma se n"},
+        {"hiragana": "です", "romaji": "de su"},
+        {"hiragana": "かれ", "romaji": "ka re"},
+        {"hiragana": "は", "romaji": "wa"}
+    ],
+    "correct_answer": {"hiragana": "かれ は およぎ ません", "romaji": "ka re wa o yo gi ma se n"}
+  },
+  {
+    "translation": {
+      "english": "Mr. Yoshida didn’t go.",
+      "hiragana0": "",
+      "hiragana1": "",
+      "romaji0": "",
+      "romaji1": ""
+    },
+    "choices": [
+        {"hiragana": "でした", "romaji": "de shi ta"},
+        {"hiragana": "いき", "romaji": "i ki"},
+        {"hiragana": "ません", "romaji": "ma se n"},
+        {"hiragana": "くん", "romaji": "ku n"},
+        {"hiragana": "よしだ", "romaji": "yo shi da"},
+        {"hiragana": "は", "romaji": "wa"},
+        {"hiragana": "さん", "romaji": "sa n"},
+        {"hiragana": "ちゃん", "romaji": "cha n"}
+    ],
+    "correct_answer": {"hiragana": "よしだ さん は いき ません", "romaji": "yo shi da sa n wa i ki ma se n"}
+  },
+  {
+    "translation": {
+      "english": "He will not swim, right?",
+      "hiragana0": "",
+      "hiragana1": "",
+      "romaji0": "",
+      "romaji1": ""
+    },
+    "choices": [
+        {"hiragana": "およぐ", "romaji": "o yo gu"},
+        {"hiragana": "よね", "romaji": "yo ne"},
+        {"hiragana": "ない", "romaji": "na i"},
+        {"hiragana": "かれ", "romaji": "ka re"},
+        {"hiragana": "およぎ", "romaji": "o yo gi"},
+        {"hiragana": "ません", "romaji": "ma se n"},
+        {"hiragana": "は", "romaji": "wa"}
+    ],
+    "correct_answer": {"hiragana": "かれ は およぎ ません よね", "romaji": "ka re wa o yo gi ma se n yo ne"}
+  }
+]

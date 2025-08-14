@@ -1,0 +1,37 @@
+[
+  {
+    "kanji": "春",
+    "kana": "はる",
+    "meaning": "spring",
+    "example": "春の花 (はるのはな) - spring flowers",
+    "cardColor": "0xFFE57373"
+  },
+  {
+    "kanji": "梅雨",
+    "kana": "つゆ",
+    "meaning": "rainy season",
+    "example": "梅雨の時期 (つゆのじき) - rainy season period",
+    "cardColor": "0xFF64B5F6"
+  },
+  {
+    "kanji": "夏",
+    "kana": "なつ",
+    "meaning": "summer",
+    "example": "夏の海 (なつのうみ) - summer sea",
+    "cardColor": "0xFFFFB74D"
+  },
+  {
+    "kanji": "秋",
+    "kana": "あき",
+    "meaning": "autumn",
+    "example": "秋の紅葉 (あきのこうよう) - autumn leaves",
+    "cardColor": "0xFF81C784"
+  },
+  {
+    "kanji": "冬",
+    "kana": "ふゆ",
+    "meaning": "winter",
+    "example": "冬の雪 (ふゆのゆき) - winter snow",
+    "cardColor": "0xFF4DB6AC"
+  }
+]

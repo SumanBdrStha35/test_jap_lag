@@ -1,0 +1,351 @@
+[
+  {
+    "lesson": "Dakuon, Handakuon",
+    "characters": [
+      {
+        "chapter": "1.1",
+        "row": "が-ぎょう",
+        "characters": [
+          {
+            "hiragana": "が",
+            "romaji": "ga",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぎ",
+            "romaji": "gi",
+            "stroke_count": 6,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/i.jpeg"
+          },
+          {
+            "hiragana": "ぐ",
+            "romaji": "gu",
+            "stroke_count": 3,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/u.jpeg"
+          },
+          {
+            "hiragana": "げ",
+            "romaji": "ge",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/e.jpeg"
+          },
+          {
+            "hiragana": "ご",
+            "romaji": "go",
+            "stroke_count": 4,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/o.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "てがみ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "かぎ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "およぐ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "げんき",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "たまご",
+            "example_word_eng": "",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.2",
+        "row": "ざ-ぎょう",
+        "characters":[
+          {
+            "hiragana": "ざ",
+            "romaji": "za",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "じ",
+            "romaji": "ji",
+            "stroke_count": 3,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ず",
+            "romaji": "zu",
+            "stroke_count": 4,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぜ",
+            "romaji": "ze",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぞ",
+            "romaji": "zo",
+            "stroke_count": 4,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "はいざら",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "いちじ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "しずか",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "かぜ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "かぞく",
+            "example_word_eng": "",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.3",
+        "row": "だ-ぎょう",
+        "characters": [
+          {
+            "hiragana": "だ",
+            "romaji": "da",
+            "stroke_count": 6,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぢ",
+            "romaji": "di",
+            "stroke_count": 4,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "づ",
+            "romaji": "du",
+            "stroke_count": 3,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "で",
+            "romaji": "de",
+            "stroke_count": 3,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ど",
+            "romaji": "do",
+            "stroke_count": 4,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise":[
+          {
+            "example_word_hira": "だれ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "はなぢ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "かなづち",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "でんわ",
+            "example_word_eng": "telephone",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "まど",
+            "example_word_eng": "window",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.4",
+        "row": "ば-ぎょう",
+        "characters": [
+          {
+            "hiragana": "ば",
+            "romaji": "ba",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "び",
+            "romaji": "bi",
+            "stroke_count": 3,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぶ",
+            "romaji": "bu",
+            "stroke_count": 6,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "べ",
+            "romaji": "be",
+            "stroke_count": 3,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぼ",
+            "romaji": "bo",
+            "stroke_count": 6,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise":[
+          {
+            "example_word_hira": "かばん",
+            "example_word_eng": "bag",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ゆび",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "しんぶん",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "なべ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ぼんさい",
+            "example_word_eng": "",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.5",
+        "row": "ぱ-ぎょう",
+        "characters":[
+          {
+            "hiragana": "ぱ",
+            "romaji": "pa",
+            "stroke_count": 4,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぴ",
+            "romaji": "pi",
+            "stroke_count": 2,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぷ",
+            "romaji": "pu",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぺ",
+            "romaji": "pe",
+            "stroke_count": 2,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぽ",
+            "romaji": "po",
+            "stroke_count": 5,
+            "mnemonic": "",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "しんぱい",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "えんぴつ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "てんぷら",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ぺこぺこ",
+            "example_word_eng": "",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "さんぽ",
+            "example_word_eng": "",
+            "example_image": ""
+          }
+        ]
+      }
+    ],
+    "reading":[
+      "が", "ぞ", "ぺ", "で", "ば", "ぜ", "ぎ", "ぽ", "ず", "び", "ど", "ざ",
+      "ぐ", "ず", "ぱ", "ぶ", "ぢ", "ぽ", "げ", "じ", "べ", "ぴ", "ぼ", "だ", "ご"
+    ]
+  }
+]

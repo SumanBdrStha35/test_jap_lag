@@ -1,0 +1,121 @@
+[
+  {
+    "translation": {
+      "english": "Mt. Fuji is in Japan.",
+      "hiragana0": "ふじさん は にほん に",
+      "hiragana1": "。",
+      "romaji0": "fu ji sa n wa ni ho n ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "ありません", "romaji": "a ri ma se n"},
+      {"hiragana": "いません", "romaji": "i ma se n"},
+      {"hiragana": "います", "romaji": "i ma su"},
+      {"hiragana": "あります", "romaji": "a ri ma su"},
+      {"hiragana": "あるです", "romaji": "a ru de su"}
+    ],
+    "correct_answer": {"hiragana": "あります", "romaji": "a ri ma su"}
+  },
+  {
+    "translation": {
+      "english": "Mr. Yamada was not in the office.",
+      "hiragana0": "やまださん は オフィス に",
+      "hiragana1": "。",
+      "romaji0": "ya ma da sa n wa o fi su ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "います", "romaji": "i ma su"},
+      {"hiragana": "いませんでした", "romaji": "i ma se n de shi ta"},
+      {"hiragana": "いないでした", "romaji": "i na i de shi ta"},
+      {"hiragana": "ありました", "romaji": "a ri ma shi ta"},
+      {"hiragana": "ありませんでした", "romaji": "a ri ma se n de shi ta"}
+    ],
+    "correct_answer": {"hiragana": "いませんでした", "romaji": "i ma se n de shi ta"}
+  },
+  {
+    "translation": {
+      "english": "I am at school.",
+      "hiragana0": "わたし は がっこう に",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa ga k ko u ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "あります", "romaji": "a ri ma su"},
+      {"hiragana": "います", "romaji": "i ma su"},
+      {"hiragana": "です", "romaji": "de su"},
+      {"hiragana": "ます", "romaji": "ma su"},
+      {"hiragana": "いませんでした", "romaji": "i ma se n de shi ta"}
+    ],
+    "correct_answer": {"hiragana": "います", "romaji": "i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The restroom is on the second floor.",
+      "hiragana0": "トイレ は ２かい に",
+      "hiragana1": "。",
+      "romaji0": "to i re wa ni ka i ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "あります", "romaji": "a ri ma su"},
+      {"hiragana": "いなかったです", "romaji": "i na ka t ta de su"},
+      {"hiragana": "います", "romaji": "i ma su"},
+      {"hiragana": "いるです", "romaji": "i ru de su"},
+      {"hiragana": "あるです", "romaji": "a ru de su"}
+    ],
+    "correct_answer": {"hiragana": "あります", "romaji": "a ri ma su"}
+  },
+  {
+    "translation": {
+      "english": "Mr. Yamada is in Tokyo.",
+      "hiragana0": "やまださん は とうきょう に",
+      "hiragana1": "。",
+      "romaji0": "ya ma da sa n wa to u kyo u ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "います", "romaji": "i ma su"},
+      {"hiragana": "あれ", "romaji": "a re"},
+      {"hiragana": "あります", "romaji": "a ri ma su"},
+      {"hiragana": "あった", "romaji": "a t ta"},
+      {"hiragana": "いなかった", "romaji": "i na ka t ta"}
+    ],
+    "correct_answer": {"hiragana": "います", "romaji": "i ma su"}
+  },
+  {
+    "translation": {
+      "english": "Lions are in Africa.",
+      "hiragana0": "ライオン は アフリカ",
+      "hiragana1": " います。",
+      "romaji0": "ra i o n wa a fu ri ka",
+      "romaji1": " i ma su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "が", "romaji": "ga"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "The drinks are in the refrigerator.",
+      "hiragana0": "のみもの は れいぞうこ に",
+      "hiragana1": "。",
+      "romaji0": "no mi mo no wa re i zo u ko ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "ありません", "romaji": "a ri ma se n"},
+      {"hiragana": "あるです", "romaji": "a ru de su"},
+      {"hiragana": "いません", "romaji": "i ma se n"},
+      {"hiragana": "あります", "romaji": "a ri ma su"},
+      {"hiragana": "いるます", "romaji": "i ru ma su"}
+    ],
+    "correct_answer": {"hiragana": "あります", "romaji": "a ri ma su"}
+  }
+]

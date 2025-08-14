@@ -1,0 +1,22 @@
+[
+  { "kanji": "入れる", "hiragana": "いれる", "meaning": "put in" },
+  { "kanji": "生まれる", "hiragana": "うまれる", "meaning": "be born" },
+  { "kanji": "起きる", "hiragana": "おきる", "meaning": "get up, wake up" },
+  { "kanji": "教える", "hiragana": "おしえる", "meaning": "teach, instruct, tell" },
+  { "kanji": "覚える", "hiragana": "おぼえる", "meaning": "remember, memorize" },
+  { "kanji": "降りる", "hiragana": "おりる", "meaning": "get off" },
+  { "kanji": "終わる", "hiragana": "おわる", "meaning": "finish, end" },
+  { "kanji": "掛かる", "hiragana": "かかる", "meaning": "take (time), cost (money)" },
+  { "kanji": "借りる", "hiragana": "かりる", "meaning": "borrow, rent" },
+  { "kanji": "消える", "hiragana": "きえる", "meaning": "disappear, vanish, go out" },
+  { "kanji": "答える", "hiragana": "こたえる", "meaning": "answer, respond" },
+  { "kanji": "閉まる", "hiragana": "しまる", "meaning": "close" },
+  { "kanji": "食べる", "hiragana": "たべる", "meaning": "eat" },
+  { "kanji": "疲れる", "hiragana": "つかれる", "meaning": "get tired" },
+  { "kanji": "止まる", "hiragana": "とまる", "meaning": "stop" },
+  { "kanji": "始まる", "hiragana": "はじまる", "meaning": "start" },
+  { "kanji": "曲がる", "hiragana": "まがる", "meaning": "turn" },
+  { "kanji": "見せる", "hiragana": "みせる", "meaning": "show" },
+  { "kanji": "分かる", "hiragana": "わかる", "meaning": "understand" },
+  { "kanji": "忘れる", "hiragana": "わすれる", "meaning": "forget" }
+]

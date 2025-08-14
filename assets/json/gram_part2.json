@@ -1,0 +1,172 @@
+[
+  {
+    "translation": {
+      "english": "Tea was not expensive.",
+      "hiragana0": "おちゃ は ",
+      "hiragana1": " ありません でした。",
+      "romaji0": "o cha wa ",
+      "romaji1": " a ri ma se n de shi ta"
+    },
+    "choices": [
+      {"hiragana": "では", "romaji": "de wa"},
+      {"hiragana": "ない", "romaji": "na i"},
+      {"hiragana": "たかく", "romaji": "ta ka ku"},
+      {"hiragana": "たかい", "romaji": "ta ka i"},
+      {"hiragana": "たかいでは", "romaji": "ta ka i de wa"}
+    ],
+    "correct_answer": {"hiragana": "たかく", "romaji": "ta ka ku"}
+  },
+  {
+    "translation": {
+      "english": "I was cute.",
+      "hiragana0": "わたし は ",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": "."
+    },
+    "choices": [
+      {"hiragana": "かわいかったです", "romaji": "ka wa i ka t ta de su"},
+      {"hiragana": "かわいいの", "romaji": "ka wa i i no"},
+      {"hiragana": "かわいくて", "romaji": "ka wa i ku te"},
+      {"hiragana": "かわいいでした", "romaji": "ka wa i i de shi ta"},
+      {"hiragana": "かわいい", "romaji": "ka wa i i"}
+    ],
+    "correct_answer": {"hiragana": "かわいかったです", "romaji": "ka wa i ka t ta de su"}
+  },
+  {
+    "translation": {
+      "english": "I was not earnest.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " では あり ません でした。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " de wa a ri ma se n de shi ta"
+    },
+    "choices": [
+      {"hiragana": "どうぶつ", "romaji": "do u bu tsu"},
+      {"hiragana": "まじめ", "romaji": "ma ji me"},
+      {"hiragana": "まじめだ", "romaji": "ma ji me da"},
+      {"hiragana": "まじめに", "romaji": "ma ji me ni"},
+      {"hiragana": "まじめな", "romaji": "ma ji me na"}
+    ],
+    "correct_answer": {"hiragana": "まじめな", "romaji": "ma ji me na"}
+  },
+  {
+    "translation": {
+      "english": "Dogs are animals, right?",
+      "hiragana0": "いぬ は どうぶつ ",
+      "hiragana1": "。",
+      "romaji0": "i nu wa do u bu tsu ",
+      "romaji1": "."
+    },
+    "choices": [
+      {"hiragana": "ますか", "romaji": "ma su ka"},
+      {"hiragana": "ない", "romaji": "na i"},
+      {"hiragana": "ですよね", "romaji": "de su yo ne"},
+      {"hiragana": "した", "romaji": "shi ta"},
+      {"hiragana": "なかった", "romaji": "na ka t ta"}
+    ],
+    "correct_answer": {"hiragana": "ですよね", "romaji": "de su yo ne"}
+  },
+  {
+    "translation": {
+      "english": "I am not cute, right?",
+      "hiragana0": "わたし は ",
+      "hiragana1": " ありません よね。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " a ri ma se n yo ne"
+    },
+    "choices": [
+      {"hiragana": "かわい", "romaji": "ka wa i"},
+      {"hiragana": "まじめ", "romaji": "ma ji me"},
+      {"hiragana": "ですよね", "romaji": "de su yo ne"},
+      {"hiragana": "かわいく", "romaji": "ka wa i ku"},
+      {"hiragana": "まじめな", "romaji": "ma ji me na"}
+    ],
+    "correct_answer": {"hiragana": "かわいく", "romaji": "ka wa i ku"}
+  },
+  {
+    "translation": {
+      "english": "Dogs are cute, right?",
+      "hiragana0": "いぬ ",
+      "hiragana1": " かわいい ですよね。",
+      "romaji0": "i nu ",
+      "romaji1": " ka wa i i de su yo ne"
+    },
+    "choices": [
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "しか", "romaji": "shi ka"},
+      {"hiragana": "かも", "romaji": "ka mo"},
+      {"hiragana": "では", "romaji": "de wa"},
+      {"hiragana": "どうぶつ", "romaji": "do u bu tsu"}
+    ],
+    "correct_answer": {"hiragana": "は", "romaji": "wa"}
+  },
+  {
+    "translation": {
+      "english": "This is not a drink, right?",
+      "hiragana0": "これ は のみもの ",
+      "hiragana1": " ありませんよね。",
+      "romaji0": "ko re wa no mi mo no ",
+      "romaji1": " a ri ma se n yo ne"
+    },
+    "choices": [
+      {"hiragana": "です", "romaji": "de su"},
+      {"hiragana": "でした", "romaji": "de shi ta"},
+      {"hiragana": "ですか", "romaji": "de su ka"},
+      {"hiragana": "では", "romaji": "de wa"},
+      {"hiragana": "よね", "romaji": "yo ne"}
+    ],
+    "correct_answer": {"hiragana": "では", "romaji": "de wa"}
+  },
+  {
+    "translation": {
+      "english": "I was not a student.",
+      "hiragana0": "わたし は がくせい ",
+      "hiragana1": " なかったです。",
+      "romaji0": "wa ta shi wa ga ku se i ",
+      "romaji1": " na ka t ta de su"
+    },
+    "choices": [
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "な", "romaji": "na"},
+      {"hiragana": "では", "romaji": "de wa"},
+      {"hiragana": "く", "romaji": "ku"},
+      {"hiragana": "ない", "romaji": "na i"}
+    ],
+    "correct_answer": {"hiragana": "では", "romaji": "de wa"}
+  },
+  {
+    "translation": {
+      "english": "I was not a student.",
+      "hiragana0": "わたし は がくせい では ありません ",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa ga ku se i de wa a ri ma se n ",
+      "romaji1": "."
+    },
+    "choices": [
+      {"hiragana": "でした", "romaji": "de shi ta"},
+      {"hiragana": "なかった", "romaji": "na ka t ta"},
+      {"hiragana": "た", "romaji": "ta"},
+      {"hiragana": "です", "romaji": "de su"},
+      {"hiragana": "した", "romaji": "shi ta"}
+    ],
+    "correct_answer": {"hiragana": "でした", "romaji": "de shi ta"}
+  },
+  {
+    "translation": {
+      "english": "I am earnest, right?",
+      "hiragana0": "わたし は まじめ ",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa ma ji me ",
+      "romaji1": "."
+    },
+    "choices": [
+      {"hiragana": "くる", "romaji": "ku ru"},
+      {"hiragana": "です", "romaji": "de su"},
+      {"hiragana": "はしる", "romaji": "ha shi ru"},
+      {"hiragana": "ました", "romaji": "ma shi ta"},
+      {"hiragana": "ですよね", "romaji": "de su yo ne"}
+    ],
+    "correct_answer": {"hiragana": "ですよね", "romaji": "de su yo ne"}
+  }
+]

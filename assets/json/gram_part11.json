@@ -1,0 +1,172 @@
+[
+  {
+    "translation": {
+      "english": "The boy is drinking water.",
+      "hiragana0": "おとこのこ は みずを ",
+      "hiragana1": " 。",
+      "romaji0": "o to ko no ko wa mi zu o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "のています", "romaji": "no te i ma su"},
+      {"hiragana": "のいでいます", "romaji": "no i de i ma su"},
+      {"hiragana": "のいています", "romaji": "no i te i ma su"},
+      {"hiragana": "のんでいます", "romaji": "no n de i ma su"},
+      {"hiragana": "のみています", "romaji": "no mi te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "のんでいます", "romaji": "no n de i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The boy is studying.",
+      "hiragana0": "おとこのこ は ",
+      "hiragana1": " 。",
+      "romaji0": "o to ko no ko wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "べんきょうすっています", "romaji": "be n kyo u su t te i ma su"},
+      {"hiragana": "べんきょうしりています", "romaji": "be n kyo u shi ri te i ma su"},
+      {"hiragana": "べんきょうしっています", "romaji": "be n kyo u shi t te i ma su"},
+      {"hiragana": "べんきょうしんでいます", "romaji": "be n kyo u shi n de i ma su"},
+      {"hiragana": "べんきょうしています", "romaji": "be n kyo u shi te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "べんきょうしています", "romaji": "be n kyo u shi te i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The woman is saying something.",
+      "hiragana0": "おんなのひと は なにか ",
+      "hiragana1": " 。",
+      "romaji0": "o n na no hi to wa na ni ka ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "いるてます", "romaji": "i ru te ma su"},
+      {"hiragana": "いうます", "romaji": "i u ma su"},
+      {"hiragana": "いんでいます", "romaji": "i n de i ma su"},
+      {"hiragana": "いっています", "romaji": "i t te i ma su"},
+      {"hiragana": "いうっています", "romaji": "i u t te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "いっています", "romaji": "i t te i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The girl is watching TV.",
+      "hiragana0": "おんなのこ は テレビ を ",
+      "hiragana1": " 。",
+      "romaji0": "o n na no ko wa te re bi o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "みしています", "romaji": "mi shi te i ma su"},
+      {"hiragana": "みっています", "romaji": "mi t te i ma su"},
+      {"hiragana": "みんでいます", "romaji": "mi n de i ma su"},
+      {"hiragana": "みています", "romaji": "mi te i ma su"},
+      {"hiragana": "みるています", "romaji": "mi ru te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "みています", "romaji": "mi te i ma su"}
+  },
+  {
+    "translation": {
+      "english": "I am reading a book now.",
+      "hiragana0": "いま ほん を ",
+      "hiragana1": " 。",
+      "romaji0": "i ma ho n o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "よいています", "romaji": "yo i te i ma su"},
+      {"hiragana": "よむています", "romaji": "yo mu te i ma su"},
+      {"hiragana": "よっています", "romaji": "yo t te i ma su"},
+      {"hiragana": "よいでいます", "romaji": "yo i de i ma su"},
+      {"hiragana": "よんでいます", "romaji": "yo n de i ma su"}
+    ],
+    "correct_answer": {"hiragana": "よんでいます", "romaji": "yo n de i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The boy is opening the window.",
+      "hiragana0": "おとこのこ は まど を ",
+      "hiragana1": " 。",
+      "romaji0": "o to ko no ko wa ma do o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "あけています", "romaji": "a ke te i ma su"},
+      {"hiragana": "あくています", "romaji": "a ku te i ma su"},
+      {"hiragana": "あんでいます", "romaji": "a n de i ma su"},
+      {"hiragana": "あきんでいます", "romaji": "a ki n de i ma su"},
+      {"hiragana": "あっています", "romaji": "a t te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "あけています", "romaji": "a ke te i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The man is hurrying.",
+      "hiragana0": "おとこのひと は ",
+      "hiragana1": " 。",
+      "romaji0": "o to ko no hi to wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "いそぐています", "romaji": "i so gu te i ma su"},
+      {"hiragana": "いそいでいます", "romaji": "i so i de i ma su"},
+      {"hiragana": "いそんでいます", "romaji": "i so n de i ma su"},
+      {"hiragana": "いそぎています", "romaji": "i so gi te i ma su"},
+      {"hiragana": "いそっています", "romaji": "i so t te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "いそいでいます", "romaji": "i so i de i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The man is borrowing money.",
+      "hiragana0": "おとこのひと は おかね を ",
+      "hiragana1": " 。",
+      "romaji0": "o to ko no hi to wa o ka ne o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "かっています", "romaji": "ka t te i ma su"},
+      {"hiragana": "かいでいます", "romaji": "ka i de i ma su"},
+      {"hiragana": "かりています", "romaji": "ka ri te i ma su"},
+      {"hiragana": "かりんています", "romaji": "ka ri n te i ma su"},
+      {"hiragana": "かんでいます", "romaji": "ka n de i ma su"}
+    ],
+    "correct_answer": {"hiragana": "かりています", "romaji": "ka ri te i ma su"}
+  },
+  {
+    "translation": {
+      "english": "I'm eating lunch now.",
+      "hiragana0": "いま ひるごはん を ",
+      "hiragana1": " 。",
+      "romaji0": "i ma hi ru go ha n o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "たべました", "romaji": "ta be ma shi ta"},
+      {"hiragana": "たべています", "romaji": "ta be te i ma su"},
+      {"hiragana": "たべるます", "romaji": "ta be ru ma su"},
+      {"hiragana": "たっています", "romaji": "ta t te i ma su"},
+      {"hiragana": "たべたいです", "romaji": "ta be ta i de su"}
+    ],
+    "correct_answer": {"hiragana": "たべています", "romaji": "ta be te i ma su"}
+  },
+  {
+    "translation": {
+      "english": "The woman is calling the man.",
+      "hiragana0": "おんなのひと は おとこのひと を ",
+      "hiragana1": " 。",
+      "romaji0": "o n na no hi to wa o to ko no hi to o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "よしています", "romaji": "yo shi te i ma su"},
+      {"hiragana": "よっています", "romaji": "yo t te i ma su"},
+      {"hiragana": "よいでいます", "romaji": "yo i de i ma su"},
+      {"hiragana": "よんでいます", "romaji": "yo n de i ma su"},
+      {"hiragana": "よびています", "romaji": "yo bi te i ma su"}
+    ],
+    "correct_answer": {"hiragana": "よんでいます", "romaji": "yo n de i ma su"}
+  }
+]

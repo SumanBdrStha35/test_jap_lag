@@ -1,0 +1,192 @@
+[
+  {
+    "translation": {
+      "english": "Will Ms. Tanaka go?",
+      "hiragana0": "たなかさん は ",
+      "hiragana1": " 。",
+      "romaji0": "ta na ka sa n wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "いかますか", "romaji": "i ka ma su ka"},
+      {"hiragana": "いきてますか", "romaji": "i ki te ma su ka"},
+      {"hiragana": "いきますか", "romaji": "i ki ma su ka"},
+      {"hiragana": "いくですか", "romaji": "i ku de su ka"},
+      {"hiragana": "きてますか", "romaji": "ki te ma su ka"}
+    ],
+    "correct_answer": {"hiragana": "いきますか", "romaji": "i ki ma su ka"}
+  },
+  {
+    "translation": {
+      "english": "I am a student.",
+      "hiragana0": "わたし ",
+      "hiragana1": " がくせい です。",
+      "romaji0": "wa ta shi ",
+      "romaji1": " ga ku se i de su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "は", "romaji": "wa"}
+    ],
+    "correct_answer": {"hiragana": "は", "romaji": "wa"}
+  },
+  {
+    "translation": {
+      "english": "I will drink coffee. (Situation: You go to a cafe alone. Even though you have already ordered tea, you know that it’s not enough.)",
+      "hiragana0": "わたし は コーヒー ",
+      "hiragana1": " のみます。",
+      "romaji0": "wa ta shi wa ko hi ",
+      "romaji1": " no mi ma su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "に", "romaji": "ni"}
+    ],
+    "correct_answer": {"hiragana": "を", "romaji": "o"}
+  },
+  {
+    "translation": {
+      "english": "I will drink coffee too.",
+      "hiragana0": "",
+      "hiragana1": " 。",
+      "romaji0": "",
+      "romaji1": " ."
+    },
+    "choices": [
+      {
+        "hiragana": "わたし は コーヒー を のみます",
+        "romaji": "wa ta shi wa ko hi o no mi ma su"
+      },
+      {
+        "hiragana": "わたし も コーヒー を のみます",
+        "romaji": "wa ta shi mo ko hi o no mi ma su"
+      },
+      {
+        "hiragana": "わたし は コーヒー も のみます",
+        "romaji": "wa ta shi wa ko hi mo no mi ma su"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "わたし も コーヒー を のみます",
+      "romaji": "wa ta shi mo ko hi o no mi ma su"
+    }
+  },
+  {
+    "translation": {
+      "english": "I am a student too.",
+      "hiragana0": "わたし ",
+      "hiragana1": " がくせい です。",
+      "romaji0": "wa ta shi ",
+      "romaji1": " ga ku se i de su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "も", "romaji": "mo"}
+    ],
+    "correct_answer": {"hiragana": "も", "romaji": "mo"}
+  },
+  {
+    "translation": {
+      "english": "This is tea.",
+      "hiragana0": "これ ",
+      "hiragana1": " おちゃ です。",
+      "romaji0": "ko re ",
+      "romaji1": " o cha de su"
+    },
+    "choices": [
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "は", "romaji": "wa"}
+    ],
+    "correct_answer": {"hiragana": "は", "romaji": "wa"}
+  },
+  {
+    "translation": {
+      "english": "I will drink coffee too. (Situation: Other people also drink coffee.)",
+      "hiragana0": "",
+      "hiragana1": " 。",
+      "romaji0": "",
+      "romaji1": " ."
+    },
+    "choices": [
+      {
+        "hiragana": "わたし は コーヒー も のみます",
+        "romaji": "wa ta shi wa ko hi mo no mi ma su"
+      },
+      {
+        "hiragana": "わたし も コーヒー を のみます",
+        "romaji": "wa ta shi mo ko hi o no mi ma su"
+      },
+      {
+        "hiragana": "わたし は コーヒー を のみます",
+        "romaji": "wa ta shi wa ko hi o no mi ma su"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "わたし は コーヒー も のみます",
+      "romaji": "wa ta shi wa ko hi mo no mi ma su"
+    }
+  },
+  {
+    "translation": {
+      "english": "I eat an apple.",
+      "hiragana0": "わたし は りんご ",
+      "hiragana1": " たべます。",
+      "romaji0": "wa ta shi wa ri n go ",
+      "romaji1": " ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "を", "romaji": "o"}
+    ],
+    "correct_answer": {"hiragana": "を", "romaji": "o"}
+  },
+  {
+    "translation": {
+      "english": "This is also tea.",
+      "hiragana0": "これ ",
+      "hiragana1": " おちゃ です。",
+      "romaji0": "ko re ",
+      "romaji1": " o cha de su"
+    },
+    "choices": [
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "も", "romaji": "mo"}
+  },
+  {
+    "translation": {
+      "english": "Tea was not expensive.",
+      "hiragana0": "おちゃ は ",
+      "hiragana1": " でした。",
+      "romaji0": "o cha wa ",
+      "romaji1": " de shi ta"
+    },
+    "choices": [
+      {"hiragana": "たかりません", "romaji": "ta ka ri ma se n"},
+      {"hiragana": "たかません", "romaji": "ta ka ma se n"},
+      {"hiragana": "たかない", "romaji": "ta ka na i"},
+      {"hiragana": "たかい ではありません", "romaji": "ta ka i de wa a ri ma se n"},
+      {"hiragana": "たかく ありません", "romaji": "ta ka ku a ri ma se n"}
+    ],
+    "correct_answer": {"hiragana": "たかく ありません", "romaji": "ta ka ku a ri ma se n"}
+  }
+]

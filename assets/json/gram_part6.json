@@ -1,0 +1,172 @@
+[
+  {
+    "translation": {
+      "english": "I won't show it.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "みそないです", "romaji": "mi so na i de su"},
+      {"hiragana": "みせないです", "romaji": "mi se na i de su"},
+      {"hiragana": "みすないです", "romaji": "mi su na i de su"},
+      {"hiragana": "みさないです", "romaji": "mi sa na i de su"},
+      {"hiragana": "みしないです", "romaji": "mi shi na i de su"}
+    ],
+    "correct_answer": {"hiragana": "みせないです", "romaji": "mi se na i de su"}
+  },
+  {
+    "translation": {
+      "english": "He doesn't drink.",
+      "hiragana0": "かれ は ",
+      "hiragana1": " 。",
+      "romaji0": "ka re wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "のみないです", "romaji": "no mi na i de su"},
+      {"hiragana": "のむないです", "romaji": "no mu na i de su"},
+      {"hiragana": "のまないです", "romaji": "no ma na i de su"},
+      {"hiragana": "のもないです", "romaji": "no mo na i de su"},
+      {"hiragana": "のないです", "romaji": "no na i de su"}
+    ],
+    "correct_answer": {"hiragana": "のまないです", "romaji": "no ma na i de su"}
+  },
+  {
+    "translation": {
+      "english": "I won't read it.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "よないです", "romaji": "yo na i de su"},
+      {"hiragana": "よみないです", "romaji": "yo mi na i de su"},
+      {"hiragana": "よまないです", "romaji": "yo ma na i de su"},
+      {"hiragana": "よむないです", "romaji": "yo mu na i de su"},
+      {"hiragana": "よもないです", "romaji": "yo mo na i de su"}
+    ],
+    "correct_answer": {"hiragana": "よまないです", "romaji": "yo ma na i de su"}
+  },
+  {
+    "translation": {
+      "english": "Mr. Tanaka will not come.",
+      "hiragana0": "たなかさん は ",
+      "hiragana1": " 。",
+      "romaji0": "ta na ka sa n wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "くないです", "romaji": "ku na i de su"},
+      {"hiragana": "かないです", "romaji": "ka na i de su"},
+      {"hiragana": "こないです", "romaji": "ko na i de su"},
+      {"hiragana": "きないです", "romaji": "ki na i de su"},
+      {"hiragana": "けないです", "romaji": "ke na i de su"}
+    ],
+    "correct_answer": {"hiragana": "こないです", "romaji": "ko na i de su"}
+  },
+  {
+    "translation": {
+      "english": "I won't do it.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "せないです", "romaji": "se na i de su"},
+      {"hiragana": "しないです", "romaji": "shi na i de su"},
+      {"hiragana": "すりないです", "romaji": "su ri na i de su"},
+      {"hiragana": "そないです", "romaji": "so na i de su"},
+      {"hiragana": "さないです", "romaji": "sa na i de su"}
+    ],
+    "correct_answer": {"hiragana": "しないです", "romaji": "shi na i de su"}
+  },
+  {
+    "translation": {
+      "english": "I won't say it.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "いおないです", "romaji": "i o na i de su"},
+      {"hiragana": "いうないです", "romaji": "i u na i de su"},
+      {"hiragana": "いわないです", "romaji": "i wa na i de su"},
+      {"hiragana": "いいないです", "romaji": "i i na i de su"},
+      {"hiragana": "いあないです", "romaji": "i a na i de su"}
+    ],
+    "correct_answer": {"hiragana": "いわないです", "romaji": "i wa na i de su"}
+  },
+  {
+    "translation": {
+      "english": "I will not sleep.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "なないです", "romaji": "na na i de su"},
+      {"hiragana": "ねないです", "romaji": "ne na i de su"},
+      {"hiragana": "にないです", "romaji": "ni na i de su"},
+      {"hiragana": "ぬないです", "romaji": "nu na i de su"},
+      {"hiragana": "のないです", "romaji": "no na i de su"}
+    ],
+    "correct_answer": {"hiragana": "ねないです", "romaji": "ne na i de su"}
+  },
+  {
+    "translation": {
+      "english": "Mr. Yoshida will not go.",
+      "hiragana0": "よしださん は ",
+      "hiragana1": " 。",
+      "romaji0": "yo shi da sa n wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "いないです", "romaji": "i na i de su"},
+      {"hiragana": "いかないです", "romaji": "i ka na i de su"},
+      {"hiragana": "いくないです", "romaji": "i ku na i de su"},
+      {"hiragana": "いきないです", "romaji": "i ki na i de su"},
+      {"hiragana": "いこないです", "romaji": "i ko na i de su"}
+    ],
+    "correct_answer": {"hiragana": "いかないです", "romaji": "i ka na i de su"}
+  },
+  {
+    "translation": {
+      "english": "I don't eat.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "たびないです", "romaji": "ta bi na i de su"},
+      {"hiragana": "たぶないです", "romaji": "ta bu na i de su"},
+      {"hiragana": "たないです", "romaji": "ta na i de su"},
+      {"hiragana": "たべないです", "romaji": "ta be na i de su"},
+      {"hiragana": "たべくないです", "romaji": "ta be ku na i de su"}
+    ],
+    "correct_answer": {"hiragana": "たべないです", "romaji": "ta be na i de su"}
+  },
+  {
+    "translation": {
+      "english": "I won't write.",
+      "hiragana0": "わたし は ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi wa ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "かかないです", "romaji": "ka ka na i de su"},
+      {"hiragana": "かこないです", "romaji": "ka ko na i de su"},
+      {"hiragana": "かきないです", "romaji": "ka ki na i de su"},
+      {"hiragana": "かくないです", "romaji": "ka ku na i de su"},
+      {"hiragana": "かないです", "romaji": "ka na i de su"}
+    ],
+    "correct_answer": {"hiragana": "かかないです", "romaji": "ka ka na i de su"}
+  }
+]

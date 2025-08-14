@@ -1,0 +1,352 @@
+[
+  {
+    "translation": {
+      "english": "I went to the post office and school.",
+      "hiragana0": "わたし は ゆうびんきょく",
+      "hiragana1": "がっこう に いきました。",
+      "romaji0": "wa ta shi wa yu u bi n kyo ku",
+      "romaji1": "ga k ko u ni i ki ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "を",
+        "romaji": "o"
+      },
+      {
+        "hiragana": "です",
+        "romaji": "de su"
+      },
+      {
+        "hiragana": "ます",
+        "romaji": "ma su"
+      },
+      {
+        "hiragana": "は",
+        "romaji": "wa"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "と",
+      "romaji": "to"
+    }
+  },
+  {
+    "translation": {
+      "english": "Mr. Yoshida and I ate ramen and sushi.",
+      "hiragana0": "よしださん",
+      "hiragana1": "わたし は ラーメン と すし を たべました。",
+      "romaji0": "yo shi da sa n",
+      "romaji1": "wa ta shi wa ra me n to su shi o ta be ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "に",
+        "romaji": "ni"
+      },
+      {
+        "hiragana": "が",
+        "romaji": "ga"
+      },
+      {
+        "hiragana": "これ",
+        "romaji": "ko re"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      },
+      {
+        "hiragana": "は",
+        "romaji": "wa"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "と",
+      "romaji": "to"
+    }
+  },
+  {
+    "translation": {
+      "english": "I ate ramen.",
+      "hiragana0": "わたし は ラーメン",
+      "hiragana1": "たべました。",
+      "romaji0": "wa ta shi wa ra me n",
+      "romaji1": "ta be ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "を",
+        "romaji": "o"
+      },
+      {
+        "hiragana": "で",
+        "romaji": "de"
+      },
+      {
+        "hiragana": "から",
+        "romaji": "ka ra"
+      },
+      {
+        "hiragana": "に",
+        "romaji": "ni"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "を",
+      "romaji": "o"
+    }
+  },
+  {
+    "translation": {
+      "english": "I went to school with my friend.",
+      "hiragana0": "わたし は ともだち",
+      "hiragana1": "がっこう に いきました。",
+      "romaji0": "wa ta shi wa to mo da chi",
+      "romaji1": "ga k ko u ni i ki ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "で",
+        "romaji": "de"
+      },
+      {
+        "hiragana": "に",
+        "romaji": "ni"
+      },
+      {
+        "hiragana": "です",
+        "romaji": "de su"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      },
+      {
+        "hiragana": "も",
+        "romaji": "mo"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "と",
+      "romaji": "to"
+    }
+  },
+  {
+    "translation": {
+      "english": "This is also tea.",
+      "hiragana0": "これ",
+      "hiragana1": "おちゃ です。",
+      "romaji0": "ko re",
+      "romaji1": "o cha de su"
+    },
+    "choices": [
+      {
+        "hiragana": "は",
+        "romaji": "wa"
+      },
+      {
+        "hiragana": "を",
+        "romaji": "o"
+      },
+      {
+        "hiragana": "も",
+        "romaji": "mo"
+      },
+      {
+        "hiragana": "に",
+        "romaji": "ni"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "も",
+      "romaji": "mo"
+    }
+  },
+  {
+    "translation": {
+      "english": "I am a student too.",
+      "hiragana0": "わたし",
+      "hiragana1": "がくせい です。",
+      "romaji0": "wa ta shi",
+      "romaji1": "ga ku se i de su"
+    },
+    "choices": [
+      {
+        "hiragana": "は",
+        "romaji": "wa"
+      },
+      {
+        "hiragana": "も",
+        "romaji": "mo"
+      },
+      {
+        "hiragana": "です",
+        "romaji": "de su"
+      },
+      {
+        "hiragana": "が",
+        "romaji": "ga"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "も",
+      "romaji": "mo"
+    }
+  },
+  {
+    "translation": {
+      "english": "I ate ramen and sushi.",
+      "hiragana0": "わたし は ラーメン",
+      "hiragana1": "すし を たべました。",
+      "romaji0": "wa ta shi wa ra me n",
+      "romaji1": "su shi o ta be ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "で",
+        "romaji": "de"
+      },
+      {
+        "hiragana": "を",
+        "romaji": "o"
+      },
+      {
+        "hiragana": "が",
+        "romaji": "ga"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      },
+      {
+        "hiragana": "に",
+        "romaji": "ni"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "と",
+      "romaji": "to"
+    }
+  },
+  {
+    "translation": {
+      "english": "I slept with a dog.",
+      "hiragana0": "わたし は いぬ",
+      "hiragana1": "ねました。",
+      "romaji0": "wa ta shi wa i nu",
+      "romaji1": "ne ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      },
+      {
+        "hiragana": "く",
+        "romaji": "ku"
+      },
+      {
+        "hiragana": "ます",
+        "romaji": "ma su"
+      },
+      {
+        "hiragana": "で",
+        "romaji": "de"
+      },
+      {
+        "hiragana": "に",
+        "romaji": "ni"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "と",
+      "romaji": "to"
+    }
+  },
+  {
+    "translation": {
+      "english": "Please don't play games.",
+      "hiragana0": "ゲーム",
+      "hiragana1": "しないで ください。",
+      "romaji0": "ge mu",
+      "romaji1": "shi na i de ku da sa i"
+    },
+    "choices": [
+      {
+        "hiragana": "が",
+        "romaji": "ga"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      },
+      {
+        "hiragana": "しか",
+        "romaji": "shi ka"
+      },
+      {
+        "hiragana": "くない",
+        "romaji": "ku na i"
+      },
+      {
+        "hiragana": "を",
+        "romaji": "o"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "を",
+      "romaji": "o"
+    }
+  },
+  {
+    "translation": {
+      "english": "That is not a drink, either.",
+      "hiragana0": "それ",
+      "hiragana1": "のみもの ではありません。",
+      "romaji0": "so re",
+      "romaji1": "no mi mo no de wa a ri ma se n"
+    },
+    "choices": [
+      {
+        "hiragana": "ない",
+        "romaji": "na i"
+      },
+      {
+        "hiragana": "なに",
+        "romaji": "na ni"
+      },
+      {
+        "hiragana": "へ",
+        "romaji": "e"
+      },
+      {
+        "hiragana": "と",
+        "romaji": "to"
+      },
+      {
+        "hiragana": "も",
+        "romaji": "mo"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "も",
+      "romaji": "mo"
+    }
+  }
+]

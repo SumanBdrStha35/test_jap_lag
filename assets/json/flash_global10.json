@@ -1,0 +1,17 @@
+[
+  { "kanji": "一", "kana": "いち・ひと", "meaning": "one", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "右", "kana": "みぎ", "meaning": "right", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "雨", "kana": "あめ", "meaning": "rain", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "円", "kana": "えん・まる（い）", "meaning": "yen/circle/round", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "王", "kana": "おう", "meaning": "king/rule", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "音", "kana": "おと・おん", "meaning": "sound/noise", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "下", "kana": "した・さ・くだ・か", "meaning": "below/down/give", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "火", "kana": "ひ・び・か", "meaning": "fire/tuesday", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "花", "kana": "はな・か", "meaning": "flower", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "貝", "kana": "かい", "meaning": "shell", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "学", "kana": "がく・まなぶ", "meaning": "study/learning/science", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "気", "kana": "き", "meaning": "spirit/mind", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "休", "kana": "やす（みます）・きゅう", "meaning": "rest/day off/sleep", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "玉", "kana": "たま・だま・ぎょく", "meaning": "ball/jewel", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "金", "kana": "きん・かね・がね", "meaning": "gold/Friday/money", "example": "", "cardColor": "0xFFCCCCCC" }
+]

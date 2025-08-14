@@ -1,0 +1,171 @@
+[
+  {
+    "translation": {
+      "english": "This vegetable is not delicious.",
+      "hiragana0": "",
+      "hiragana1": " やさい は おいしく ありません。",
+      "romaji0": "",
+      "romaji1": " ya sa i wa o i shi ku a ri ma se n"
+    },
+    "choices": [
+      {"hiragana": "これ", "romaji": "ko re"},
+      {"hiragana": "その", "romaji": "so no"},
+      {"hiragana": "あれ", "romaji": "a re"},
+      {"hiragana": "この", "romaji": "ko no"},
+      {"hiragana": "あの", "romaji": "a no"}
+    ],
+    "correct_answer": {"hiragana": "この", "romaji": "ko no"}
+  },
+  {
+    "translation": {
+      "english": "That is my bicycle.",
+      "hiragana0": "",
+      "hiragana1": " は わたし の じてんしゃ です。",
+      "romaji0": "",
+      "romaji1": " wa wa ta shi no ji te n sha de su"
+    },
+    "choices": [
+      {"hiragana": "これ", "romaji": "ko re"},
+      {"hiragana": "その", "romaji": "so no"},
+      {"hiragana": "あの", "romaji": "a no"},
+      {"hiragana": "この", "romaji": "ko no"},
+      {"hiragana": "あれ", "romaji": "a re"}
+    ],
+    "correct_answer": {"hiragana": "あれ", "romaji": "a re"}
+  },
+  {
+    "translation": {
+      "english": "That is Mr. Yoshida.",
+      "hiragana0": "",
+      "hiragana1": " は よしださん です。",
+      "romaji0": "",
+      "romaji1": " wa yo shi da sa n de su"
+    },
+    "choices": [
+      {"hiragana": "あちら", "romaji": "a chi ra"},
+      {"hiragana": "こちら", "romaji": "ko chi ra"},
+      {"hiragana": "これ", "romaji": "ko re"},
+      {"hiragana": "その", "romaji": "so no"},
+      {"hiragana": "あの", "romaji": "a no"}
+    ],
+    "correct_answer": {"hiragana": "あの", "romaji": "a no"}
+  },
+  {
+    "translation": {
+      "english": "That is not a drink, either.",
+      "hiragana0": "",
+      "hiragana1": " も のみもの ではありません。",
+      "romaji0": "",
+      "romaji1": " mo no mi mo no de wa a ri ma se n"
+    },
+    "choices": [
+      {"hiragana": "その", "romaji": "so no"},
+      {"hiragana": "あの", "romaji": "a no"},
+      {"hiragana": "こちら", "romaji": "ko chi ra"},
+      {"hiragana": "それ", "romaji": "so re"},
+      {"hiragana": "この", "romaji": "ko no"}
+    ],
+    "correct_answer": {"hiragana": "それ", "romaji": "so re"}
+  },
+  {
+    "translation": {
+      "english": "Is that your wife?",
+      "hiragana0": "",
+      "hiragana1": " は おくさん です か。",
+      "romaji0": "",
+      "romaji1": " wa o ku sa n de su ka"
+    },
+    "choices": [
+      {"hiragana": "そちら", "romaji": "so chi ra"},
+      {"hiragana": "あいつ", "romaji": "a i tsu"},
+      {"hiragana": "あの", "romaji": "a no"},
+      {"hiragana": "そいつ", "romaji": "so i tsu"}
+    ],
+    "correct_answer": {"hiragana": "そちら", "romaji": "so chi ra"}
+  },
+  {
+    "translation": {
+      "english": "This tea is delicious.",
+      "hiragana0": "",
+      "hiragana1": " おちゃ は おいしい です。",
+      "romaji0": "",
+      "romaji1": " o cha wa o i shi i de su"
+    },
+    "choices": [
+      {"hiragana": "それ", "romaji": "so re"},
+      {"hiragana": "あれ", "romaji": "a re"},
+      {"hiragana": "どれ", "romaji": "do re"},
+      {"hiragana": "かれ", "romaji": "ka re"},
+      {"hiragana": "この", "romaji": "ko no"}
+    ],
+    "correct_answer": {"hiragana": "この", "romaji": "ko no"}
+  },
+  {
+    "translation": {
+      "english": "This is my teacher.",
+      "hiragana0": "",
+      "hiragana1": " は わたし の せんせい です。",
+      "romaji0": "",
+      "romaji1": " wa wa ta shi no se n se i de su"
+    },
+    "choices": [
+      {"hiragana": "こっち", "romaji": "ko t ch i"},
+      {"hiragana": "こちらの", "romaji": "ko chi ra no"},
+      {"hiragana": "こちら", "romaji": "ko chi ra"},
+      {"hiragana": "あれ", "romaji": "a re"},
+      {"hiragana": "こっちの", "romaji": "ko t ch i no"}
+    ],
+    "correct_answer": {"hiragana": "こちら", "romaji": "ko chi ra"}
+  },
+  {
+    "translation": {
+      "english": "This is delicious tea.",
+      "hiragana0": "",
+      "hiragana1": " は おいしい おちゃ です。",
+      "romaji0": "",
+      "romaji1": " wa o i shi i o cha de su"
+    },
+    "choices": [
+      {"hiragana": "あれ", "romaji": "a re"},
+      {"hiragana": "この", "romaji": "ko no"},
+      {"hiragana": "その", "romaji": "so no"},
+      {"hiragana": "あの", "romaji": "a no"},
+      {"hiragana": "これ", "romaji": "ko re"}
+    ],
+    "correct_answer": {"hiragana": "これ", "romaji": "ko re"}
+  },
+  {
+    "translation": {
+      "english": "Is this tea?",
+      "hiragana0": "",
+      "hiragana1": " は おちゃ です か。",
+      "romaji0": "",
+      "romaji1": " wa o cha de su ka"
+    },
+    "choices": [
+      {"hiragana": "それ", "romaji": "so re"},
+      {"hiragana": "あれ", "romaji": "a re"},
+      {"hiragana": "これ", "romaji": "ko re"},
+      {"hiragana": "この", "romaji": "ko no"},
+      {"hiragana": "その", "romaji": "so no"}
+    ],
+    "correct_answer": {"hiragana": "これ", "romaji": "ko re"}
+  },
+  {
+    "translation": {
+      "english": "This is not a drink.",
+      "hiragana0": "",
+      "hiragana1": " は のみもの ではありません。",
+      "romaji0": "",
+      "romaji1": " wa no mi mo no de wa a ri ma se n"
+    },
+    "choices": [
+      {"hiragana": "のまない", "romaji": "no ma na i"},
+      {"hiragana": "ない", "romaji": "na i"},
+      {"hiragana": "これ", "romaji": "ko re"},
+      {"hiragana": "それ", "romaji": "so re"},
+      {"hiragana": "なし", "romaji": "na shi"}
+    ],
+    "correct_answer": {"hiragana": "これ", "romaji": "ko re"}
+  }
+]

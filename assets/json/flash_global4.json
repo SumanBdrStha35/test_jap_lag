@@ -1,0 +1,12 @@
+[
+  { "kanji": "中", "kana": "なか", "meaning": "middle" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "米", "kana": "こめ", "meaning": "rice" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "犬", "kana": "いぬ", "meaning": "dog" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "休み", "kana": "やすみ", "meaning": "rest" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "何", "kana": "なに", "meaning": "what" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "走る", "kana": "はしる", "meaning": "run" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "見る", "kana": "みる", "meaning": "look" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "先生", "kana": "せんせい", "meaning": "teacher" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "英語", "kana": "えいご", "meaning": "English" ,"example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "猫", "kana": "ねこ", "meaning": "cat" ,"example":"","cardColor":"0xFFCCCCCC" }
+]

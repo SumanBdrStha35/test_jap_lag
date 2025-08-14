@@ -1,0 +1,340 @@
+[
+  {
+    "translation": {
+      "english": "Please don't open the door.",
+      "hiragana0": "ドア を ",
+      "hiragana1": "。",
+      "romaji0": "do a o ",
+      "romaji1": ""
+    },
+    "choices": [
+      {
+        "hiragana": "あきないで ください",
+        "romaji": "a ki na i de ku da sa i"
+      },
+      {
+        "hiragana": "あかないで ください",
+        "romaji": "a ka na i de ku da sa i"
+      },
+      {
+        "hiragana": "あけないで ください",
+        "romaji": "a ke na i de ku da sa i"
+      },
+      {
+        "hiragana": "あないで ください",
+        "romaji": "a na i de ku da sa i"
+      },
+      {
+        "hiragana": "あけて ください",
+        "romaji": "a ke te ku da sa i"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "あけないで ください",
+      "romaji": "a ke na i de ku da sa i"
+    }
+  },
+  {
+    "translation": {
+      "english": "I'm eating lunch now.",
+      "hiragana0": "いま ひるごはん を ",
+      "hiragana1": "。",
+      "romaji0": "i ma hi ru go ha n o ",
+      "romaji1": ""
+    },
+    "choices": [
+      {
+        "hiragana": "たべました",
+        "romaji": "ta be ma shi ta"
+      },
+      {
+        "hiragana": "たんでいます",
+        "romaji": "ta n de i ma su"
+      },
+      {
+        "hiragana": "たっています",
+        "romaji": "ta t te i ma su"
+      },
+      {
+        "hiragana": "たべるます",
+        "romaji": "ta be ru ma su"
+      },
+      {
+        "hiragana": "たべています",
+        "romaji": "ta be te i ma su"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "たべています",
+      "romaji": "ta be te i ma su"
+    }
+  },
+  {
+    "translation": {
+      "english": "This is delicious tea.",
+      "hiragana0": "",
+      "hiragana1": " は おいしい おちゃ です。",
+      "romaji0": "",
+      "romaji1": " wa o i shi i o cha de su"
+    },
+    "choices": [
+      {
+        "hiragana": "これ",
+        "romaji": "ko re"
+      },
+      {
+        "hiragana": "それ",
+        "romaji": "so re"
+      },
+      {
+        "hiragana": "あれ",
+        "romaji": "a re"
+      },
+      {
+        "hiragana": "あの",
+        "romaji": "a no"
+      },
+      {
+        "hiragana": "この",
+        "romaji": "ko no"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "この",
+      "romaji": "ko no"
+    }
+  },
+  {
+    "translation": {
+      "english": "He swam.",
+      "hiragana0": "かれ は ",
+      "hiragana1": " ました。",
+      "romaji0": "ka re wa ",
+      "romaji1": " ma shi ta"
+    },
+    "choices": [
+      {
+        "hiragana": "およが",
+        "romaji": "o yo ga"
+      },
+      {
+        "hiragana": "およげ",
+        "romaji": "o yo ge"
+      },
+      {
+        "hiragana": "およぎ",
+        "romaji": "o yo gi"
+      },
+      {
+        "hiragana": "およぐ",
+        "romaji": "o yo gu"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "およぎ",
+      "romaji": "o yo gi"
+    }
+  },
+  {
+    "translation": {
+      "english": "Is this tea?",
+      "hiragana0": "",
+      "hiragana1": " は おちゃ です か。",
+      "romaji0": "",
+      "romaji1": " wa o cha de su ka"
+    },
+    "choices": [
+      {
+        "hiragana": "それ",
+        "romaji": "so re"
+      },
+      {
+        "hiragana": "あれ",
+        "romaji": "a re"
+      },
+      {
+        "hiragana": "これ",
+        "romaji": "ko re"
+      },
+      {
+        "hiragana": "その",
+        "romaji": "so no"
+      },
+      {
+        "hiragana": "この",
+        "romaji": "ko no"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "これ",
+      "romaji": "ko re"
+    }
+  },
+  {
+    "translation": {
+      "english": "I am not cute.",
+      "hiragana0": "わたし は かわいく ",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa ka wa i ku ",
+      "romaji1": ""
+    },
+    "choices": [
+      {
+        "hiragana": "ません",
+        "romaji": "ma se n"
+      },
+      {
+        "hiragana": "ある",
+        "romaji": "a ru"
+      },
+      {
+        "hiragana": "ありません",
+        "romaji": "a ri ma se n"
+      },
+      {
+        "hiragana": "ではありません",
+        "romaji": "de wa a ri ma se n"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "ありません",
+      "romaji": "a ri ma se n"
+    }
+  },
+  {
+    "translation": {
+      "english": "Is that your wife?",
+      "hiragana0": "",
+      "hiragana1": " は おくさん です か。",
+      "romaji0": "",
+      "romaji1": " wa o ku sa n de su ka"
+    },
+    "choices": [
+      {
+        "hiragana": "あの",
+        "romaji": "a no"
+      },
+      {
+        "hiragana": "そちら",
+        "romaji": "so chi ra"
+      },
+      {
+        "hiragana": "そいつ",
+        "romaji": "so i tsu"
+      },
+      {
+        "hiragana": "あいつ",
+        "romaji": "a i tsu"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "そちら",
+      "romaji": "so chi ra"
+    }
+  },
+  {
+    "translation": {
+      "english": "The woman is saying something.",
+      "hiragana0": "おんなのひと は なにか ",
+      "hiragana1": "。",
+      "romaji0": "o n na no hi to wa na ni ka ",
+      "romaji1": ""
+    },
+    "choices": [
+      {
+        "hiragana": "いいっています",
+        "romaji": "i i t te i ma su"
+      },
+      {
+        "hiragana": "いうっています",
+        "romaji": "i u t te i ma su"
+      },
+      {
+        "hiragana": "いっています",
+        "romaji": "i t te i ma su"
+      },
+      {
+        "hiragana": "いんでいます",
+        "romaji": "i n de i ma su"
+      },
+      {
+        "hiragana": "いるてます",
+        "romaji": "i ru te ma su"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "いっています",
+      "romaji": "i t te i ma su"
+    }
+  },
+  {
+    "translation": {
+      "english": "The man is borrowing money.",
+      "hiragana0": "おとこのひと は おかね を ",
+      "hiragana1": "。",
+      "romaji0": "o to ko no hi to wa o ka ne o ",
+      "romaji1": ""
+    },
+    "choices": [
+      {
+        "hiragana": "かりるています",
+        "romaji": "ka ri ru te i ma su"
+      },
+      {
+        "hiragana": "かっています",
+        "romaji": "ka t te i ma su"
+      },
+      {
+        "hiragana": "かいでいます",
+        "romaji": "ka i de i ma su"
+      },
+      {
+        "hiragana": "かりています",
+        "romaji": "ka ri te i ma su"
+      },
+      {
+        "hiragana": "かんでいます",
+        "romaji": "ka n de i ma su"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "かりています",
+      "romaji": "ka ri te i ma su"
+    }
+  },
+  {
+    "translation": {
+      "english": "Mr. Yoshida will not go.",
+      "hiragana0": "よしださん は ",
+      "hiragana1": "。",
+      "romaji0": "yo shi da sa n wa ",
+      "romaji1": ""
+    },
+    "choices": [
+      {
+        "hiragana": "いこないです",
+        "romaji": "i ko na i de su"
+      },
+      {
+        "hiragana": "いないです",
+        "romaji": "i na i de su"
+      },
+      {
+        "hiragana": "いかないです",
+        "romaji": "i ka na i de su"
+      },
+      {
+        "hiragana": "いきないです",
+        "romaji": "i ki na i de su"
+      },
+      {
+        "hiragana": "いくないです",
+        "romaji": "i ku na i de su"
+      }
+    ],
+    "correct_answer": {
+      "hiragana": "いかないです",
+      "romaji": "i ka na i de su"
+    }
+  }
+]

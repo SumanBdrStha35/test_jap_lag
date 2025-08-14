@@ -1,0 +1,1116 @@
+{
+    "1": 
+    [
+        {
+            "kanji": "一",
+            "meaning": "One",
+            "onyomi": "イチ",
+            "kunyomi": "ひと (つ)",
+            "romanji": "ichi",
+            "example": [
+                "一つ (ひとつ) - One thing",
+                "一人 (ひとり) - One person",
+                "一日 (ひとき) - One day"
+            ]
+        },
+        {
+            "kanji": "二",
+            "meaning": "Two",
+            "onyomi": "ニ",
+            "kunyomi": "ふた (つ)",
+            "romanji": "ni",
+            "example": [
+                "二人 (ふたり) - Two people",
+                "二つ (ふたつ) - Two things",
+                "二日 (ふつか) - Two days"
+            ]
+        },
+        {
+            "kanji": "三",
+            "meaning": "Three",
+            "onyomi": "サン",
+            "kunyomi": "みっ(つ)",
+            "romanji": "san",
+            "example": [
+                "三角 (さんかく) - Triangle",
+                "三つ (みっつ) - Three things",
+                "三日 (みっか) - Three days"
+            ]
+        },
+        {
+            "kanji": "四",
+            "meaning": "Four",
+            "onyomi": "シ",
+            "kunyomi": "よん/よっ(つ)",
+            "romanji": "shi",
+            "example": [
+                "四季 (しき) - Four seasons",
+                "四つ (よっつ) - Four things",
+                "四日 (よっか) - Four days"
+            ]
+        },
+        {
+            "kanji": "五",
+            "meaning": "Five",
+            "onyomi": "ゴ",
+            "kunyomi": "いつ (つ)",
+            "romanji": "go",
+            "example": [
+                "五つ (いつつ) - Five things",
+                "五日 (いつか) - Five days",
+                "五角形 (ごかくけい) - Pentagon",
+                "五人 (ごにん) - Five people"
+            ]
+        },
+        {
+            "kanji": "六",
+            "meaning": "Six",
+            "onyomi": "ロク",
+            "kunyomi": "むっ (つ)",
+            "romanji": "roku",
+            "example": [
+                "六つ (むっつ) - Six things",
+                "六日 (むいか) - Six days",
+                "六角形 (ろっかくけい) - Hexagon",
+                "六人 (ろくにん) - Six people"
+            ]
+        },
+        {
+            "kanji": "七",
+            "meaning": "Seven",
+            "onyomi": "シチ",
+            "kunyomi": "なな (つ)",
+            "romanji": "nana",
+            "example": [
+                "七つ (ななつ) - Seven things",
+                "七日 (なのか) - Seven days",
+                "七人 (しちにん) - Seven people",
+                "七角形 (ななかくけい) - Heptagon"
+            ]
+        },
+        {
+            "kanji": "八",
+            "meaning": "Eight",
+            "onyomi": "ハチ",
+            "kunyomi": "やっ (つ)",
+            "romanji": "hachi",
+            "example": [
+                "八角形 (はっかくけい) - Octagon",
+                "八つ (やっつ) - Eight things",
+                "八日 (ようか) - Eight days",
+                "八人 (はちにん) - Eight people"
+            ]
+        },
+        {
+            "kanji": "九",
+            "meaning": "Nine",
+            "onyomi": "キュウ",
+            "kunyomi": "ここの (つ)",
+            "romanji": "kyuu",
+            "example": [
+                "九つ (ここのつ) - Nine things",
+                "九日 (ここのか) - Nine days",
+                "九人 (きゅうにん) - Nine people",
+                "九角形 (きゅうかくけい) - Nonagon"
+            ]
+        },
+        {
+            "kanji": "十",
+            "meaning": "Ten",
+            "onyomi": "ジュウ",
+            "kunyomi": "とお",
+            "romanji": "juu",
+            "example": [
+                "十字架 (じゅうじか) - Cross",
+                "十日 (とおか) - Ten days",
+                "十人 (じゅうにん) - Ten people",
+                "十角形 (じゅうかくけい) - Decagon"
+            ]
+        },
+        {
+            "Kanji": "百",
+            "meaning": "Hundred",
+            "onyomi": "ヒャク",
+            "kunyomi": "—",
+            "romanji": "hyaku",
+            "example": [
+                "百円 (ひゃくえん) - One hundred yen",
+                "百人 (ひゃくにん) - One hundred people",
+                "百年 (ひゃくねん) - One hundred years",
+                "百本 (ひゃっぽん) - One hundred books"
+            ]
+        },
+        {
+            "Kanji": "千",
+            "meaning": "Thousand",
+            "onyomi": "セン",
+            "kunyomi": "—",
+            "romanji": "sen",
+            "example": [
+                "千円 (せんえん) - One thousand yen",
+                "千人 (せんにん) - One thousand people",
+                "千年 (せんねん) - One thousand years",
+                "千本 (せんほん) - One thousand books"
+            ]
+        },
+        {
+            "Kanji": "万",
+            "meaning": "Ten Thousand ",
+            "onyomi": "マン",
+            "kunyomi": "—",
+            "romanji": "man",
+            "example": [
+                "一万 (いちまん) - 10,000",
+                "万年 (まんねん) - Ten thousand years",
+                "万人 (まんにん) - Ten thousand people",
+                "万本 (まんほん) - Ten thousand books"
+            ]
+        },
+        {
+            "Kanji": "円",
+            "meaning": "Circle / Yen",
+            "onyomi": "エン",
+            "kunyomi": "まる (い)",
+            "romanji": "en",
+            "example": [
+                "円 (えん) - Circle, yen",
+                "円形 (えんけい) - Circular shape",
+                "円周 (えんしゅう) - Circumference",
+                "円満 (えんまん) - Harmony"
+            ]
+        }
+    ],
+    //Time & Days
+    "2": 
+    [
+        {
+            "kanji": "日",
+            "meaning": "Day/Sun",
+            "onyomi": "ニチ, ジツ",
+            "kunyomi": "ひ, か",
+            "romanji": "nichi",
+            "example": [
+                "日本 (にほん) - Japan",
+                "日曜日 (にちようび) - Sunday",
+                "三日 (みっか) - The 3rd day of the month",
+                "日光 (にっこう) - Sunlight"
+            ]
+        },
+        {
+            "kanji": "月",
+            "meaning": "Moon/Month",
+            "onyomi": "ゲツ, ガツ",
+            "kunyomi": "つき, つき-",
+            "romanji": "getsu",
+            "example": [
+                "月曜日 (げつようび) - Monday",
+                "月光 (げっこう) - Moonlight",
+                "一月 (いちがつ) - January",
+                "二月 (にがつ) - February"
+            ]
+        },
+        {
+            "Kanji": "年",
+            "meaning":"Year",
+            "onyomi":"ネン",
+            "kunyomi":"とし (ねん)",
+            "romanji": "nen",
+            "example":[
+                "来年 (らいねん) - next year",
+                "一年 (いちねん) - one year",
+                "年齢 (ねんれい) - age",
+                "年中 (ねんじゅう) - all year round"
+            ]
+        },
+        {
+            "Kanji": "時",
+            "meaning":"Time / Hour",
+            "onyomi":"ジ",
+            "kunyomi":"とき, とき (じ)",
+            "romanji": "ji",
+            "example":[
+                "時間 (じかん) - time, hour",
+                "時刻 (じこく) - time, moment",
+                "時代 (じだい) - era, period",
+                "時々 (ときどき) - sometimes"
+            ]
+        },
+        {
+            "Kanji": "分",
+            "meaning":"Minute / Part",
+            "onyomi":"フン, ブン, プン",
+            "kunyomi":"わ（かる）, わ（ける）",
+            "romanji": "fun / bun / pun",
+            "example":[
+                "分かる (わかる) - to understand",
+                "十分 (じゅうぶん) - enough, sufficient",
+                "部分 (ぶぶん) - part, section",
+                "分ける (わける) - to divide"
+            ]
+        },
+        {
+            "Kanji": "半",
+            "meaning":"Half / Middle",
+            "onyomi":"ハン",
+            "kunyomi":"なかば, はん-",
+            "romanji": "han",
+            "example":[
+                "半分 (はんぶん) - half, half part",
+                "半年 (はんとし) - half a year, six months",
+                "半島 (はんとう) - peninsula"
+            ]
+        },
+        {
+            "Kanji": "今",
+            "meaning":"Now / Present",
+            "onyomi":"コン, キン",
+            "kunyomi":"いま, いつ",
+            "romanji": "ima / itsu",
+            "example":[
+                "今日 (きょう) - today",
+                "今夜 (きょうよ) - this night",
+                "今月 (こんげつ) - this month",
+                "今朝 (きょうあさ) - this morning"
+            ]
+        },
+        {
+            "Kanji": "前",
+            "meaning":"Before / Previous",
+            "onyomi":"マエ, ダン",
+            "kunyomi":"まえ, まえ-",
+            "romanji": "mae / dan",
+            "example":[
+                "前日 (まえき) - yesterday",
+                "前週 (まえしゅう) - last week",
+                "前月 (まえがつ) - last month",
+                "前年 (まえねん) - last year"
+            ]
+        },
+        {
+            "Kanji": "後",
+            "meaning":"After / Following",
+            "onyomi":"コウ, キョウ",
+            "kunyomi":"うほ, うほ-",
+            "romanji": "kou / kyou",
+            "example":[
+                "後 (うほ) - after",
+                "後ろ (うほろ) - behind",
+                "後日 (あとひ) - next day",
+                "後半 (こうはん) - second half"
+            ]
+        }
+    ],
+    // Directions & Places
+    "3":
+    [ 
+        {
+            "Kanji": "上",
+            "meaning":"Up / Above",
+            "onyomi":"ジョウ",
+            "kunyomi":"うえ, あ（がる）",
+            "romanji": "jou",
+            "example":[
+                "上手 (じょうず) - skillful",
+                "上に  (うえに) - above",
+                "上着 (うわぎ) - jacket",
+                "上昇 (じょうしょう) - rise"
+            ]
+        },
+        {
+            "Kanji": "下",
+            "meaning":"Down / Below",
+            "onyomi":"カ, ゲ",
+            "kunyomi":"した, さ（がる）",
+            "romanji": "ka",
+            "example":[
+                "下手 (へた) - unskillful",
+                "地下 (ちか) - underground",
+                "下に (したに) - below",
+                "下着 (したぎ) - underwear",
+                "下降 (かこう) - descent"
+            ]
+        },
+        {
+            "Kanji": "中",
+            "meaning":"Middle / Inside",
+            "onyomi":"チュウ, ジュウ",
+            "kunyomi":"なか, うち, あた（る）",
+            "romanji": "naka",
+            "example":[
+                "中 (なか) - inside, middle",
+                "中学校 (ちゅうがっこう) - middle school",
+                "中身 (なかみ) - contents, inside",
+                "中止 (ちゅうし) - cancellation"
+            ]
+        },
+        {
+            "Kanji": "外",
+            "meaning":"Outside",
+            "onyomi":"ガイ, ゲ",
+            "kunyomi":"そと, はず（す）",
+            "romanji": "gai",
+            "example":[
+                "外 (そと) - outside",
+                "外国 (がいこく) - foreign country",
+                "外国人 (がいこくじん) - foreigner",
+                "外国語 (がいこくご) - foreign language"
+            ]
+        },
+        {
+            "Kanji": "左",
+            "meaning":"Left",
+            "onyomi":"サ, シャ",
+            "kunyomi":"ひだり",
+            "romanji": "hidari",
+            "example":[
+                "左側 (ひだりがわ) - left side",
+                "左手 (ひだりて) - left hand",
+                "左折 (させつ) - left turn"
+            ]
+        },
+        {
+            "Kanji": "右",
+            "meaning":"Right",
+            "onyomi":"ウ, ユウ",
+            "kunyomi":"みぎ",
+            "romanji": "migi",
+            "example":[
+                "右側 (みぎがわ) - right side",
+                "右手 (みぎて) - right hand",
+                "右折 (うせつ) - right turn"
+            ]
+        },
+        {
+            "Kanji": "東",
+            "meaning":"East",
+            "onyomi":"トウ",
+            "kunyomi":"ひがし, ひが（しる）",
+            "romanji": "tou",
+            "example":[
+                "東 (ひがし) - east",
+                "東京 (とうきょう) - East Tokyo",
+                "東京都 (とうきょうと) - Tokyo Metropolitan Government"
+            ]
+        },
+        {
+            "Kanji": "西",
+            "meaning":"West",
+            "onyomi":"セイ, サイ",
+            "kunyomi":"にし, にし（しる）",
+            "example":[
+                "西 (にし) - west",
+                "西京 (せいきょう) - West Tokyo",
+                "西京市 (せいきょうし) - West Tokyo Metropolitan Government"
+            ]
+        },
+        {
+            "Kanji": "北",
+            "meaning":"North",
+            "onyomi":"ホク",
+            "kunyomi":"きた",
+            "romanji": "hoku",
+            "example":[
+                "北 (きた) - north",
+                "北海道 (ほっかいどう) - Hokkaido",
+                "北海道庁 (ほっかいどうちょう) - Hokkaido Government"
+            ]
+        },
+        {
+            "Kanji": "南",
+            "meaning":"South",
+            "onyomi":"ナン, ナ",
+            "kunyomi":"みなみ",
+            "romanji": "nan, na",
+            "example":[
+                "南 (みなみ) - south",
+                "南海道 (なんかいどう) - Hokkaido"
+            ]
+        }
+    ],
+    //People & Family
+    "4": [
+        {
+            "Kanji": "人",
+            "meaning": "Person",
+            "onyomi": "ジン, ニン",
+            "kunyomi": "ひと, ひと-",
+            "romanji": "hito",
+            "example": [
+                "日本人 (にほんじん) - Japanese person",
+                "人間 (にんげん) - human being",
+                "人々 (ひとびと) - people",
+                "人形 (にんぎょう) - doll"
+            ]
+        },
+        {
+            "Kanji": "男",
+            "meaning": "Man",
+            "onyomi": "タン, ナン",
+            "kunyomi": "おとこ",
+            "romanji": "tan",
+            "example": [
+                "男 (おとこ) - man",
+                "男子 (おとこ) - boy",
+                "男性 (たんせい) - male"
+            ]
+        },
+        {
+            "Kanji": "女",
+            "meaning": "Woman",
+            "onyomi": "ジョ, ニョ",
+            "kunyomi": "おんな",
+            "romanji": "jo",
+            "example": [
+                "女 (おんな) - woman",
+                "女子 (おんな) - girl",
+                "女性 (じょせい) - female"
+            ]
+        },
+        {
+            "Kanji": "子",
+            "meaning": "Child",
+            "onyomi": "シ, ス, ツ",
+            "kunyomi": "こ, こ-",
+            "romanji": "ko",
+            "example": [
+                "子供 (こども) - child",
+                "子供たち (こどもたち) - children",
+                "子供用 (こどもよう) - for children",
+                "子供服 (こどもふく) - children's clothing"
+            ]
+        },
+        {
+            "Kanji": "母",
+            "meaning": "Mother",
+            "onyomi": "ボ",
+            "kunyomi": "はは, かあ",
+            "romanji": "haha",
+            "example": [
+                "母 (はは) - mother",
+                "お母さん (おかあさん) - mother (polite)",
+                "母国 (ぼこく) - mother country",
+                "母親 (ははおや) - mother"
+            ]
+        },
+        {
+            "Kanji": "父",
+            "meaning": "Father",
+            "onyomi": "フ",
+            "kunyomi": "ちち, とう",
+            "romanji": "chichi",
+            "example": [
+                "父 (ちち) - father",
+                "お父さん (おとうさん) - father (polite)",
+                "父国 (ふこく) - father country",
+                "父親 (ちちおや) - father"
+            ]
+        },
+        {
+            "Kanji": "友",
+            "meaning": "Friend",
+            "onyomi": "ユウ",
+            "kunyomi": "とも, とも-",
+            "romanji": "yuu",
+            "example": [
+                "友達 (ともだち) - friend",
+                "友人 (ゆうじん) - friend, acquaintance",
+                "友情 (ゆうじょう) - friendship",
+                "友好 (ゆうこう) - friendly relations"
+            ]
+        }
+    ],
+    //Basic Verbs & Actions
+    "5":
+    [
+        {
+            "Kanji": "見",
+            "meaning": "See / Look",
+            "onyomi": "ケン",
+            "kunyomi": "み（る）",
+            "romanji": "ken",
+            "example": [
+                "見る (みる) - to see, to look",
+                "見学 (けんがく) - study visit",
+                "見物 (けんぶつ) - sightseeing",
+                "見逃す (みのがす) - to miss"
+            ]
+        },
+        {
+            "Kanji": "聞",
+            "meaning": "Hear / Listen / Ask",
+            "onyomi": "ブン, モン",
+            "kunyomi": "き（く）",
+            "romanji": "bun",
+            "example": [
+                "聞く (きく) - to hear, to listen",
+                "聞く人 (きくひと) - person who hears",
+                "聞き込む (ききこむ) - to overhear",
+                "聞こえる (きこえる) - to hear"
+            ]
+        },
+        {
+            "Kanji": "言",
+            "meaning": "Say / Speak",
+            "onyomi": "ゲン, ゴン",
+            "kunyomi": "い（う）",
+            "romanji": "gen",
+            "example": [
+                "言う (いう) - to say, to speak",
+                "言葉 (ことば) - word, language",
+                "言い換える (いいかえる) - to rephrase",
+                "言い出す (いいだす) - to start speaking"
+            ]
+        },
+        {
+            "Kanji": "行",
+            "meaning": "Go / Conduct",
+            "onyomi": "コウ, ギョウ",
+            "kunyomi": "い（く）, おこな（う）",
+            "romanji": "kou",
+            "example": [
+                "行く (いく) - to go, to conduct",
+                "行動 (こうどう) - action, behavior",
+                "行事 (ぎょうじ) - event, function"
+            ]
+        },
+        {
+            "Kanji": "来",
+            "meaning": "Come / Next",
+            "onyomi": "ライ, タイ",
+            "kunyomi": "く（る）, きた（る）",
+            "romanji": "rai",
+            "example": [
+                "来る (くる) - to come, to arrive",
+                "来週 (らいしゅう) - next week",
+                "来月 (らいげつ) - next month",
+                "来年 (らいねん) - next year"
+            ]
+        },
+        {
+            "Kanji": "出",
+            "meaning": "Exit / Leave",
+            "onyomi": "シュツ, スイ",
+            "kunyomi": "で（る）, だ（す）",
+            "romanji": "shutsu",
+            "example": [
+                "出る (でる) - to exit, to leave",
+                "出発 (しゅっぱつ) - departure",
+                "出席 (しゅっせき) - attendance",
+                "出産 (しゅっさん) - childbirth"
+            ]
+        },
+        {
+            "Kanji": "入",
+            "meaning": "Enter / Insert",
+            "onyomi": "ニュウ, ジュ",
+            "kunyomi": "はい（る）, い（れる）",
+            "romanji": "nyuu",
+            "example": [
+                "入る (はいる) - to enter, to go in",
+                "入学 (にゅうがく) - school entrance",
+                "入院 (にゅういん) - hospitalization",
+                "入れる (いれる) - to put in, to insert"
+            ]
+        },
+        {
+            "Kanji": "食",
+            "meaning": "Eat / Food",
+            "onyomi": "ショク, ジキ",
+            "kunyomi": "た（べる）, く（う）, は（む）",
+            "romanji": "shoku",
+            "example": [
+                "食べる (たべる) - to eat",
+                "食事 (しょくじ) - meal",
+                "食堂 (しょくどう) - dining hall",
+                "食材 (しょくざい) - food ingredients"
+            ]
+        },
+        {
+            "Kanji": "飲",
+            "meaning": "Drink",
+            "onyomi": "イン",
+            "kunyomi": "の（む）",
+            "romanji": "in",
+            "example": [
+                "飲む (のむ) - to drink",
+                "飲み物 (のみもつ) - drink",
+                "飲み会 (のみかい) - drinking party",
+                "飲み込む (のみこむ) - to ingest"
+            ]
+        },
+        {
+            "Kanji": "書",
+            "meaning": "Write / Book",
+            "onyomi": "ショ",
+            "kunyomi": "か（く）",
+            "romanji": "sho",
+            "example": [
+                "書く (かく) - to write",
+                "書籍 (しょしゅう) - book",
+                "書き込む (きこむ) - to record",
+                "書かれる (かれる) - to be written"
+            ]
+        },
+        {
+            "Kanji": "読",
+            "meaning": "to read",
+            "onyomi": "ドク, トク, トウ",
+            "kunyomi": "よ（む）",
+            "romanji": "yo",
+            "example": [
+                "読む (よむ) - to read",
+                "読書 (よしゅう) - reading",
+                "読書会 (よしゅうかい) - reading club",
+                "読める (よめる) - to be readable"
+            ]
+        },
+        {
+            "Kanji": "買",
+            "meaning": "Buy",
+            "onyomi": "ヨウ",
+            "kunyomi": "か（う）",
+            "romanji": "yo",
+            "example": [
+                "買う (かう) - to buy",
+                "買い物 (かいもつ) - purchase",
+                "買い手 (かいて) - buyer",
+                "買った (かった) - bought"
+            ]
+        },
+        {
+            "Kanji": "売",
+            "meaning": "Sell",
+            "onyomi": "バイ",
+            "kunyomi": "う（わ）",
+            "romanji": "bai",
+            "example": [
+                "売る (うる) - to sell",
+                "売り手 (うりて) - seller",
+                "売り物 (うりもつ) - sale",
+                "売れる (うれる) - to sell"
+            ]
+        }
+    ],
+    // Nature & Objects
+    "6":
+    [
+        {
+            "Kanji": "山",
+            "meaning": "Mountain",
+            "onyomi": "サン",
+            "kunyomi": "やま",
+            "example": [
+                "山 (やま) - mountain",
+                "藤山 (ふじやま) - fuji mountain",
+                "山口 (さんこう) - mountain peak",
+                "山道 (さんどう) - mountain trail",
+                "山手 (さんて) - mountain view"
+            ]
+        },
+        {
+            "Kanji": "川",
+            "meaning": "River",
+            "onyomi": "セン",
+            "kunyomi": "かわ",
+            "example": [
+                "川 (かわ) - river",
+                "川口 (せんこう) - river mouth",
+                "川岸 (せんがし) - riverbank",
+                "川流 (せんりゅう) - river flow"
+            ]
+        },
+        {
+            "Kanji": "木",
+            "meaning": "Tree / Wood",
+            "onyomi": "モク, ボク",
+            "kunyomi": "き, こ",
+            "example": [
+                "木 (き) - tree",
+                "木材 (もくざい) - wood",
+                "木造 (もくぞう) - wooden construction",
+                "木製 (もくせい) - wooden product"
+            ]
+        },
+        {
+            "Kanji": "林",
+            "meaning": "Forest",
+            "onyomi": "リン",
+            "kunyomi": "はやし",
+            "example": [
+                "林 (はやし) - forest",
+                "林業 (りんぎょう) - forestry",
+                "林間 (りんかん) - forest area",
+                "林道 (りんどう) - forest road"
+            ]
+        },
+        {
+            "Kanji": "森",
+            "meaning": "Forest",
+            "onyomi": "シン",
+            "kunyomi": "もり",
+            "example": [
+                "森 (もり) - forest",
+                "森林 (もりん) - forest",
+                "森林病 (もりんびょう) - forest disease",
+                "森林道 (もりんどう) - forest trail"
+            ]
+        },
+        {
+            "Kanji": "火",
+            "meaning": "Fire",
+            "onyomi": "カ",
+            "kunyomi": "ひ, ほ",
+            "example": [
+                "火 (ひ) - fire",
+                "火炎 (かえん) - flame",
+                "火災 (かさい) - fire disaster",
+                "火山 (かさま) - volcano"
+            ]
+        },
+        {
+            "Kanji": "水",
+            "meaning": "Water",
+            "onyomi": "スイ",
+            "kunyomi": "みず",
+            "example": [
+                "水 (みず) - water",
+                "水道 (すいどう) - water supply",
+                "水質 (すいしつ) - water quality",
+                "水産 (すいさん) - fisheries"
+            ]
+        },
+        {
+            "Kanji": "土",
+            "meaning": "Soil, Earth, Ground",
+            "onyomi": "ド, ト",
+            "kunyomi": "つち",
+            "example": [
+                "土 (つち) - earth",
+                "土壌 (どじょう) - soil",
+                "土木 (どぼく) - civil engineering",
+                "土壌汚染 (どじょうおせん) - soil pollution"
+            ]
+        },
+        {
+            "Kanji": "天",
+            "meaning": "Heavens, Sky",
+            "onyomi": "テン",
+            "kunyomi": "あまつ",
+            "example": [
+                "天 (あかね) - sky",
+                "天気 (てんき) - weather",
+                "天然 (てんねん) - natural",
+                "天然病 (てんねんびょう) - natural disease"
+            ]
+        },
+        {
+            "Kanji": "気",
+            "meaning": "Spirit/Energy",
+            "onyomi": "キ",
+            "kunyomi": "かぜ",
+            "example": [
+                "気 (かぜ) - spirit",
+                "気象 (きしょう) - weather",
+                "気候 (きこう) - climate",
+                "気象台 (きしょうだい) - weather station"
+            ]
+        },
+        {
+            "kanji": "雨",
+            "meaning": "Rain",
+            "onyomi": "ウ",
+            "kunyomi": "あめ",
+            "example": [
+                "雨 (あめ) - rain",
+                "大雨 (おおあめ) - heavy rain",
+                "雨天 (うてん) - rainy weather"
+            ]
+        }
+    ],
+    //Adjectives & Descriptions
+    "7":
+    [
+        {
+            "Kanji": "大",
+            "meaning": "Big",
+            "onyomi": "タイ",
+            "kunyomi": "おおきい",
+            "example": [
+                "大 (おおきい) - big",
+                "大きな (おおきな) - big, large",
+                "大きい (おおきい) - big, large",
+                "大きな声 (おおきなこえ) - big voice"
+            ]
+        },
+        {
+            "Kanji": "小",
+            "meaning": "Small",
+            "onyomi": "ショウ",
+            "kunyomi": "ちいさい",
+            "example": [
+                "小 (ちいさい) - small",
+                "小さな (ちいさいな) - small, little",
+                "小さい (ちいさい) - small, little",
+                "小さな声 (ちいさいこえ) - small voice"
+            ]
+        },
+        {
+            "Kanji": "新",
+            "meaning": "New",
+            "onyomi": "シン",
+            "kunyomi": "あたらしい",
+            "example": [
+                "新 (あたらしい) - new",
+                "新しい (あたらしい) - new",
+                "新しいもの (あたらしいもの) - new things",
+                "新しい技術 (あたらしいぎじゅつ) - new technology"
+            ]
+        },
+        {
+            "Kanji": "古",
+            "meaning": "Old",
+            "onyomi": "コ",
+            "kunyomi": "ふるい",
+            "example": [
+                "古 (ふるい) - old",
+                "古い (ふるい) - old",
+                "古いもの (ふるいもの) - old things",
+                "古い技術 (ふるいぎじゅつ) - old technology"
+            ]
+        },
+        {
+            "Kanji": "長",
+            "meaning": "Long",
+            "onyomi": "チョウ",
+            "kunyomi": "ながい",
+            "example": [
+                "長 (ながい) - long",
+                "長い (ながい) - long",
+                "長いもの (ながいもの) - long things",
+                "長い技術 (ながいぎじゅつ) - long technology"
+            ]
+        },
+        {
+            "Kanji": "短",
+            "meaning": "Short",
+            "onyomi": "タン",
+            "kunyomi": "みじか",
+            "example": [
+                "短 (みじか) - short",
+                "短い (みじか) - short",
+                "短いもの (みじかもの) - short things",
+                "短い技術 (みじかぎじゅつ) - short technology"
+            ]
+        },
+        {
+            "Kanji": "高",
+            "meaning": "High",
+            "onyomi": "コウ",
+            "kunyomi": "たか",
+            "example": [
+                "高 (たか) - high",
+                "高い (たか) - high",
+                "高いもの (たかもの) - high things",
+                "高い技術 (たかぎじゅつ) - high technology"
+            ]
+        },
+        {
+            "Kanji": "安",
+            "meaning": "Cheap",
+            "onyomi": "アン",
+            "kunyomi": "やすい",
+            "example": [
+                "安 (やすい) - cheap",
+                "安いもの (やすいもの) - cheap things"
+            ]
+        },
+        {
+            "Kanji": "多",
+            "meaning": "Many",
+            "onyomi": "タ",
+            "kunyomi": "おおい",
+            "example": [
+                "多 (おおい) - many",
+                "多い (おおい) - many",
+                "多いもの (おおいもの) - many things",
+                "多い技術 (おおいぎじゅつ) - many technology"
+            ]
+        },
+        {
+            "Kanji": "少",
+            "meaning": "Few",
+            "onyomi": "ショウ",
+            "kunyomi": "すく",
+            "example": [
+                "少 (すく) - few",
+                "少ない (すくない) - few",
+                "少ないもの (すくないもの) - few things",
+                "少ない技術 (すくないぎじゅつ) - few technology"
+            ]
+        }
+    ],
+    //Other Common Kanji
+    "8":
+    [
+        {    
+            "Kanji": "名",
+            "meaning": "Name",
+            "onyomi": "メイ",
+            "kunyomi": "な",
+            "example": [
+                "名 (な) - name",
+                "名 (な) - name",
+                "名 (な) - name",
+                "名 (な) - name"
+            ]
+        }, 
+        {    
+            "Kanji": "学",
+            "meaning": "Learn",
+            "onyomi": "ガク",
+            "kunyomi": "まな",
+            "example": [
+                "学 (まな) - learn",
+                "学ぶ (まなぶ) - to learn",
+                "学習 (がくしゅう) - learning",
+                "学習者 (がくしゅうしゃ) - learner"
+            ]
+        }, 
+        {    
+            "Kanji": "校",
+            "meaning": "School, Exam",
+            "onyomi": "コウ",
+            "kunyomi": "がく",
+            "example": [
+                "学校 (がっこう) - school",
+                "校舎 (こうしゃ) - school building",
+                "校長 (こうちょう) - principal",
+                "校長さん (こうちょうさん) - principal",
+                "校長室 (こうちょうしつ) - principal's office"
+            ]
+        }, 
+        {    
+            "Kanji": "生",
+            "meaning": "Life",
+            "onyomi": "セイ",
+            "kunyomi": "うま",
+            "example": [
+                "生 (うま) - life",
+                "生まれる (うままれる) - to be born",
+                "生まれた (うままれた) - born",
+                "生まれて (うままれて) - born"
+            ]
+        }, 
+        {    
+            "Kanji": "車",
+            "meaning": "Car, wheel",
+            "onyomi": "シャ",
+            "kunyomi": "くるま",
+            "example": [
+                "車 (くるま) - car",
+                "車両 (しゃりょう) - vehicle",
+                "車両管理 (しゃりょうかんり) - vehicle management",
+                "車両管理者 (しゃりょうかんりしゃ) - vehicle manager"
+            ]
+        }, 
+        {    
+            "Kanji": "電",
+            "meaning": "Electricity",
+            "onyomi": "デン",
+            "kunyomi": "-",
+            "example": [
+                "電 (でん) - electricity",
+                "電気 (でんき) - electricity",
+                "電気工事 (でんきこうじ) - electrical work",
+                "電気工事士 (でんきこうじし) - electrician"
+            ]
+        }, 
+        {    
+            "Kanji": "話",
+            "meaning": "Talk",
+            "onyomi": "ワ",
+            "kunyomi": "はな",
+            "example": [
+                "話 (はな) - talk",
+                "話す (はなす) - to talk",
+                "話し手 (はなしつえ) - speaker",
+                "話し手 (はなしつえ) - speaker"
+            ]
+        }, 
+        {    
+            "Kanji": "語",
+            "meaning": "Language, Word, Speech",
+            "onyomi": "ゴ",
+            "kunyomi": "かた(る)",
+            "example": [
+                "語 (ご) - language",
+                "語学 (ごがく) - linguistics",
+                "語学者 (ごがくしゃ) - linguist",
+                "語学者 (ごがくしゃ) - linguist"
+            ]
+        }, 
+        {    
+            "Kanji": "国",
+            "meaning": "Country",
+            "onyomi": "コク",
+            "kunyomi": "",
+            "example": [
+                "国 (くに) - country",
+                "国 (くに) - country",
+                "国 (くに) - country",
+                "国 (くに) - country"
+            ]
+        },
+        {
+            "kanji": "休",
+            "meaning": "Rest/To take a break",
+            "onyomi": "キュウ",
+            "kunyomi": "やす(む)",
+            "example": [
+                "休む (やすむ) - to rest, to take a break",
+                "休日 (きゅうじつ) - holiday, day off",
+                "休憩 (きゅうけい) - short break, recess",
+                "夏休み (なつやすみ) - summer vacation"
+            ]
+        },
+        {
+            "kanji": "白",
+            "meaning": "White",
+            "onyomi": "ハク, ビャク",
+            "kunyomi": "しろ, しろ(い)",
+            "example": [
+                "白い (しろい) - white (adjective)",
+                "白色 (はくしょく) - the color white",
+                "白紙 (はくし) - blank paper",
+                "白髪 (しらが) - white hair",
+                "告白 (こくはく) - confession"
+            ]
+        },
+        {
+            "kanji": "毎",
+            "meaning": "Every",
+            "onyomi": "マイ",
+            "kunyomi": "-",
+            "example": [
+                "毎日 (まいにち) - every day",
+                "毎週 (まいしゅう) - every week",
+                "毎月 (まいつき) - every month",
+                "毎年 (まいとし/まいねん) - every year",
+                "毎回 (まいかい) - every time"
+            ]
+        },
+        {
+            "kanji": "何",
+            "meaning": "What",
+            "onyomi": "カ",
+            "kunyomi": "なに, なん",
+            "example": [
+                "何 (なに/なん) - what",
+                "何人 (なんにん) - how many people",
+                "何時 (なんじ) - what time",
+                "何歳 (なんさい) - how old",
+                "何で (なんで) - why/by what means"
+            ]
+        }
+    ]
+}

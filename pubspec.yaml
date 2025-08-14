@@ -1,0 +1,94 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  sqflite: ^2.4.2
+  bcrypt: ^1.1.3
+  shared_preferences: ^2.5.3
+  image_picker: ^0.8.7+4
+  logger: ^2.5.0
+  intl: ^0.20.2
+  flutter_tts: ^4.2.2
+  material_dialogs: ^1.1.5
+  lottie: ^3.3.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_drawing: ^1.0.1
+  audioplayers: ^6.5.0
+  bottom_bar_matu: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.2.12
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    # logo
+    - assets/logo.png
+    # onboard
+    - assets/onboarding1.jpg
+    - assets/onboarding2.jpg
+    - assets/onboarding3.jpg
+    - assets/onboarding4.jpg
+    - assets/onboarding5.jpg
+    # json file
+    - assets/json/
+    # result emoji
+    - assets/lottie/
+    # kanji lesson
+    - assets/kanji/
+    # kanji easy
+    - assets/kanji/easy/
+    # hiragana easy
+    - /assets/hiragana/
+    # katakana easy
+    # latters
+    - assets/data/
+    # other
+    - assets/background_tree.jpg
+    - assets/leaf_01.png
+    - assets/leaf_02.png
+    - assets/leaf_03.png
+    - assets/leaf_04.png
+    - assets/dummy1.webp
+    - assets/idea.png
+    - assets/hk.png
+    - assets/kj.png
+    - assets/tt.png
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  color: '#d4e4ed'
+  image: assets/logo.png
+  branding: assets/logo.png
+  branding_mode: bottom
+
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+  fullscreen: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/logo.png
+  min_sdk_android: 21
+  adaptive_icon_background: "#d4e4ed"
+  adaptive_icon_foreground: "assets/logo.png"
+  remove_alpha_ios: true
+  remove_alpha_android: true

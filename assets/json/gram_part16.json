@@ -1,0 +1,172 @@
+[
+    {
+        "translation": {
+            "english": "My hobby is playing baseball.",
+            "hiragana0": "わたし の しゅみ は やきゅう を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa ya kyu u o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "する", "romaji": "su ru"},
+            {"hiragana": "して", "romaji": "shi te"},
+            {"hiragana": "しよう", "romaji": "shi yo u"},
+            {"hiragana": "しる", "romaji": "shi ru"},
+            {"hiragana": "すり", "romaji": "su ri"}
+        ],
+        "correct_answer": {"hiragana": "する", "romaji": "su ru"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is eating.",
+            "hiragana0": "わたし の しゅみ は ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "たぶ", "romaji": "ta bu"},
+            {"hiragana": "たべる", "romaji": "ta be ru"},
+            {"hiragana": "たる", "romaji": "ta ru"},
+            {"hiragana": "たべむ", "romaji": "ta be mu"},
+            {"hiragana": "たべまる", "romaji": "ta be ma ru"}
+        ],
+        "correct_answer": {"hiragana": "たべる", "romaji": "ta be ru"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is cooking.",
+            "hiragana0": "わたし の しゅみ は りょうり を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa ryo u ri o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "すり", "romaji": "su ri"},
+            {"hiragana": "する", "romaji": "su ru"},
+            {"hiragana": "しす", "romaji": "shi su"},
+            {"hiragana": "しる", "romaji": "shi ru"},
+            {"hiragana": "す", "romaji": "su"}
+        ],
+        "correct_answer": {"hiragana": "する", "romaji": "su ru"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is listening to music.",
+            "hiragana0": "わたし の しゅみ は おんがく を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa o n ga ku o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "きる", "romaji": "ki ru"},
+            {"hiragana": "きけ", "romaji": "ki ke"},
+            {"hiragana": "きく", "romaji": "ki ku"},
+            {"hiragana": "きこう", "romaji": "ki ko u"},
+            {"hiragana": "ききまする", "romaji": "ki ki ma su ru"}
+        ],
+        "correct_answer": {"hiragana": "きく", "romaji": "ki ku"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is playing video games.",
+            "hiragana0": "わたし の しゅみ は ゲーム を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa ge mu o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "しまする", "romaji": "shi ma su ru"},
+            {"hiragana": "しり", "romaji": "shi ri"},
+            {"hiragana": "しむ", "romaji": "shi mu"},
+            {"hiragana": "しる", "romaji": "shi ru"},
+            {"hiragana": "する", "romaji": "su ru"}
+        ],
+        "correct_answer": {"hiragana": "する", "romaji": "su ru"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is watching soccer.",
+            "hiragana0": "わたし の しゅみ は サッカー を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa sa k ka o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "みまる", "romaji": "mi ma ru"},
+            {"hiragana": "みる", "romaji": "mi ru"},
+            {"hiragana": "みま", "romaji": "mi ma"},
+            {"hiragana": "みれ", "romaji": "mi re"},
+            {"hiragana": "みまする", "romaji": "mi ma su ru"}
+        ],
+        "correct_answer": {"hiragana": "みる", "romaji": "mi ru"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is reading books.",
+            "hiragana0": "わたし の しゅみ は ほん を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa ho n o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "よる", "romaji": "yo ru"},
+            {"hiragana": "よむる", "romaji": "yo mu ru"},
+            {"hiragana": "よむ", "romaji": "yo mu"},
+            {"hiragana": "よみる", "romaji": "yo mi ru"},
+            {"hiragana": "よんる", "romaji": "yo n ru"}
+        ],
+        "correct_answer": {"hiragana": "よむ", "romaji": "yo mu"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is studying Japanese.",
+            "hiragana0": "わたし の しゅみ は にほんご を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa ni ho n go o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "べんきょうをす", "romaji": "be n kyo u o su"},
+            {"hiragana": "べんきょうをしる", "romaji": "be n kyo u o shi ru"},
+            {"hiragana": "べんきょうをすり", "romaji": "be n kyo u o su ri"},
+            {"hiragana": "べんきょうしる", "romaji": "be n kyo u shi ru"},
+            {"hiragana": "べんきょうする", "romaji": "be n kyo u su ru"}
+        ],
+        "correct_answer": {"hiragana": "べんきょうする", "romaji": "be n kyo u su ru"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is drinking wine.",
+            "hiragana0": "わたし の しゅみ は ワイン を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa wa i n o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "のむ", "romaji": "no mu"},
+            {"hiragana": "のみる", "romaji": "no mi ru"},
+            {"hiragana": "のる", "romaji": "no ru"},
+            {"hiragana": "のみ", "romaji": "no mi"},
+            {"hiragana": "のんで", "romaji": "no n de"}
+        ],
+        "correct_answer": {"hiragana": "のむ", "romaji": "no mu"}
+    },
+    {
+        "translation": {
+            "english": "My hobby is watching movies.",
+            "hiragana0": "わたし の しゅみ は えいが を ",
+            "hiragana1": " こと です。",
+            "romaji0": "wa ta shi no shu mi wa e i ga o ",
+            "romaji1": " ko to de su"
+        },
+        "choices": [
+            {"hiragana": "みまる", "romaji": "mi ma ru"},
+            {"hiragana": "みす", "romaji": "mi su"},
+            {"hiragana": "みる", "romaji": "mi ru"},
+            {"hiragana": "みむ", "romaji": "mi mu"},
+            {"hiragana": "みせる", "romaji": "mi se ru"}
+        ],
+        "correct_answer": {"hiragana": "みる", "romaji": "mi ru"}
+    }
+]

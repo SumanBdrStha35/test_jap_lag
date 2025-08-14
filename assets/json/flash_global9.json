@@ -1,0 +1,17 @@
+[
+  { "kanji": "九", "kana": "きゅう", "meaning": "nine", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "空", "kana": "そら・くう", "meaning": "sky/void/empty", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "月", "kana": "がつ・げつ・つき", "meaning": "month/moon/Monday", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "犬", "kana": "いぬ・けん", "meaning": "dog", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "見", "kana": "み（ます）・けん", "meaning": "to see/watch", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "五", "kana": "ご・いつ", "meaning": "five", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "口", "kana": "くち・こう", "meaning": "mouth", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "校", "kana": "こう", "meaning": "school/exam/proof", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "左", "kana": "ひだり・さ", "meaning": "left", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "三", "kana": "さん・み・みっ（つ）", "meaning": "three", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "山", "kana": "やま・さん", "meaning": "mountain", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "四", "kana": "よん・し・よっ（つ）", "meaning": "four", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "子", "kana": "こ・し・ね", "meaning": "child", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "糸", "kana": "いと・し", "meaning": "thread", "example": "", "cardColor": "0xFFCCCCCC" },
+  { "kanji": "字", "kana": "じ", "meaning": "Character/letter/word", "example": "", "cardColor": "0xFFCCCCCC" }
+]

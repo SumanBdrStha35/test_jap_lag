@@ -1,0 +1,120 @@
+[
+  {
+    "translation": {
+      "english": "Mr. Tanaka's cat is under the desk.",
+      "hiragana0": "たなかさん の ねこ は",
+      "hiragana1": "います。",
+      "romaji0": "ta na ka sa n no ne ko wa",
+      "romaji1": "i ma su"
+    },
+    "choices": [
+      {"hiragana": "つくえ の した で", "romaji": "tsu ku e no shi ta de"},
+      {"hiragana": "つくえ の した に", "romaji": "tsu ku e no shi ta ni"},
+      {"hiragana": "した で つくえ に", "romaji": "shi ta de tsu ku e ni"},
+      {"hiragana": "した の つくえ に", "romaji": "shi ta no tsu ku e ni"}
+    ],
+    "correct_answer": {"hiragana": "つくえ の した に", "romaji": "tsu ku e no shi ta ni"}
+  },
+  {
+    "translation": {
+      "english": "The wife of the president of my company is beautiful.",
+      "hiragana0": "わたし の かいしゃ の しゃちょう の おくさん",
+      "hiragana1": "きれい です。",
+      "romaji0": "wa ta shi no ka i sha no sha cho u no o ku sa n",
+      "romaji1": "ki re i de su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "は", "romaji": "wa"}
+  },
+  {
+    "translation": {
+      "english": "My name is Kosuke.",
+      "hiragana0": "わたし",
+      "hiragana1": "なまえ は こうすけ です。",
+      "romaji0": "wa ta shi",
+      "romaji1": "na ma e wa ko su ke de su"
+    },
+    "choices": [
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "も", "romaji": "mo"}
+    ],
+    "correct_answer": {"hiragana": "の", "romaji": "no"}
+  },
+  {
+    "translation": {
+      "english": "My pencil is on the desk.",
+      "hiragana0": "わたし の えんぴつ は つくえ の うえ に",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi no e m p i tsu wa tsu ku e no u e ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "かえります", "romaji": "ka e ri ma su"},
+      {"hiragana": "いませんでした", "romaji": "i ma se n de shi ta"},
+      {"hiragana": "います", "romaji": "i ma su"},
+      {"hiragana": "うります", "romaji": "u ri ma su"},
+      {"hiragana": "あります", "romaji": "a ri ma su"}
+    ],
+    "correct_answer": {"hiragana": "あります", "romaji": "a ri ma su"}
+  },
+  {
+    "translation": {
+      "english": "This is Mr. Tanaka's pencil.",
+      "hiragana0": "これ は たなかさん",
+      "hiragana1": "えんぴつ です。",
+      "romaji0": "ko re wa ta na ka sa n",
+      "romaji1": "e m p i tsu de su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "は", "romaji": "wa"}
+    ],
+    "correct_answer": {"hiragana": "の", "romaji": "no"}
+  },
+  {
+    "translation": {
+      "english": "Please do not run in the classroom.",
+      "hiragana0": "きょうしつ の なか で",
+      "hiragana1": "。",
+      "romaji0": "kyo u shi tsu no na ka de",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "はしらない です", "romaji": "ha shi ra na i de su"},
+      {"hiragana": "はしらないで ください", "romaji": "ha shi ra na i de ku da sa i"},
+      {"hiragana": "はしって ください", "romaji": "ha shi t te ku da sa i"},
+      {"hiragana": "はしりません ください", "romaji": "ha shi ri ma se n ku da sa i"},
+      {"hiragana": "はしらない を ください", "romaji": "ha shi ra na i o ku da sa i"}
+    ],
+    "correct_answer": {"hiragana": "はしらないで ください", "romaji": "ha shi ra na i de ku da sa i"}
+  },
+  {
+    "translation": {
+      "english": "Have you studied for tomorrow's kanji test?",
+      "hiragana0": "あした の かんじ の テスト",
+      "hiragana1": "べんきょう を しました か。",
+      "romaji0": "a shi ta no ka n ji no te su to",
+      "romaji1": "be n kyo u o shi ma shi ta ka"
+    },
+    "choices": [
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "に", "romaji": "ni"}
+    ],
+    "correct_answer": {"hiragana": "の", "romaji": "no"}
+  }
+]

@@ -1,0 +1,685 @@
+[
+  {
+    "lesson": "あ, か, さ rows",
+    "characters": [
+      {
+        "chapter": "1.1",
+        "row": "あ-ぎょう",
+        "characters": [
+          {
+            "hiragana": "あ",
+            "romaji": "a",
+            "stroke_count": 3,
+            "mnemonic": "“Open your mouth and say ‘aah’” says the dentist",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "い",
+            "romaji": "i",
+            "stroke_count": 2,
+            "mnemonic": "The two “I's” in Hawaii",
+            "mnemonic_image": "/assets/hiragana/i.jpeg"
+          },
+          {
+            "hiragana": "う",
+            "romaji": "u",
+            "stroke_count": 2,
+            "mnemonic": "Ew! There's a bug in your ear!",
+            "mnemonic_image": "/assets/hiragana/u.jpeg"
+          },
+          {
+            "hiragana": "え",
+            "romaji": "e",
+            "stroke_count": 2,
+            "mnemonic": "An elf hanging ornaments on a Christmas tree",
+            "mnemonic_image": "/assets/hiragana/e.jpeg"
+          },
+          {
+            "hiragana": "お",
+            "romaji": "o",
+            "stroke_count": 3,
+            "mnemonic": "Oh! A hole in one!",
+            "mnemonic_image": "/assets/hiragana/o.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "あい",
+            "example_word_eng": "love",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "おう",
+            "example_word_eng": "people",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "え",
+            "example_word_eng": "flower",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "いえ",
+            "example_word_eng": "house",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "あお",
+            "example_word_eng": "blue",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.2",
+        "row": "か-ぎょう",
+        "characters":[
+          {
+            "hiragana": "か",
+            "romaji": "ka",
+            "stroke_count": 3,
+            "mnemonic": "“Kah” a crow cries as it flies to a tree on the top of a cliff.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "き",
+            "romaji": "ki",
+            "stroke_count": 4,
+            "mnemonic": "A key.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "く",
+            "romaji": "ku",
+            "stroke_count": 1,
+            "mnemonic": "A cuckoo’s beak.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "け",
+            "romaji": "ke",
+            "stroke_count": 2,
+            "mnemonic": "Kendo is a traditional Japanese sport using wooden swords.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "こ",
+            "romaji": "ko",
+            "stroke_count": 2,
+            "mnemonic": "A koala climbing a tree.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "あか",
+            "example_word_eng": "red",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "えき",
+            "example_word_eng": "station",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "かく",
+            "example_word_eng": "speak",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "いけ",
+            "example_word_eng": "pond",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ここ",
+            "example_word_eng": "here",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.3",
+        "row": "さ-ぎょう",
+        "characters": [
+          {
+            "hiragana": "さ",
+            "romaji": "sa",
+            "stroke_count": 3,
+            "mnemonic": "He saw something that made him smile.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "し",
+            "romaji": "shi",
+            "stroke_count": 1,
+            "mnemonic": "She has a ponytail.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "す",
+            "romaji": "su",
+            "stroke_count": 2,
+            "mnemonic": "It’s another perfect dive by Super Diver.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "せ",
+            "romaji": "se",
+            "stroke_count": 3,
+            "mnemonic": "Mother sets Baby on her lap.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "そ",
+            "romaji": "so",
+            "stroke_count": 1,
+            "mnemonic": "Fix the rip by sewing a zigzag stitch.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise":[
+          {
+            "example_word_hira": "かさ",
+            "example_word_eng": "umbrella",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "しお",
+            "example_word_eng": "salt",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "いす",
+            "example_word_eng": "chair",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "せかい",
+            "example_word_eng": "map",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "そこ",
+            "example_word_eng": "there",
+            "example_image": ""
+          }
+        ]
+      }
+    ],
+    "reading":[
+      "い", "こ", "し", "か", "え", "け", "す",
+      "あ", "く", "せ", "お", "さ", "き", "そ",
+      "う"
+    ]
+  },
+  {
+    "lesson": "た,な,は rows",
+    "characters": [
+      {
+        "chapter": "1.4",
+        "row": "た-ぎょう",
+        "characters": [
+          {
+            "hiragana": "た",
+            "romaji": "ta",
+            "stroke_count": 3,
+            "mnemonic": "She has a ponytail.“t” and “a” spell “ta”.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ち",
+            "romaji": "chi",
+            "stroke_count": 2,
+            "mnemonic": "A cheerleader.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "つ",
+            "romaji": "tsu",
+            "stroke_count": 1,
+            "mnemonic": "Tsunami waves can be very destructive.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "て",
+            "romaji": "te",
+            "stroke_count": 2,
+            "mnemonic": "The shape of “TE” is in the palm of your right hand, and the word for “hand” in Japanese is “TE.”",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "と",
+            "romaji": "to",
+            "stroke_count": 2,
+            "mnemonic": "Ouch! There’s a thorn in my toe!",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise":[
+          {
+            "example_word_hira": "たけ",
+            "example_word_eng": "bamboo",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ちち",
+            "example_word_eng": "father",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "くつ",
+            "example_word_eng": "shoes",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ちかてつ",
+            "example_word_eng": "subway",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "いと",
+            "example_word_eng": "thread",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.5",
+        "row": "な-ぎょう",
+        "characters":[
+          {
+            "hiragana": "な",
+            "romaji": "na",
+            "stroke_count": 4,
+            "mnemonic": "A beaver gnawing on a tree",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "に",
+            "romaji": "ni",
+            "stroke_count": 3,
+            "mnemonic": "A knee",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ぬ",
+            "romaji": "nu",
+            "stroke_count": 2,
+            "mnemonic": "A new bicycle",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ね",
+            "romaji": "ne",
+            "stroke_count": 2,
+            "mnemonic": "A nest in a tree",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "の",
+            "romaji": "no",
+            "stroke_count": 1,
+            "mnemonic": "“No Parking”",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "さかな",
+            "example_word_eng": "fish",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "にく",
+            "example_word_eng": "meat",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "いぬ",
+            "example_word_eng": "dog",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ねこ",
+            "example_word_eng": "cat",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "おとこのこ",
+            "example_word_eng": "man",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.6",
+        "row": "は ぎょう",
+        "characters":[
+          {
+            "hiragana": "は",
+            "romaji": "ha",
+            "stroke_count": 3,
+            "mnemonic": "A hockey player",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ひ",
+            "romaji": "hi",
+            "stroke_count": 1,
+            "mnemonic": "He has a big smile on his face.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ふ",
+            "romaji": "fu",
+            "stroke_count": 4,
+            "mnemonic": "Mount Fuji is a dormant volcano.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "へ",
+            "romaji": "he",
+            "stroke_count": 1,
+            "mnemonic": "An arrow pointing to heaven.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ほ",
+            "romaji": "ho",
+            "stroke_count": 4,
+            "mnemonic": "Holding the hockey stick with two hands he is ready to play!",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "はな",
+            "example_word_eng": "flower",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ひと",
+            "example_word_eng": "person",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ふね",
+            "example_word_eng": "ship",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "へた",
+            "example_word_eng": "calyx",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ほし",
+            "example_word_eng": "start",
+            "example_image": ""
+          }
+        ]
+      }
+    ],
+    "reading":[
+      "へ", "に", "そ", "あ", "つ", "き", "て", "ね", "す", "ほ", "ぬ", "た", "か", "さ",
+      "い", "く", "は", "お", "な", "と", "ふ", "せ", "の", "け", "う", "ち", "え", "し",
+      "こ", "ひ"
+    ]
+  },
+  {
+    "lesson": "ま,や,ら,わ rows",
+    "characters":[
+      {
+        "chapter": "1.7",
+        "row": "ま-ぎょう",
+        "characters": [
+          {
+            "hiragana": "ま",
+            "romaji": "ma",
+            "stroke_count": 3,
+            "mnemonic": "He will mop the floor.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "み",
+            "romaji": "mi",
+            "stroke_count": 2,
+            "mnemonic": "Who is number 21?  Me!",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "む",
+            "romaji": "mu",
+            "stroke_count": 3,
+            "mnemonic": "Moo!",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "め",
+            "romaji": "me",
+            "stroke_count": 2,
+            "mnemonic": "This bicycle needs a mechanic.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "も",
+            "romaji": "mo",
+            "stroke_count": 3,
+            "mnemonic": "You can catch more fish with more bait.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "あたま",
+            "example_word_eng": "head",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "うみ",
+            "example_word_eng": "sea",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "のむ",
+            "example_word_eng": "drink",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "め",
+            "example_word_eng": "eye",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "にもつ",
+            "example_word_eng": "baggage",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.8",
+        "row": "やーぎょう",
+        "characters":[
+          {
+            "hiragana": "や",
+            "romaji": "ya",
+            "stroke_count": 3,
+            "mnemonic": "100% wool yarn (and two knitting needles)",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ゆ",
+            "romaji": "yu",
+            "stroke_count": 3,
+            "mnemonic": "You stabbed the fish!",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "よ",
+            "romaji": "yo",
+            "stroke_count": 3,
+            "mnemonic": "A Yo-yo",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "やま",
+            "example_word_eng": "mountain",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "やすむ",
+            "example_word_eng": "rest",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ゆき",
+            "example_word_eng": "snow",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ゆめ",
+            "example_word_eng": "dream",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "よむ",
+            "example_word_eng": "read",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.9",
+        "row": "らーぎょう",
+        "characters": [
+          {
+            "hiragana": "ら",
+            "romaji": "ra",
+            "stroke_count": 2,
+            "mnemonic": "The fan cheered: Rah! Rah! Rah!",
+            "mnemonic_image": "/assets/hiragana/o.jpeg"
+          },
+          {
+            "hiragana": "り",
+            "romaji": "ri",
+            "stroke_count": 2,
+            "mnemonic": "A ring on your finger.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "る",
+            "romaji": "ru",
+            "stroke_count": 1,
+            "mnemonic": "Three (3) rubies",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "れ",
+            "romaji": "re",
+            "stroke_count": 2,
+            "mnemonic": "The radio tower was struck by lightning.",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ろ",
+            "romaji": "ro",
+            "stroke_count": 1,
+            "mnemonic": "The three (3) rubies rolled away!",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "さくら",
+            "example_word_eng": "cherry blossom",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "くすり",
+            "example_word_eng": "medicine",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "くるま",
+            "example_word_eng": "car",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "れつ",
+            "example_word_eng": "row",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "くろ",
+            "example_word_eng": "black",
+            "example_image": ""
+          }
+        ]
+      },
+      {
+        "chapter": "1.10",
+        "row": "わ-ぎょう",
+        "characters": [
+          {
+            "hiragana": "わ",
+            "romaji": "wa",
+            "stroke_count": 3,
+            "mnemonic": "A waterfall rushing past a tree",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "を",
+            "romaji": "wo",
+            "stroke_count": 3,
+            "mnemonic": "“Whoa!” calls the cowboy to his horse. ",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          },
+          {
+            "hiragana": "ん",
+            "romaji": "n",
+            "stroke_count": 1,
+            "mnemonic": "It sounds a bit like the letter “n.”",
+            "mnemonic_image": "/assets/hiragana/a.jpeg"
+          }
+        ],
+        "exercise": [
+          {
+            "example_word_hira": "こわい",
+            "example_word_eng": "scary",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "わに",
+            "example_word_eng": "crocodile",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "えを かく",
+            "example_word_eng": "draw a picture",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "ほん",
+            "example_word_eng": "book",
+            "example_image": ""
+          },
+          {
+            "example_word_hira": "しんかんせん",
+            "example_word_eng": "bullet train",
+            "example_image": ""
+          }
+        ]
+      }
+    ],
+    "reading":[
+        "さ", "く", "ら", "え", "ろ", "な", "う", "け", "ま", "せ", "ほ", "の",
+        "す", "お", "こ", "に", "り", "し", "た", "よ", "む", "そ", "わ", "へ",
+        "ろ", "み", "ゆ", "は", "め", "ち", "い", "ぬ", "と", "を", "き", "れ",
+        "か", "あ", "ふ", "も", "ん", "て", "ね", "ひ", "つ"
+    ]
+  }
+]

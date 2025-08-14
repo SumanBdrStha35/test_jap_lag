@@ -1,0 +1,20 @@
+[
+  { "kanji": "有る", "hiragana": "ある", "meaning": "be, there is, there are" },
+  { "kanji": "売る", "hiragana": "うる", "meaning": "sell" },
+  { "kanji": "帰る", "hiragana": "かえる", "meaning": "go home, return" },
+  { "kanji": "切る", "hiragana": "きる", "meaning": "cut" },
+  { "kanji": "来る", "hiragana": "くる", "meaning": "come" },
+  { "kanji": "困る", "hiragana": "こまる", "meaning": "be in trouble" },
+  { "kanji": "知る", "hiragana": "しる", "meaning": "know" },
+  { "kanji": "座る", "hiragana": "すわる", "meaning": "sit" },
+  { "kanji": "作る", "hiragana": "つくる", "meaning": "create, make, cook" },
+  { "kanji": "出来る", "hiragana": "できる", "meaning": "can do, be done" },
+  { "kanji": "出る", "hiragana": "でる", "meaning": "go out, attend, come out" },
+  { "kanji": "取る", "hiragana": "とる", "meaning": "take, pick something up" },
+  { "kanji": "登る", "hiragana": "のぼる", "meaning": "climb" },
+  { "kanji": "乗る", "hiragana": "のる", "meaning": "get on, ride" },
+  { "kanji": "入る", "hiragana": "はいる", "meaning": "enter" },
+  { "kanji": "走る", "hiragana": "はしる", "meaning": "run" },
+  { "kanji": "降る", "hiragana": "ふる", "meaning": "fall (rain, snow)" },
+  { "kanji": "見る", "hiragana": "みる", "meaning": "see, watch, look" }
+]

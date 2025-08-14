@@ -1,0 +1,172 @@
+[
+  {
+    "translation": {
+      "english": "I am a student too.",
+      "hiragana0": "わたし",
+      "hiragana1": "がくせい です。",
+      "romaji0": "wa ta shi",
+      "romaji1": "ga ku se i de su"
+    },
+    "choices": [
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "か", "romaji": "ka"}
+    ],
+    "correct_answer": {"hiragana": "も", "romaji": "mo"}
+  },
+  {
+    "translation": {
+      "english": "I am in the hospital now.",
+      "hiragana0": "わたし は いま びょういん",
+      "hiragana1": "います。",
+      "romaji0": "wa ta shi wa i ma byo u i n",
+      "romaji1": "i ma su"
+    },
+    "choices": [
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "も", "romaji": "mo"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "I will go to the hospital.",
+      "hiragana0": "わたし は びょういん",
+      "hiragana1": "いきます。",
+      "romaji0": "wa ta shi wa byo u i n",
+      "romaji1": "i ki ma su"
+    },
+    "choices": [
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "My son is also a student.",
+      "hiragana0": "わたし",
+      "hiragana1": "むすこ も がくせい です。",
+      "romaji0": "wa ta shi",
+      "romaji1": "mu su ko mo ga ku se i de su"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "か", "romaji": "ka"}
+    ],
+    "correct_answer": {"hiragana": "の", "romaji": "no"}
+  },
+  {
+    "translation": {
+      "english": "I ate the curry with a spoon.",
+      "hiragana0": "スプーン",
+      "hiragana1": "カレー を たべました。",
+      "romaji0": "su pu n",
+      "romaji1": "ka re o ta be ma shi ta"
+    },
+    "choices": [
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  },
+  {
+    "translation": {
+      "english": "I ate curry in a restaurant.",
+      "hiragana0": "レストラン",
+      "hiragana1": "カレー を たべました。",
+      "romaji0": "re su to ra n",
+      "romaji1": "ka re o ta be ma shi ta"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "か", "romaji": "ka"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  },
+  {
+    "translation": {
+      "english": "I eat ramen or sushi.",
+      "hiragana0": "ラーメン",
+      "hiragana1": "すし を たべます。",
+      "romaji0": "ra me n",
+      "romaji1": "su shi o ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "の", "romaji": "no"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "を", "romaji": "o"}
+    ],
+    "correct_answer": {"hiragana": "か", "romaji": "ka"}
+  },
+  {
+    "translation": {
+      "english": "I eat sushi with my teacher.",
+      "hiragana0": "せんせい",
+      "hiragana1": "すし を たべます。",
+      "romaji0": "se n se i",
+      "romaji1": "su shi o ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "が", "romaji": "ga"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "と", "romaji": "to"}
+    ],
+    "correct_answer": {"hiragana": "と", "romaji": "to"}
+  },
+  {
+    "translation": {
+      "english": "I eat ramen and sushi.",
+      "hiragana0": "ラーメン",
+      "hiragana1": "すし を たべます。",
+      "romaji0": "ra me n",
+      "romaji1": "su shi o ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "の", "romaji": "no"}
+    ],
+    "correct_answer": {"hiragana": "と", "romaji": "to"}
+  },
+  {
+    "translation": {
+      "english": "I will go to the hospital on Monday.",
+      "hiragana0": "わたし は げつようび",
+      "hiragana1": "びょういん に いきます。",
+      "romaji0": "wa ta shi wa ge tsu yo u bi",
+      "romaji1": "byo u i n ni i ki ma su"
+    },
+    "choices": [
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "とき", "romaji": "to ki"},
+      {"hiragana": "に", "romaji": "ni"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  }
+]

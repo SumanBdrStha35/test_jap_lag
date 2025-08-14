@@ -1,0 +1,16 @@
+[
+  { "kanji": "開く", "hiragana": "あく", "meaning": "open" },
+  { "kanji": "歩く", "hiragana": "あるく", "meaning": "walk" },
+  { "kanji": "行く", "hiragana": "いく", "meaning": "go" },
+  { "kanji": "置く", "hiragana": "おく", "meaning": "put, place" },
+  { "kanji": "泳ぐ", "hiragana": "およぐ", "meaning": "swim" },
+  { "kanji": "書く", "hiragana": "かく", "meaning": "write" },
+  { "kanji": "聞く", "hiragana": "きく", "meaning": "listen, hear" },
+  { "kanji": "着く", "hiragana": "つく", "meaning": "arrive" },
+  { "kanji": "脱ぐ", "hiragana": "ぬぐ", "meaning": "take off, undress" },
+  { "kanji": "履く", "hiragana": "はく", "meaning": "wear (pants), put on (shoes)" },
+  { "kanji": "働く", "hiragana": "はたらく", "meaning": "work" },
+  { "kanji": "引く", "hiragana": "ひく", "meaning": "pull" },
+  { "kanji": "吹く", "hiragana": "ふく", "meaning": "blow, breathe out" },
+  { "kanji": "磨く", "hiragana": "みがく", "meaning": "polish, brush" }
+]

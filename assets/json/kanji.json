@@ -1,0 +1,2021 @@
+{
+  "1": {
+    "category": "数字 (すうじ / Numbers)",
+    "image": "assets/dummy1.webp",
+    "description": "Basic counting and currency kanji",
+    "kanji": [
+      {
+        "kanji": "一",
+        "meaning": "One",
+        "readings": {
+          "onyomi": "イチ",
+          "kunyomi": "ひと(つ)"
+        },
+        "examples": [
+          "一つ (ひとつ) - one thing",
+          "一人 (ひとり) - one person",
+          "一月 (いちがつ) - January"
+        ],
+        "stroke_count": 1,
+        "mnemonic": "A single horizontal line representing the number one",
+        "gif": "https://example.com/gifs/一.gif",
+        "image": "assets/dummy1.webp",
+        "stroke_image": "assets/strokes/001.png"
+      },
+      {
+        "kanji": "二",
+        "meaning": "Two",
+        "readings": {
+          "onyomi": "ニ",
+          "kunyomi": "ふた(つ)"
+        },
+        "examples": [
+          "二つ (ふたつ) - two things",
+          "二人 (ふたり) - two people",
+          "二月 (にがつ) - February"
+        ],
+        "stroke_count": 2,
+        "mnemonic": "Two horizontal lines stacked",
+        "gif": "https://example.com/gifs/二.gif",
+        "image": "",
+        "stroke_image": ""
+      },
+      {
+        "kanji": "三",
+        "meaning": "Three",
+        "readings": {
+          "onyomi": "サン",
+          "kunyomi": "みっ(つ)"
+        },
+        "examples": [
+          "三つ (みっつ) - three things",
+          "三人 (さんにん) - three people",
+          "三月 (さんがつ) - March"
+        ],
+        "stroke_count": 3,
+        "mnemonic": "Three horizontal lines stacked",
+        "gif": "https://example.com/gifs/三.gif",
+        "image": "",
+        "stroke_image": ""
+      },
+      {
+        "kanji": "四",
+        "meaning": "Four",
+        "readings": {
+          "onyomi": "シ",
+          "kunyomi": "よん/よっ(つ)"
+        },
+        "examples": [
+          "四つ (よっつ) - four things",
+          "四人 (よにん) - four people",
+          "四月 (しがつ) - April"
+        ],
+        "stroke_count": 5,
+        "mnemonic": "Four sides to a square",
+        "gif": "https://example.com/gifs/四.gif",
+        "image": "",
+        "stroke_image": ""
+      },
+      {
+        "kanji": "五",
+        "meaning": "Five",
+        "readings": {
+          "onyomi": "ゴ",
+          "kunyomi": "いつ(つ)"
+        },
+        "examples": [
+          "五つ (いつつ) - five things",
+          "五人 (ごにん) - five people",
+          "五月 (ごがつ) - May"
+        ],
+        "stroke_count": 4,
+        "mnemonic": "Resembles the number 5",
+        "gif": "https://example.com/gifs/五.gif",
+        "image": "",
+        "stroke_image": ""
+      },
+      {
+        "kanji": "六",
+        "meaning": "Six",
+        "readings": {
+          "onyomi": "ロク",
+          "kunyomi": "むっ(つ)"
+        },
+        "examples": [
+          "六つ (むっつ) - six things",
+          "六人 (ろくにん) - six people",
+          "六月 (ろくがつ) - June"
+        ],
+        "stroke_count": 4,
+        "mnemonic": "Lid over a box",
+        "gif": "https://example.com/gifs/六.gif"
+      },
+      {
+        "kanji": "七",
+        "meaning": "Seven",
+        "readings": {
+          "onyomi": "シチ",
+          "kunyomi": "なな(つ)"
+        },
+        "examples": [
+          "七つ (ななつ) - seven things",
+          "七人 (しちにん) - seven people",
+          "七月 (しちがつ) - July"
+        ],
+        "stroke_count": 2,
+        "mnemonic": "Seven with a hook",
+        "gif": "https://example.com/gifs/七.gif"
+      },
+      {
+        "kanji": "八",
+        "meaning": "Eight",
+        "readings": {
+          "onyomi": "ハチ",
+          "kunyomi": "やっ(つ)"
+        },
+        "examples": [
+          "八つ (やっつ) - eight things",
+          "八人 (はちにん) - eight people",
+          "八月 (はちがつ) - August"
+        ],
+        "stroke_count": 2,
+        "mnemonic": "Two diverging lines",
+        "gif": "https://example.com/gifs/八.gif"
+      },
+      {
+        "kanji": "九",
+        "meaning": "Nine",
+        "readings": {
+          "onyomi": "キュウ",
+          "kunyomi": "ここの(つ)"
+        },
+        "examples": [
+          "九つ (ここのつ) - nine things",
+          "九人 (きゅうにん) - nine people",
+          "九月 (くがつ) - September"
+        ],
+        "stroke_count": 2,
+        "mnemonic": "Hook with a line",
+        "gif": "https://example.com/gifs/九.gif"
+      },
+      {
+        "kanji": "十",
+        "meaning": "Ten",
+        "readings": {
+          "onyomi": "ジュウ",
+          "kunyomi": "とお"
+        },
+        "examples": [
+          "十 (とお) - ten",
+          "十人 (じゅうにん) - ten people",
+          "十月 (じゅうがつ) - October"
+        ],
+        "stroke_count": 2,
+        "mnemonic": "Cross shape",
+        "gif": "https://example.com/gifs/十.gif"
+      },
+      {
+        "kanji": "百",
+        "meaning": "Hundred",
+        "readings": {
+          "onyomi": "ヒャク",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "百 (ひゃく) - one hundred",
+          "百円 (ひゃくえん) - 100 yen",
+          "三百 (さんびゃく) - three hundred"
+        ],
+        "stroke_count": 6,
+        "mnemonic": "Centipede wearing a hat",
+        "gif": "https://example.com/gifs/百.gif"
+      },
+      {
+        "kanji": "千",
+        "meaning": "Thousand",
+        "readings": {
+          "onyomi": "セン",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "千 (せん) - one thousand",
+          "千円 (せんえん) - 1,000 yen",
+          "三千 (さんぜん) - three thousand"
+        ],
+        "stroke_count": 3,
+        "mnemonic": "Person shouting from a cliff",
+        "gif": "https://example.com/gifs/千.gif"
+      },
+      {
+        "kanji": "万",
+        "meaning": "Ten thousand",
+        "readings": {
+          "onyomi": "マン",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "一万 (いちまん) - ten thousand",
+          "百万 (ひゃくまん) - one million",
+          "万円 (まんえん) - 10,000 yen"
+        ],
+        "stroke_count": 3,
+        "mnemonic": "Swarm of bees under a roof",
+        "gif": "https://example.com/gifs/万.gif"
+      },
+      {
+        "kanji": "円",
+        "meaning": "Yen/Circle",
+        "readings": {
+          "onyomi": "エン",
+          "kunyomi": "まる(い)"
+        },
+        "examples": [
+          "百円 (ひゃくえん) - 100 yen",
+          "円い (まるい) - round",
+          "千円札 (せんえんさつ) - 1,000 yen bill"
+        ],
+        "stroke_count": 4,
+        "mnemonic": "Round coin with legs",
+        "gif": "https://example.com/gifs/円.gif"
+      }
+    ]
+  },
+  "2":{
+    "category": "暦の漢字 (こよみのかんじ / Calendar Kanji)",
+    "image": "assets/dummy1.webp",
+    "description": "Kanji used in dates, days, and time periods",
+    "kanji": [
+      {
+        "kanji": "月",
+        "meaning": "Moon/Month",
+        "readings": {
+          "onyomi": "ゲツ, ガツ",
+          "kunyomi": "つき"
+        },
+        "examples": [
+          "一月 (いちがつ) - January",
+          "月曜日 (げつようび) - Monday",
+          "今月 (こんげつ) - this month"
+        ],
+        "calendar_usage": "Used in month names and Monday",
+        "mnemonic": "Looks like a crescent moon in the night sky",
+        "stroke_count": 4,
+        "gif": "https://example.com/gifs/月.gif"
+      },
+      {
+        "kanji": "火",
+        "meaning": "Fire",
+        "readings": {
+          "onyomi": "カ",
+          "kunyomi": "ひ"
+        },
+        "examples": [
+          "火曜日 (かようび) - Tuesday",
+          "火山 (かざん) - volcano",
+          "火事 (かじ) - fire (disaster)"
+        ],
+        "calendar_usage": "Used for Tuesday",
+        "mnemonic": "Flames flickering upward like fire",
+        "stroke_count": 4,
+        "gif": "https://example.com/gifs/火.gif"
+      },
+      {
+        "kanji": "水",
+        "meaning": "Water",
+        "readings": {
+          "onyomi": "スイ",
+          "kunyomi": "みず"
+        },
+        "examples": [
+          "水曜日 (すいようび) - Wednesday",
+          "水泳 (すいえい) - swimming",
+          "水道 (すいどう) - water supply"
+        ],
+        "calendar_usage": "Used for Wednesday",
+        "mnemonic": "Flowing water drops or waves",
+        "stroke_count": 4,
+        "gif": "https://example.com/gifs/水.gif"
+      },
+      {
+        "kanji": "木",
+        "meaning": "Tree",
+        "readings": {
+          "onyomi": "モク, ボク",
+          "kunyomi": "き"
+        },
+        "examples": [
+          "木曜日 (もくようび) - Thursday",
+          "木 (き) - tree",
+          "木材 (もくざい) - lumber"
+        ],
+        "calendar_usage": "Used for Thursday",
+        "mnemonic": "A tree with branches and roots",
+        "stroke_count": 4,
+        "gif": "https://example.com/gifs/木.gif"
+      },
+      {
+        "kanji": "金",
+        "meaning": "Gold/Metal",
+        "readings": {
+          "onyomi": "キン, コン",
+          "kunyomi": "かね"
+        },
+        "examples": [
+          "金曜日 (きんようび) - Friday",
+          "お金 (おかね) - money",
+          "金色 (きんいろ) - gold color"
+        ],
+        "calendar_usage": "Used for Friday",
+        "mnemonic": "Shiny gold bars or coins",
+        "stroke_count": 8,
+        "gif": "https://example.com/gifs/金.gif"
+      },
+      {
+        "kanji": "土",
+        "meaning": "Soil/Earth",
+        "readings": {
+          "onyomi": "ド, ト",
+          "kunyomi": "つち"
+        },
+        "examples": [
+          "土曜日 (どようび) - Saturday",
+          "土 (つち) - soil",
+          "土木 (どぼく) - civil engineering"
+        ],
+        "calendar_usage": "Used for Saturday",
+        "mnemonic": "Ground or soil with layers",
+        "stroke_count": 3,
+        "gif": "https://example.com/gifs/土.gif"
+      },
+      {
+        "kanji": "日",
+        "meaning": "Sun/Day",
+        "readings": {
+          "onyomi": "ニチ, ジツ",
+          "kunyomi": "ひ, か"
+        },
+        "examples": [
+          "日曜日 (にちようび) - Sunday",
+          "一日 (ついたち) - 1st day of month",
+          "日本 (にほん) - Japan"
+        ],
+        "calendar_usage": "Used for Sunday and dates",
+        "mnemonic": "A bright sun shining in the sky",
+        "stroke_count": 4,
+        "gif": "https://example.com/gifs/日.gif"
+      },
+      {
+        "kanji": "年",
+        "meaning": "Year",
+        "readings": {
+          "onyomi": "ネン",
+          "kunyomi": "とし"
+        },
+        "examples": [
+          "今年 (ことし) - this year",
+          "去年 (きょねん) - last year",
+          "三年生 (さんねんせい) - 3rd grade student"
+        ],
+        "calendar_usage": "Used for years and school grades",
+        "mnemonic": "A person carrying a heavy load representing a year",
+        "stroke_count": 6,
+        "gif": "https://example.com/gifs/年.gif"
+      },
+      {
+        "kanji": "分",
+        "meaning": "Minute/Part",
+        "readings": {
+          "onyomi": "フン, ブン",
+          "kunyomi": "わ(かる)"
+        },
+        "examples": [
+          "五分 (ごふん) - five minutes",
+          "分かる (わかる) - to understand",
+          "十分 (じゅうぶん) - enough"
+        ],
+        "calendar_usage": "Used for telling time (minutes)",
+        "mnemonic": "A sword used to divide things, like time",
+        "stroke_count": 4,
+        "gif": "https://example.com/gifs/分.gif"
+      }
+    ],
+    "weekday_pattern": [
+      "日 Sun | 月 Mon | 火 Tue | 水 Wed | 木 Thu | 金 Fri | 土 Sat"
+    ]
+  },
+  "3": {
+    "category": "体の部分 (からだのぶぶん / Body Parts)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for human body vocabulary",
+    "kanji": [
+      {
+        "kanji": "人",
+        "meaning": "Person",
+        "readings": {
+          "onyomi": "ジン, ニン",
+          "kunyomi": "ひと"
+        },
+        "examples": [
+          "人 (ひと) - person",
+          "日本人 (にほんじん) - Japanese person",
+          "三人 (さんにん) - three people"
+        ],
+        "body_usage": "Base character for human-related terms",
+        "mnemonic": "Two legs walking - the simplest human form"
+      },
+      {
+        "kanji": "口",
+        "meaning": "Mouth",
+        "readings": {
+          "onyomi": "コウ, ク",
+          "kunyomi": "くち"
+        },
+        "examples": [
+          "口 (くち) - mouth",
+          "人口 (じんこう) - population",
+          "口紅 (くちべに) - lipstick"
+        ],
+        "mnemonic": "Looks like an open mouth"
+      },
+      {
+        "kanji": "目",
+        "meaning": "Eye",
+        "readings": {
+          "onyomi": "モク, ボク",
+          "kunyomi": "め"
+        },
+        "examples": [
+          "目 (め) - eye",
+          "目上 (めうえ) - superior",
+          "目的 (もくてき) - purpose"
+        ],
+        "mnemonic": "Horizontal strokes resemble eyelashes"
+      },
+      {
+        "kanji": "耳",
+        "meaning": "Ear",
+        "readings": {
+          "onyomi": "ジ",
+          "kunyomi": "みみ"
+        },
+        "examples": [
+          "耳 (みみ) - ear",
+          "耳鼻科 (じびか) - ENT clinic",
+          "耳飾り (みみかざり) - earring"
+        ],
+        "mnemonic": "Shape resembles an ear"
+      },
+      {
+        "kanji": "手",
+        "meaning": "Hand",
+        "readings": {
+          "onyomi": "シュ",
+          "kunyomi": "て"
+        },
+        "examples": [
+          "手 (て) - hand",
+          "手術 (しゅじゅつ) - surgery",
+          "手紙 (てがみ) - letter"
+        ],
+        "mnemonic": "Looks like fingers extending"
+      },
+      {
+        "kanji": "足",
+        "meaning": "Foot/Leg",
+        "readings": {
+          "onyomi": "ソク",
+          "kunyomi": "あし"
+        },
+        "examples": [
+          "足 (あし) - foot/leg",
+          "足音 (あしおと) - footsteps",
+          "満足 (まんぞく) - satisfaction"
+        ],
+        "mnemonic": "The 口 is the knee, 止 is the foot"
+      },
+      {
+        "kanji": "力",
+        "meaning": "Power/Strength",
+        "readings": {
+          "onyomi": "リョク, リキ",
+          "kunyomi": "ちから"
+        },
+        "examples": [
+          "力 (ちから) - strength",
+          "努力 (どりょく) - effort",
+          "電力 (でんりょく) - electric power"
+        ],
+        "body_usage": "Represents physical strength",
+        "mnemonic": "A flexed bicep muscle showing strength"
+      }
+    ]
+  },
+  "4": {
+    "category": "自然の漢字 (しぜんのかんじ / Nature Kanji)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for natural elements and landscapes",
+    "kanji": [
+      {
+        "kanji": "山",
+        "meaning": "Mountain",
+        "readings": {
+          "onyomi": "サン",
+          "kunyomi": "やま"
+        },
+        "examples": [
+          "富士山 (ふじさん) - Mt. Fuji",
+          "山登り (やまのぼり) - mountain climbing",
+          "火山 (かざん) - volcano"
+        ],
+        "mnemonic": "Three peaks of a mountain range"
+      },
+      {
+        "kanji": "川",
+        "meaning": "River",
+        "readings": {
+          "onyomi": "セン",
+          "kunyomi": "かわ"
+        },
+        "examples": [
+          "小川 (おがわ) - stream",
+          "川岸 (かわぎし) - riverbank",
+          "河川 (かせん) - rivers (formal)"
+        ],
+        "mnemonic": "Three flowing water lines"
+      },
+      {
+        "kanji": "田",
+        "meaning": "Rice Field",
+        "readings": {
+          "onyomi": "デン",
+          "kunyomi": "た"
+        },
+        "examples": [
+          "田んぼ (たんぼ) - rice paddy",
+          "田舎 (いなか) - countryside",
+          "水田 (すいでん) - irrigated rice field"
+        ],
+        "mnemonic": "Grid of rice field divisions"
+      },
+      {
+        "kanji": "石",
+        "meaning": "Stone",
+        "readings": {
+          "onyomi": "セキ, シャク",
+          "kunyomi": "いし"
+        },
+        "examples": [
+          "石 (いし) - stone",
+          "宝石 (ほうせき) - jewel",
+          "磁石 (じしゃく) - magnet"
+        ],
+        "mnemonic": "Cliff (厂) with a mouth-shaped stone (口) below"
+      },
+      {
+        "kanji": "花",
+        "meaning": "Flower",
+        "readings": {
+          "onyomi": "カ",
+          "kunyomi": "はな"
+        },
+        "examples": [
+          "花見 (はなみ) - flower viewing",
+          "桜花 (おうか) - cherry blossoms",
+          "花瓶 (かびん) - flower vase"
+        ],
+        "mnemonic": "Plants (艹) transforming (化) into flowers"
+      },
+      {
+        "kanji": "竹",
+        "meaning": "Bamboo",
+        "readings": {
+          "onyomi": "チク",
+          "kunyomi": "たけ"
+        },
+        "examples": [
+          "竹 (たけ) - bamboo",
+          "竹林 (ちくりん) - bamboo forest",
+          "竹馬 (たけうま) - stilts (lit. bamboo horse)"
+        ],
+        "mnemonic": "Two bamboo stalks with leaves"
+      },
+      {
+        "kanji": "雨",
+        "meaning": "Rain",
+        "readings": {
+          "onyomi": "ウ",
+          "kunyomi": "あめ"
+        },
+        "examples": [
+          "大雨 (おおあめ) - heavy rain",
+          "雨天 (うてん) - rainy weather",
+          "梅雨 (つゆ) - rainy season"
+        ],
+        "mnemonic": "Cloud (一) with falling raindrops"
+      }
+    ]
+  },
+  "5": {
+    "category": "方向の漢字 (ほうこうのかんじ / Directional Kanji)",
+    "image": "assets/dummy1.webp",
+    "description": "Kanji derived from symbolic representations of spatial relationships",
+    "kanji": [
+      {
+        "kanji": "上",
+        "meaning": "Up/Above",
+        "origin": "Symbol of a plant growing upward",
+        "readings": {
+          "onyomi": "ジョウ",
+          "kunyomi": "うえ, あ(がる)"
+        },
+        "examples": [
+          "上 (うえ) - above",
+          "上手 (じょうず) - skillful (lit. 'upper hand')",
+          "上がる (あがる) - to rise"
+        ],
+        "mnemonic": "The short line points upward from the base"
+      },
+      {
+        "kanji": "下",
+        "meaning": "Down/Below",
+        "origin": "Symbol of roots growing downward",
+        "readings": {
+          "onyomi": "カ, ゲ",
+          "kunyomi": "した, さ(がる)"
+        },
+        "examples": [
+          "下 (した) - below",
+          "下手 (へた) - unskillful (lit. 'lower hand')",
+          "下がる (さがる) - to descend"
+        ],
+        "mnemonic": "The dot points downward like a falling object"
+      },
+      {
+        "kanji": "左",
+        "meaning": "Left",
+        "origin": "Symbol of a left hand holding a tool",
+        "readings": {
+          "onyomi": "サ",
+          "kunyomi": "ひだり"
+        },
+        "examples": [
+          "左 (ひだり) - left",
+          "左右 (さゆう) - left and right",
+          "左側 (ひだりがわ) - left side"
+        ],
+        "mnemonic": "The 工 radical resembles a carpenter's square held in the left hand"
+      },
+      {
+        "kanji": "右",
+        "meaning": "Right",
+        "origin": "Symbol of a right hand near a mouth (for eating)",
+        "readings": {
+          "onyomi": "ウ, ユウ",
+          "kunyomi": "みぎ"
+        },
+        "examples": [
+          "右 (みぎ) - right",
+          "右折 (うせつ) - right turn",
+          "右側 (みぎがわ) - right side"
+        ],
+        "mnemonic": "The 口 represents a mouth being fed by the right hand"
+      },
+      {
+        "kanji": "外",
+        "meaning": "Outside",
+        "origin": "Moon (夕) beyond boundaries",
+        "readings": {
+          "onyomi": "ガイ, ゲ",
+          "kunyomi": "そと, はず(れる)"
+        },
+        "examples": [
+          "外 (そと) - outside",
+          "外国 (がいこく) - foreign country",
+          "外出 (がいしゅつ) - going out"
+        ],
+        "mnemonic": "Evening (夕) outside the walls"
+      },
+      {
+        "kanji": "内",
+        "meaning": "Inside",
+        "origin": "Symbol of something within boundaries",
+        "readings": {
+          "onyomi": "ナイ",
+          "kunyomi": "うち"
+        },
+        "examples": [
+          "内 (うち) - inside",
+          "国内 (こくない) - domestic",
+          "内容 (ないよう) - contents"
+        ],
+        "mnemonic": "Person (人) within walls"
+      },
+      {
+        "kanji": "中",
+        "meaning": "Middle/Inside",
+        "origin": "Arrow piercing through the center",
+        "readings": {
+          "onyomi": "チュウ",
+          "kunyomi": "なか"
+        },
+        "examples": [
+          "中 (なか) - inside",
+          "中国 (ちゅうごく) - China (Middle Kingdom)",
+          "中止 (ちゅうし) - cancellation"
+        ],
+        "mnemonic": "Line through a box marks the center"
+      }
+    ]
+  },
+  "6": {
+    "category": "学校の漢字 (がっこうのかんじ / School Kanji)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for school life and education",
+    "kanji": [
+      {
+        "kanji": "学",
+        "meaning": "Study/Learn",
+        "readings": {
+          "onyomi": "ガク",
+          "kunyomi": "まな(ぶ)"
+        },
+        "examples": [
+          "学生 (がくせい) - student",
+          "学校 (がっこう) - school",
+          "数学 (すうがく) - mathematics",
+          "学ぶ (まなぶ) - to learn"
+        ],
+        "mnemonic": "Child (子) under a roof (宀) with books"
+      },
+      {
+        "kanji": "校",
+        "meaning": "School",
+        "readings": {
+          "onyomi": "コウ",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "学校 (がっこう) - school",
+          "校長 (こうちょう) - principal",
+          "校舎 (こうしゃ) - school building"
+        ],
+        "mnemonic": "Wooden (木) structure where knowledge is exchanged (交)"
+      },
+      {
+        "kanji": "先",
+        "meaning": "Previous/Ahead",
+        "readings": {
+          "onyomi": "セン",
+          "kunyomi": "さき"
+        },
+        "examples": [
+          "先生 (せんせい) - teacher",
+          "先週 (せんしゅう) - last week",
+          "先輩 (せんぱい) - senior"
+        ],
+        "school_usage": "Used for seniority in school hierarchy",
+        "mnemonic": "A person (儿) with a pointed hat (⺧) going first"
+      },
+      {
+        "kanji": "生",
+        "meaning": "Life/Student",
+        "readings": {
+          "onyomi": "セイ, ショウ",
+          "kunyomi": "い(きる), う(まれる)"
+        },
+        "examples": [
+          "学生 (がくせい) - student",
+          "生活 (せいかつ) - daily life",
+          "誕生日 (たんじょうび) - birthday"
+        ],
+        "mnemonic": "Plant sprouting from earth (life beginning)"
+      },
+      {
+        "kanji": "名",
+        "meaning": "Name",
+        "readings": {
+          "onyomi": "メイ, ミョウ",
+          "kunyomi": "な"
+        },
+        "examples": [
+          "名前 (なまえ) - name",
+          "名簿 (めいぼ) - register (class list)",
+          "名字 (みょうじ) - surname"
+        ],
+        "school_usage": "Used in attendance lists and IDs",
+        "mnemonic": "Evening (夕) when people call names by mouth (口)"
+      },
+      {
+        "kanji": "字",
+        "meaning": "Character/Writing",
+        "readings": {
+          "onyomi": "ジ",
+          "kunyomi": "あざ"
+        },
+        "examples": [
+          "漢字 (かんじ) - kanji",
+          "文字 (もじ) - written characters",
+          "字典 (じてん) - character dictionary"
+        ],
+        "mnemonic": "Child (子) under a roof (宀) learning letters"
+      },
+      {
+        "kanji": "本",
+        "meaning": "Book/Origin",
+        "readings": {
+          "onyomi": "ホン",
+          "kunyomi": "もと"
+        },
+        "examples": [
+          "教科書 (きょうかしょ) - textbook",
+          "基本 (きほん) - foundation",
+          "本棚 (ほんだな) - bookshelf"
+        ],
+        "school_usage": "Essential for book-related vocabulary",
+        "mnemonic": "A tree (木) with roots marked (一) - the 'origin' book"
+      },
+      {
+        "kanji": "体",
+        "meaning": "Body",
+        "readings": {
+          "onyomi": "タイ, テイ",
+          "kunyomi": "からだ"
+        },
+        "examples": [
+          "体育 (たいいく) - physical education",
+          "体力 (たいりょく) - physical strength",
+          "体調 (たいちょう) - physical condition"
+        ],
+        "school_usage": "Used in health and P.E. contexts",
+        "mnemonic": "A person (亻) whose roots (本) form their body"
+      }
+    ]
+  },
+  "7": {
+    "category": "学校の漢字 - 上級 (がっこうのかんじ - じょうきゅう / School Kanji - Advanced)",
+    "image": "assets/dummy1.webp",
+    "description": "Kanji for classroom dynamics, sizes, and school relationships",
+    "kanji": [
+      {
+        "kanji": "大",
+        "meaning": "Big/Large",
+        "readings": {
+          "onyomi": "ダイ, タイ",
+          "kunyomi": "おお(きい)"
+        },
+        "examples": [
+          "大学 (だいがく) - university",
+          "大事 (だいじ) - important",
+          "大勢 (おおぜい) - large group of people"
+        ],
+        "school_usage": "Used for important school concepts and groups"
+      },
+      {
+        "kanji": "小",
+        "meaning": "Small",
+        "readings": {
+          "onyomi": "ショウ",
+          "kunyomi": "ちい(さい)"
+        },
+        "examples": [
+          "小学校 (しょうがっこう) - elementary school",
+          "小テスト (しょうテスト) - quiz",
+          "小グループ (しょうグループ) - small group"
+        ],
+        "mnemonic": "Three drops representing something small"
+      },
+      {
+        "kanji": "高",
+        "meaning": "High/Tall",
+        "readings": {
+          "onyomi": "コウ",
+          "kunyomi": "たか(い)"
+        },
+        "examples": [
+          "高校 (こうこう) - high school",
+          "高度 (こうど) - advanced level",
+          "高得点 (たかとくてん) - high score"
+        ],
+        "school_usage": "Used for academic levels and achievements"
+      },
+      {
+        "kanji": "友",
+        "meaning": "Friend",
+        "readings": {
+          "onyomi": "ユウ",
+          "kunyomi": "とも"
+        },
+        "examples": [
+          "友達 (ともだち) - friend",
+          "友情 (ゆうじょう) - friendship",
+          "学友 (がくゆう) - school friend"
+        ],
+        "mnemonic": "Two hands (又) helping each other"
+      },
+      {
+        "kanji": "入",
+        "meaning": "Enter",
+        "readings": {
+          "onyomi": "ニュウ",
+          "kunyomi": "はい(る), い(れる)"
+        },
+        "examples": [
+          "入学 (にゅうがく) - school admission",
+          "入室 (にゅうしつ) - entering a room",
+          "入力 (にゅうりょく) - input (computer class)"
+        ],
+        "school_usage": "For school admissions and classroom activities"
+      },
+      {
+        "kanji": "出",
+        "meaning": "Exit",
+        "readings": {
+          "onyomi": "シュツ, スイ",
+          "kunyomi": "で(る), だ(す)"
+        },
+        "examples": [
+          "出席 (しゅっせき) - attendance",
+          "出欠 (しゅっけつ) - attendance record",
+          "提出 (ていしゅつ) - submission (of homework)"
+        ],
+        "mnemonic": "Mountain (山) with something coming out"
+      },
+      {
+        "kanji": "門",
+        "meaning": "Gate",
+        "readings": {
+          "onyomi": "モン",
+          "kunyomi": "かど"
+        },
+        "examples": [
+          "校門 (こうもん) - school gate",
+          "門限 (もんげん) - curfew (school dormitory)",
+          "正門 (せいもん) - main entrance",
+          "専門 (せんもん) - specialty (as in 専門学校 vocational school)"
+        ],
+        "school_usage": "Refers to school gate structures",
+        "mnemonic": "Two swinging gate doors with a lintel on top"
+      }
+    ]
+  },
+  "8": {
+    "category": "家族の漢字 (かぞくのかんじ / Family Kanji)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for family members and relationships",
+    "kanji": [
+      {
+        "kanji": "父",
+        "meaning": "Father",
+        "readings": {
+          "onyomi": "フ",
+          "kunyomi": "ちち"
+        },
+        "examples": [
+          "父 (ちち) - my father",
+          "父親 (ちちおや) - father (general)",
+          "父母 (ふぼ) - parents"
+        ],
+        "polite_form": "お父さん (おとうさん)",
+        "mnemonic": "Hands holding a tool (axe) - traditional father role"
+      },
+      {
+        "kanji": "母",
+        "meaning": "Mother",
+        "readings": {
+          "onyomi": "ボ",
+          "kunyomi": "はは"
+        },
+        "examples": [
+          "母 (はは) - my mother",
+          "母親 (ははおや) - mother (general)",
+          "母子 (ぼし) - mother and child"
+        ],
+        "polite_form": "お母さん (おかあさん)",
+        "mnemonic": "Woman with breasts (nursing mother)"
+      },
+      {
+        "kanji": "子",
+        "meaning": "Child",
+        "readings": {
+          "onyomi": "シ, ス",
+          "kunyomi": "こ"
+        },
+        "examples": [
+          "子供 (こども) - children",
+          "女子 (じょし) - girl",
+          "子犬 (こいぬ) - puppy (child dog)"
+        ],
+        "mnemonic": "Baby with outstretched arms"
+      },
+      {
+        "kanji": "男",
+        "meaning": "Man/Male",
+        "readings": {
+          "onyomi": "ダン, ナン",
+          "kunyomi": "おとこ"
+        },
+        "examples": [
+          "男子 (だんし) - boy",
+          "男性 (だんせい) - male",
+          "男の子 (おとこのこ) - boy (child)"
+        ],
+        "mnemonic": "Strength (力) in the fields (田)"
+      },
+      {
+        "kanji": "女",
+        "meaning": "Woman/Female",
+        "readings": {
+          "onyomi": "ジョ, ニョ",
+          "kunyomi": "おんな"
+        },
+        "examples": [
+          "女子 (じょし) - girl",
+          "女性 (じょせい) - woman",
+          "女の子 (おんなのこ) - girl (child)"
+        ],
+        "mnemonic": "Person kneeling (traditional female posture)"
+      },
+      {
+        "kanji": "兄",
+        "meaning": "Older Brother",
+        "readings": {
+          "onyomi": "ケイ, キョウ",
+          "kunyomi": "あに"
+        },
+        "examples": [
+          "兄 (あに) - my older brother",
+          "兄弟 (きょうだい) - siblings",
+          "兄貴 (あにき) - big bro (casual)"
+        ],
+        "polite_form": "お兄さん (おにいさん)"
+      },
+      {
+        "kanji": "弟",
+        "meaning": "Younger Brother",
+        "readings": {
+          "onyomi": "テイ, ダイ",
+          "kunyomi": "おとうと"
+        },
+        "examples": [
+          "弟 (おとうと) - my younger brother",
+          "弟子 (でし) - disciple",
+          "弟分 (おとうとぶん) - junior (like a brother)"
+        ]
+      },
+      {
+        "kanji": "姉",
+        "meaning": "Older Sister",
+        "readings": {
+          "onyomi": "シ",
+          "kunyomi": "あね"
+        },
+        "examples": [
+          "姉 (あね) - my older sister",
+          "姉妹 (しまい) - sisters",
+          "義姉 (ぎし) - sister-in-law"
+        ],
+        "polite_form": "お姉さん (おねえさん)"
+      },
+      {
+        "kanji": "妹",
+        "meaning": "Younger Sister",
+        "readings": {
+          "onyomi": "マイ",
+          "kunyomi": "いもうと"
+        },
+        "examples": [
+          "妹 (いもうと) - my younger sister",
+          "妹分 (いもうとぶん) - junior (like a sister)",
+          "従妹 (いとこ) - cousin (female)"
+        ]
+      },
+      {
+        "kanji": "鳥",
+        "meaning": "bird",
+        "readings": {
+          "onyomi": "チョウ",
+          "kunyomi": "とり"
+        },
+        "examples": [
+          "鳥 (とり) - bird",
+          "小鳥 (ことり) - small bird",
+          "野鳥 (やちょう) - wild bird",
+          "鳥居 (とりい) - Shinto shrine gate (literally 'bird perch')"
+        ],
+        "scientific_term": "鳥類 (ちょうるい) - avian species",
+        "mnemonic": "Looks like a bird with a crest (丿), eye (目), and tail feathers (灬)",
+        "stroke_count": 11
+      },
+      {
+        "kanji": "犬",
+        "alternate_kanji": "狗",
+        "meaning": "dog",
+        "readings": {
+          "onyomi": "ケン",
+          "kunyomi": "いぬ"
+        },
+        "examples": [
+          "犬 (いぬ) - dog",
+          "子犬 (こいぬ) - puppy",
+          "番犬 (ばんけん) - guard dog",
+          "犬小屋 (いぬごや) - doghouse"
+        ],
+        "medical_term": "狂犬病 (きょうけんびょう) - rabies",
+        "mnemonic": "Big (大) with a drop 丶 → 'big' animal that drools",
+        "stroke_count": 4
+      }
+    ]
+  },
+  "9": {
+    "category": "動詞の漢字 (どうしのかんじ / Kanji Verbs)",
+    "image": "assets/dummy1.webp",
+    "kanji": [
+      {
+        "kanji": "立",
+        "meanings": ["stand", "establish"],
+        "readings": {
+          "onyomi": "リツ, リュウ",
+          "kunyomi": "た(つ), た(てる)"
+        },
+        "examples": [
+          "立つ (たつ) - to stand",
+          "立派 (りっぱ) - splendid",
+          "建立 (こんりゅう) - erection (of buildings)"
+        ],
+        "grammar_notes": "Transitive/Intransitive pair: 立つ (intr.) vs 立てる (tr.)"
+      },
+      {
+        "kanji": "休",
+        "meanings": ["rest", "take a break"],
+        "readings": {
+          "onyomi": "キュウ",
+          "kunyomi": "やす(む), やす(まる)"
+        },
+        "examples": [
+          "休む (やすむ) - to rest",
+          "休日 (きゅうじつ) - holiday",
+          "休憩 (きゅうけい) - recess"
+        ],
+        "mnemonic": "Person (亻) leaning against a tree (木) to rest"
+      },
+      {
+        "kanji": "見",
+        "meanings": ["see", "look"],
+        "readings": {
+          "onyomi": "ケン",
+          "kunyomi": "み(る), み(える), み(せる)"
+        },
+        "examples": [
+          "見る (みる) - to see",
+          "見学 (けんがく) - observation",
+          "見せる (みせる) - to show"
+        ],
+        "usage_note": "見える is potential form ('can see')"
+      },
+      {
+        "kanji": "聞",
+        "meanings": ["hear", "listen", "ask"],
+        "readings": {
+          "onyomi": "ブン, モン",
+          "kunyomi": "き(く), き(こえる)"
+        },
+        "examples": [
+          "聞く (きく) - to listen/ask",
+          "新聞 (しんぶん) - newspaper",
+          "聞こえる (きこえる) - to be audible"
+        ],
+        "cultural_note": "Used for both listening and asking in Japanese"
+      },
+      {
+        "kanji": "行",
+        "meanings": ["go", "conduct"],
+        "readings": {
+          "onyomi": "コウ, ギョウ, アン",
+          "kunyomi": "い(く), ゆ(く), おこな(う)"
+        },
+        "examples": [
+          "行く (いく) - to go",
+          "行事 (ぎょうじ) - event",
+          "行う (おこなう) - to conduct"
+        ],
+        "irregularities": "行く has two kunyomi readings (いく/ゆく)"
+      },
+      {
+        "kanji": "来",
+        "meanings": ["come", "next"],
+        "readings": {
+          "onyomi": "ライ",
+          "kunyomi": "く(る), きた(る)"
+        },
+        "examples": [
+          "来る (くる) - to come",
+          "来週 (らいしゅう) - next week",
+          "来日 (らいにち) - visit to Japan"
+        ],
+        "grammar_note": "Only irregular verb ending in -くる"
+      },
+      {
+        "kanji": "帰",
+        "meanings": ["return", "go back"],
+        "readings": {
+          "onyomi": "キ",
+          "kunyomi": "かえ(る), かえ(す)"
+        },
+        "examples": [
+          "帰る (かえる) - to return home",
+          "帰国 (きこく) - return to one's country",
+          "帰宅 (きたく) - return home"
+        ],
+        "mnemonic": "Left side shows movement, right shows direction"
+      }
+    ]
+  },
+  "10": {
+    "category": "食べ物の漢字 (たべもののかんじ / Food)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for ingredients, cooking, and dining",
+    "kanji": [
+      {
+        "kanji": "米",
+        "meaning": "rice",
+        "readings": {
+          "onyomi": "マイ, ベイ",
+          "kunyomi": "こめ"
+        },
+        "examples": [
+          "米 (こめ) - uncooked rice",
+          "白米 (はくまい) - white rice",
+          "米国 (べいこく) - America (lit. 'rice country')"
+        ],
+        "cultural_note": "Staple of Japanese meals"
+      },
+      {
+        "kanji": "茶",
+        "meaning": "tea",
+        "readings": {
+          "onyomi": "チャ, サ",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "お茶 (おちゃ) - tea",
+          "抹茶 (まっちゃ) - matcha",
+          "茶碗 (ちゃわん) - rice/tea bowl"
+        ],
+        "mnemonic": "Plants (艹) under a roof (余) being processed into tea"
+      },
+      {
+        "kanji": "牛",
+        "meaning": "cow/beef",
+        "readings": {
+          "onyomi": "ギュウ",
+          "kunyomi": "うし"
+        },
+        "examples": [
+          "牛肉 (ぎゅうにく) - beef",
+          "牛乳 (ぎゅうにゅう) - milk",
+          "和牛 (わぎゅう) - wagyu beef"
+        ],
+        "stroke_order": "4 strokes"
+      },
+      {
+        "kanji": "肉",
+        "meaning": "meat",
+        "readings": {
+          "onyomi": "ニク",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "焼肉 (やきにく) - yakiniku",
+          "鶏肉 (とりにく) - chicken",
+          "肉屋 (にくや) - butcher shop"
+        ],
+        "radical": "肉 (meat radical)"
+      },
+      {
+        "kanji": "魚",
+        "meaning": "fish",
+        "readings": {
+          "onyomi": "ギョ",
+          "kunyomi": "さかな, うお"
+        },
+        "examples": [
+          "魚料理 (さかなりょうり) - fish dishes",
+          "金魚 (きんぎょ) - goldfish",
+          "魚市場 (うおいちば) - fish market"
+        ],
+        "mnemonic": "Pictograph of a fish with fins"
+      },
+      {
+        "kanji": "貝",
+        "meaning": "shellfish",
+        "readings": {
+          "onyomi": "カイ",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "貝類 (かいるい) - shellfish",
+          "貝殻 (かいがら) - seashell",
+          "帆立貝 (ほたてがい) - scallop"
+        ],
+        "cultural_note": "Important in coastal cuisine"
+      },
+      {
+        "kanji": "好",
+        "meaning": "like/preference",
+        "readings": {
+          "onyomi": "コウ",
+          "kunyomi": "す(き), この(む)"
+        },
+        "examples": [
+          "好き (すき) - liked/favorite",
+          "好物 (こうぶつ) - favorite food",
+          "嗜好 (しこう) - taste/preference"
+        ],
+        "food_usage": "Used to describe food preferences"
+      },
+      {
+        "kanji": "物",
+        "meaning": "thing/food",
+        "readings": {
+          "onyomi": "ブツ, モツ",
+          "kunyomi": "もの"
+        },
+        "examples": [
+          "食べ物 (たべもの) - food",
+          "飲み物 (のみもの) - beverage",
+          "買い物 (かいもの) - shopping"
+        ],
+        "grammar_note": "Combines with verbs to mean 'thing to...'"
+      }
+    ]
+  },
+  "11": {
+    "category": "自然の漢字-2 (しぜんのかんじ-2 / Nature-2)",
+    "image": "assets/dummy1.webp",
+    "description": "Advanced kanji for natural landscapes and phenomena",
+    "kanji": [
+      {
+        "kanji": "林",
+        "meaning": "Grove/Woods",
+        "readings": {
+          "onyomi": "リン",
+          "kunyomi": "はやし"
+        },
+        "examples": [
+          "林道 (りんどう) - forest path",
+          "竹林 (ちくりん) - bamboo grove",
+          "林業 (りんぎょう) - forestry"
+        ],
+        "mnemonic": "Two trees (木) together = small forest",
+        "stroke_count": 8,
+        "radical": "木 (tree)"
+      },
+      {
+        "kanji": "森",
+        "meaning": "Forest",
+        "readings": {
+          "onyomi": "シン",
+          "kunyomi": "もり"
+        },
+        "examples": [
+          "森林 (しんりん) - woods",
+          "森閑 (しんかん) - forest silence",
+          "森の妖精 (もりのようせい) - forest spirit"
+        ],
+        "mnemonic": "Three trees (木) = dense forest",
+        "stroke_count": 12,
+        "radical": "木 (tree)"
+      },
+      {
+        "kanji": "岩",
+        "meaning": "Boulder/Rock",
+        "readings": {
+          "onyomi": "ガン",
+          "kunyomi": "いわ"
+        },
+        "examples": [
+          "岩石 (がんせき) - rock",
+          "岩場 (いわば) - rocky area",
+          "溶岩 (ようがん) - lava"
+        ],
+        "mnemonic": "Mountain (山) with stones (石) = big rock",
+        "stroke_count": 8,
+        "radical": "山 (mountain)"
+      },
+      {
+        "kanji": "畑",
+        "meaning": "Field (cultivated)",
+        "readings": {
+          "onyomi": "-",
+          "kunyomi": "はたけ"
+        },
+        "examples": [
+          "麦畑 (むぎばたけ) - wheat field",
+          "畑仕事 (はたけしごと) - farm work",
+          "茶畑 (ちゃばたけ) - tea plantation"
+        ],
+        "mnemonic": "Fire (火) + field (田) = burned field for crops",
+        "stroke_count": 9,
+        "radical": "田 (rice field)"
+      },
+      {
+        "kanji": "音",
+        "meaning": "Sound",
+        "readings": {
+          "onyomi": "オン, イン",
+          "kunyomi": "おと, ね"
+        },
+        "examples": [
+          "音楽 (おんがく) - music",
+          "物音 (ものおと) - noise",
+          "音色 (ねいろ) - tone color"
+        ],
+        "mnemonic": "Stand (立) in the sun (日) hearing sounds",
+        "stroke_count": 9,
+        "radical": "音 (sound)"
+      },
+      {
+        "kanji": "明",
+        "meaning": "Bright",
+        "readings": {
+          "onyomi": "メイ, ミョウ",
+          "kunyomi": "あか(るい), あ(ける)"
+        },
+        "examples": [
+          "明日 (あした) - tomorrow",
+          "説明 (せつめい) - explanation",
+          "透明 (とうめい) - transparent"
+        ],
+        "mnemonic": "Sun (日) + moon (月) = brightness",
+        "stroke_count": 8,
+        "radical": "日 (sun)"
+      },
+      {
+        "kanji": "暗",
+        "meaning": "Dark",
+        "readings": {
+          "onyomi": "アン",
+          "kunyomi": "くら(い)"
+        },
+        "examples": [
+          "暗闇 (くらやみ) - darkness",
+          "暗記 (あんき) - memorization",
+          "暗号 (あんごう) - code"
+        ],
+        "mnemonic": "Sun (日) covered by sounds (音) = darkness",
+        "stroke_count": 13,
+        "radical": "日 (sun)"
+      }
+    ]
+  },
+  "12": {
+    "category": "動詞の漢字-2 (どうしのかんじ-2 / Verbs-2)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for communication and daily actions",
+    "kanji": [
+      {
+        "kanji": "言",
+        "meaning": "to say",
+        "readings": {
+          "onyomi": "ゲン, ゴン",
+          "kunyomi": "い(う), こと"
+        },
+        "examples": [
+          "言う (いう) - to say",
+          "言語 (げんご) - language",
+          "伝言 (でんごん) - message"
+        ],
+        "stroke_count": 7,
+        "stroke_order": [
+          "丶 (top dot)",
+          "一 (top horizontal)",
+          "丨 (vertical)",
+          "𠄌 (right diagonal)",
+          "口 (mouth radical)"
+        ],
+        "radical": "言 (speech)"
+      },
+      {
+        "kanji": "書",
+        "meaning": "to write",
+        "readings": {
+          "onyomi": "ショ",
+          "kunyomi": "か(く)"
+        },
+        "examples": [
+          "書く (かく) - to write",
+          "辞書 (じしょ) - dictionary",
+          "書道 (しょどう) - calligraphy"
+        ],
+        "stroke_count": 10,
+        "stroke_order": [
+          "聿 (writing brush radical)",
+          "曰 (say radical)"
+        ],
+        "mnemonic": "Hand holding a brush (聿) recording words (曰)"
+      },
+      {
+        "kanji": "読",
+        "meaning": "to read",
+        "readings": {
+          "onyomi": "ドク, トク",
+          "kunyomi": "よ(む)"
+        },
+        "examples": [
+          "読む (よむ) - to read",
+          "読書 (どくしょ) - reading",
+          "音読 (おんどく) - reading aloud"
+        ],
+        "stroke_count": 14,
+        "radical": "言 (speech)",
+        "component_breakdown": [
+          "言 (speech)",
+          "売 (sell) → 'selling words through reading'"
+        ]
+      },
+      {
+        "kanji": "食",
+        "meaning": "to eat",
+        "readings": {
+          "onyomi": "ショク, ジキ",
+          "kunyomi": "た(べる), く(う)"
+        },
+        "examples": [
+          "食べる (たべる) - to eat",
+          "食事 (しょくじ) - meal",
+          "食堂 (しょくどう) - dining hall"
+        ],
+        "stroke_count": 9,
+        "radical": "食 (eat)",
+        "mnemonic": "Person kneeling under a roof with food"
+      },
+      {
+        "kanji": "飲",
+        "meaning": "to drink",
+        "readings": {
+          "onyomi": "イン",
+          "kunyomi": "の(む)"
+        },
+        "examples": [
+          "飲む (のむ) - to drink",
+          "飲料 (いんりょう) - beverage",
+          "飲食 (いんしょく) - food and drink"
+        ],
+        "stroke_count": 12,
+        "radical": "飠 (food)",
+        "stroke_pattern": "Left radical first, then right 欠 (lack) component"
+      },
+      {
+        "kanji": "話",
+        "meaning": "to speak",
+        "readings": {
+          "onyomi": "ワ",
+          "kunyomi": "はな(す), はなし"
+        },
+        "examples": [
+          "話す (はなす) - to speak",
+          "会話 (かいわ) - conversation",
+          "電話 (でんわ) - telephone"
+        ],
+        "stroke_count": 13,
+        "radical": "言 (speech)",
+        "composition": "言 (speech) + 舌 (tongue)"
+      },
+      {
+        "kanji": "買",
+        "meaning": "to buy",
+        "readings": {
+          "onyomi": "バイ",
+          "kunyomi": "か(う)"
+        },
+        "examples": [
+          "買う (かう) - to buy",
+          "買い物 (かいもの) - shopping",
+          "購買 (こうばい) - purchase"
+        ],
+        "stroke_count": 12,
+        "radical": "貝 (shell/money)",
+        "mnemonic": "Shell currency (貝) + net (罒) = catching a deal"
+      }
+    ]
+  },
+  "13": {
+    "category": "町の漢字 (まちのかんじ / Town)",
+    "image": "assets/dummy1.webp",
+    "description": "Common kanji related to towns, directions, and urban life",
+    "kanji": [
+      {
+        "kanji": "町",
+        "meaning": "town",
+        "readings": {
+          "onyomi": "チョウ",
+          "kunyomi": "まち"
+        },
+        "examples": [
+          "町 (まち) - town",
+          "町長 (ちょうちょう) - town mayor",
+          "下町 (したまち) - downtown"
+        ],
+        "stroke_count": 7,
+        "radical": "田 (rice field)",
+        "composition": "田 (rice field) + 丁 (ward/block)"
+      },
+      {
+        "kanji": "寺",
+        "meaning": "temple",
+        "readings": {
+          "onyomi": "ジ",
+          "kunyomi": "てら"
+        },
+        "examples": [
+          "寺 (てら) - temple",
+          "寺院 (じいん) - temple complex",
+          "金閣寺 (きんかくじ) - Kinkakuji Temple"
+        ],
+        "stroke_count": 6,
+        "radical": "寸 (measurement)",
+        "mnemonic": "Temple built with measured hands"
+      },
+      {
+        "kanji": "電",
+        "meaning": "electricity",
+        "readings": {
+          "onyomi": "デン",
+          "kunyomi": ""
+        },
+        "examples": [
+          "電車 (でんしゃ) - train",
+          "電話 (でんわ) - telephone",
+          "電気 (でんき) - electricity"
+        ],
+        "stroke_count": 13,
+        "radical": "雨 (rain)",
+        "composition": "雨 (rain) + 田 (field) + umbrella strokes"
+      },
+      {
+        "kanji": "車",
+        "meaning": "car, vehicle",
+        "readings": {
+          "onyomi": "シャ",
+          "kunyomi": "くるま"
+        },
+        "examples": [
+          "車 (くるま) - car",
+          "電車 (でんしゃ) - train",
+          "車道 (しゃどう) - roadway"
+        ],
+        "stroke_count": 7,
+        "radical": "車 (vehicle)",
+        "mnemonic": "A cart with four wheels and an axle"
+      },
+      {
+        "kanji": "北",
+        "meaning": "north",
+        "readings": {
+          "onyomi": "ホク",
+          "kunyomi": "きた"
+        },
+        "examples": [
+          "北 (きた) - north",
+          "北海道 (ほっかいどう) - Hokkaido",
+          "北口 (きたぐち) - north exit"
+        ],
+        "stroke_count": 5,
+        "radical": "匕 (spoon)",
+        "mnemonic": "Two people turning away from the cold north"
+      },
+      {
+        "kanji": "南",
+        "meaning": "south",
+        "readings": {
+          "onyomi": "ナン",
+          "kunyomi": "みなみ"
+        },
+        "examples": [
+          "南 (みなみ) - south",
+          "南口 (みなみぐち) - south exit",
+          "南米 (なんべい) - South America"
+        ],
+        "stroke_count": 9,
+        "radical": "十 (ten)",
+        "composition": "⿱⿱冂丷⿱一十",
+        "mnemonic": "An ancient compass pointing to the sun-warmed south"
+      },
+      {
+        "kanji": "東",
+        "meaning": "east",
+        "readings": {
+          "onyomi": "トウ",
+          "kunyomi": "ひがし"
+        },
+        "examples": [
+          "東京 (とうきょう) - Tokyo",
+          "東口 (ひがしぐち) - east exit",
+          "東洋 (とうよう) - the East (Asia)"
+        ],
+        "stroke_count": 8,
+        "radical": "木 (tree)",
+        "mnemonic": "The sun rising behind a tree in the east"
+      },
+      {
+        "kanji": "西",
+        "meaning": "west",
+        "readings": {
+          "onyomi": "セイ, サイ",
+          "kunyomi": "にし"
+        },
+        "examples": [
+          "西 (にし) - west",
+          "関西 (かんさい) - Kansai region",
+          "西洋 (せいよう) - the West (Europe, America)"
+        ],
+        "stroke_count": 6,
+        "radical": "襾 (cover)",
+        "mnemonic": "The sun setting behind a covered horizon in the west"
+      }
+    ]
+  },
+  "14": {
+    "category": "時間の漢字 (じかんのかんじ / Time)",
+    "image": "assets/dummy1.webp",
+    "description": "Essential kanji for telling time and temporal concepts",
+    "kanji": [
+      {
+        "kanji": "何",
+        "meaning": "what",
+        "readings": {
+          "onyomi": "カ",
+          "kunyomi": "なに, なん"
+        },
+        "examples": [
+          "何時 (なんじ) - what time",
+          "何分 (なんぷん) - how many minutes",
+          "何歳 (なんさい) - how old"
+        ],
+        "time_usage": "Used in questions about time",
+        "stroke_count": 7,
+        "radical": "亻 (person)"
+      },
+      {
+        "kanji": "半",
+        "meaning": "half",
+        "readings": {
+          "onyomi": "ハン",
+          "kunyomi": "-"
+        },
+        "examples": [
+          "半分 (はんぶん) - half",
+          "半時間 (はんじかん) - half hour",
+          "午後 (ごご) - afternoon (contains 半)"
+        ],
+        "stroke_count": 5,
+        "radical": "十 (ten)"
+      },
+      {
+        "kanji": "分",
+        "meaning": "minute/understand",
+        "readings": {
+          "onyomi": "フン, ブン",
+          "kunyomi": "わ(かる)"
+        },
+        "examples": [
+          "五分 (ごふん) - five minutes",
+          "分かる (わかる) - to understand",
+          "十分 (じゅうぶん) - enough (lit. 'ten minutes')"
+        ],
+        "stroke_count": 4,
+        "radical": "刀 (sword)"
+      },
+      {
+        "kanji": "夕",
+        "meaning": "evening",
+        "readings": {
+          "onyomi": "セキ",
+          "kunyomi": "ゆう"
+        },
+        "examples": [
+          "夕方 (ゆうがた) - evening",
+          "夕食 (ゆうしょく) - dinner",
+          "七夕 (たなばた) - Star Festival"
+        ],
+        "stroke_count": 3,
+        "radical": "夕 (evening)"
+      },
+      {
+        "kanji": "方",
+        "meaning": "direction/way",
+        "readings": {
+          "onyomi": "ホウ",
+          "kunyomi": "かた"
+        },
+        "examples": [
+          "方角 (ほうがく) - compass direction",
+          "夕方 (ゆうがた) - evening time",
+          "方法 (ほうほう) - method"
+        ],
+        "time_usage": "Used in time periods like 朝方 (morning time)",
+        "stroke_count": 4,
+        "radical": "方 (direction)"
+      },
+      {
+        "kanji": "今",
+        "meaning": "now",
+        "readings": {
+          "onyomi": "コン, キン",
+          "kunyomi": "いま"
+        },
+        "examples": [
+          "今 (いま) - now",
+          "今日 (きょう) - today",
+          "今週 (こんしゅう) - this week"
+        ],
+        "stroke_count": 4,
+        "radical": "人 (person)"
+      },
+      {
+        "kanji": "時",
+        "meaning": "time/hour",
+        "readings": {
+          "onyomi": "ジ",
+          "kunyomi": "とき"
+        },
+        "examples": [
+          "時間 (じかん) - time",
+          "一時 (いちじ) - 1 o'clock",
+          "時代 (じだい) - era"
+        ],
+        "stroke_count": 10,
+        "radical": "日 (sun)"
+      },
+      {
+        "kanji": "間",
+        "meaning": "interval/space",
+        "readings": {
+          "onyomi": "カン, ケン",
+          "kunyomi": "あいだ, ま"
+        },
+        "examples": [
+          "時間 (じかん) - time",
+          "昼間 (ひるま) - daytime",
+          "人間 (にんげん) - human (lit. 'between people')"
+        ],
+        "stroke_count": 12,
+        "radical": "門 (gate)"
+      }
+    ],
+    "time_expressions": [
+      {
+        "expression": "今何時ですか？",
+        "reading": "いまなんじですか？",
+        "meaning": "What time is it now?"
+      },
+      {
+        "expression": "三時半",
+        "reading": "さんじはん",
+        "meaning": "3:30"
+      },
+      {
+        "expression": "夕方五時",
+        "reading": "ゆうがたごじ",
+        "meaning": "5:00 PM"
+      }
+    ]
+  },
+  "15": {
+    "category": "時間（じかん / Time）",
+    "image": "assets/dummy1.webp",
+    "description": "Common kanji related to time, periods, and moments in daily life",
+    "kanji": [
+      {
+        "kanji": "何",
+        "meaning": "what",
+        "readings": {
+          "onyomi": "カ",
+          "kunyomi": "なに, なん"
+        },
+        "examples": [
+          "何時 (なんじ) - what time",
+          "何人 (なんにん) - how many people",
+          "何 (なに) - what"
+        ],
+        "stroke_count": 7,
+        "radical": "亻 (person)",
+        "mnemonic": "A person asking a question about something unknown"
+      },
+      {
+        "kanji": "半",
+        "meaning": "half",
+        "readings": {
+          "onyomi": "ハン",
+          "kunyomi": ""
+        },
+        "examples": [
+          "半分 (はんぶん) - half",
+          "一時半 (いちじはん) - 1:30",
+          "半年 (はんとし) - half a year"
+        ],
+        "stroke_count": 5,
+        "radical": "十 (ten)",
+        "mnemonic": "Half a line crossing ten to show division"
+      },
+      {
+        "kanji": "分",
+        "meaning": "minute, to divide",
+        "readings": {
+          "onyomi": "ブン, フン, ブ",
+          "kunyomi": "わ(ける), わ(かる)"
+        },
+        "examples": [
+          "五分 (ごふん) - five minutes",
+          "分かる (わかる) - to understand",
+          "半分 (はんぶん) - half"
+        ],
+        "stroke_count": 4,
+        "radical": "刀 (sword)",
+        "mnemonic": "A sword used to divide things, like time"
+      },
+      {
+        "kanji": "夕",
+        "meaning": "evening",
+        "readings": {
+          "onyomi": "セキ",
+          "kunyomi": "ゆう"
+        },
+        "examples": [
+          "夕方 (ゆうがた) - evening",
+          "夕日 (ゆうひ) - evening sun",
+          "夕食 (ゆうしょく) - dinner"
+        ],
+        "stroke_count": 3,
+        "radical": "夕 (evening)",
+        "mnemonic": "The shape of the moon in the early evening sky"
+      },
+      {
+        "kanji": "方",
+        "meaning": "direction, person (polite), way",
+        "readings": {
+          "onyomi": "ホウ",
+          "kunyomi": "かた"
+        },
+        "examples": [
+          "夕方 (ゆうがた) - evening",
+          "あの方 (あのかた) - that person (polite)",
+          "方法 (ほうほう) - method"
+        ],
+        "stroke_count": 4,
+        "radical": "方 (direction)",
+        "mnemonic": "A person pointing toward a direction or method"
+      },
+      {
+        "kanji": "今",
+        "meaning": "now",
+        "readings": {
+          "onyomi": "コン, キン",
+          "kunyomi": "いま"
+        },
+        "examples": [
+          "今 (いま) - now",
+          "今朝 (けさ) - this morning",
+          "今月 (こんげつ) - this month"
+        ],
+        "stroke_count": 4,
+        "radical": "人 (person)",
+        "mnemonic": "A person under a cover, representing the current moment"
+      },
+      {
+        "kanji": "時",
+        "meaning": "time, hour",
+        "readings": {
+          "onyomi": "ジ",
+          "kunyomi": "とき"
+        },
+        "examples": [
+          "時間 (じかん) - time/duration",
+          "一時 (いちじ) - 1 o'clock",
+          "時々 (ときどき) - sometimes"
+        ],
+        "stroke_count": 10,
+        "radical": "日 (sun/day)",
+        "composition": "日 (sun/time) + 寺 (temple)",
+        "mnemonic": "A temple that keeps track of the sun = time"
+      },
+      {
+        "kanji": "間",
+        "meaning": "interval, between",
+        "readings": {
+          "onyomi": "カン, ケン",
+          "kunyomi": "あいだ, ま"
+        },
+        "examples": [
+          "時間 (じかん) - time/duration",
+          "間 (あいだ) - between",
+          "人間 (にんげん) - human"
+        ],
+        "stroke_count": 12,
+        "radical": "門 (gate)",
+        "composition": "門 (gate) + 日 (sun)",
+        "mnemonic": "The sun seen through a gate, marking the passage of time"
+      }
+    ]
+  }
+}

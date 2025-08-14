@@ -1,0 +1,137 @@
+[
+  {
+    "translation": {
+      "english": "I eat rice with a spoon.",
+      "hiragana0": "スプーン",
+      "hiragana1": " ごはん を たべます。",
+      "romaji0": "su pu n",
+      "romaji1": " go ha n o ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "を", "romaji": "o"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  },
+  {
+    "translation": {
+      "english": "I am at school.",
+      "hiragana0": "わたし は がっこう",
+      "hiragana1": " います。",
+      "romaji0": "wa ta shi wa ga k ko u",
+      "romaji1": " i ma su"
+    },
+    "choices": [
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "も", "romaji": "mo"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "I make a chair out of wood.",
+      "hiragana0": "き",
+      "hiragana1": " いす を つくります。",
+      "romaji0": "ki",
+      "romaji1": " i su o tsu ku ri ma su"
+    },
+    "choices": [
+      {"hiragana": "です", "romaji": "de su"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "て", "romaji": "te"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  },
+  {
+    "translation": {
+      "english": "I study at school.",
+      "hiragana0": "がっこう",
+      "hiragana1": " べんきょうします。",
+      "romaji0": "ga k ko u",
+      "romaji1": " be n kyo u shi ma su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "に", "romaji": "ni"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  },
+  {
+    "translation": {
+      "english": "I made a hamburger with soybeans.",
+      "hiragana0": "だいず で ハンバーガー",
+      "hiragana1": " つくりました。",
+      "romaji0": "da i zu de ha n baa gaa",
+      "romaji1": " tsu ku ri ma shi ta"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "て", "romaji": "te"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "かった", "romaji": "ka t ta"}
+    ],
+    "correct_answer": {"hiragana": "を", "romaji": "o"}
+  },
+  {
+    "translation": {
+      "english": "Please say it in English.",
+      "hiragana0": "えいご で",
+      "hiragana1": " ください。",
+      "romaji0": "e i go de",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "いった", "romaji": "i t ta"},
+      {"hiragana": "いう を", "romaji": "i u o"},
+      {"hiragana": "いっで", "romaji": "i d de"},
+      {"hiragana": "いって", "romaji": "i t te"},
+      {"hiragana": "いいます を", "romaji": "i i ma su o"}
+    ],
+    "correct_answer": {"hiragana": "いって", "romaji": "i t te"}
+  },
+  {
+    "translation": {
+      "english": "I played tennis in the park.",
+      "hiragana0": "こうえん で テニス",
+      "hiragana1": " しました。",
+      "romaji0": "ko u e n de te ni su",
+      "romaji1": " shi ma shi ta"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "を", "romaji": "o"}
+  },
+  {
+    "translation": {
+      "english": "I go to work by car.",
+      "hiragana0": "くるま",
+      "hiragana1": " かいしゃ に いきます。",
+      "romaji0": "ku ru ma",
+      "romaji1": " ka i sha ni i ki ma su"
+    },
+    "choices": [
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "て", "romaji": "te"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "の", "romaji": "no"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  }
+]

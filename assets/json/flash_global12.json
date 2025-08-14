@@ -1,0 +1,821 @@
+[
+  {
+    "meaning": "が",
+    "kana": "が",
+    "kanji": "Subject marking particle",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "父が働く。 (ちちがはたらく。)",
+    "kana": "ちちがはたらく。",
+    "kanji": "My father works. (is the one who does it) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "父は背が高い。 (ちちはせがたかい。)",
+    "kana": "ちちはせがたかい。",
+    "kanji": "My father is tall. (emphasis on stature) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "コーヒーが好きです。 (コーヒーがすきです。)",
+    "kana": "コーヒーがすきです。",
+    "kanji": "I like coffee. (specifically coffee, polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "テストは嫌いです。 (テストはきらいです。)",
+    "kana": "テストはきらいです。",
+    "kanji": "I dislike tests. (in general, polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "近所の子供たちが走る。 (きんじょのこどもたちがはしる。)",
+    "kana": "きんじょのこどもたちがはしる。",
+    "kanji": "The neighborhood kids will run. (spec., plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "何がいい？",
+    "kana": "",
+    "kanji": "What is good? (What would you like?) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "それがいいです。",
+    "kana": "",
+    "kanji": "That is good. (That is what I would like) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "カレーが辛い。 (カレーがからい。)",
+    "kana": "カレーがからい。",
+    "kanji": "The curry is spicy. (spec. the curry) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "木が高い。 (きがたかい。)",
+    "kana": "きがたかい。",
+    "kanji": "The tree is tall. (specifically the tree) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "よ",
+    "kana": "よ",
+    "kanji": "Emphasis (Sentence ending particle)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "それは熱よ。 (それはあついよ。)",
+    "kana": "それはあついよ。",
+    "kanji": "That is hot! (emphasis) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "明日は雨だよ。",
+    "kana": "",
+    "kanji": "It's going to rain tomorrow! (emphasis) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ね / ねえ",
+    "kana": "ね / ねえ",
+    "kanji": "Isn't it?, Right? (Sentence ending particle)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "あれは先生だよね。",
+    "kana": "",
+    "kanji": "That over there is a teacher, right? (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "車は高よね。",
+    "kana": "",
+    "kanji": "Don't you think cars are expensive? (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "仕事は疲れるね。 (しごとはつかれるね。)",
+    "kana": "しごとはつかれるね。",
+    "kanji": "Work is tiring, isn't it?",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "今日も暑いね。",
+    "kana": "",
+    "kanji": "It's hot today too, isn't it? (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "今日は寒ですね。 (きょうはさむいですね。)",
+    "kana": "きょうはさむいですね。",
+    "kanji": "It's cold today, isn't it? (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "これは辛いね。 (これはからいね。)",
+    "kana": "これはからいね。",
+    "kanji": "This is spicy, don't you think? (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "な",
+    "kana": "な",
+    "kanji": "Sentence ending particle, expressing feelings",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "これは辛いな。 (これはからいな。)",
+    "kana": "これはからいな。",
+    "kanji": "This is spicy, yeah? (expressing opinion)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "松下さんはかわいいよね。 (まつしたさんはかわいいよね。)",
+    "kana": "まつしたさんはかわいいよね。",
+    "kanji": "Matsushita-san is cute, isn't she? (emphasis)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "食べる",
+    "kana": "たべる",
+    "kanji": "to eat (ru-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "見る",
+    "kana": "みる",
+    "kanji": "to see/ to look (ru-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "寝る",
+    "kana": "ねる",
+    "kanji": "to sleep",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "生徒が答える。(せいとがこたえる。)",
+    "kana": "せいとがこたえる。",
+    "kanji": "The student answers. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "生徒が答えます。(せいとがこたえます。)",
+    "kana": "せいとがこたえます。",
+    "kanji": "The student answers. (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私が閉める。 (わたしがしめる。)",
+    "kana": "わたしがしめる。",
+    "kanji": "I will close it. ('It' is implied) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私が閉めます。(わたしがしめます。)",
+    "kana": "わたしがしめます。",
+    "kanji": "I will close it. ('It' is implied) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "それも取る。 (それもとる。)",
+    "kana": "それもとる。",
+    "kanji": "I will take that too. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "それも取ります。 (それもとります。)",
+    "kana": "それもとります。",
+    "kanji": "I will take that too. (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "座る (すわる)",
+    "kana": "すわる",
+    "kanji": "to sit",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歌う (うたう)",
+    "kana": "うたう",
+    "kanji": "to sing",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歩く (あるく)",
+    "kana": "あるく",
+    "kanji": "to walk",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "話す (はなす)",
+    "kana": "はなす",
+    "kanji": "to speak, to talk",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "死ぬ (しぬ)",
+    "kana": "しぬ",
+    "kanji": "to die",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "飛ぶ (とぶ)",
+    "kana": "とぶ",
+    "kanji": "to fly",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "休む (やすむ)",
+    "kana": "やすむ",
+    "kanji": "to rest",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "泳ぐ (およぐ)",
+    "kana": "およぐ",
+    "kanji": "to swim",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私はパンクも聞く。",
+    "kana": "",
+    "kanji": "I also listen to punk music. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "学生たちは先生の話しも聞きます。",
+    "kana": "",
+    "kanji": "Students listen to the teacher's talks also. (pol)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "を",
+    "kana": "を",
+    "kanji": "Object marking particle",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ラーメンを食べる。",
+    "kana": "",
+    "kanji": "To eat ramen. (obj. marker) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歌を歌います。 (うたをうたいます。)",
+    "kana": "うたをうたいます。",
+    "kanji": "To sing a song. (object marker) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "公園を歩く。 (こうえん お あるく。)",
+    "kana": "こうえん お あるく。",
+    "kanji": "To walk through a park. (object marker) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "建物の中を走る。 (たてもののなかをはしる。)",
+    "kana": "たてもののなかをはしる。",
+    "kanji": "To run through a building. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "漢字を覚える。",
+    "kana": "",
+    "kanji": "To memorize meaning. (object marker) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "何を食べますか。",
+    "kana": "",
+    "kanji": "What will you have to eat? (object marker, polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "バターを食べる。",
+    "kana": "",
+    "kanji": "To eat butter. (object marker) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "スポーツを見る。",
+    "kana": "",
+    "kanji": "To watch sports. (object marker) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "時計を見る。",
+    "kana": "",
+    "kanji": "To look at the clock. (object marker)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私は、肉を食べない。",
+    "kana": "",
+    "kanji": "I don't eat meat. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私は黒板が見えません。",
+    "kana": "",
+    "kanji": "I can't see the blackboard. (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私は人の名前を覚えない。",
+    "kana": "",
+    "kanji": "I can't remember people's names. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私はプレゼントを開けません。",
+    "kana": "",
+    "kanji": "I won't open the present. (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "テレビを見ない。/ テレビを見ないです。/ テレビを見ません。",
+    "kana": "",
+    "kanji": "I don't watch TV. (3 versions)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "座わる",
+    "kana": "すわる",
+    "kanji": "to sit (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "座らない",
+    "kana": "すわらない",
+    "kanji": "doesn't sit (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "座りません / 座らないです",
+    "kana": "すわりません / すわらないです",
+    "kanji": "doesn't sit (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歌う",
+    "kana": "うたう",
+    "kanji": "to sing (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歌わない",
+    "kana": "うたわない",
+    "kanji": "doesn't sing (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歌いません / 歌わないです",
+    "kana": "うたいません / うたわないです",
+    "kanji": "doesn't sing (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歩く",
+    "kana": "あるく",
+    "kanji": "to walk (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歩かない",
+    "kana": "あるかない",
+    "kanji": "doesn't walk (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "歩きません / 歩かないです",
+    "kana": "あるきません / あるかないです",
+    "kanji": "doesn't walk (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "話す",
+    "kana": "はなす",
+    "kanji": "to talk (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "話さない",
+    "kana": "はなさない",
+    "kanji": "doesn't talk (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "話しません / 話さないです",
+    "kana": "はなしません / はなさないです",
+    "kanji": "doesn't talk (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "打つ",
+    "kana": "うつ",
+    "kanji": "to hit (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "打たない",
+    "kana": "うたない",
+    "kanji": "doesn't hit (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "打ちません / 打たないです",
+    "kana": "うちません / うたないです",
+    "kanji": "doesn't hit (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "死ぬ",
+    "kana": "しぬ",
+    "kanji": "to die (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "死なない",
+    "kana": "しなない",
+    "kanji": "doesn't die (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "死にません / 死なないです",
+    "kana": "しにません / しなないです",
+    "kanji": "doesn't die (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "飛ぶ",
+    "kana": "とぶ",
+    "kanji": "to fly (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "飛ばない",
+    "kana": "とばない",
+    "kanji": "doesn't fly (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "飛びません / 飛ばないです",
+    "kana": "とびません / とばないです",
+    "kanji": "doesn't fly (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "休む",
+    "kana": "やすむ",
+    "kanji": "to rest (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "休まない",
+    "kana": "やすまない",
+    "kanji": "doesn't rest (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "休みません / 休まないです",
+    "kana": "やすみません / やすまないです",
+    "kanji": "doesn't rest (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "泳ぐ",
+    "kana": "およぐ",
+    "kanji": "to swim (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "泳がない",
+    "kana": "およがない",
+    "kanji": "doesn't swim (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "泳ぎません / 泳がないです",
+    "kana": "およぎません / およがないです",
+    "kanji": "doesn't swim (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "有る",
+    "kana": "ある",
+    "kanji": "there is/are (inanimate) (u-verb exception)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ない",
+    "kana": "ない",
+    "kanji": "there isn't/aren't (inanimate) (u-verb) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "有りません / ないです",
+    "kana": "ありません / ないです",
+    "kanji": "there isn't/aren't (inanimate) (u-verb) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "彼女は川で泳がない。",
+    "kana": "",
+    "kanji": "She does not swim in rivers. (plain) (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "彼女は川で泳ぎません。",
+    "kana": "",
+    "kanji": "She does not swim in rivers. (not \"nai\", u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私はカラオケで歌を歌わない。",
+    "kana": "",
+    "kanji": "I don't sing songs at karaoke. (plain) (u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "今日はお酒を飲まない。",
+    "kana": "",
+    "kanji": "Today, I won't drink. (intentionally not) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "私は泳ぎません。",
+    "kana": "",
+    "kanji": "I can't swim. (unintentionally) (plain, u-verb)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "と",
+    "kana": "と",
+    "kanji": "And, with",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ピーナッツとビール。",
+    "kana": "",
+    "kanji": "Peanuts and beer.",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "彼女と食べる。",
+    "kana": "",
+    "kanji": "I eat with my girlfriend. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "消しゴムとペンと鉛筆もある。",
+    "kana": "",
+    "kanji": "There is an eraser, pen, and a pencil too. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "魚とバナナ。",
+    "kana": "",
+    "kanji": "Fish and bananas.",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "トムとジェリー。",
+    "kana": "",
+    "kanji": "Tom and Jerry.",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "コーヒーと牛乳。",
+    "kana": "",
+    "kanji": "Coffee and milk.",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "川と滝。",
+    "kana": "",
+    "kanji": "River and waterfall.",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "これとそれは私のものです。",
+    "kana": "",
+    "kanji": "This and that are mine. (lit. \"my things\")",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ここ",
+    "kana": "ここ",
+    "kanji": "Here (focus on the place)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ここのパンは美味しい。",
+    "kana": "",
+    "kanji": "The bread here is good. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "先生、こことここが痛いです。",
+    "kana": "",
+    "kanji": "Doctor, I have pain here and here. (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "こっち",
+    "kana": "こっち",
+    "kanji": "Here (focus on the movement)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "こっちに来ますか？",
+    "kana": "",
+    "kanji": "Will you come here? (Focus on the movement)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "ここに来ますか？",
+    "kana": "",
+    "kanji": "Will you come to this place? (Focus on the place)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "そこ",
+    "kana": "そこ",
+    "kanji": "There, That place",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "そこの犬は危ないです。",
+    "kana": "",
+    "kanji": "That dog (from that place) is dangerous. (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "お前のそこが悪い。",
+    "kana": "",
+    "kanji": "That right there is a bad thing about you. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "そこは綺麗？",
+    "kana": "",
+    "kanji": "Is that place (you mentioned) beautiful? (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "そっちです。",
+    "kana": "そっちです。",
+    "kanji": "It is there. (Focus on the direction) (polite)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "そこに置く。",
+    "kana": "そこにおく。",
+    "kanji": "Put it there. (Focused on the place) (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "あそこ",
+    "kana": "あそこ",
+    "kanji": "Over there (far from the speaker and listener)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "あそこの店はいい。",
+    "kana": "あそこの店はいい",
+    "kanji": "That store there is good. (far from both, plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "あそこは嫌だ。",
+    "kana": "あそこはいやだ。",
+    "kanji": "I don't like that place. (far from both, plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "meaning": "あそこも暑い。",
+    "kana": "あそこもあつい。",
+    "kanji": "That place over there is hot too. (plain)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  }
+]

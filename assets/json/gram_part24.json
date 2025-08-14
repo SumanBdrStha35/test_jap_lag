@@ -1,0 +1,103 @@
+[
+  {
+    "translation": {
+      "english": "Have you eaten sushi?",
+      "hiragana0": "すし を",
+      "hiragana1": "。",
+      "romaji0": "su shi o",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "たべんだ ことがあります ね", "romaji": "ta be n da ko to ga a ri ma su ne"},
+      {"hiragana": "たべんだ ことがあります か", "romaji": "ta be n da ko to ga a ri ma su ka"},
+      {"hiragana": "たべんだ ことがあります", "romaji": "ta be n da ko to ga a ri ma su"},
+      {"hiragana": "たべた ことがあります か", "romaji": "ta be ta ko to ga a ri ma su ka"}
+    ],
+    "correct_answer": {"hiragana": "たべた ことがあります か", "romaji": "ta be ta ko to ga a ri ma su ka"}
+  },
+  {
+    "translation": {
+      "english": "I have been to Japan.",
+      "hiragana0": "わたし は にほん に",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa ni ho n ni",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "いくのがあります", "romaji": "i ku no ga a ri ma su"},
+      {"hiragana": "いったことがあります", "romaji": "i t ta ko to ga a ri ma su"},
+      {"hiragana": "いってみたいです", "romaji": "i t te mi ta i de su"},
+      {"hiragana": "いくことがあります", "romaji": "i ku ko to ga a ri ma su"},
+      {"hiragana": "いくことができます", "romaji": "i ku ko to ga de ki ma su"}
+    ],
+    "correct_answer": {"hiragana": "いったことがあります", "romaji": "i t ta ko to ga a ri ma su"}
+  },
+  {
+    "translation": {
+      "english": "I have seen this movie.",
+      "hiragana0": "わたし は この えいが を",
+      "hiragana1": "ことがあります。",
+      "romaji0": "wa ta shi wa ko no e i ga o",
+      "romaji1": "ko to ga a ri ma su"
+    },
+    "choices": [
+      {"hiragana": "みない", "romaji": "mi na i"},
+      {"hiragana": "みせた", "romaji": "mi se ta"},
+      {"hiragana": "みよう", "romaji": "mi yo u"},
+      {"hiragana": "みる", "romaji": "mi ru"},
+      {"hiragana": "みた", "romaji": "mi ta"}
+    ],
+    "correct_answer": {"hiragana": "みた", "romaji": "mi ta"}
+  },
+  {
+    "translation": {
+      "english": "I have never played tennis.",
+      "hiragana0": "わたし は テニス を した",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa te ni su o shi ta",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "ことがなさです", "romaji": "ko to ga na sa de su"},
+      {"hiragana": "ことしかあります", "romaji": "ko to shi ka a ri ma su"},
+      {"hiragana": "ことがありません", "romaji": "ko to ga a ri ma se n"},
+      {"hiragana": "ことのないです", "romaji": "ko to no na i de su"},
+      {"hiragana": "ことなきをえます", "romaji": "ko to na ki o e ma su"}
+    ],
+    "correct_answer": {"hiragana": "ことがありません", "romaji": "ko to ga a ri ma se n"}
+  },
+  {
+    "translation": {
+      "english": "I have never borrowed money.",
+      "hiragana0": "わたし は おかね を",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa o ka ne o",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "かりたく なかったです", "romaji": "ka ri ta ku na ka t ta de su"},
+      {"hiragana": "かりたら よくないです", "romaji": "ka ri ta ra yo ku na i de su"},
+      {"hiragana": "かりたらが ありませんでした", "romaji": "ka ri ta ra ga a ri ma se n de shi ta"},
+      {"hiragana": "かりない ものです", "romaji": "ka ri na i mo no de su"},
+      {"hiragana": "かりた ことがありません", "romaji": "ka ri ta ko to ga a ri ma se n"}
+    ],
+    "correct_answer": {"hiragana": "かりた ことがありません", "romaji": "ka ri ta ko to ga a ri ma se n"}
+  },
+  {
+    "translation": {
+      "english": "Have you read this book?",
+      "hiragana0": "この ほん を",
+      "hiragana1": "。",
+      "romaji0": "ko no ho n o",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "よんだ ことがあります か", "romaji": "yo n da ko to ga a ri ma su ka"},
+      {"hiragana": "よんだ です か", "romaji": "yo n da de su ka"},
+      {"hiragana": "よんだ ことのです か", "romaji": "yo n da ko to no de su ka"},
+      {"hiragana": "よんた ことがあります か", "romaji": "yo n ta ko to ga a ri ma su ka"},
+      {"hiragana": "よみた ことがあります か", "romaji": "yo mi ta ko to ga a ri ma su ka"}
+    ],
+    "correct_answer": {"hiragana": "よんだ ことがあります か", "romaji": "yo n da ko to ga a ri ma su ka"}
+  }
+]

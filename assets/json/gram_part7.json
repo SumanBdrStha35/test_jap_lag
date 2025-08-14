@@ -1,0 +1,138 @@
+[
+  {
+    "translation": {
+      "english": "I read books.",
+      "hiragana0": "わたし は ほん ",
+      "hiragana1": " よみます。",
+      "romaji0": "wa ta shi wa ho n ",
+      "romaji1": " yo mi ma su"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "あ", "romaji": "a"},
+      {"hiragana": "う", "romaji": "u"}
+    ],
+    "correct_answer": {"hiragana": "を", "romaji": "o"}
+  },
+  {
+    "translation": {
+      "english": "Please don't read comics.",
+      "hiragana0": "まんが を ",
+      "hiragana1": " 。",
+      "romaji0": "ma n ga o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "よまない です", "romaji": "yo ma na i de su"},
+      {"hiragana": "よまないで ください", "romaji": "yo ma na i de ku da sa i"},
+      {"hiragana": "よみないで ください", "romaji": "yo mi na i de ku da sa i"},
+      {"hiragana": "よみないて なさい", "romaji": "yo mi na i te na sa i"},
+      {"hiragana": "よんで なさい", "romaji": "yo n de na sa i"}
+    ],
+    "correct_answer": {"hiragana": "よまないで ください", "romaji": "yo ma na i de ku da sa i"}
+  },
+  {
+    "translation": {
+      "english": "He opens the door.",
+      "hiragana0": "かれ は ドア ",
+      "hiragana1": " あけます。",
+      "romaji0": "ka re wa do a ",
+      "romaji1": " a ke ma su"
+    },
+    "choices": [
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "お", "romaji": "o"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "が", "romaji": "ga"}
+    ],
+    "correct_answer": {"hiragana": "を", "romaji": "o"}
+  },
+  {
+    "translation": {
+      "english": "Please don’t sleep.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "ねらいで", "romaji": "ne ra i de"},
+      {"hiragana": "ねないで", "romaji": "ne na i de"},
+      {"hiragana": "ねるないで", "romaji": "ne ru na i de"},
+      {"hiragana": "ねむないで", "romaji": "ne mu na i de"},
+      {"hiragana": "なないで", "romaji": "na na i de"}
+    ],
+    "correct_answer": {"hiragana": "ねないで", "romaji": "ne na i de"}
+  },
+  {
+    "translation": {
+      "english": "Please don't eat my cake.",
+      "hiragana0": "わたし の ケーキ を ",
+      "hiragana1": " 。",
+      "romaji0": "wa ta shi no ke ki o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "たぶないで ください", "romaji": "ta bu na i de ku da sa i"},
+      {"hiragana": "たないで ください", "romaji": "ta na i de ku da sa i"},
+      {"hiragana": "たぼないで ください", "romaji": "ta bo na i de ku da sa i"},
+      {"hiragana": "たばないで ください", "romaji": "ta ba na i de ku da sa i"},
+      {"hiragana": "たべないで ください", "romaji": "ta be na i de ku da sa i"}
+    ],
+    "correct_answer": {"hiragana": "たべないで ください", "romaji": "ta be na i de ku da sa i"}
+  },
+  {
+    "translation": {
+      "english": "Please don't open the door.",
+      "hiragana0": "ドア を ",
+      "hiragana1": " 。",
+      "romaji0": "do a o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "あけて ください", "romaji": "a ke te ku da sa i"},
+      {"hiragana": "あないて ください", "romaji": "a na i te ku da sa i"},
+      {"hiragana": "あないで ください", "romaji": "a na i de ku da sa i"},
+      {"hiragana": "あけないで ください", "romaji": "a ke na i de ku da sa i"},
+      {"hiragana": "あきないで ください", "romaji": "a ki na i de ku da sa i"}
+    ],
+    "correct_answer": {"hiragana": "あけないで ください", "romaji": "a ke na i de ku da sa i"}
+  },
+  {
+    "translation": {
+      "english": "Please don't drink alcohol.",
+      "hiragana0": "おさけ を ",
+      "hiragana1": " 。",
+      "romaji0": "o sa ke o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "のみないで ください", "romaji": "no mi na i de ku da sa i"},
+      {"hiragana": "のみない なさい", "romaji": "no mi na i na sa i"},
+      {"hiragana": "のまないで なさい", "romaji": "no ma na i de na sa i"},
+      {"hiragana": "のまないで ください", "romaji": "no ma na i de ku da sa i"},
+      {"hiragana": "のまないて ください", "romaji": "no ma na i te ku da sa i"}
+    ],
+    "correct_answer": {"hiragana": "のまないで ください", "romaji": "no ma na i de ku da sa i"}
+  },
+  {
+    "translation": {
+      "english": "Please don't play games.",
+      "hiragana0": "ゲーム を ",
+      "hiragana1": " 。",
+      "romaji0": "ge mu o ",
+      "romaji1": " ."
+    },
+    "choices": [
+      {"hiragana": "せないで ください", "romaji": "se na i de ku da sa i"},
+      {"hiragana": "すないで ください", "romaji": "su na i de ku da sa i"},
+      {"hiragana": "そないで ください", "romaji": "so na i de ku da sa i"},
+      {"hiragana": "しまないで ください", "romaji": "shi ma na i de ku da sa i"},
+      {"hiragana": "しないで ください", "romaji": "shi na i de ku da sa i"}
+    ],
+    "correct_answer": {"hiragana": "しないで ください", "romaji": "shi na i de ku da sa i"}
+  }
+]

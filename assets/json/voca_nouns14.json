@@ -1,0 +1,22 @@
+[
+  { "kanji": "綺麗な", "hiragana": "きれいな", "meaning": "beautiful" },
+  { "kanji": "有名な", "hiragana": "ゆうめいな", "meaning": "famous" },
+  { "kanji": "静かな", "hiragana": "しずかな", "meaning": "quiet" },
+  { "kanji": "賑やかな", "hiragana": "にぎやかな", "meaning": "lively, crowded, noisy" },
+  { "kanji": "元気な", "hiragana": "げんきな", "meaning": "healthy, energetic" },
+  { "kanji": "色々な", "hiragana": "いろいろな", "meaning": "various" },
+  { "kanji": "大切な", "hiragana": "たいせつな", "meaning": "important" },
+  { "kanji": "自由な", "hiragana": "じゆうな", "meaning": "free, unfettered" },
+  { "kanji": "十分な", "hiragana": "じゅうぶんな", "meaning": "enough, sufficient" },
+  { "kanji": "特別な", "hiragana": "とくべつな", "meaning": "special" },
+  { "kanji": "熱心な", "hiragana": "ねっしんな", "meaning": "enthusiastic, eager" },
+  { "kanji": "必要な", "hiragana": "ひつような", "meaning": "necessary, required" },
+  { "kanji": "真面目な", "hiragana": "まじめな", "meaning": "serious, solemn, earnest" },
+  { "kanji": "無理な", "hiragana": "むりな", "meaning": "unreasonable, impossible" },
+  { "kanji": "立派な", "hiragana": "りっぱな", "meaning": "admirable, brilliant, decent" },
+  { "kanji": "暇な", "hiragana": "ひまな", "meaning": "idle, leisure" },
+  { "kanji": "嫌いな", "hiragana": "きらいな", "meaning": "obnoxious, disliked, hated" },
+  { "kanji": "好きな", "hiragana": "すきな", "meaning": "favorite" },
+  { "kanji": "上手な", "hiragana": "じょうずな", "meaning": "skillful, skilled" },
+  { "kanji": "下手な", "hiragana": "へたな", "meaning": "unskilled" }
+]

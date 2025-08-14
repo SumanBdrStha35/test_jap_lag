@@ -1,0 +1,87 @@
+[
+  {
+    "translation": {
+      "english": "I ate ramen and sushi.",
+      "hiragana0": "わたし は ラーメン",
+      "hiragana1": "すし を たべました。",
+      "romaji0": "wa ta shi wa ra me n",
+      "romaji1": "su shi o ta be ma shi ta"
+    },
+    "choices": [
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "と", "romaji": "to"}
+    ],
+    "correct_answer": {"hiragana": "と", "romaji": "to"}
+  },
+  {
+    "translation": {
+      "english": "Is this tea?",
+      "hiragana0": "これ は おちゃ です",
+      "hiragana1": "。",
+      "romaji0": "ko re wa o cha de su",
+      "romaji1": ""
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "よ", "romaji": "yo"},
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "は", "romaji": "wa"},
+      {"hiragana": "と", "romaji": "to"}
+    ],
+    "correct_answer": {"hiragana": "か", "romaji": "ka"}
+  },
+  {
+    "translation": {
+      "english": "I will eat ramen or sushi.",
+      "hiragana0": "わたし は ラーメン",
+      "hiragana1": "すし を たべます。",
+      "romaji0": "wa ta shi wa ra me n",
+      "romaji1": "su shi o ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "の", "romaji": "no"}
+    ],
+    "correct_answer": {"hiragana": "か", "romaji": "ka"}
+  },
+  {
+    "translation": {
+      "english": "At Christmas, I always wear green, red, or yellow clothes.",
+      "hiragana0": "クリスマス は いつも、",
+      "hiragana1": "ふく を きます。",
+      "romaji0": "ku ri su ma su wa i tsu mo",
+      "romaji1": "fu ku o ki ma su"
+    },
+    "choices": [
+      {"hiragana": "みどり か あか か きいろ を", "romaji": "mi do ri ka a ka ka ki i ro o"},
+      {"hiragana": "みどり で あか で きいろ の", "romaji": "mi do ri de a ka de ki i ro no"},
+      {"hiragana": "みどり か あか か きいろ の", "romaji": "mi do ri ka a ka ka ki i ro no"},
+      {"hiragana": "みどり も あか も きいろ も", "romaji": "mi do ri mo a ka mo ki i ro mo"},
+      {"hiragana": "みどり と あか と きいろ の", "romaji": "mi do ri to a ka to ki i ro no"}
+    ],
+    "correct_answer": {"hiragana": "みどり か あか か きいろ を", "romaji": "mi do ri ka a ka ka ki i ro o"}
+  },
+  {
+    "translation": {
+      "english": "I want to go to the Philippines or Indonesia.",
+      "hiragana0": "フィリピン",
+      "hiragana1": "インドネシア に いきたい です。",
+      "romaji0": "fi ri pi n",
+      "romaji1": "i n do ne shi a ni i ki ta i de su"
+    },
+    "choices": [
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "か", "romaji": "ka"},
+      {"hiragana": "の", "romaji": "no"}
+    ],
+    "correct_answer": {"hiragana": "か", "romaji": "ka"}
+  }
+]

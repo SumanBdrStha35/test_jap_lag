@@ -1,0 +1,681 @@
+[
+  {
+    "kanji": "To be, is (plain)",
+    "kana": "",
+    "meaning": "だ (だ cannot be used with い-Adjectives)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is ice cream. (plain)",
+    "kana": "",
+    "meaning": "アイスクリームだ。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is dangerous. (plain)",
+    "kana": "",
+    "meaning": "危険だ。 (きけん だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is important. (plain)",
+    "kana": "",
+    "meaning": "大切だ。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is a temple. (plain)",
+    "kana": "",
+    "meaning": "お寺だ。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "To be, is (polite)",
+    "kana": "",
+    "meaning": "です",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I am a college student. (polite)",
+    "kana": "",
+    "meaning": "大学生です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is a store. (polite)",
+    "kana": "",
+    "meaning": "店です。(みせです)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is beautiful. (polite)",
+    "kana": "",
+    "meaning": "綺麗です。 (きれい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is funny. (polite)",
+    "kana": "",
+    "meaning": "面白いです。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is hot. (polite)",
+    "kana": "",
+    "meaning": "暑いです。 (あつい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "As for... (Highlights sentence topic)",
+    "kana": "",
+    "meaning": "は",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Tanaka-san's a teacher. (Broadly speaking, polite)",
+    "kana": "",
+    "meaning": "田中さんは先生です。 (たなか さん は せんせい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I am Tom. (Broadly speaking, polite)",
+    "kana": "",
+    "meaning": "私はトムです。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Curry is spicy. (Broadly speaking) (plain)",
+    "kana": "",
+    "meaning": "カレーは辛い。 (かれー は からい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I (topic) dislike wine. (Specifically wine, plain)",
+    "kana": "",
+    "meaning": "私は、ワインが嫌い。 (わたし は, ワインがきらい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I have a test now. (Slightly unnatural)",
+    "kana": "",
+    "meaning": "今はテスト。 (いま はテスト。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It will rain today. (Natural, broad event)",
+    "kana": "",
+    "meaning": "今日は、雨。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I like Fridays. (Focus is on Friday) (plain)",
+    "kana": "",
+    "meaning": "私は、金曜日が好き。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I like Fridays. (comparison to other days) (plain)",
+    "kana": "",
+    "meaning": "私は、金曜日は好き。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Also, Too, As well, Even, Either, Neither",
+    "kana": "",
+    "meaning": "も",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I am a teacher. (polite)",
+    "kana": "",
+    "meaning": "私は、先生です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I'm also a teacher. (polite)",
+    "kana": "",
+    "meaning": "私も先生です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Cars are fast, and also dangerous. (plain)",
+    "kana": "",
+    "meaning": "車は速い、でも危ない。 (くるま は はやい、 でも あぶない。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "He is also a teacher. (polite)",
+    "kana": "",
+    "meaning": "彼も先生です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "The clothes, too, are old. (plain)",
+    "kana": "",
+    "meaning": "服も古い。 (ふく も ふるい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "You are also busy. (plain)",
+    "kana": "",
+    "meaning": "君も、忙しい。 (きみ も、 いそがしい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This (not common but its kanji can be seen as 此れ)",
+    "kana": "",
+    "meaning": "これ",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Health. This is important. (Emot. close) (plain)",
+    "kana": "",
+    "meaning": "健康。これは大切だ。 (けんこう。 これ は たいせつ だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This too? (Physically close)",
+    "kana": "",
+    "meaning": "これも？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is candy. (Physically close) (polite)",
+    "kana": "",
+    "meaning": "これはお菓子です。 (これ は おかし です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is a steak. It is good. (polite)",
+    "kana": "",
+    "meaning": "これはステーキです。これはいいです。 (これ acts like 'it' in English, in the second sentence)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That",
+    "kana": "",
+    "meaning": "それ",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is that! (That's it!) (plain)",
+    "kana": "",
+    "meaning": "それだ！",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That's tough / hard. (plain)",
+    "kana": "",
+    "meaning": "それは大変だ。 (それ は たいへん だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is that expensive too? (mentioned earlier) (plain)",
+    "kana": "",
+    "meaning": "それも高い？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That's hmmm... (\"I'm not sure about that\")",
+    "kana": "",
+    "meaning": "それは...",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That (over there) (rarely seen as 彼れ)",
+    "kana": "",
+    "meaning": "あれ",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That is a hospital. (Away from us both) (polite)",
+    "kana": "",
+    "meaning": "あれは、病院です。 (あれ は、 びょういん です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That over there is a bus stop. (polite)",
+    "kana": "",
+    "meaning": "あれは、バス停です。 (あれは、バスていです。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "huh? / oh?",
+    "kana": "",
+    "meaning": "あれ?",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "What is that over there? (plain)",
+    "kana": "",
+    "meaning": "あれは何？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That over there is a convenience store. (polite)",
+    "kana": "",
+    "meaning": "あれはコンビニです。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That over there is a hotel. (polite)",
+    "kana": "",
+    "meaning": "あれはホテルです。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That over there is a train. (polite)",
+    "kana": "",
+    "meaning": "あれは、電車です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That over there is my older brother. (polite)",
+    "kana": "",
+    "meaning": "あれは、兄です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Good (non-past postiive form)",
+    "kana": "",
+    "meaning": "いい",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Good (non-past negative form)",
+    "kana": "",
+    "meaning": "良くない (よくない)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Good (past positive form)",
+    "kana": "",
+    "meaning": "良かった (よかった)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Good (past negative form)",
+    "kana": "",
+    "meaning": "良くなかった (よくなかった)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is a good movie. (plain)",
+    "kana": "",
+    "meaning": "これはいい映画だ。 (これ は いい えいが だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is not good. (plain)",
+    "kana": "",
+    "meaning": "これは良くない。 (これ は よくない。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Yesterday's weather was good.",
+    "kana": "",
+    "meaning": "昨日の天気はよかった。 (きのう の てんき は よかった。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Yesterday's weather was not good.",
+    "kana": "",
+    "meaning": "昨日の天気はよくなかった。 (きのう の てんき は よくなかった。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Good (more formal/ old-fashioned)",
+    "kana": "",
+    "meaning": "良い (よい)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is a good car. (plain)",
+    "kana": "",
+    "meaning": "これはいい車だ。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is also splendid. (more nuanced, plain)",
+    "kana": "",
+    "meaning": "これも良い。 (これ も よい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "(It is) good. (polite)",
+    "kana": "",
+    "meaning": "いいです。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is good. (polite)",
+    "kana": "",
+    "meaning": "これはいいです。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is also a good book. (polite)",
+    "kana": "",
+    "meaning": "これもいい本です。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is a good sound. (plain)",
+    "kana": "",
+    "meaning": "これはいい音だ。 (これ は いい おと だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Particle that indicates possession",
+    "kana": "",
+    "meaning": "の",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is my younger sister's car. (polite)",
+    "kana": "",
+    "meaning": "これは妹の車です。(これ は いもうと の くるま です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Today's night. (Not very natural in English)",
+    "kana": "",
+    "meaning": "今日の夜。(きょう の よる。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "My preferred alcohol is beer. (unstressed \"my\")",
+    "kana": "",
+    "meaning": "私が好きなお酒はビールです。 (わたし が すきな お さけは びーる です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "My preferred alcohol is beer. (stress on \"my\")",
+    "kana": "",
+    "meaning": "私の好きなお酒はビールです。(わたし の すきな お さけ は びーる です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Lukewarm water. (i-adjective)",
+    "kana": "",
+    "meaning": "温い水。 (ぬくい みず。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Narrow road. (i-adjective)",
+    "kana": "",
+    "meaning": "狭い道。(せまい みち。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I also don't like bananas. (i-adjective) (plain)",
+    "kana": "",
+    "meaning": "バナナも嫌い。 (ばなな も きらい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "The water's clear. (na-adjective but casual plain)",
+    "kana": "",
+    "meaning": "水は綺麗 (水はきれい)。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Japan's roads are narrow. (Natural Jp, polite)",
+    "kana": "",
+    "meaning": "日本の道は、狭いです。 (にっぽん の みち は、 せまい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "The onsen's baths are hot. (unnatural use of \"だ\")",
+    "kana": "",
+    "meaning": "温泉の風呂は熱いだ。 (おんせん の ふろ は あつい だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is hot today. (polite)",
+    "kana": "",
+    "meaning": "今日は暑いです。 (きょう は あつい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "It is cold. (polite)",
+    "kana": "",
+    "meaning": "寒いです。 (さむい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "This is fun. (polite)",
+    "kana": "",
+    "meaning": "これは楽しいです。 (これ は たのしい です。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "A new car.",
+    "kana": "",
+    "meaning": "新しい車。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I love fish. (\"loved by me\") (na-adjective, plain)",
+    "kana": "",
+    "meaning": "魚は大好きだ。 (さかな は だいすき だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "(It's) A vegetable that I love. (na-adjective)",
+    "kana": "",
+    "meaning": "大好きな野菜です。 (だいすきな やさい です。) / 大好きな野菜だ。(だいすきな やさい だ。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Very pretty. (Natural Japanese)",
+    "kana": "",
+    "meaning": "とても綺麗。(とてもきれい。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Very outside. (Unnatural Japanese)",
+    "kana": "",
+    "meaning": "とても外。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "A pretty painting. (na-adjective)",
+    "kana": "",
+    "meaning": "綺麗な絵(きれいなえ)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "A pretty woman.",
+    "kana": "",
+    "meaning": "綺麗な女の人。 (きれいなおんなのひと。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "A free day.",
+    "kana": "",
+    "meaning": "暇な一日。(ひまないちにち。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "A quiet room.",
+    "kana": "",
+    "meaning": "静かな部屋。 (しずかな へや。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "That over there is beautiful. (polite)",
+    "kana": "",
+    "meaning": "あれは綺麗です。 (あれはきれいです。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Question marking particle/ mark of uncertainty",
+    "kana": "",
+    "meaning": "か",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is this a cup? (Plain question)",
+    "kana": "",
+    "meaning": "これはコップですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is your apartment big? (Plain question)",
+    "kana": "",
+    "meaning": "あなたのアパートは大きいですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I don't know if this is tasty or bad. (uncertain)",
+    "kana": "",
+    "meaning": "美味しいか分からない。 (おいしい か わからない。)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "I don't know what this is. (uncertain)",
+    "kana": "",
+    "meaning": "これは何か分からない。",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Are you okay? (Standard pattern)",
+    "kana": "",
+    "meaning": "大丈夫ですか？ (だいじょうぶですか？)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Are you okay? (Very casual pattern)",
+    "kana": "",
+    "meaning": "大丈夫か？ (だいじょうぶか？)",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is this a book?",
+    "kana": "",
+    "meaning": "これは本ですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is this your book?",
+    "kana": "",
+    "meaning": "これはあなたの本ですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is this also your book?",
+    "kana": "",
+    "meaning": "これもあなたの本ですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is this a pen?",
+    "kana": "",
+    "meaning": "これはペンですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  },
+  {
+    "kanji": "Is this good?",
+    "kana": "",
+    "meaning": "これはいいですか？",
+    "example": "",
+    "cardColor": "0xFFCCCCCC"
+  }
+]

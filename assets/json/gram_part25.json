@@ -1,0 +1,135 @@
+[
+  {
+    "translation": {
+      "english": "I am in the hospital now.",
+      "hiragana0": "わたし は いま びょういん",
+      "hiragana1": "います。",
+      "romaji0": "wa ta shi wa i ma byo u i n",
+      "romaji1": "i ma su"
+    },
+    "choices": ["と", "も", "で", "に", "は"],
+    "correct_answer": "に"
+  },
+  {
+    "translation": {
+      "english": "I go to work by car.",
+      "hiragana0": "くるま",
+      "hiragana1": "かいしゃ に いきます。",
+      "romaji0": "ku ru ma",
+      "romaji1": "ka i sha ni i ki ma su"
+    },
+    "choices": ["に", "も", "の", "て", "で"],
+    "correct_answer": "で"
+  },
+  {
+    "translation": {
+      "english": "My name is Kosuke.",
+      "hiragana0": "わたし",
+      "hiragana1": "なまえ は こうすけ です。",
+      "romaji0": "wa ta shi",
+      "romaji1": "na ma e wa ko su ke de su"
+    },
+    "choices": ["の", "で", "と", "も", "に"],
+    "correct_answer": "の"
+  },
+  {
+    "translation": {
+      "english": "I have never played tennis.",
+      "hiragana0": "わたし は テニス を した",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa te ni su o shi ta",
+      "romaji1": ""
+    },
+    "choices": [
+      "ことがありません",
+      "ことがなさです",
+      "ことなきをえます",
+      "ことのないです",
+      "ことしかあります"
+    ],
+    "correct_answer": "ことがありません"
+  },
+  {
+    "translation": {
+      "english": "I won't say it.",
+      "hiragana0": "わたし は",
+      "hiragana1": "。",
+      "romaji0": "wa ta shi wa",
+      "romaji1": ""
+    },
+    "choices": [
+      "いおないです",
+      "いあないです",
+      "いわないです",
+      "いいないです",
+      "いうないです"
+    ],
+    "correct_answer": "いわないです"
+  },
+  {
+    "translation": {
+      "english": "Please do not run in the classroom.",
+      "hiragana0": "きょうしつ の なか で",
+      "hiragana1": "。",
+      "romaji0": "kyo u shi tsu no na ka de",
+      "romaji1": ""
+    },
+    "choices": [
+      "はしらないで ください",
+      "はしって ください",
+      "はしらない を ください",
+      "はしりません ください",
+      "はしらない です"
+    ],
+    "correct_answer": "はしらないで ください"
+  },
+  {
+    "translation": {
+      "english": "Mr. Tanaka's cat is under the desk.",
+      "hiragana0": "たなかさん の ねこ は",
+      "hiragana1": "います。",
+      "romaji0": "ta na ka sa n no ne ko wa",
+      "romaji1": "i ma su"
+    },
+    "choices": [
+      "つくえ の した に",
+      "した の つくえ に",
+      "した で つくえ に",
+      "つくえ の した で"
+    ],
+    "correct_answer": "つくえ の した に"
+  },
+  {
+    "translation": {
+      "english": "I eat sushi with my teacher.",
+      "hiragana0": "せんせい",
+      "hiragana1": "すし を たべます。",
+      "romaji0": "se n se i",
+      "romaji1": "su shi o ta be ma su"
+    },
+    "choices": ["と", "で", "は", "に", "が"],
+    "correct_answer": "と"
+  },
+  {
+    "translation": {
+      "english": "I ate the curry with a spoon.",
+      "hiragana0": "スプーン",
+      "hiragana1": "カレー を たべました。",
+      "romaji0": "su pu n",
+      "romaji1": "ka re o ta be ma shi ta"
+    },
+    "choices": ["で", "か", "に", "も", "を"],
+    "correct_answer": "で"
+  },
+  {
+    "translation": {
+      "english": "I'll go home.",
+      "hiragana0": "いえ",
+      "hiragana1": "かえります。",
+      "romaji0": "i e",
+      "romaji1": "ka e ri ma su"
+    },
+    "choices": ["も", "に", "を", "と", "て"],
+    "correct_answer": "に"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  { "kanji": "あ", "kana": "あ", "meaning": "A", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "い", "kana": "い", "meaning": "I", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "う", "kana": "う", "meaning": "U", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "え", "kana": "え", "meaning": "E", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "お", "kana": "お", "meaning": "O", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "か", "kana": "か", "meaning": "Ka", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "が", "kana": "が", "meaning": "Ga", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "き", "kana": "き", "meaning": "Ki", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "ぎ", "kana": "ぎ", "meaning": "Gi", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "く", "kana": "く", "meaning": "Ku", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "ぐ", "kana": "ぐ", "meaning": "Gu", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "け", "kana": "け", "meaning": "Ke", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "げ", "kana": "げ", "meaning": "Ge", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "こ", "kana": "こ", "meaning": "Ko", "example":"","cardColor":"0xFFCCCCCC" },
+  { "kanji": "ご", "kana": "ご", "meaning": "Go", "example":"","cardColor":"0xFFCCCCCC" }
+]

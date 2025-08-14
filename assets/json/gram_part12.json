@@ -1,0 +1,155 @@
+[
+  {
+    "translation": {
+      "english": "Please have a drink.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "のいで", "romaji": "no i de"},
+      {"hiragana": "のんで", "romaji": "no n de"},
+      {"hiragana": "のって", "romaji": "no t te"},
+      {"hiragana": "のみて", "romaji": "no mi te"},
+      {"hiragana": "のみって", "romaji": "no mi t te"}
+    ],
+    "correct_answer": {"hiragana": "のんで", "romaji": "no n de"}
+  },
+  {
+    "translation": {
+      "english": "Please believe me.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "しんじして", "romaji": "shi n ji shi te"},
+      {"hiragana": "しんじいで", "romaji": "shi n ji i de"},
+      {"hiragana": "しんじって", "romaji": "shi n ji t te"},
+      {"hiragana": "しんじて", "romaji": "shi n ji te"},
+      {"hiragana": "しんじいて", "romaji": "shi n ji i te"}
+    ],
+    "correct_answer": {"hiragana": "しんじて", "romaji": "shi n ji te"}
+  },
+  {
+    "translation": {
+      "english": "Please read.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "よみて", "romaji": "yo mi te"},
+      {"hiragana": "よいて", "romaji": "yo i te"},
+      {"hiragana": "よんで", "romaji": "yo n de"},
+      {"hiragana": "よって", "romaji": "yo t te"},
+      {"hiragana": "よいで", "romaji": "yo i de"}
+    ],
+    "correct_answer": {"hiragana": "よんで", "romaji": "yo n de"}
+  },
+  {
+    "translation": {
+      "english": "Please wake up.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "おきて", "romaji": "o ki te"},
+      {"hiragana": "おきって", "romaji": "o ki t te"},
+      {"hiragana": "おきいで", "romaji": "o ki i de"},
+      {"hiragana": "おんで", "romaji": "o n de"},
+      {"hiragana": "おきんで", "romaji": "o ki n de"}
+    ],
+    "correct_answer": {"hiragana": "おきて", "romaji": "o ki te"}
+  },
+  {
+    "translation": {
+      "english": "Please listen to me.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "きいて", "romaji": "ki i te"},
+      {"hiragana": "きって", "romaji": "ki t te"},
+      {"hiragana": "きんで", "romaji": "ki n de"},
+      {"hiragana": "ききて", "romaji": "ki ki te"},
+      {"hiragana": "きいで", "romaji": "ki i de"}
+    ],
+    "correct_answer": {"hiragana": "きいて", "romaji": "ki i te"}
+  },
+  {
+    "translation": {
+      "english": "Please take a look.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "みて", "romaji": "mi te"},
+      {"hiragana": "みんで", "romaji": "mi n de"},
+      {"hiragana": "みいて", "romaji": "mi i te"},
+      {"hiragana": "みって", "romaji": "mi t te"},
+      {"hiragana": "みいで", "romaji": "mi i de"}
+    ],
+    "correct_answer": {"hiragana": "みて", "romaji": "mi te"}
+  },
+  {
+    "translation": {
+      "english": "Please wear a sweater.",
+      "hiragana0": "セーター を ",
+      "hiragana1": " ください。",
+      "romaji0": "se ta o ",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "きいて", "romaji": "ki i te"},
+      {"hiragana": "きて", "romaji": "ki te"},
+      {"hiragana": "きって", "romaji": "ki t te"},
+      {"hiragana": "きいで", "romaji": "ki i de"},
+      {"hiragana": "きして", "romaji": "ki shi te"}
+    ],
+    "correct_answer": {"hiragana": "きて", "romaji": "ki te"}
+  },
+  {
+    "translation": {
+      "english": "Please study.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": " ku da sa i"
+    },
+    "choices": [
+      {"hiragana": "べんきょうしって", "romaji": "be n kyo u shi t te"},
+      {"hiragana": "べんきょうして", "romaji": "be n kyo u shi te"},
+      {"hiragana": "べんきょうしいて", "romaji": "be n kyo u shi i te"},
+      {"hiragana": "べんきょうしんで", "romaji": "be n kyo u shi n de"},
+      {"hiragana": "べんきょうしいで", "romaji": "be n kyo u shi i de"}
+    ],
+    "correct_answer": {"hiragana": "べんきょうして", "romaji": "be n kyo u shi te"}
+  },
+  {
+    "translation": {
+      "english": "Please eat.",
+      "hiragana0": "",
+      "hiragana1": " ください。",
+      "romaji0": "",
+      "romaji1": "  da sa i"
+    },
+    "choices": [
+      {"hiragana": "たべって", "romaji": "ta be t te"},
+      {"hiragana": "たべいて", "romaji": "ta be i te"},
+      {"hiragana": "たべて", "romaji": "ta be te"},
+      {"hiragana": "たべんで", "romaji": "ta be n de"},
+      {"hiragana": "たべいで", "romaji": "ta be i de"}
+    ],
+    "correct_answer": {"hiragana": "たべて", "romaji": "ta be te"}
+  }
+]

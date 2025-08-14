@@ -1,0 +1,104 @@
+[
+  {
+    "translation": {
+      "english": "I'll go home.",
+      "hiragana0": "いえ",
+      "hiragana1": " かえります。",
+      "romaji0": "i e",
+      "romaji1": " ka e ri ma su"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "て", "romaji": "te"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "と", "romaji": "to"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "I am at school.",
+      "hiragana0": "わたし は がっこう",
+      "hiragana1": " います。",
+      "romaji0": "wa ta shi wa ga k ko u",
+      "romaji1": " i ma su"
+    },
+    "choices": [
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "I will go to Tokyo in August.",
+      "hiragana0": "はちがつ",
+      "hiragana1": " とうきょう に いきます。",
+      "romaji0": "ha chi ga tsu",
+      "romaji1": " to u kyo u ni i ki ma su"
+    },
+    "choices": [
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "て", "romaji": "te"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "に", "romaji": "ni"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "He will come to this room.",
+      "hiragana0": "かれ は この へや",
+      "hiragana1": " きます。",
+      "romaji0": "ka re wa ko no he ya",
+      "romaji1": " ki ma su"
+    },
+    "choices": [
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "て", "romaji": "te"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "いって", "romaji": "i t te"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  },
+  {
+    "translation": {
+      "english": "I study at school.",
+      "hiragana0": "わたし は がっこう",
+      "hiragana1": " べんきょうします。",
+      "romaji0": "wa ta shi wa ga k ko u",
+      "romaji1": " be n kyo u shi ma su"
+    },
+    "choices": [
+      {"hiragana": "で", "romaji": "de"},
+      {"hiragana": "と", "romaji": "to"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "も", "romaji": "mo"},
+      {"hiragana": "に", "romaji": "ni"}
+    ],
+    "correct_answer": {"hiragana": "で", "romaji": "de"}
+  },
+  {
+    "translation": {
+      "english": "I eat breakfast at 6 o'clock.",
+      "hiragana0": "わたし は ろくじ",
+      "hiragana1": " あさごはん を たべます。",
+      "romaji0": "wa ta shi wa ro ku ji",
+      "romaji1": " a sa go ha n o ta be ma su"
+    },
+    "choices": [
+      {"hiragana": "はん", "romaji": "ha n"},
+      {"hiragana": "を", "romaji": "o"},
+      {"hiragana": "に", "romaji": "ni"},
+      {"hiragana": "しょくじ", "romaji": "sho ku ji"},
+      {"hiragana": "で", "romaji": "de"}
+    ],
+    "correct_answer": {"hiragana": "に", "romaji": "ni"}
+  }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "image": "assets/images/folk_1.png",
+        "title": "The Singing Skull",
+        "description": "This is a Japanese folktale about a man who killed his friend!",
+        "learning_info": "Learn Japanese by reading this scary story in Romaji, Hiragana, and Kanji!",
+        "content": [
+            {
+                "sentence": {
+                    "kanji": "昔々あるところに、二人の若者がおりました。",
+                    "hiragana": "むかしむかし ある ところ に、ふたり の わかもの が おりました。",
+                    "romaji": "mu ka shi mu ka shi a ru to ko ro ni、fu ta ri no wa ka mo no ga o ri ma shi ta。",
+                    "english": "Once upon a time, there were two young men."
+                },
+                "vocabulary": [
+                    {
+                        "kanji": "昔々",
+                        "hiragana": "むかしむかし",
+                        "english": "long long ago"
+                    },
+                    {
+                        "hiragana": "あるところに",
+                        "english": "in a certain place"
+                    },
+                    {
+                        "kanji": "二人の",
+                        "hiragana": "ふたりの",
+                        "english": "two (persons)"
+                    },
+                    {
+                        "kanji": "若者",
+                        "hiragana": "わかもの",
+                        "english": "young person"
+                    },
+                    {
+                        "hiragana": "...がおりました",
+                        "english": "There was..., There were..."
+                    }
+                ]
+            },
+            {
+                "sentence": {
+                    "kanji": "一人は働き者でしたが、もう一人は怠け者でした。",
+                    "hiragana": "ひとり は はたらきもの でした が、もう ひとり は なまけもの でした。",
+                    "romaji": "hi to ri wa ha ta ra ki mo no de shi ta ga、mo u hi to ri wa na ma ke mo no de shi ta。",
+                    "english": "One was a hard worker, and the other was lazy."
+                },
+                "vocabulary": [
+                    {
+                        "kanji": "一人",
+                        "hiragana": "ひとり",
+                        "english": "one (person)"
+                    },
+                    {
+                        "hiragana": "は",
+                        "english": "は is a Japanese 'postpositional particle' used after the topic of the sentence, that the speaker is talking about. The 'Topic' often means the subject of a verb."
+                    },
+                    {
+                        "kanji": "働き者",
+                        "hiragana": "はたらきもの",
+                        "english": "hard worker"
+                    },
+                    {
+                        "hiragana": "でした",
+                        "english": "was, were"
+                    },
+                    {
+                        "hiragana": "が",
+                        "english": "but"
+                    },
+                    {
+                        "kanji": "もう一人",
+                        "hiragana": "もうひとり",
+                        "english": "the other"
+                    },
+                    {
+                        "kanji": "怠け者",
+                        "hiragana": "なまけもの",
+                        "english": "lazy, sloth"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "image": "assets/images/folk_2.png",
+        "title": "The Woman Buying Candies",
+        "description": "This is a Japanese folktale about a woman who buys candies every night...",
+        "learning_info": "Enjoy this folktale in Hiragana, Katakana, Kanji, and English!",
+        "content": [
+            {
+                "sentence": {
+                    "kanji": "昔々ある村に、一軒の飴屋さんがありました。",
+                    "hiragana": "むかしむかし ある むら に、いっけん の あめや さん が あり まし た。",
+                    "romaji": "mu ka shi mu ka shi a ru mu ra ni、i k ke n no a me ya sa n ga a ri ma shi ta。",
+                    "english": "Long long ago, in a village, there was a candy shop."
+                },
+                "vocabulary": [
+                    {
+                        "kanji": "昔々",
+                        "hiragana": "むかしむかし",
+                        "english": "long long ago"
+                    },
+                    {
+                        "word": "ある",
+                        "english": "a, certain"
+                    },
+                    {
+                        "kanji": "村",
+                        "hiragana": "むら",
+                        "english": "village"
+                    },
+                    {
+                        "particle": "に",
+                        "english": "in, at"
+                    },
+                    {
+                        "kanji": "一軒の",
+                        "hiragana": "いっけんの",
+                        "english": "one (house, shop)"
+                    },
+                    {
+                        "kanji": "飴屋さん",
+                        "hiragana": "あめやさん",
+                        "english": "candy shop"
+                    },
+                    {
+                        "phrase": "...がありました",
+                        "english": "There was..."
+                    }
+                ]
+            },
+            {
+                "sentence": {
+                    "kanji": "ある夜、店の主人が店を閉めようとした時、一人の女性が現れました。",
+                    "hiragana": "ある よる、みせ の しゅじん が みせ を しめよ う と し た とき、ひとり の じょせい が あらわれ まし た。",
+                    "romaji": "a ru yo ru、mi se no shu ji n ga mi se wo shi me yo u to shi ta to ki、hi to ri no jo se i ga a ra wa re ma shi ta。",
+                    "english": "One night, when the store owner tried to close the store, a woman appeared."
+                },
+                "vocabulary": [
+                    {
+                        "hiragana": "ある",
+                        "english": "a, certain"
+                    },
+                    {
+                        "kanji": "夜",
+                        "hiragana": "よる",
+                        "english": "night"
+                    },
+                    {
+                        "kanji": "店",
+                        "hiragana": "みせ",
+                        "english": "shop"
+                    },
+                    {
+                        "hiragana": "の",
+                        "english": "'s, of"
+                    },
+                    {
+                        "kanji": "主人",
+                        "hiragana": "しゅじん",
+                        "english": "master, owner"
+                    },
+                    {
+                        "hiragana": "が",
+                        "english": "subject marker"
+                    },
+                    {
+                        "hiragana": "を",
+                        "english": "object marker"
+                    },
+                    {
+                        "kanji": "閉めようとした",
+                        "hiragana": "しめようとした",
+                        "english": "tried to close"
+                    },
+                    {
+                        "kanji": "時",
+                        "hiragana": "とき",
+                        "english": "when"
+                    },
+                    {
+                        "kanji": "一人の",
+                        "hiragana": "ひとりの",
+                        "english": "one (person)"
+                    },
+                    {
+                        "kanji": "女性",
+                        "hiragana": "じょせい",
+                        "english": "woman"
+                    },
+                    {
+                        "kanji": "現れました",
+                        "hiragana": "あらわれました",
+                        "english": "appeared"
+                    }
+                ]
+            }
+        ]
+        }
+
+
+]
