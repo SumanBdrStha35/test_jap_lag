@@ -16,7 +16,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
   final Map<int, int> lessonProgress = {};
   late AnimationController _headerAnimationController;
   late ScrollController _scrollController;
-  bool _isSearching = false;
+  final bool _isSearching = false;
   String _searchQuery = '';
   bool _showGrid = false;
 
@@ -150,7 +150,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
               end: Alignment.bottomCenter,
               colors: [
                 Theme.of(context).colorScheme.surface,
-                Theme.of(context).colorScheme.surfaceVariant.withOpacity(0.5),
+                Theme.of(context).colorScheme.surfaceContainerHighest.withOpacity(0.5),
               ],
             ),
           ),
@@ -312,7 +312,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                         borderRadius: BorderRadius.circular(8),
                         child: LinearProgressIndicator(
                           value: progress / 100,
-                          backgroundColor: Theme.of(context).colorScheme.surfaceVariant,
+                          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
                           valueColor: AlwaysStoppedAnimation<Color>(color),
                           minHeight: 8,
                         ),
@@ -399,7 +399,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                   height: 60,
                   child: CircularProgressIndicator(
                     value: progress / 100,
-                    backgroundColor: Theme.of(context).colorScheme.surfaceVariant,
+                    backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
                     valueColor: AlwaysStoppedAnimation<Color>(color),
                     strokeWidth: 4,
                   ),
