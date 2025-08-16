@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_app/pages/hirakata/letter_page.dart';
 import 'package:flutter_app/pages/hirakata/letter_test.dart';
 
@@ -8,7 +9,7 @@ class HiraKataApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HiraKataPage(),
+      home: const HiraKataPage(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -24,8 +25,12 @@ class HiraKataPage extends StatelessWidget {
   void _handleStudyAction(BuildContext context, String type) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (context) => StudyPage(type: type),
+      PageRouteBuilder(
+        pageBuilder: (_, __, ___) => StudyPage(type: type),
+        transitionsBuilder: (_, animation, __, child) {
+          return FadeTransition(opacity: animation, child: child);
+        },
+        transitionDuration: 500.ms,
       ),
     );
   }
@@ -33,8 +38,18 @@ class HiraKataPage extends StatelessWidget {
   void _handleCharacterTestAction(BuildContext context, String type) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (context) => CharacterTestPage(type: type),
+      PageRouteBuilder(
+        pageBuilder: (_, __, ___) => CharacterTestPage(type: type),
+        transitionsBuilder: (_, animation, __, child) {
+          return SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(1, 0),
+              end: Offset.zero,
+            ).animate(animation),
+            child: child,
+          );
+        },
+        transitionDuration: 500.ms,
       ),
     );
   }
@@ -42,8 +57,12 @@ class HiraKataPage extends StatelessWidget {
   void _handleWordTestAction(BuildContext context, String type) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (context) => WordTestPage(type: type),
+      PageRouteBuilder(
+        pageBuilder: (_, __, ___) => WordTestPage(type: type),
+        transitionsBuilder: (_, animation, __, child) {
+          return ScaleTransition(scale: animation, child: child);
+        },
+        transitionDuration: 500.ms,
       ),
     );
   }
@@ -51,25 +70,38 @@ class HiraKataPage extends StatelessWidget {
   void _handleSectionClearAction(BuildContext context, String type) {
     showDialog(
       context: context,
-      builder: (context) => AlertDialog(
-        title: Text('$type セクションクリア'),
-        content: Text('$typeのセクションをクリアしますか？'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('キャンセル'),
-          ),
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text('$typeセクションをクリアしました！')),
-              );
-            },
-            child: const Text('クリア'),
-          ),
-        ],
-      ),
+      builder:
+          (context) => AlertDialog(
+            title: Text('$type セクションクリア'),
+            content: Text('$typeのセクションをクリアしますか？'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text('キャンセル'),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text('$typeセクションをクリアしました！'),
+                      behavior: SnackBarBehavior.floating,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      duration: const Duration(milliseconds: 500),
+                    ),
+                    // animate().slideY(
+                    //   begin: 1,
+                    //   end: 0,
+                    //   curve: Curves.easeOutBack,
+                    // ),
+                  );
+                },
+                child: const Text('クリア'),
+              ),
+            ],
+          ).animate().scaleXY(begin: 0.8, end: 1, curve: Curves.easeOutBack),
     );
   }
 
@@ -78,38 +110,86 @@ class HiraKataPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: pinkColor,
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Hiragana Card
-            buildLanguageCard(
-              title: "ひらがな",
-              subtitle: "基本の文字",
-              progress: 0.1,
-              color: strongPink,
-              buttons: [
-                buildCard(Icons.menu_book, "学習", strongPink, () => _handleStudyAction(context, 'ひらがな')),
-                buildCard(Icons.edit, "文字テスト", strongPink, () => _handleCharacterTestAction(context, 'ひらがな')),
-                buildCard(Icons.record_voice_over, "単語テスト", strongPink, () => _handleWordTestAction(context, 'ひらがな')),
-                buildCard(Icons.check_circle, "セクションクリア", strongPink, () => _handleSectionClearAction(context, 'ひらがな')),
-              ],
-            ),
-            const SizedBox(height: 20),
-            
-            // Katakana Card
-            buildLanguageCard(
-              title: "カタカナ",
-              subtitle: "基本の文字",
-              progress: 0.8,
-              color: darkPink,
-              buttons: [
-                buildCard(Icons.menu_book, "学習", darkPink, () => _handleStudyAction(context, 'カタカナ')),
-                buildCard(Icons.edit, "文字テスト", darkPink, () => _handleCharacterTestAction(context, 'カタカナ')),
-                buildCard(Icons.record_voice_over, "単語テスト", darkPink, () => _handleWordTestAction(context, 'カタカナ')),
-                buildCard(Icons.check_circle, "セクションクリア", darkPink, () => _handleSectionClearAction(context, 'カタカナ')),
-              ],
-            ),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // Hiragana Card
+              buildLanguageCard(
+                    title: "ひらがな",
+                    subtitle: "基本の文字",
+                    progress: 0.1,
+                    color: strongPink,
+                    buttons: [
+                      buildCard(
+                        Icons.menu_book,
+                        "学習",
+                        strongPink,
+                        () => _handleStudyAction(context, 'ひらがな'),
+                      ),
+                      buildCard(
+                        Icons.edit,
+                        "文字テスト",
+                        strongPink,
+                        () => _handleCharacterTestAction(context, 'ひらがな'),
+                      ),
+                      buildCard(
+                        Icons.record_voice_over,
+                        "単語テスト",
+                        strongPink,
+                        () => _handleWordTestAction(context, 'ひらがな'),
+                      ),
+                      buildCard(
+                        Icons.check_circle,
+                        "セクションクリア",
+                        strongPink,
+                        () => _handleSectionClearAction(context, 'ひらがな'),
+                      ),
+                    ],
+                  )
+                  .animate()
+                  .fadeIn(delay: 200.ms)
+                  .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
+              const SizedBox(height: 20),
+
+              // Katakana Card
+              buildLanguageCard(
+                    title: "カタカナ",
+                    subtitle: "基本の文字",
+                    progress: 0.8,
+                    color: darkPink,
+                    buttons: [
+                      buildCard(
+                        Icons.menu_book,
+                        "学習",
+                        darkPink,
+                        () => _handleStudyAction(context, 'カタカナ'),
+                      ),
+                      buildCard(
+                        Icons.edit,
+                        "文字テスト",
+                        darkPink,
+                        () => _handleCharacterTestAction(context, 'カタカナ'),
+                      ),
+                      buildCard(
+                        Icons.record_voice_over,
+                        "単語テスト",
+                        darkPink,
+                        () => _handleWordTestAction(context, 'カタカナ'),
+                      ),
+                      buildCard(
+                        Icons.check_circle,
+                        "セクションクリア",
+                        darkPink,
+                        () => _handleSectionClearAction(context, 'カタカナ'),
+                      ),
+                    ],
+                  )
+                  .animate()
+                  .fadeIn(delay: 400.ms)
+                  .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
+            ],
+          ),
         ),
       ),
     );
@@ -127,13 +207,22 @@ class HiraKataPage extends StatelessWidget {
         // Title and Progress Card
         Card(
           elevation: 4,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
           child: Container(
             width: 300,
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  color: color.withOpacity(0.2),
+                  blurRadius: 10,
+                  spreadRadius: 2,
+                ),
+              ],
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -144,43 +233,51 @@ class HiraKataPage extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(title,
-                            style: TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.bold,
-                              color: color,
-                            )),
-                        Text(subtitle,
-                            style: const TextStyle(color: Colors.grey)),
+                        Text(
+                          title,
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            color: color,
+                          ),
+                        ),
+                        Text(
+                          subtitle,
+                          style: const TextStyle(color: Colors.grey),
+                        ),
                       ],
                     ),
                     Column(
                       children: [
-                        Text("${(progress * 100).toInt()}%",
-                            style: const TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                            )),
-                        const Text("完了",
-                            style: TextStyle(color: Colors.grey)),
+                        Text(
+                          "${(progress * 100).toInt()}%",
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                        const Text("完了", style: TextStyle(color: Colors.grey)),
                       ],
                     ),
                   ],
                 ),
                 const SizedBox(height: 10),
                 LinearProgressIndicator(
-                  value: progress,
-                  backgroundColor: Colors.grey[300],
-                  color: color,
-                  minHeight: 8,
-                ),
+                      value: progress,
+                      backgroundColor: Colors.grey[300],
+                      color: color,
+                      minHeight: 8,
+                    )
+                    .animate(delay: 600.ms)
+                    .scaleX(
+                      begin: 0,
+                      end: 1,
+                      duration: 800.ms,
+                      curve: Curves.easeOutQuad,
+                    ),
                 const SizedBox(height: 10),
                 // Buttons Grid
-                Wrap(
-                  spacing: 10,
-                  runSpacing: 10,
-                  children: buttons,
-                ),
+                Wrap(spacing: 10, runSpacing: 10, children: buttons),
               ],
             ),
           ),
@@ -189,7 +286,12 @@ class HiraKataPage extends StatelessWidget {
     );
   }
 
-  Widget buildCard(IconData icon, String label, Color color, VoidCallback onTap) {
+  Widget buildCard(
+    IconData icon,
+    String label,
+    Color color,
+    VoidCallback onTap,
+  ) {
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(16),
@@ -199,11 +301,26 @@ class HiraKataPage extends StatelessWidget {
         decoration: BoxDecoration(
           color: color,
           borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: color.withOpacity(0.4),
+              blurRadius: 8,
+              offset: const Offset(0, 4),
+            ),
+          ],
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(icon, color: Colors.white, size: 32),
+            Icon(icon, color: Colors.white, size: 32)
+                .animate()
+                .scale(
+                  duration: 100.ms,
+                  begin: const Offset(1, 1),
+                  end: const Offset(0.9, 0.9),
+                )
+                .then()
+                .scale(begin: const Offset(0.9, 0.9), end: const Offset(1, 1)),
             const SizedBox(height: 10),
             Text(
               label,
@@ -211,15 +328,18 @@ class HiraKataPage extends StatelessWidget {
                 color: Colors.white,
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
-                fontFamily: 'NotoSansJP',
               ),
             ),
           ],
         ),
+      ).animate().fadeIn().scale(
+        begin: const Offset(0.8, 0.8),
+        end: const Offset(1, 1),
+        curve: Curves.elasticOut,
       ),
     );
   }
-  
+
   StudyPage({required String type}) {
     if (type == 'ひらがな') {
       return LetterPage(title: 'Hiragana');
@@ -227,7 +347,7 @@ class HiraKataPage extends StatelessWidget {
       return LetterPage(title: 'Katakana');
     }
   }
-  
+
   CharacterTestPage({required String type}) {
     if (type == 'ひらがな') {
       return LetterTest(title: 'Hiragana');
@@ -235,7 +355,7 @@ class HiraKataPage extends StatelessWidget {
       return LetterTest(title: 'Katakana');
     }
   }
-  
+
   WordTestPage({required String type}) {
     if (type == 'ひらがな') {
       return const Center(child: Text('Hiragana Word Test Page'));

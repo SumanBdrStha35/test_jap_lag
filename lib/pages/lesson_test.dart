@@ -11,106 +11,94 @@ class LessonTest extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFFAFAFA),
       body: SafeArea(
-        child: Column(
-          children: [
-            // Header Section
-            Container(
-              padding: const EdgeInsets.fromLTRB(24, 40, 24, 32),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // Row(
-                  //   children: [
-                  //     IconButton(
-                  //       icon: const Icon(Icons.arrow_back_ios, size: 20),
-                  //       onPressed: () => Navigator.pop(context),
-                  //     ),
-                  //     const Spacer(),
-                  //     const Icon(Icons.more_horiz, size: 24),
-                  //   ],
-                  // ),
-                  const SizedBox(height: 24),
-                  const Text(
-                    'Choose Your',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.w300,
-                      color: Color(0xFF2D3436),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              // Header Section
+              Container(
+                padding: const EdgeInsets.fromLTRB(24, 40, 24, 32),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const SizedBox(height: 24),
+                    const Text(
+                      'Choose Your',
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.w300,
+                        color: Color(0xFF2D3436),
+                      ),
                     ),
-                  ),
-                  const Text(
-                    'Learning Path',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                      color: Color(0xFF2D3436),
+                    const Text(
+                      'Learning Path',
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF2D3436),
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    'Master Japanese with curated lessons',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: const Color(0xFF2D3436).withOpacity(0.7),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Master Japanese with curated lessons',
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: const Color(0xFF2D3436).withOpacity(0.7),
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            
-            // Main Content
-            Expanded(
-              child: ListView(
+              
+              // Main Content - Grid Section
+              Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
-                children: [
-                  // Lesson Grid
-                  GridView.count(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    crossAxisCount: 2,
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
-                    children: [
-                      _buildLessonCard(
-                        context,
-                        'Greetings',
-                        'Start with essential Japanese greetings',
-                        Icons.waving_hand,
-                        const Color(0xFFFF6B6B),
-                        const FallingLeavesSpring(),
-                      ),
-                      _buildLessonCard(
-                        context,
-                        'Vocabulary',
-                        'Daily phrases & common expressions',
-                        Icons.menu_book,
-                        const Color(0xFF4ECDC4),
-                        const VocaLessonPageUpdate(),
-                      ),
-                      _buildLessonCard(
-                        context,
-                        'Grammar',
-                        'Master Japanese sentence structure',
-                        Icons.psychology,
-                        const Color(0xFF667EEA),
-                        const GramPage(title: "Grammar", selectedIndex: 2,),
-                      ),
-                      _buildLessonCard(
-                        context,
-                        'Kanji',
-                        'Learn Japanese characters visually',
-                        Icons.brush,
-                        const Color(0xFFF093FB),
-                        const FallingLeavesSpring(),
-                      ),
-                    ],
-                  ),
-                  
-                  const SizedBox(height: 32),
-                ],
+                child: GridView.count(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 16,
+                  mainAxisSpacing: 16,
+                  childAspectRatio: 0.85, // Adjusted ratio for better fit
+                  children: [
+                    _buildLessonCard(
+                      context,
+                      'Greetings',
+                      'Start with essential Japanese greetings',
+                      Icons.waving_hand,
+                      const Color(0xFFFF6B6B),
+                      const FallingLeavesSpring(),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Vocabulary',
+                      'Daily phrases & common expressions',
+                      Icons.menu_book,
+                      const Color(0xFF4ECDC4),
+                      const VocaLessonPageUpdate(),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Grammar',
+                      'Master Japanese sentence structure',
+                      Icons.psychology,
+                      const Color(0xFF667EEA),
+                      const GramPage(title: "Grammar", selectedIndex: 2,),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Kanji',
+                      'Learn Japanese characters visually',
+                      Icons.brush,
+                      const Color(0xFFF093FB),
+                      const FallingLeavesSpring(),
+                    ),
+                  ],
+                ),
               ),
-            ),
-          ],
+              
+              const SizedBox(height: 32),
+            ],
+          ),
         ),
       ),
     );
@@ -145,6 +133,7 @@ class LessonTest extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min, // Added to prevent overflow
             children: [
               Container(
                 width: 48,
@@ -171,6 +160,8 @@ class LessonTest extends StatelessWidget {
                   fontSize: 12,
                   color: const Color(0xFF2D3436).withOpacity(0.7),
                 ),
+                maxLines: 2, // Added to prevent overflow
+                overflow: TextOverflow.ellipsis,
               ),
             ],
           ),

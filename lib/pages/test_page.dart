@@ -23,9 +23,9 @@ class _TestPageState extends State<TestPage> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color(0xFF667eea),
-              Color(0xFF764ba2),
-              Color(0xFFf093fb),
+              Color.fromARGB(255, 129, 152, 255),
+              Color.fromARGB(255, 50, 255, 159),
+              Color.fromRGBO(255, 122, 233, 1)
             ],
           ),
         ),

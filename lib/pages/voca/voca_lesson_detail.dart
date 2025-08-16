@@ -98,6 +98,7 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
                                   VocaQuizePage(
                                 id: widget.lessonNumber,
                                 title: 'Lesson ${widget.lessonNumber}',
+                                selected: 0,
                               ),
                               transitionsBuilder:
                                   (context, animation, secondaryAnimation, child) {

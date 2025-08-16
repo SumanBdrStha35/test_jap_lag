@@ -10,11 +10,18 @@ class VocaQuizePage extends StatefulWidget {
   final int? id;
   final String? title;
   final int? progress;
+  final int selected;
 
-  const VocaQuizePage({super.key, this.id, this.title, this.progress});
+  const VocaQuizePage({
+    super.key,
+    this.id,
+    this.title,
+    this.progress,
+    required this.selected,
+  });
 
   @override
-  State<VocaQuizePage> createState () => _VocaQuizePageNoun1();
+  State<VocaQuizePage> createState() => _VocaQuizePageNoun1();
 }
 
 class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
@@ -28,7 +35,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
   String? _selectedOption;
 
   FlutterTts flutterTts = FlutterTts();
-  
+
   @override
   void initState() {
     super.initState();
@@ -42,7 +49,16 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
   }
 
   Future<void> _loadQuizItems() async {
-    quizItems = await rootBundle.loadString('assets/json/voca_les_${widget.id}.json');
+    if (widget.selected == 1) {
+      quizItems = await rootBundle.loadString(
+        'assets/json/voca_nouns${widget.id}.json',
+      );
+    } else {
+      quizItems = await rootBundle.loadString(
+        'assets/json/voca_les_${widget.id}.json',
+      );
+    }
+
     final List<dynamic> jsonResponse = json.decode(quizItems);
     setState(() {
       _quizItems = jsonResponse.cast<Map<String, dynamic>>();
@@ -84,18 +100,23 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
   int correctCount = 0;
   void _completeQuiz() async {
     int progress = ((correctCount / _quizItems.length) * 100).toInt();
-    print('Correct: $correctCount, total: ${_quizItems.length}, progress: $progress%');
-    
-    // Store progress of widget.id in Hive
-    final box = await Hive.openBox('vocaLessonProgress');
-    //update the progress of the lesson
-    await box.put(widget.id, progress); 
-    
+    print(
+      'Correct: $correctCount, total: ${_quizItems.length}, progress: $progress%',
+    );
     setState(() {
       _completedCount = progress;
       _quizStarted = false;
     });
-    Navigator.pop(context, {'id': widget.id, 'progress': progress});
+
+    //base on selected
+    if (widget.selected == 1) {
+      Navigator.pop(context, {'id': widget.id, 'progress': progress});
+    } else {
+      // Store progress of widget.id in Hive
+      final box = await Hive.openBox('vocaLessonProgress');
+      //update the progress of the lesson
+      await box.put(widget.id, progress);
+    }
   }
 
   void _selectOption(String option) {
@@ -138,7 +159,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
         print("Speech started successfully");
       } else {
         print("Speech failed to start");
-      }      
+      }
     } catch (e) {
       print("Error in TTS speak: \$e");
     }
@@ -165,7 +186,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
             ],
           ),
         ),
-        child: _buildQuizInterface()
+        child: _buildQuizInterface(),
         // _quizStarted
         //     ? _buildQuizInterface()
         //     : _buildPreQuizInterface(),
@@ -176,20 +197,21 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
   Widget _buildQuizInterface() {
     return Padding(
       padding: const EdgeInsets.all(16.0),
-      child: _quizItems.isEmpty
-          ? Center(child: CircularProgressIndicator())
-          : Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                _buildProgressIndicator(),
-                SizedBox(height: 20),
-                _buildQuestionCard(),
-                SizedBox(height: 20),
-                _buildOptionsList(),
-                Spacer(),
-                _buildNavigationButtons(),
-              ],
-            ),
+      child:
+          _quizItems.isEmpty
+              ? Center(child: CircularProgressIndicator())
+              : Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  _buildProgressIndicator(),
+                  SizedBox(height: 20),
+                  _buildQuestionCard(),
+                  SizedBox(height: 20),
+                  _buildOptionsList(),
+                  Spacer(),
+                  _buildNavigationButtons(),
+                ],
+              ),
     );
   }
 
@@ -236,7 +258,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
 
   Widget _buildQuestionCard() {
     final currentItem = _quizItems[_currentQuestionIndex];
-    
+
     return Container(
       padding: EdgeInsets.all(24),
       decoration: BoxDecoration(
@@ -276,10 +298,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
           SizedBox(height: 8),
           Text(
             '${currentItem['hiragana']}',
-            style: TextStyle(
-              fontSize: 24,
-              color: Colors.grey.shade600,
-            ),
+            style: TextStyle(fontSize: 24, color: Colors.grey.shade600),
           ),
           SizedBox(height: 16),
           Text(
@@ -297,93 +316,110 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
 
   Widget _buildOptionsList() {
     return Column(
-      children: _options.map((option) {
-        final isSelected = option == _selectedOption;
-        final isCorrect = option == (_quizItems[_currentQuestionIndex]['meaning'] ?? '');
-        
-        Color cardColor = Colors.white;
-        Color textColor = Colors.grey.shade800;
-        Color borderColor = Colors.grey.shade300;
-        
-        if (_selectedOption != null) {
-          if (isSelected && isCorrect) {
-            correctCount++;
-            cardColor = Colors.green.shade50;
-            borderColor = Colors.green;
-            textColor = Colors.green.shade800;
-          } else if (isSelected && !isCorrect) {
-            cardColor = Colors.red.shade50;
-            borderColor = Colors.red;
-            textColor = Colors.red.shade800;
-          } 
-          // else if (isCorrect) {
-          //   correctCount += 1;
-          //   cardColor = Colors.green.shade50;
-          //   borderColor = Colors.green;
-          //   textColor = Colors.green.shade800;
-          // }
-        }
+      children:
+          _options.map((option) {
+            final isSelected = option == _selectedOption;
+            final isCorrect =
+                option == (_quizItems[_currentQuestionIndex]['meaning'] ?? '');
 
-        return Padding(
-          padding: EdgeInsets.symmetric(vertical: 8),
-          child: InkWell(
-            onTap: _selectedOption == null ? () => _selectOption(option) : null,
-            borderRadius: BorderRadius.circular(16),
-            child: Container(
-              decoration: BoxDecoration(
-                color: cardColor,
+            Color cardColor = Colors.white;
+            Color textColor = Colors.grey.shade800;
+            Color borderColor = Colors.grey.shade300;
+
+            if (_selectedOption != null) {
+              if (isSelected && isCorrect) {
+                correctCount++;
+                cardColor = Colors.green.shade50;
+                borderColor = Colors.green;
+                textColor = Colors.green.shade800;
+              } else if (isSelected && !isCorrect) {
+                cardColor = Colors.red.shade50;
+                borderColor = Colors.red;
+                textColor = Colors.red.shade800;
+              }
+              // else if (isCorrect) {
+              //   correctCount += 1;
+              //   cardColor = Colors.green.shade50;
+              //   borderColor = Colors.green;
+              //   textColor = Colors.green.shade800;
+              // }
+            }
+
+            return Padding(
+              padding: EdgeInsets.symmetric(vertical: 8),
+              child: InkWell(
+                onTap:
+                    _selectedOption == null
+                        ? () => _selectOption(option)
+                        : null,
                 borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: borderColor, width: 2),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.1),
-                    spreadRadius: 1,
-                    blurRadius: 4,
-                    offset: Offset(0, 2),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: cardColor,
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: borderColor, width: 2),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.1),
+                        spreadRadius: 1,
+                        blurRadius: 4,
+                        offset: Offset(0, 2),
+                      ),
+                    ],
                   ),
-                ],
-              ),
-              padding: EdgeInsets.all(16),
-              child: Row(
-                children: [
-                  Container(
-                    width: 24,
-                    height: 24,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: _selectedOption == null
-                          ? Colors.grey.shade300
-                          : (isSelected && isCorrect)
-                              ? Colors.green
-                              : (isSelected && !isCorrect)
+                  padding: EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 24,
+                        height: 24,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color:
+                              _selectedOption == null
+                                  ? Colors.grey.shade300
+                                  : (isSelected && isCorrect)
+                                  ? Colors.green
+                                  : (isSelected && !isCorrect)
                                   ? Colors.red
                                   : isCorrect
-                                      ? Colors.green
-                                      : Colors.grey.shade300,
-                    ),
-                    child: _selectedOption != null && isCorrect
-                        ? Icon(Icons.check, size: 16, color: Colors.white)
-                        : _selectedOption != null && isSelected && !isCorrect
-                            ? Icon(Icons.close, size: 16, color: Colors.white)
-                            : null,
-                  ),
-                  SizedBox(width: 12),
-                  Expanded(
-                    child: Text(
-                      option,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w500,
-                        color: textColor,
+                                  ? Colors.green
+                                  : Colors.grey.shade300,
+                        ),
+                        child:
+                            _selectedOption != null && isCorrect
+                                ? Icon(
+                                  Icons.check,
+                                  size: 16,
+                                  color: Colors.white,
+                                )
+                                : _selectedOption != null &&
+                                    isSelected &&
+                                    !isCorrect
+                                ? Icon(
+                                  Icons.close,
+                                  size: 16,
+                                  color: Colors.white,
+                                )
+                                : null,
                       ),
-                    ),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          option,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w500,
+                            color: textColor,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
-            ),
-          ),
-        );
-      }).toList(),
+            );
+          }).toList(),
     );
   }
 
@@ -419,12 +455,16 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
           ),
           ElevatedButton.icon(
             onPressed: _selectedOption != null ? _nextQuestion : null,
-            icon: Icon(_currentQuestionIndex < _quizItems.length - 1
-                ? Icons.arrow_forward
-                : Icons.check_circle),
-            label: Text(_currentQuestionIndex < _quizItems.length - 1
-                ? 'Next'
-                : 'Complete'),
+            icon: Icon(
+              _currentQuestionIndex < _quizItems.length - 1
+                  ? Icons.arrow_forward
+                  : Icons.check_circle,
+            ),
+            label: Text(
+              _currentQuestionIndex < _quizItems.length - 1
+                  ? 'Next'
+                  : 'Complete',
+            ),
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.deepPurple,
               foregroundColor: Colors.white,
@@ -461,11 +501,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
               ),
               child: Column(
                 children: [
-                  Icon(
-                    Icons.school,
-                    size: 64,
-                    color: Colors.deepPurple,
-                  ),
+                  Icon(Icons.school, size: 64, color: Colors.deepPurple),
                   SizedBox(height: 16),
                   Text(
                     'Vocabulary Quiz',
@@ -478,10 +514,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
                   SizedBox(height: 8),
                   Text(
                     '${widget.title}',
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.grey.shade600,
-                    ),
+                    style: TextStyle(fontSize: 20, color: Colors.grey.shade600),
                   ),
                   SizedBox(height: 24),
                   if (_quizItems.isNotEmpty)
@@ -564,8 +597,10 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
                               ),
                               SizedBox(height: 8),
                               IconButton(
-                                icon: Icon(Icons.volume_up,
-                                    color: Colors.deepPurple),
+                                icon: Icon(
+                                  Icons.volume_up,
+                                  color: Colors.deepPurple,
+                                ),
                                 onPressed: () {
                                   speak(item['hiragana']);
                                 },

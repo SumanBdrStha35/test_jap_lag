@@ -32,7 +32,9 @@ class _GramQuizePageState extends State<GramQuizePage> {
   }
 
   Future<void> _loadQuestions() async {
-    quizeItems = await rootBundle.loadString('assets/json/gram_part${widget.id}.json');
+    quizeItems = await rootBundle.loadString(
+      'assets/json/gram_part${widget.id}.json',
+    );
     final List<dynamic> jsonData = json.decode(quizeItems);
     setState(() {
       questionData = jsonData.cast<Map<String, dynamic>>();
@@ -41,19 +43,21 @@ class _GramQuizePageState extends State<GramQuizePage> {
     });
   }
 
-  //nextQuestion     
+  //nextQuestion
   void nextQuestion() {
     if (currentQuesNo < (questionData!.length - 1)) {
       // Check if the selected answer is correct before moving to next question
       final currentQuestion = questionData![currentQuesNo];
       final List choices = currentQuestion["choices"];
-      final String correctHiragana = currentQuestion["correct_answer"]["hiragana"];
+      final String correctHiragana =
+          currentQuestion["correct_answer"]["hiragana"];
       final String correctRomaji = currentQuestion["correct_answer"]["romaji"];
       bool isCorrect = false;
 
       if (selectedIndex >= 0 && selectedIndex < choices.length) {
         final selectedChoice = choices[selectedIndex];
-        if (selectedChoice["hiragana"] == correctHiragana && selectedChoice["romaji"] == correctRomaji) {
+        if (selectedChoice["hiragana"] == correctHiragana &&
+            selectedChoice["romaji"] == correctRomaji) {
           isCorrect = true;
         }
       }
@@ -74,13 +78,15 @@ class _GramQuizePageState extends State<GramQuizePage> {
       // Check the last question's answer correctness before finishing
       final currentQuestion = questionData![currentQuesNo];
       final List choices = currentQuestion["choices"];
-      final String correctHiragana = currentQuestion["correct_answer"]["hiragana"];
+      final String correctHiragana =
+          currentQuestion["correct_answer"]["hiragana"];
       final String correctRomaji = currentQuestion["correct_answer"]["romaji"];
       bool isCorrect = false;
 
       if (selectedIndex >= 0 && selectedIndex < choices.length) {
         final selectedChoice = choices[selectedIndex];
-        if (selectedChoice["hiragana"] == correctHiragana && selectedChoice["romaji"] == correctRomaji) {
+        if (selectedChoice["hiragana"] == correctHiragana &&
+            selectedChoice["romaji"] == correctRomaji) {
           isCorrect = true;
         }
       }
@@ -93,15 +99,14 @@ class _GramQuizePageState extends State<GramQuizePage> {
 
       //get progress and return to previous page
       int progress = ((correctCount / questionData!.length) * 100).round();
-      print("Quiz completed with $correctCount correct answers out of ${questionData!.length}.");
+      print(
+        "Quiz completed with $correctCount correct answers out of ${questionData!.length}.",
+      );
       print("Progress: $progress%");
       setState(() {
         completedCount = progress;
       });
-      Navigator.pop(context, {
-        'title': widget.title,
-        'progress': progress,
-      });
+      Navigator.pop(context, {'title': widget.title, 'progress': progress});
     }
   }
 
@@ -109,7 +114,6 @@ class _GramQuizePageState extends State<GramQuizePage> {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
-    const blueColor = Color(0xFF3B82F6);
 
     if (_isLoading) {
       return Scaffold(
@@ -117,19 +121,24 @@ class _GramQuizePageState extends State<GramQuizePage> {
           title: Text(widget.title ?? 'Grammar Quiz'),
           backgroundColor: colorScheme.primaryContainer,
         ),
-        body: const Center(
-          child: CircularProgressIndicator(),
-        ),
+        body: const Center(child: CircularProgressIndicator()),
       );
     }
 
     final currentQuestion = questionData![currentQuesNo];
     final translation = currentQuestion["translation"];
     final List choices = currentQuestion["choices"];
-    final String correctHiragana = currentQuestion["correct_answer"]["hiragana"];
+    final String correctHiragana =
+        currentQuestion["correct_answer"]["hiragana"];
     final String correctRomaji = currentQuestion["correct_answer"]["romaji"];
 
-    Widget buildSentence(String label, String sentence0, String sentence1, String romaji, String correctRomaji) {
+    Widget buildSentence(
+      String label,
+      String sentence0,
+      String sentence1,
+      String romaji,
+      String correctRomaji,
+    ) {
       String suffix = romaji.isEmpty ? " _?_" : " $romaji";
       return Padding(
         padding: const EdgeInsets.symmetric(vertical: 8.0),
@@ -149,7 +158,7 @@ class _GramQuizePageState extends State<GramQuizePage> {
                 text: suffix,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.greenAccent,
+                  color: const Color.fromARGB(255, 182, 195, 255),
                 ),
               ),
               TextSpan(
@@ -163,136 +172,232 @@ class _GramQuizePageState extends State<GramQuizePage> {
     }
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: Text(widget.title ?? 'Grammar Quiz'),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
         actions: [
           if (widget.progress != null)
-            Padding(
-              padding: const EdgeInsets.only(right: 16.0),
-              child: Center(
-                child: Text(
-                  '$currentQuesNo/10',
-                  style: textTheme.titleMedium!
-                      .copyWith(fontWeight: FontWeight.bold),
+            Container(
+              margin: const EdgeInsets.only(right: 16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                '$currentQuesNo/${questionData!.length}',
+                style: textTheme.titleMedium!.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
-              )
+              ),
             ),
         ],
       ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.blue.shade300, Colors.blue.shade700],
+            colors: [
+              const Color.fromARGB(255, 182, 195, 255),
+              const Color.fromARGB(255, 255, 184, 237),
+            ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
         ),
-        child: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Card(
-                margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
-                elevation: 10,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20)),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 32),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text.rich(
-                              TextSpan(
-                                children: [
-                                  TextSpan(
-                                    text: 'English: ',
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: colorScheme.onSurface),
-                                  ),
-                                  TextSpan(
-                                      text: translation["english"],
-                                      style: TextStyle(
-                                          color: colorScheme.onSurface)),
-                                ],
-                              ),
-                              style: textTheme.bodyLarge,
-                            ),
-                            const SizedBox(height: 16),
-                            buildSentence("Hiragana", translation["hiragana0"], translation["hiragana1"],
-                                selectedHiragana, correctHiragana),
-                            const SizedBox(height: 8),
-                            buildSentence("Romaji", translation["romaji0"], translation["romaji1"],
-                                selectedRomaji, correctRomaji),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(height: 32),
-                      SizedBox(
-                        height: 220,
-                        child: GridView.count(
-                          shrinkWrap: true,
-                          physics: const AlwaysScrollableScrollPhysics(),
-                          crossAxisCount: 2,
-                          crossAxisSpacing: 16,
-                          mainAxisSpacing: 16,
-                          childAspectRatio: 2.5,
-                          children: choices.asMap().entries.map<Widget>((entry) {
-                            final int index = entry.key;
-                            final choice = entry.value;
-                            final String choiceHiragana = choice["hiragana"];
-                            final String choiceRomaji = choice["romaji"];
-                            final bool isSelected = selectedIndex == index;
-                            final bool isCorrect = choiceRomaji == correctRomaji;
-                            return _AnswerButton(
-                              kanji: choiceHiragana,
-                              romaji: choiceRomaji,
-                              isSelected: isSelected,
-                              onTap: () {
-                                setState(() {
-                                  selectedIndex = index;
-                                  selectedHiragana = choiceHiragana;
-                                  selectedRomaji = choiceRomaji;
-                                });
-                              },
-                            );
-                          }).toList(),
-                        ),
-                      ),
-                    ],
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                // Progress indicator
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: LinearProgressIndicator(
+                    value: currentQuesNo / questionData!.length,
+                    backgroundColor: Colors.white.withOpacity(0.3),
+                    valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                    minHeight: 8,
                   ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 16.0),
-                child: Center(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      if (selectedIndex == -1) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Please select an answer before proceeding.')),
-                        );
-                        return;
-                      }
-                      nextQuestion ();
-                    },
-                    child: Text(
-                      currentQuesNo < 10 ? 'Next Question' : 'Finish Quiz',
-                      style: textTheme.titleMedium!.copyWith(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
+                const SizedBox(height: 20),
+
+                // Question card
+                Expanded(
+                  child: Center(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.95),
+                        borderRadius: BorderRadius.circular(24),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.1),
+                            blurRadius: 20,
+                            offset: Offset(0, 10),
+                          ),
+                        ],
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(24.0),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            // English translation
+                            Container(
+                              padding: const EdgeInsets.all(16),
+                              decoration: BoxDecoration(
+                                color: colorScheme.primary.withOpacity(0.1),
+                                borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    'English',
+                                    style: textTheme.titleSmall!.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      color: colorScheme.primary,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 8),
+                                  Text(
+                                    translation["english"],
+                                    style: textTheme.bodyLarge!.copyWith(
+                                      fontSize: 18,
+                                      height: 1.5,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+
+                            const SizedBox(height: 24),
+
+                            // Japanese sentences
+                            buildSentence(
+                              "Hiragana",
+                              translation["hiragana0"],
+                              translation["hiragana1"],
+                              selectedHiragana,
+                              correctHiragana,
+                            ),
+
+                            const SizedBox(height: 16),
+
+                            buildSentence(
+                              "Romaji",
+                              translation["romaji0"],
+                              translation["romaji1"],
+                              selectedRomaji,
+                              correctRomaji,
+                            ),
+
+                            const SizedBox(height: 32),
+
+                            // Answer choices
+                            Flexible(
+                              fit: FlexFit.loose,
+                              child: LayoutBuilder(
+                                builder: (context, constraints) {
+                                  final buttonHeight =
+                                      constraints.maxHeight / 3;
+                                  final buttonWidth =
+                                      constraints.maxWidth / 2 - 8;
+
+                                  return GridView.count(
+                                    crossAxisCount: 2,
+                                    crossAxisSpacing: 12,
+                                    mainAxisSpacing: 12,
+                                    childAspectRatio:
+                                        (buttonWidth / buttonHeight),
+                                    shrinkWrap: true,
+                                    physics:
+                                        const NeverScrollableScrollPhysics(),
+                                    children:
+                                        choices.asMap().entries.map<Widget>((
+                                          entry,
+                                        ) {
+                                          final int index = entry.key;
+                                          final choice = entry.value;
+                                          final String choiceHiragana =
+                                              choice["hiragana"];
+                                          final String choiceRomaji =
+                                              choice["romaji"];
+                                          final bool isSelected =
+                                              selectedIndex == index;
+
+                                          return _AnswerButton(
+                                            kanji: choiceHiragana,
+                                            romaji: choiceRomaji,
+                                            isSelected: isSelected,
+                                            onTap: () {
+                                              setState(() {
+                                                selectedIndex = index;
+                                                selectedHiragana =
+                                                    choiceHiragana;
+                                                selectedRomaji = choiceRomaji;
+                                              });
+                                            },
+                                          );
+                                        }).toList(),
+                                  );
+                                },
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
-            ]
+
+                const SizedBox(height: 20),
+
+                // Next button
+                SizedBox(
+                  width: double.infinity,
+                  height: 56,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      if (selectedIndex == -1) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              'Please select an answer before proceeding.',
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            backgroundColor: Colors.red,
+                          ),
+                        );
+                        return;
+                      }
+                      nextQuestion();
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.white,
+                      foregroundColor: const Color(0xFF667eea),
+                      elevation: 8,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                    ),
+                    child: Text(
+                      currentQuesNo < questionData!.length - 1
+                          ? 'Next Question'
+                          : 'Finish Quiz',
+                      style: textTheme.titleMedium!.copyWith(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -300,7 +405,7 @@ class _GramQuizePageState extends State<GramQuizePage> {
   }
 }
 
-class _AnswerButton extends StatelessWidget{
+class _AnswerButton extends StatelessWidget {
   final String kanji;
   final String romaji;
   final bool isSelected;
@@ -315,40 +420,45 @@ class _AnswerButton extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    final blueColor = const Color(0xFF3B82F6);
-
-    return ElevatedButton(
-      onPressed: onTap,
-      style: ElevatedButton.styleFrom(
-        backgroundColor: isSelected ? blueColor : Colors.white,
-        foregroundColor: isSelected ? Colors.white : Colors.black87,
-        elevation: 3,
-        shadowColor: Colors.black26,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8),
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 200),
+      curve: Curves.easeInOut,
+      child: ElevatedButton(
+        onPressed: onTap,
+        style: ElevatedButton.styleFrom(
+          backgroundColor:
+              isSelected
+                  ? const Color.fromARGB(255, 255, 184, 237)
+                  : Colors.white,
+          foregroundColor: isSelected ? Colors.white : Colors.black87,
+          elevation: isSelected ? 8 : 2,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
+          side: BorderSide(
+            color:
+                isSelected
+                    ? const Color.fromARGB(255, 182, 195, 255)
+                    : Colors.grey.withOpacity(0.3),
+            width: 2,
+          ),
         ),
-        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
-        minimumSize: const Size(70, 70),
-        animationDuration: const Duration(milliseconds: 200),
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Flexible(
-            child: Text(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
               kanji,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: isSelected ? Colors.white : Colors.black,
+                color: isSelected ? Colors.white : Colors.black87,
               ),
               overflow: TextOverflow.ellipsis,
             ),
-          ),
-          const SizedBox(height: 4),
-          Flexible(
-            child: Text(
+            const SizedBox(height: 4),
+            Text(
               romaji,
               style: TextStyle(
                 fontSize: 14,
@@ -356,8 +466,8 @@ class _AnswerButton extends StatelessWidget{
               ),
               overflow: TextOverflow.ellipsis,
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

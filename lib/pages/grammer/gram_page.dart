@@ -9,14 +9,14 @@ class GramPage extends StatefulWidget {
   final int selectedIndex;
 
   const GramPage({super.key, required this.title, required this.selectedIndex});
-  
+
   @override
   State<GramPage> createState() => _GramPageState();
 }
 
 class _GramPageState extends State<GramPage> {
   late Box _progressBox;
-  
+
   // List of grammar topics
   final List<Map<String, dynamic>> _japaneseGrammar = [
     {
@@ -44,11 +44,7 @@ class _GramPageState extends State<GramPage> {
       'subtitle': '~ Summary and Quizzes ~',
       'progress': 0,
     },
-    {
-      'title': 'ない です',
-      'subtitle': 'Negative form of です',
-      'progress': 0,
-    },
+    {'title': 'ない です', 'subtitle': 'Negative form of です', 'progress': 0},
     {
       'title': 'を [Verb] ないで ください',
       'subtitle': 'Please do not [verb]',
@@ -69,11 +65,7 @@ class _GramPageState extends State<GramPage> {
       'subtitle': 'Review of lessons 1–4',
       'progress': 0,
     },
-    {
-      'title': 'て います',
-      'subtitle': 'Describing ongoing actions',
-      'progress': 0,
-    },
+    {'title': 'て います', 'subtitle': 'Describing ongoing actions', 'progress': 0},
     {
       'title': 'How to Identify Japanese Verb Groups',
       'subtitle': 'Group 1, 2, and irregular verbs',
@@ -151,7 +143,7 @@ class _GramPageState extends State<GramPage> {
     super.initState();
     _initHive();
   }
-  
+
   Future<void> _initHive() async {
     await Hive.initFlutter();
     _progressBox = await Hive.openBox('gramQuizProgress');
@@ -194,9 +186,10 @@ class _GramPageState extends State<GramPage> {
             colors: [Colors.blue.shade50, Colors.white],
           ),
         ),
-        child: widget.selectedIndex == 1
-          ? _buildQuizListView()
-          : _buildLessonListView(),
+        child:
+            widget.selectedIndex == 1
+                ? _buildQuizListView()
+                : _buildLessonListView(),
       ),
     );
   }
@@ -209,55 +202,63 @@ class _GramPageState extends State<GramPage> {
         final quiz = _japaneseGrammar[index];
         return Container(
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          child: Card(
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: InkWell(
-              borderRadius: BorderRadius.circular(16),
-              onTap: () => _onTryQuiz(context, quiz['title'], quiz['progress']),
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
+          child:
+              Card(
+                    elevation: 0,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: InkWell(
+                      borderRadius: BorderRadius.circular(16),
+                      onTap:
+                          () => _onTryQuiz(
+                            context,
+                            index + 1,
                             quiz['title'],
-                            style: const TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 18,
+                            quiz['progress'],
+                          ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    quiz['title'],
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 18,
+                                    ),
+                                  ).animate().fadeIn(delay: (100 * index).ms),
+                                  const SizedBox(height: 4),
+                                  Text(
+                                    quiz['subtitle'],
+                                    style: TextStyle(
+                                      color: Colors.grey.shade600,
+                                      fontSize: 14,
+                                    ),
+                                  ).animate().fadeIn(delay: (150 * index).ms),
+                                ],
+                              ),
                             ),
-                          ).animate().fadeIn(delay: (100 * index).ms),
-                          const SizedBox(height: 4),
-                          Text(
-                            quiz['subtitle'],
-                            style: TextStyle(
-                              color: Colors.grey.shade600,
-                              fontSize: 14,
-                            ),
-                          ).animate().fadeIn(delay: (150 * index).ms),
-                        ],
+                            _buildProgressIndicator(quiz['progress'])
+                                .animate()
+                                .scale(delay: (200 * index).ms)
+                                .shake(delay: 300.ms, hz: 4),
+                          ],
+                        ),
                       ),
                     ),
-                    _buildProgressIndicator(quiz['progress'])
-                      .animate()
-                      .scale(delay: (200 * index).ms)
-                      .shake(delay: 300.ms, hz: 4)
-                  ],
-                ),
-              ),
-            ),
-          ).animate()
-            .slideX(
-              begin: index.isEven ? -20 : 20,
-              duration: 400.ms,
-              curve: Curves.easeOutCubic,
-            )
-            .fadeIn(),
+                  )
+                  .animate()
+                  .slideX(
+                    begin: index.isEven ? -20 : 20,
+                    duration: 400.ms,
+                    curve: Curves.easeOutCubic,
+                  )
+                  .fadeIn(),
         );
       },
     );
@@ -272,53 +273,54 @@ class _GramPageState extends State<GramPage> {
         return Container(
           margin: const EdgeInsets.only(bottom: 12),
           child: ListTile(
-            contentPadding: const EdgeInsets.symmetric(
-              horizontal: 20,
-              vertical: 12,
-            ),
-            title: Text(
-              'Lesson $lessonNumber',
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w600,
-                color: Colors.blueGrey,
-              ),
-            ).animate().fadeIn(delay: (50 * index).ms),
-            trailing: Container(
-              padding: const EdgeInsets.all(6),
-              decoration: BoxDecoration(
-                color: Colors.blue.shade100,
-                shape: BoxShape.circle,
-              ),
-              child: Icon(
-                Icons.arrow_forward_ios,
-                size: 14,
-                color: Colors.blue.shade800,
-              ),
-            ).animate().rotate(delay: (100 * index).ms),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(14),
-            ),
-            tileColor: Colors.blue.shade50,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => GrammarScreen(
-                    title: 'Lesson $lessonNumber',
-                  ),
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 12,
                 ),
-              );
-            },
-          ).animate()
-            .scaleXY(
-              begin: 0.9,
-              end: 1,
-              delay: (75 * index).ms,
-              duration: 300.ms,
-              curve: Curves.easeOutBack,
-            )
-            .fadeIn(delay: (50 * index).ms),
+                title: Text(
+                  'Lesson $lessonNumber',
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.blueGrey,
+                  ),
+                ).animate().fadeIn(delay: (50 * index).ms),
+                trailing: Container(
+                  padding: const EdgeInsets.all(6),
+                  decoration: BoxDecoration(
+                    color: Colors.blue.shade100,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Icon(
+                    Icons.arrow_forward_ios,
+                    size: 14,
+                    color: Colors.blue.shade800,
+                  ),
+                ).animate().rotate(delay: (100 * index).ms),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                tileColor: Colors.blue.shade50,
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:
+                          (context) =>
+                              GrammarScreen(title: 'Lesson $lessonNumber'),
+                    ),
+                  );
+                },
+              )
+              .animate()
+              .scaleXY(
+                begin: 0.9,
+                end: 1,
+                delay: (75 * index).ms,
+                duration: 300.ms,
+                curve: Curves.easeOutBack,
+              )
+              .fadeIn(delay: (50 * index).ms),
         );
       },
     );
@@ -326,35 +328,36 @@ class _GramPageState extends State<GramPage> {
 
   Widget _buildProgressIndicator(int progress) {
     return SizedBox(
-    width: 60,
-    height: 60,
-    child: Stack(
-      alignment: Alignment.center,
-      children: [
-        CircularProgressIndicator(
-          value: progress / 100,
-          strokeWidth: 6,
-          backgroundColor: Colors.grey.shade200,
-          valueColor: AlwaysStoppedAnimation<Color>(
-            _getProgressColor(progress),
-          ),
-        ).animate(onPlay: (controller) => controller.repeat())
-          .scale(delay: 300.ms, duration: 800.ms)
-          .then(delay: 1.seconds)
-          .scale(end: Offset(1.1, 1.1), duration: 500.ms)
-          .then()
-          .scale(end: Offset(1, 1)),
-        Text(
-          '$progress%',
-          style: TextStyle(
-            fontSize: 12,
-            fontWeight: FontWeight.bold,
-            color: _getProgressColor(progress),
-          ),
-        ).animate().scale(delay: 200.ms),
-      ],
-    ),
-  );
+      width: 60,
+      height: 60,
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          CircularProgressIndicator(
+                value: progress / 100,
+                strokeWidth: 6,
+                backgroundColor: Colors.grey.shade200,
+                valueColor: AlwaysStoppedAnimation<Color>(
+                  _getProgressColor(progress),
+                ),
+              )
+              .animate(onPlay: (controller) => controller.repeat())
+              .scale(delay: 300.ms, duration: 800.ms)
+              .then(delay: 1.seconds)
+              .scale(end: Offset(1.1, 1.1), duration: 500.ms)
+              .then()
+              .scale(end: Offset(1, 1)),
+          Text(
+            '$progress%',
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.bold,
+              color: _getProgressColor(progress),
+            ),
+          ).animate().scale(delay: 200.ms),
+        ],
+      ),
+    );
   }
 
   Color _getProgressColor(int progress) {
@@ -362,18 +365,22 @@ class _GramPageState extends State<GramPage> {
     if (progress < 70) return Colors.orange.shade400;
     return Colors.green.shade500;
   }
-  
-  void _onTryQuiz(BuildContext context, title, progress) async{
+
+  void _onTryQuiz(BuildContext context, index, title, progress) async {
     final updatedProgressMap = await Navigator.push<Map<String, dynamic>>(
       context,
       MaterialPageRoute(
-        builder: (context) => GramQuizePage(title: title, progress: progress),
+        builder:
+            (context) =>
+                GramQuizePage(id: index, title: title, progress: progress),
       ),
     );
 
     if (updatedProgressMap != null) {
       setState(() {
-        final index = _japaneseGrammar.indexWhere((quiz) => quiz['title'] == updatedProgressMap['title']);
+        final index = _japaneseGrammar.indexWhere(
+          (quiz) => quiz['title'] == updatedProgressMap['title'],
+        );
         if (index != -1) {
           final updatedProgress = updatedProgressMap['progress'] as int;
           _japaneseGrammar[index]['progress'] = updatedProgress;
