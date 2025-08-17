@@ -1,12 +1,10 @@
 import 'dart:convert';
-import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_app/pages/kanji/kanji_details.dart';
 import 'package:flutter_app/pages/kanji/kanji_test.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:logger/logger.dart';
 
 class KanjiLessonPage extends StatefulWidget {
   final int id;

@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_app/pages/voca/voca_lesson_detail.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:logger/logger.dart';
 
 class VocaLessonPageUpdate extends StatefulWidget {
   const VocaLessonPageUpdate({super.key});

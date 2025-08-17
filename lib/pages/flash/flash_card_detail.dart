@@ -163,7 +163,7 @@ class _FlashCardDetailPageState extends State<FlashCardDetailPage>
 
   Widget _buildParticles() {
     return IgnorePointer(
-      child: Container(
+      child: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: CustomPaint(painter: ParticlePainter(_particles)),
