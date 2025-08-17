@@ -11,11 +11,12 @@ class SignupPage extends StatefulWidget {
   _SignupPageState createState() => _SignupPageState();
 }
 
-class _SignupPageState extends State<SignupPage> {
+class _SignupPageState extends State<SignupPage> with SingleTickerProviderStateMixin {
   final _formKey = GlobalKey<FormState>();
   final DBHelper _dbHelper = DBHelper();
 
   bool _obscurePassword = true;
+  bool _isLoading = false;
 
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
@@ -32,18 +33,77 @@ class _SignupPageState extends State<SignupPage> {
   File? _imageFile;
   final ImagePicker _picker = ImagePicker();
 
+  late AnimationController _animationController;
+  late Animation<double> _fadeAnimation;
+  late Animation<Offset> _slideAnimation;
+  late Animation<double> _scaleAnimation;
+
+  @override
+  void initState() {
+    super.initState();
+    _animationController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 800),
+    );
+
+    _fadeAnimation = Tween<double>(
+      begin: 0.0,
+      end: 1.0,
+    ).animate(CurvedAnimation(
+      parent: _animationController,
+      curve: Curves.easeIn,
+    ));
+
+    _slideAnimation = Tween<Offset>(
+      begin: const Offset(0.0, 0.3),
+      end: Offset.zero,
+    ).animate(CurvedAnimation(
+      parent: _animationController,
+      curve: Curves.easeOutCubic,
+    ));
+
+    _scaleAnimation = Tween<double>(
+      begin: 0.8,
+      end: 1.0,
+    ).animate(CurvedAnimation(
+      parent: _animationController,
+      curve: Curves.elasticOut,
+    ));
+
+    _animationController.forward();
+  }
+
+  @override
+  void dispose() {
+    _animationController.dispose();
+    _nameController.dispose();
+    _emailController.dispose();
+    _passwordController.dispose();
+    _phoneController.dispose();
+    _addressController.dispose();
+    _nameFocusNode.dispose();
+    _emailFocusNode.dispose();
+    _passwordFocusNode.dispose();
+    _phoneFocusNode.dispose();
+    _addressFocusNode.dispose();
+    super.dispose();
+  }
+
   Future<void> _pickImage() async {
     final XFile? pickedFile = await _picker.pickImage(source: ImageSource.gallery);
     if (pickedFile != null) {
       setState(() {
         _imageFile = File(pickedFile.path);
-        print('Image selected: ${_imageFile!.path}');
       });
     }
   }
 
   Future<void> _signup() async {
     if (_formKey.currentState!.validate()) {
+      setState(() {
+        _isLoading = true;
+      });
+
       final name = _nameController.text.trim();
       final email = _emailController.text.trim();
       final password = _passwordController.text;
@@ -51,37 +111,41 @@ class _SignupPageState extends State<SignupPage> {
       final address = _addressController.text.trim();
       final now = DateTime.now().toIso8601String();
 
-      // Check if email already exists
-      final existingUsers = await _dbHelper.getUserByEmail(email.trim());
-      if (existingUsers != null && existingUsers.isNotEmpty) {
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('This email is already registered. Please use a different email or login.'),
-              backgroundColor: Colors.red,
-            ),
-          );
-        }
-        return;
-      }
-
-      // Hash the password using bcrypt
-      final hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
-
-      final userData = {
-        'name': name,
-        'email': email,
-        'password': hashedPassword,
-        'phone': phone,
-        'address': address,
-        'created_at': now,
-        'updated_at': now,
-        'profile_image': _imageFile?.path,
-      };
-
       try {
+        // Check if email already exists
+        final existingUsers = await _dbHelper.getUserByEmail(email.trim());
+        if (existingUsers != null && existingUsers.isNotEmpty) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('This email is already registered. Please use a different email or login.'),
+                backgroundColor: Colors.red,
+              ),
+            );
+          }
+          setState(() {
+            _isLoading = false;
+          });
+          return;
+        }
+
+        // Hash the password using bcrypt
+        final hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
+
+        final userData = {
+          'name': name,
+          'email': email,
+          'password': hashedPassword,
+          'phone': phone,
+          'address': address,
+          'created_at': now,
+          'updated_at': now,
+          'profile_image': _imageFile?.path,
+        };
+
         await _dbHelper.insert('users', userData);
-        if (mounted){
+        
+        if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
               content: Text('Signup successful! Please login.'),
@@ -89,7 +153,7 @@ class _SignupPageState extends State<SignupPage> {
             ),
           );
           Navigator.pop(context);
-        }    
+        }
       } catch (e) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
@@ -99,8 +163,72 @@ class _SignupPageState extends State<SignupPage> {
             ),
           );
         }
+      } finally {
+        if (mounted) {
+          setState(() {
+            _isLoading = false;
+          });
+        }
       }
     }
+  }
+
+  Widget _buildAnimatedTextField({
+    required TextEditingController controller,
+    required String labelText,
+    required FocusNode focusNode,
+    required String? Function(String?) validator,
+    TextInputType? keyboardType,
+    bool obscureText = false,
+    Widget? suffixIcon,
+    VoidCallback? onSubmitted,
+    int delay = 0,
+  }) {
+    return SlideTransition(
+      position: _slideAnimation,
+      child: FadeTransition(
+        opacity: _fadeAnimation,
+        child: ScaleTransition(
+          scale: _scaleAnimation,
+          child: Container(
+            margin: const EdgeInsets.only(bottom: 16),
+            child: TextFormField(
+              controller: controller,
+              focusNode: focusNode,
+              decoration: InputDecoration(
+                labelText: labelText,
+                labelStyle: TextStyle(
+                  color: focusNode.hasFocus ? Theme.of(context).primaryColor : Colors.grey,
+                ),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
+                  borderSide: const BorderSide(color: Colors.grey),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
+                  borderSide: BorderSide(
+                    color: Theme.of(context).primaryColor,
+                    width: 2,
+                  ),
+                ),
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
+                  borderSide: BorderSide(color: Colors.grey[300]!),
+                ),
+                filled: true,
+                fillColor: Colors.grey[50],
+                suffixIcon: suffixIcon,
+              ),
+              keyboardType: keyboardType,
+              obscureText: obscureText,
+              validator: validator,
+              textInputAction: TextInputAction.next,
+              onFieldSubmitted: (_) => onSubmitted?.call(),
+            ),
+          ),
+        ),
+      ),
+    );
   }
 
   @override
@@ -108,80 +236,114 @@ class _SignupPageState extends State<SignupPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Signup Page'),
+        elevation: 0,
       ),
-      body: Center(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(16.0),
-          child: Form(
-            key: _formKey,
-            child: ListView(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              children: [
-                Center(
-                  child: GestureDetector(
-                    onTap: _pickImage,
-                    child: CircleAvatar(
-                      radius: 60,
-                      backgroundColor: Colors.grey[300],
-                      backgroundImage:
-                          _imageFile != null ? FileImage(_imageFile!) : null,
-                      child: _imageFile == null
-                          ? const Icon(
-                              Icons.camera_alt,
-                              size: 50,
-                              color: Colors.white,
-                            )
-                          : null,
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              Theme.of(context).primaryColor.withOpacity(0.1),
+              Colors.white,
+            ],
+          ),
+        ),
+        child: Center(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(16.0),
+            child: Form(
+              key: _formKey,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  ScaleTransition(
+                    scale: _scaleAnimation,
+                    child: GestureDetector(
+                      onTap: _pickImage,
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 300),
+                        curve: Curves.easeInOut,
+                        width: 120,
+                        height: 120,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey[300],
+                          border: Border.all(
+                            color: Theme.of(context).primaryColor,
+                            width: 3,
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withOpacity(0.1),
+                              blurRadius: 10,
+                              offset: const Offset(0, 5),
+                            ),
+                          ],
+                        ),
+                        child: ClipOval(
+                          child: _imageFile != null
+                              ? Image.file(
+                                  _imageFile!,
+                                  fit: BoxFit.cover,
+                                  width: 120,
+                                  height: 120,
+                                )
+                              : const Icon(
+                                  Icons.camera_alt,
+                                  size: 50,
+                                  color: Colors.white,
+                                ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
-                const SizedBox(height: 20),
-                TextFormField(
-                  focusNode: _nameFocusNode,
-                  controller: _nameController,
-                  decoration: const InputDecoration(labelText: 'Name'),
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your name';
-                    }
-                    return null;
-                  },
-                  textInputAction: TextInputAction.next,
-                  onFieldSubmitted: (value) {
-                    _nameFocusNode.unfocus();
-                    FocusScope.of(context).requestFocus(_emailFocusNode);
-                  },
-                ),
-                const SizedBox(height: 16),
-                TextFormField(
-                  focusNode: _emailFocusNode,
-                  controller: _emailController,
-                  decoration: const InputDecoration(labelText: 'Email'),
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your email';
-                    }
-                    if (!RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$').hasMatch(value)) {
-                      return 'Please enter a valid email address';
-                    }
-                    return null;
-                  },
-                  onFieldSubmitted: (value) {
-                    _emailFocusNode.unfocus();
-                    FocusScope.of(context).requestFocus(_passwordFocusNode);
-                  },
-                ),
-                const SizedBox(height: 16),
-                TextFormField(
-                  focusNode: _passwordFocusNode,
-                  controller: _passwordController,
-                  decoration: InputDecoration(
+                  const SizedBox(height: 30),
+                  _buildAnimatedTextField(
+                    controller: _nameController,
+                    labelText: 'Name',
+                    focusNode: _nameFocusNode,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your name';
+                      }
+                      return null;
+                    },
+                    onSubmitted: () {
+                      FocusScope.of(context).requestFocus(_emailFocusNode);
+                    },
+                  ),
+                  _buildAnimatedTextField(
+                    controller: _emailController,
+                    labelText: 'Email',
+                    focusNode: _emailFocusNode,
+                    keyboardType: TextInputType.emailAddress,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your email';
+                      }
+                      if (!RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$').hasMatch(value)) {
+                        return 'Please enter a valid email address';
+                      }
+                      return null;
+                    },
+                    onSubmitted: () {
+                      FocusScope.of(context).requestFocus(_passwordFocusNode);
+                    },
+                  ),
+                  _buildAnimatedTextField(
+                    controller: _passwordController,
                     labelText: 'Password',
+                    focusNode: _passwordFocusNode,
+                    obscureText: _obscurePassword,
                     suffixIcon: IconButton(
-                      icon: Icon(
-                        _obscurePassword ? Icons.visibility_off : Icons.visibility,
-                        color: _obscurePassword ? Colors.grey : Colors.blue,
+                      icon: AnimatedSwitcher(
+                        duration: const Duration(milliseconds: 200),
+                        child: Icon(
+                          _obscurePassword ? Icons.visibility_off : Icons.visibility,
+                          key: ValueKey<bool>(_obscurePassword),
+                          color: _obscurePassword ? Colors.grey : Theme.of(context).primaryColor,
+                        ),
                       ),
                       onPressed: () {
                         setState(() {
@@ -189,64 +351,86 @@ class _SignupPageState extends State<SignupPage> {
                         });
                       },
                     ),
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your password';
+                      }
+                      if (!RegExp(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$&*~])[A-Za-z\d!@#\$&*~]{8,}$').hasMatch(value)) {
+                        return 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character (!@#\$&*~)';
+                      }
+                      return null;
+                    },
+                    onSubmitted: () {
+                      FocusScope.of(context).requestFocus(_phoneFocusNode);
+                    },
                   ),
-                  obscureText: _obscurePassword,
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your password';
-                    }
-                    if (!RegExp(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$&*~])[A-Za-z\d!@#\$&*~]{8,}$').hasMatch(value)) {
-                      return 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character (!@#\$&*~)';
-                    }
-                    return null;
-                  },
-                  onFieldSubmitted: (value) {
-                    _passwordFocusNode.unfocus();
-                    FocusScope.of(context).requestFocus(_phoneFocusNode);
-                  },
-                ),
-                const SizedBox(height: 16),
-                TextFormField(
-                  focusNode: _phoneFocusNode,
-                  controller: _phoneController,
-                  decoration: const InputDecoration(labelText: 'Phone'),
-                  keyboardType: TextInputType.phone,
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your phone number';
-                    }
-                    if (!RegExp(r'^\+?[0-9]{7,15}$').hasMatch(value)) {
-                      return 'Please enter a valid phone number';
-                    }
-                    return null;
-                  },
-                  onFieldSubmitted: (value) {
-                    _phoneFocusNode.unfocus();
-                    FocusScope.of(context).requestFocus(_addressFocusNode);
-                  },
-                ),
-                const SizedBox(height: 16),
-                TextFormField(
-                  focusNode: _addressFocusNode,
-                  controller: _addressController,
-                  decoration: const InputDecoration(labelText: 'Address'),
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter your address';
-                    }
-                    return null;
-                  },
-                  onFieldSubmitted: (value) {
-                    _addressFocusNode.unfocus();
-                    TextInputAction.done;
-                  },
-                ),
-                const SizedBox(height: 20),
-                ElevatedButton(
-                  onPressed: _signup,
-                  child: const Text('Signup'),
-                ),
-              ],
+                  _buildAnimatedTextField(
+                    controller: _phoneController,
+                    labelText: 'Phone',
+                    focusNode: _phoneFocusNode,
+                    keyboardType: TextInputType.phone,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your phone number';
+                      }
+                      if (!RegExp(r'^\+?[0-9]{7,15}$').hasMatch(value)) {
+                        return 'Please enter a valid phone number';
+                      }
+                      return null;
+                    },
+                    onSubmitted: () {
+                      FocusScope.of(context).requestFocus(_addressFocusNode);
+                    },
+                  ),
+                  _buildAnimatedTextField(
+                    controller: _addressController,
+                    labelText: 'Address',
+                    focusNode: _addressFocusNode,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please enter your address';
+                      }
+                      return null;
+                    },
+                    onSubmitted: () {
+                      _addressFocusNode.unfocus();
+                    },
+                  ),
+                  const SizedBox(height: 30),
+                  ScaleTransition(
+                    scale: _scaleAnimation,
+                    child: SizedBox(
+                      width: double.infinity,
+                      height: 50,
+                      child: ElevatedButton(
+                        onPressed: _isLoading ? null : _signup,
+                        style: ElevatedButton.styleFrom(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          elevation: 5,
+                        ),
+                        child: _isLoading
+                            ? const SizedBox(
+                                width: 20,
+                                height: 20,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                  valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                                ),
+                              )
+                            : const Text(
+                                'Signup',
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ),

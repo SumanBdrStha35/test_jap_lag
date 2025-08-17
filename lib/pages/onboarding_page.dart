@@ -130,7 +130,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(double.infinity, 48),
               ),
-              child: Text(_currentPage == _pages.length - 1 ? 'Get Started' : 'Next'),
+              child: Text(
+                _currentPage == _pages.length - 1 ? 'Get Started' : 'Next',
+              ),
             ),
           ),
           SizedBox(height: 40),
