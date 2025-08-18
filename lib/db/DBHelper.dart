@@ -62,7 +62,7 @@ class DBHelper {
     final List<Map<String, dynamic>> results = await db.query(
       'users',
       where: 'email = ?',
-      whereArgs: [email.trim()],
+      whereArgs: [email],
     );
 
     if (results.isNotEmpty) {

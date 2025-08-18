@@ -30,10 +30,7 @@ class KanjiDetailsPage extends StatelessWidget {
             gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [
-                Colors.indigo.shade700,
-                Colors.indigo.shade500,
-              ],
+              colors: [Colors.indigo.shade700, Colors.indigo.shade500],
             ),
           ),
         ),
@@ -65,20 +62,20 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
       duration: const Duration(milliseconds: 800),
       vsync: this,
     )..addStatusListener((status) {
-        if (status == AnimationStatus.completed) {
-          if (_currentStrokeIndex < widget.kanjiData['gif'].length - 1) {
-            Future.delayed(const Duration(milliseconds: 200), () {
-              setState(() => _currentStrokeIndex++);
-              _controller.forward(from: 0);
-            });
-          } else {
-            Future.delayed(const Duration(milliseconds: 500), () {
-              setState(() => _currentStrokeIndex = 0);
-              _controller.forward(from: 0);
-            });
-          }
+      if (status == AnimationStatus.completed) {
+        if (_currentStrokeIndex < widget.kanjiData['gif'].length - 1) {
+          Future.delayed(const Duration(milliseconds: 200), () {
+            setState(() => _currentStrokeIndex++);
+            _controller.forward(from: 0);
+          });
+        } else {
+          Future.delayed(const Duration(milliseconds: 500), () {
+            setState(() => _currentStrokeIndex = 0);
+            _controller.forward(from: 0);
+          });
         }
-      });
+      }
+    });
     _controller.forward();
   }
 
@@ -106,17 +103,15 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
     final String kanji = kanjiData['kanji'] ?? '';
     final strokeCount = kanjiData['stroke_count']?.toString() ?? '';
     final examples = kanjiData['examples'] is List ? kanjiData['examples'] : [];
-    final sentences = kanjiData['sentances'] is List ? kanjiData['sentances'] : [];
+    final sentences =
+        kanjiData['sentances'] is List ? kanjiData['sentances'] : [];
 
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [
-            Colors.indigo.shade50,
-            Colors.indigo.shade100,
-          ],
+          colors: [Colors.indigo.shade50, Colors.indigo.shade100],
         ),
       ),
       child: SingleChildScrollView(
@@ -134,72 +129,55 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   children: [
-                    Stack(
-                      alignment: Alignment.center,
-                      children: [
-                        Container(
-                          width: 220,
-                          height: 220,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(16),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withOpacity(0.1),
-                                blurRadius: 12,
-                                offset: const Offset(0, 6),
-                              ),
+                    Center(
+                      child: AnimatedBuilder(
+                        animation: _controller,
+                        builder: (_, __) {
+                          return CustomPaint(
+                            size: const Size(200, 200),
+                            painter: KanjiStrokePainter(
+                              strokes: _pathsToDraw,
+                              currentProgress: _controller.value,
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                    Positioned(
+                      bottom: 12,
+                      right: 12,
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 14,
+                          vertical: 6,
+                        ),
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: [
+                              Colors.indigo.shade600,
+                              Colors.indigo.shade400,
                             ],
                           ),
-                          child: Center(
-                            child: AnimatedBuilder(
-                              animation: _controller,
-                              builder: (_, __) {
-                                return CustomPaint(
-                                  size: const Size(200, 200),
-                                  painter: KanjiStrokePainter(
-                                    strokes: _pathsToDraw,
-                                    currentProgress: _controller.value,
-                                  ),
-                                );
-                              },
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.indigo.shade300,
+                              blurRadius: 4,
+                              offset: const Offset(0, 2),
                             ),
+                          ],
+                        ),
+                        child: Text(
+                          '$strokeCount strokes',
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14,
                           ),
                         ),
-                        Positioned(
-                          bottom: 12,
-                          right: 12,
-                          child: Container(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 14, vertical: 6),
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: [
-                                  Colors.indigo.shade600,
-                                  Colors.indigo.shade400,
-                                ],
-                              ),
-                              borderRadius: BorderRadius.circular(20),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.indigo.shade300,
-                                  blurRadius: 4,
-                                  offset: const Offset(0, 2),
-                                ),
-                              ],
-                            ),
-                            child: Text(
-                              '$strokeCount strokes',
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 14,
-                              ),
-                            ),
-                          ).animate().scale(delay: 300.ms),
-                        ),
-                      ],
+                      ).animate().scale(delay: 300.ms),
                     ),
+
                     const SizedBox(height: 20),
                     Text(
                       kanjiData['meaning'] ?? 'N/A',
@@ -217,7 +195,8 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
             ).animate().fadeIn(delay: 100.ms).slideY(begin: 0.1, end: 0),
 
             // Mnemonic Section
-            if (kanjiData['mnemonic'] != null || kanjiData['easy_image'] != null)
+            if (kanjiData['mnemonic'] != null ||
+                kanjiData['easy_image'] != null)
               Card(
                 elevation: 4,
                 shape: RoundedRectangleBorder(
@@ -263,21 +242,21 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                             width: double.infinity,
                             height: 180,
                             fit: BoxFit.cover,
-                            errorBuilder: (context, error, stackTrace) =>
-                                Container(
-                              height: 180,
-                              decoration: BoxDecoration(
-                                color: Colors.grey.shade200,
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                              child: Center(
-                                child: Icon(
-                                  Icons.image_not_supported,
-                                  size: 40,
-                                  color: Colors.grey.shade400,
+                            errorBuilder:
+                                (context, error, stackTrace) => Container(
+                                  height: 180,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey.shade200,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  child: Center(
+                                    child: Icon(
+                                      Icons.image_not_supported,
+                                      size: 40,
+                                      color: Colors.grey.shade400,
+                                    ),
+                                  ),
                                 ),
-                              ),
-                            ),
                           ),
                         ).animate().fadeIn(delay: 200.ms),
                       if (kanjiData['mnemonic'] != null) ...[
@@ -285,10 +264,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                           const SizedBox(height: 16),
                         Text(
                           kanjiData['mnemonic']!,
-                          style: const TextStyle(
-                            fontSize: 16,
-                            height: 1.5,
-                          ),
+                          style: const TextStyle(fontSize: 16, height: 1.5),
                         ),
                       ],
                     ],
@@ -347,9 +323,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                         ),
                         IconButton(
                           icon: Icon(
-                            _showStrokeOrder
-                                ? Icons.grid_view
-                                : Icons.list,
+                            _showStrokeOrder ? Icons.grid_view : Icons.list,
                             color: Colors.indigo.shade600,
                           ),
                           onPressed: _toggleStrokeOrder,
@@ -359,35 +333,34 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                     const SizedBox(height: 12),
                     _showStrokeOrder
                         ? GridView.builder(
-                            shrinkWrap: true,
-                            physics: const NeverScrollableScrollPhysics(),
-                            gridDelegate:
-                                const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 4,
-                              crossAxisSpacing: 8,
-                              mainAxisSpacing: 8,
-                              childAspectRatio: 1,
-                            ),
-                            itemCount: kanjiData['gif'].length,
-                            itemBuilder: (context, index) {
-                              return KanjiStrokeFrame(
-                                frameIndex: index + 1,
-                                gif: kanjiData['gif'],
-                              );
-                            },
-                          )
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          gridDelegate:
+                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 4,
+                                crossAxisSpacing: 8,
+                                mainAxisSpacing: 8,
+                                childAspectRatio: 1,
+                              ),
+                          itemCount: kanjiData['gif'].length,
+                          itemBuilder: (context, index) {
+                            return KanjiStrokeFrame(
+                              frameIndex: index + 1,
+                              gif: kanjiData['gif'],
+                            );
+                          },
+                        )
                         : Wrap(
-                            alignment: WrapAlignment.center,
-                            spacing: 8,
-                            runSpacing: 8,
-                            children: List.generate(
-                                kanjiData['gif'].length, (i) {
-                              return KanjiStrokeFrame(
-                                frameIndex: i + 1,
-                                gif: kanjiData['gif'],
-                              );
-                            }),
-                          ),
+                          alignment: WrapAlignment.center,
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: List.generate(kanjiData['gif'].length, (i) {
+                            return KanjiStrokeFrame(
+                              frameIndex: i + 1,
+                              gif: kanjiData['gif'],
+                            );
+                          }),
+                        ),
                   ],
                 ),
               ),
@@ -516,10 +489,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                           padding: const EdgeInsets.only(bottom: 12),
                           child: Text(
                             sentence['text'] ?? '',
-                            style: const TextStyle(
-                              fontSize: 16,
-                              height: 1.5,
-                            ),
+                            style: const TextStyle(fontSize: 16, height: 1.5),
                           ).animate().fadeIn().slideY(begin: 0.1, end: 0),
                         );
                       }).toList(),
@@ -542,9 +512,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
   }) {
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -552,11 +520,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(
-                  icon,
-                  color: color,
-                  size: 20,
-                ),
+                Icon(icon, color: color, size: 20),
                 const SizedBox(width: 8),
                 Text(
                   title,

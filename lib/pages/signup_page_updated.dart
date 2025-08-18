@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/db/DBHelper.dart';
 import 'package:bcrypt/bcrypt.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:io';
 
 class SignupPageUpdate extends StatefulWidget {
@@ -11,7 +12,8 @@ class SignupPageUpdate extends StatefulWidget {
   _SignupPageState createState() => _SignupPageState();
 }
 
-class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProviderStateMixin {
+class _SignupPageState extends State<SignupPageUpdate>
+    with SingleTickerProviderStateMixin {
   final _formKey = GlobalKey<FormState>();
   final DBHelper _dbHelper = DBHelper();
 
@@ -52,29 +54,29 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
       duration: const Duration(milliseconds: 800),
     );
 
-    _fadeAnimation = Tween<double>(
-      begin: 0.0,
-      end: 1.0,
-    ).animate(CurvedAnimation(
-      parent: _animationController,
-      curve: const Interval(0.0, 0.6, curve: Curves.easeOut),
-    ));
+    _fadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _animationController,
+        curve: const Interval(0.0, 0.6, curve: Curves.easeOut),
+      ),
+    );
 
     _slideAnimation = Tween<Offset>(
       begin: const Offset(0, 0.3),
       end: Offset.zero,
-    ).animate(CurvedAnimation(
-      parent: _animationController,
-      curve: const Interval(0.2, 0.8, curve: Curves.easeOutCubic),
-    ));
+    ).animate(
+      CurvedAnimation(
+        parent: _animationController,
+        curve: const Interval(0.2, 0.8, curve: Curves.easeOutCubic),
+      ),
+    );
 
-    _scaleAnimation = Tween<double>(
-      begin: 0.8,
-      end: 1.0,
-    ).animate(CurvedAnimation(
-      parent: _animationController,
-      curve: const Interval(0.0, 0.7, curve: Curves.elasticOut),
-    ));
+    _scaleAnimation = Tween<double>(begin: 0.8, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _animationController,
+        curve: const Interval(0.0, 0.7, curve: Curves.elasticOut),
+      ),
+    );
   }
 
   void _triggerAnimations() {
@@ -103,7 +105,9 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
   }
 
   Future<void> _pickImage() async {
-    final XFile? pickedFile = await _picker.pickImage(source: ImageSource.gallery);
+    final XFile? pickedFile = await _picker.pickImage(
+      source: ImageSource.gallery,
+    );
     if (pickedFile != null) {
       setState(() {
         _imageFile = File(pickedFile.path);
@@ -112,6 +116,7 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
   }
 
   Future<void> _signup() async {
+    final prefs = await SharedPreferences.getInstance();
     if (_formKey.currentState!.validate()) {
       setState(() {
         _isLoading = true;
@@ -131,7 +136,9 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
               const SnackBar(
-                content: Text('This email is already registered. Please use a different email or login.'),
+                content: Text(
+                  'This email is already registered. Please use a different email or login.',
+                ),
                 backgroundColor: Colors.red,
               ),
             );
@@ -155,9 +162,9 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
           'updated_at': now,
           'profile_image': _imageFile?.path,
         };
-
+        prefs.setString('userEmail', email);
         await _dbHelper.insert('users', userData);
-        
+
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
@@ -214,10 +221,7 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
         decoration: InputDecoration(
           labelText: labelText,
           hintText: 'Enter your $labelText',
-          prefixIcon: Icon(
-            _getIconForField(labelText),
-            color: Colors.blue,
-          ),
+          prefixIcon: Icon(_getIconForField(labelText), color: Colors.blue),
           suffixIcon: suffixIcon,
           filled: true,
           fillColor: Colors.grey.shade50,
@@ -233,7 +237,10 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
             borderRadius: BorderRadius.circular(15),
             borderSide: const BorderSide(color: Colors.blue, width: 2),
           ),
-          contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+          contentPadding: const EdgeInsets.symmetric(
+            horizontal: 20,
+            vertical: 16,
+          ),
         ),
         keyboardType: keyboardType,
         obscureText: obscureText,
@@ -269,10 +276,7 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [
-              Colors.blue.shade50,
-              Colors.blue.shade100,
-            ],
+            colors: [Colors.blue.shade50, Colors.blue.shade100],
           ),
         ),
         child: Center(
@@ -354,18 +358,19 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                     ],
                                   ),
                                   child: ClipOval(
-                                    child: _imageFile != null
-                                        ? Image.file(
-                                            _imageFile!,
-                                            fit: BoxFit.cover,
-                                            width: 100,
-                                            height: 100,
-                                          )
-                                        : const Icon(
-                                            Icons.camera_alt,
-                                            size: 40,
-                                            color: Colors.white,
-                                          ),
+                                    child:
+                                        _imageFile != null
+                                            ? Image.file(
+                                              _imageFile!,
+                                              fit: BoxFit.cover,
+                                              width: 100,
+                                              height: 100,
+                                            )
+                                            : const Icon(
+                                              Icons.camera_alt,
+                                              size: 40,
+                                              color: Colors.white,
+                                            ),
                                   ),
                                 ),
                               ),
@@ -381,7 +386,9 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                   return null;
                                 },
                                 onSubmitted: () {
-                                  FocusScope.of(context).requestFocus(_emailFocusNode);
+                                  FocusScope.of(
+                                    context,
+                                  ).requestFocus(_emailFocusNode);
                                 },
                               ),
                               const SizedBox(height: 16),
@@ -394,13 +401,17 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                   if (value == null || value.isEmpty) {
                                     return 'Please enter your email';
                                   }
-                                  if (!RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$').hasMatch(value)) {
+                                  if (!RegExp(
+                                    r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$',
+                                  ).hasMatch(value)) {
                                     return 'Please enter a valid email address';
                                   }
                                   return null;
                                 },
                                 onSubmitted: () {
-                                  FocusScope.of(context).requestFocus(_passwordFocusNode);
+                                  FocusScope.of(
+                                    context,
+                                  ).requestFocus(_passwordFocusNode);
                                 },
                               ),
                               const SizedBox(height: 16),
@@ -413,9 +424,14 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                   icon: AnimatedSwitcher(
                                     duration: const Duration(milliseconds: 200),
                                     child: Icon(
-                                      _obscurePassword ? Icons.visibility_off : Icons.visibility,
+                                      _obscurePassword
+                                          ? Icons.visibility_off
+                                          : Icons.visibility,
                                       key: ValueKey<bool>(_obscurePassword),
-                                      color: _obscurePassword ? Colors.grey : Colors.blue,
+                                      color:
+                                          _obscurePassword
+                                              ? Colors.grey
+                                              : Colors.blue,
                                     ),
                                   ),
                                   onPressed: () {
@@ -428,13 +444,17 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                   if (value == null || value.isEmpty) {
                                     return 'Please enter your password';
                                   }
-                                  if (!RegExp(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$&*~])[A-Za-z\d!@#\$&*~]{8,}$').hasMatch(value)) {
+                                  if (!RegExp(
+                                    r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$&*~])[A-Za-z\d!@#\$&*~]{8,}$',
+                                  ).hasMatch(value)) {
                                     return 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character';
                                   }
                                   return null;
                                 },
                                 onSubmitted: () {
-                                  FocusScope.of(context).requestFocus(_phoneFocusNode);
+                                  FocusScope.of(
+                                    context,
+                                  ).requestFocus(_phoneFocusNode);
                                 },
                               ),
                               const SizedBox(height: 16),
@@ -447,13 +467,17 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                   if (value == null || value.isEmpty) {
                                     return 'Please enter your phone number';
                                   }
-                                  if (!RegExp(r'^\+?[0-9]{7,15}$').hasMatch(value)) {
+                                  if (!RegExp(
+                                    r'^\+?[0-9]{7,15}$',
+                                  ).hasMatch(value)) {
                                     return 'Please enter a valid phone number';
                                   }
                                   return null;
                                 },
                                 onSubmitted: () {
-                                  FocusScope.of(context).requestFocus(_addressFocusNode);
+                                  FocusScope.of(
+                                    context,
+                                  ).requestFocus(_addressFocusNode);
                                 },
                               ),
                               const SizedBox(height: 16),
@@ -486,22 +510,26 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                     ),
                                     elevation: 5,
                                   ),
-                                  child: _isLoading
-                                      ? const SizedBox(
-                                          height: 20,
-                                          width: 20,
-                                          child: CircularProgressIndicator(
-                                            strokeWidth: 2,
-                                            valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                                  child:
+                                      _isLoading
+                                          ? const SizedBox(
+                                            height: 20,
+                                            width: 20,
+                                            child: CircularProgressIndicator(
+                                              strokeWidth: 2,
+                                              valueColor:
+                                                  AlwaysStoppedAnimation<Color>(
+                                                    Colors.white,
+                                                  ),
+                                            ),
+                                          )
+                                          : const Text(
+                                            'Sign Up',
+                                            style: TextStyle(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
-                                        )
-                                      : const Text(
-                                          'Sign Up',
-                                          style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
                                 ),
                               ),
                               const SizedBox(height: 20),
@@ -515,7 +543,10 @@ class _SignupPageState extends State<SignupPageUpdate> with SingleTickerProvider
                                   child: RichText(
                                     text: const TextSpan(
                                       text: 'Already have an account? ',
-                                      style: TextStyle(color: Colors.grey, fontSize: 14),
+                                      style: TextStyle(
+                                        color: Colors.grey,
+                                        fontSize: 14,
+                                      ),
                                       children: <TextSpan>[
                                         TextSpan(
                                           text: 'Login',
