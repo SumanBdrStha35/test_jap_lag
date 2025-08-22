@@ -16,9 +16,9 @@ class HiraKataApp extends StatelessWidget {
 }
 
 class HiraKataPage extends StatelessWidget {
-  final Color pinkColor = const Color(0xFFFFEBEE);
-  final Color darkPink = const Color(0xFFF8BBD0);
-  final Color strongPink = const Color(0xFFF48FB1);
+  final Color pinkColor = const Color(0xFFFF9AD5);
+  final Color purpleColor = const Color(0xFFB399FF);
+  List<Color> get gColorsList => [pinkColor, purpleColor];
 
   const HiraKataPage({super.key});
 
@@ -108,87 +108,96 @@ class HiraKataPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: pinkColor,
-      body: Center(
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              // Hiragana Card
-              buildLanguageCard(
-                    title: "ひらがな",
-                    subtitle: "基本の文字",
-                    progress: 0.1,
-                    color: strongPink,
-                    buttons: [
-                      buildCard(
-                        Icons.menu_book,
-                        "学習",
-                        strongPink,
-                        () => _handleStudyAction(context, 'ひらがな'),
-                      ),
-                      buildCard(
-                        Icons.edit,
-                        "文字テスト",
-                        strongPink,
-                        () => _handleCharacterTestAction(context, 'ひらがな'),
-                      ),
-                      buildCard(
-                        Icons.record_voice_over,
-                        "単語テスト",
-                        strongPink,
-                        () => _handleWordTestAction(context, 'ひらがな'),
-                      ),
-                      buildCard(
-                        Icons.check_circle,
-                        "セクションクリア",
-                        strongPink,
-                        () => _handleSectionClearAction(context, 'ひらがな'),
-                      ),
-                    ],
-                  )
-                  .animate()
-                  .fadeIn(delay: 200.ms)
-                  .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
-              const SizedBox(height: 20),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: gColorsList,
+            stops: [0.0, 1.0],
+          ),
+        ),
+        child: Center(
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                // Hiragana Card
+                buildLanguageCard(
+                      title: "ひらがな",
+                      subtitle: "基本の文字",
+                      progress: 0.1,
+                      color: pinkColor,
+                      buttons: [
+                        buildCard(
+                          Icons.menu_book,
+                          "学習",
+                          pinkColor,
+                          () => _handleStudyAction(context, 'ひらがな'),
+                        ),
+                        buildCard(
+                          Icons.edit,
+                          "文字テスト",
+                          pinkColor,
+                          () => _handleCharacterTestAction(context, 'ひらがな'),
+                        ),
+                        buildCard(
+                          Icons.record_voice_over,
+                          "単語テスト",
+                          pinkColor,
+                          () => _handleWordTestAction(context, 'ひらがな'),
+                        ),
+                        buildCard(
+                          Icons.check_circle,
+                          "セクションクリア",
+                          pinkColor,
+                          () => _handleSectionClearAction(context, 'ひらがな'),
+                        ),
+                      ],
+                    )
+                    .animate()
+                    .fadeIn(delay: 200.ms)
+                    .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
+                const SizedBox(height: 20),
 
-              // Katakana Card
-              buildLanguageCard(
-                    title: "カタカナ",
-                    subtitle: "基本の文字",
-                    progress: 0.8,
-                    color: darkPink,
-                    buttons: [
-                      buildCard(
-                        Icons.menu_book,
-                        "学習",
-                        darkPink,
-                        () => _handleStudyAction(context, 'カタカナ'),
-                      ),
-                      buildCard(
-                        Icons.edit,
-                        "文字テスト",
-                        darkPink,
-                        () => _handleCharacterTestAction(context, 'カタカナ'),
-                      ),
-                      buildCard(
-                        Icons.record_voice_over,
-                        "単語テスト",
-                        darkPink,
-                        () => _handleWordTestAction(context, 'カタカナ'),
-                      ),
-                      buildCard(
-                        Icons.check_circle,
-                        "セクションクリア",
-                        darkPink,
-                        () => _handleSectionClearAction(context, 'カタカナ'),
-                      ),
-                    ],
-                  )
-                  .animate()
-                  .fadeIn(delay: 400.ms)
-                  .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
-            ],
+                // Katakana Card
+                buildLanguageCard(
+                      title: "カタカナ",
+                      subtitle: "基本の文字",
+                      progress: 0.8,
+                      color: purpleColor,
+                      buttons: [
+                        buildCard(
+                          Icons.menu_book,
+                          "学習",
+                          purpleColor,
+                          () => _handleStudyAction(context, 'カタカナ'),
+                        ),
+                        buildCard(
+                          Icons.edit,
+                          "文字テスト",
+                          purpleColor,
+                          () => _handleCharacterTestAction(context, 'カタカナ'),
+                        ),
+                        buildCard(
+                          Icons.record_voice_over,
+                          "単語テスト",
+                          purpleColor,
+                          () => _handleWordTestAction(context, 'カタカナ'),
+                        ),
+                        buildCard(
+                          Icons.check_circle,
+                          "セクションクリア",
+                          purpleColor,
+                          () => _handleSectionClearAction(context, 'カタカナ'),
+                        ),
+                      ],
+                    )
+                    .animate()
+                    .fadeIn(delay: 400.ms)
+                    .slideY(begin: 0.5, end: 0, curve: Curves.easeOutCubic),
+              ],
+            ),
           ),
         ),
       ),

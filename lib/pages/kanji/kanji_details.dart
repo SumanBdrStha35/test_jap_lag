@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/kanji/kanjiStrokeFrame.dart';
 import 'package:flutter_app/pages/kanji/kanjiStrokePainter.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'package:path_drawing/path_drawing.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
@@ -510,41 +511,51 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
     required IconData icon,
     required int delay,
   }) {
-    return Card(
-      elevation: 4,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(icon, color: color, size: 20),
-                const SizedBox(width: 8),
-                Text(
-                  title,
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                    color: color,
+    return InkWell(
+      onTap: () {
+        //speak the reading part of the kanji
+        FlutterTts flutterTts = FlutterTts();
+        flutterTts.setLanguage("ja-JP");
+        flutterTts.setPitch(1.0);
+        flutterTts.setSpeechRate(0.5);
+        flutterTts.speak(reading);
+      },
+      child: Card(
+        elevation: 4,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(icon, color: color, size: 20),
+                  const SizedBox(width: 8),
+                  Text(
+                    title,
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: color,
+                    ),
                   ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 12),
-            Text(
-              reading,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w600,
-                height: 1.4,
+                ],
               ),
-              textAlign: TextAlign.center,
-            ),
-          ],
+              const SizedBox(height: 12),
+              Text(
+                reading,
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  height: 1.4,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
         ),
-      ),
-    ).animate().fadeIn(delay: delay.ms).slideY(begin: 0.1, end: 0);
+      ).animate().fadeIn(delay: delay.ms).slideY(begin: 0.1, end: 0),
+    );
   }
 }

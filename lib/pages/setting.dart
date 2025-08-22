@@ -182,7 +182,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   _saveSettings();
                 });
               },
-              activeColor: Theme.of(context).primaryColor,
+              activeThumbColor: Theme.of(context).primaryColor,
             ),
           ],
         ),
@@ -277,7 +277,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   _saveSettings();
                 });
               },
-              activeColor: Theme.of(context).primaryColor,
+              activeThumbColor: Theme.of(context).primaryColor,
             ),
           ],
         ),

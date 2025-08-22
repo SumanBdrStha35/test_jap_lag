@@ -1,9 +1,7 @@
 import 'package:bcrypt/bcrypt.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter_app/db/DBHelper.dart';
 import 'package:flutter_app/pages/main_page.dart';
-import 'package:flutter_app/pages/signup_page.dart';
 import 'package:flutter_app/pages/signup_page_updated.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:logger/logger.dart';

@@ -1,6 +1,6 @@
 [
     {
-        "category": "Lesson 1: Kanji made from picture-1",
+        "category": "Lesson 1: Kanji made from picture - 1",
         "image": "assets/dummy1.webp",
         "kanji":[
             {
@@ -311,7 +311,7 @@
 
     },
     {
-        "category": "Lesson 2: Kanji made from picture-2",
+        "category": "Lesson 2: Kanji made from picture - 2",
         "image": "assets/dummy1.webp",
         "kanji":[
             {
@@ -1414,7 +1414,2347 @@
         "category": "Lesson 5: Kanji made from a combination of the meanings",
         "image": "assets/dummy1.webp",
         "kanji":[
-            
+            {
+                "kanji": "明",
+                "reading_kana": "あかるい",
+                "reading_romaji": "akarui",
+                "meaning": "bright, light",
+                "readings": {
+                    "kunyomi": ["あか(るい)", "あ(ける)"],
+                    "onyomi": ["メイ", "ミョウ"]
+                },
+                "examples": [
+                    { "text": "明るい（あかるい）", "meaning": "bright, cheerful" },
+                    { "text": "明日（あした）", "meaning": "tomorrow" },
+                    { "text": "説明（せつめい）", "meaning": "explanation" },
+                    { "text": "明かり（あかり）", "meaning": "light, illumination" },
+                    { "text": "明確（めいかく）", "meaning": "clear, precise" },
+                    { "text": "開明（かいめい）", "meaning": "enlightenment" }
+                ],
+                "sentences": [
+                    { "text": "部屋が明るいです。" },
+                    { "text": "明日は学校に行きます。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/明.png",
+                "easy_image": "assets/kanji/strokes/easy/明.png",
+                "mnemonic": "Sun (日) and Moon (月) together make it bright.",
+                "gif": [
+                    "M16.75,25.22c0.89,0.89,1.32,2.29,1.32,3.66c0,1.11,0.07,27.44,0,37.63c-0.02,2.32-0.02,3.78-0.02,3.91",
+                    "M19.29,27.75c5.66-0.81,19.54-2.59,21.22-2.75c1.76-0.17,2.89,1.89,2.75,2.91c-0.23,1.7-0.45,27.34-0.52,36.6c-0.01,1.9-0.02,3.11-0.02,3.29",
+                    "M19.16,46.97C23.5,46.5,37,45.12,41.77,44.76",
+                    "M19,66.59c8.5-0.97,14.37-1.59,22.49-2.11",
+                    "M57.55,16c0.95,1.25,1.09,2.48,1.11,3.5c1.09,49.25-4.41,64.75-17.41,75.75",
+                    "M59.5,17.98c6.56-1.04,21.76-3.51,23.07-3.73c2.97-0.5,5.21,0.62,5.21,4.5c0,1.49,0.19,50.25,0.19,70.5c0,11.88-7.22,3.5-8.3,2.5",
+                    "M59.77,39c7.85-1,19.73-2.25,26.95-2.75",
+                    "M59.25,57.75c6.62-0.62,20-1.5,27.36-2"
+                ]
+            },
+            {
+                "kanji": "休",
+                "reading_kana": "やすむ",
+                "reading_romaji": "yasumu",
+                "meaning": "rest, holiday",
+                "readings": {
+                    "kunyomi": ["やす(む)", "やす(まる)"],
+                    "onyomi": ["キュウ"]
+                },
+                "examples": [
+                    { "text": "休む（やすむ）", "meaning": "to rest, to be absent" },
+                    { "text": "休日（きゅうじつ）", "meaning": "holiday" },
+                    { "text": "休（やす) み", "meaning": "a break, a holiday" },
+                    { "text": "休学（きゅうがく）", "meaning": "taking a leave from school" },
+                    { "text": "休暇（きゅうか）", "meaning": "vacation" },
+                    { "text": "安休（あんきゅう）", "meaning": "peaceful rest" }
+                ],
+                "sentences": [
+                    { "text": "今日は学校を休みます。" },
+                    { "text": "仕事の後で休憩します。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/休.png",
+                "easy_image": "assets/kanji/strokes/easy/休.png",
+                "mnemonic": "A person (亻) rests under a tree (木).",
+                "gif": [
+                    "M35,16.5c0.25,1.75,0.25,4.25-0.88,6.8C28.91,35.01,22.37,46.02,10.5,60.29",
+                    "M26.28,42.5c0.72,1.25,1.26,3.48,1.26,4.75c0,12.75-0.07,29.88-0.26,42.25c-0.02,1.54-0.04,2.97-0.04,4.25",
+                    "M37.65,38.83c2.45,0.97,5.18,0.75,7.73,0.54c11.76-0.97,24.94-3.35,37.49-4.01c2.65-0.14,5.39-0.22,7.99,0.39",
+                    "M61.43,14c0.82,0.75,1.87,2.12,1.87,3.7c0,8.8,0.05,53.72-0.12,72.05c-0.03,2.88-0.06,4.91-0.08,5.75",
+                    "M62.43,38.32c0,2.18-1.1,4.31-1.9,6.04C54.57,57.4,44.96,71.84,35,78.75",
+                    "M64.12,38.08c4.45,8.37,16.21,25.33,24.99,33.19c1.96,1.76,4.35,4.18,6.9,5"
+                ]
+            },
+            {
+                "kanji": "体",
+                "reading_kana": "からだ",
+                "reading_romaji": "karada",
+                "meaning": "body",
+                "readings": {
+                    "kunyomi": ["からだ"],
+                    "onyomi": ["タイ", "テイ"]
+                },
+                "examples": [
+                    { "text": "体（からだ）", "meaning": "body" },
+                    { "text": "体育（たいいく）", "meaning": "physical education" },
+                    { "text": "体重（たいじゅう）", "meaning": "body weight" },
+                    { "text": "体力（たいりょく）", "meaning": "physical strength" },
+                    { "text": "体調（たいちょう）", "meaning": "physical condition" },
+                    { "text": "体験（たいけん）", "meaning": "experience" }
+                ],
+                "sentences": [
+                    { "text": "体に気をつけてください。" },
+                    { "text": "毎朝、体を動かします。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/体.png",
+                "easy_image": "assets/kanji/strokes/easy/体.png",
+                "mnemonic": "A person (亻) and the element of ‘snow/ice’ (本 radical) together symbolize the body.",
+                "gif": [
+                    "M31.75,16.25c0.23,2.15-0.05,3.95-0.8,5.78C26.88,32,21,45.88,9.12,60",
+                    "M23.78,42.75c1.11,1.11,1.23,2.89,1.31,4.49c0.46,10.12-0.23,30.08-0.5,41.01c-0.06,2.38-0.09,4.36-0.09,5.75",
+                    "M37.28,36.89c0.95,0.24,3.21,0.59,5.72,0.36c11.97-1.12,30.25-4,42.78-4.7c2.52-0.14,4.42,0.01,6,0.25",
+                    "M61.88,12c1.06,1.06,1.6,2.75,1.6,4.38c0,0.85,0.05,55.5-0.12,74.13c-0.03,2.9-0.05,4.93-0.08,5.74",
+                    "M61.88,36.37c0,1.38-0.51,2.64-0.94,3.49C55.07,51.39,42.61,66.29,32.5,72.5",
+                    "M64.38,36.75c3.77,7.25,17.11,24.4,23.75,30.78c1.71,1.64,3.85,3.76,6.13,4.47",
+                    "M46.54,74.65c1.23,0.29,3.48,0.39,4.71,0.29c10.8-0.93,17.26-2.18,24.7-2.46c2.05-0.08,3.28,0.14,4.3,0.28"
+                ]
+            },
+            {
+                "kanji": "好",
+                "reading_kana": "すきな",
+                "reading_romaji": "suki",
+                "meaning": "like, love, favorite",
+                "readings": {
+                    "kunyomi": ["す(く)", "すきな"],
+                    "onyomi": ["コウ"]
+                },
+                "examples": [
+                    { "text": "好きな（すきな）", "meaning": "favorite" },
+                    { "text": "好かれる（すかれる）", "meaning": "to be loved" }
+                ],
+                "sentences": [
+                    { "text": "私はチョコレートが好きです。" },
+                    { "text": "彼は音楽が好きです。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/好.png",
+                "easy_image": "assets/kanji/strokes/easy/好.png",
+                "mnemonic": "A woman (女) likes (子) children — symbolizes liking/love.",
+                "gif": [
+                    "M29.33,14.12c0.79,1.38,1.04,3.35,0.85,5.06c-0.94,8.36-4.83,32.78-8.96,42.56c-0.85,2.01,0.39,2.79,0.85,2.97c5.7,2.28,11.04,5.41,15.17,9.43c2.52,2.46,4.59,5.26,6.02,8.4",
+                    "M41.12,35.88c0.5,1.4,0.71,2.83,0.35,4.75c-3.22,17.12-10.1,38.5-24.72,50.12",
+                    "M9.75,47.46c0.75,0.99,1.88,1.17,3.01,0.99c2.15-0.34,22.82-5.19,33.86-7.59",
+                    "M52.68,20.3c1.69,0.45,3.74,0.51,5.21,0.34c4.48-0.52,17.48-3.27,23.34-4.89c1.62-0.45,3.4,0.98,1.82,3.14C80.5,22.38,76.25,28.25,70,35",
+                    "M67.57,36.74c9.05,8.89,10.3,31.39,6.43,49.14c-1.67,7.64-6.12,7.75-10.09,2.55",
+                    "M46.03,52.68c1.46,0.61,5.04,0.84,7.65,0.42c12.32-1.98,26.07-4.36,37.44-4.33c2.64,0.01,4.97,0.2,6.73,0.81"
+                ]
+            },
+            {
+                "kanji": "男",
+                "reading_kana": "おとこ",
+                "reading_romaji": "otoko",
+                "meaning": "man, male",
+                "readings": {
+                    "kunyomi": ["おとこ"],
+                    "onyomi": ["ダン", "ナン"]
+                },
+                "examples": [
+                    { "text": "男（おとこ）", "meaning": "man" },
+                    { "text": "男子（だんし）", "meaning": "boy, male" },
+                    { "text": "男子学生（だんしがくせい）", "meaning": "a boy student" },
+                    { "text": "男の子（おとこのこ）", "meaning": "boy" },
+                    { "text": "働き男（はたらきおとこ）", "meaning": "working man" },
+                    { "text": "男前（おとこまえ）", "meaning": "handsome man" }
+                ],
+                "sentences": [
+                    { "text": "あの人は男の人です。" },
+                    { "text": "男の子が遊んでいます。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/男.png",
+                "easy_image": "assets/kanji/strokes/easy/男.png",
+                "mnemonic": "Field (田) + strength (力) = strong man working in the fields.",
+                "gif": [
+                    "M26.5,14.25c0.88,0.88,1.56,1.99,1.73,2.98c0.84,4.77,2.47,16.75,3.34,26.04c0.18,1.95,0.37,2.37,0.55,4.23",
+                    "M29,15.95c11.38-1.45,41.21-4.57,49.56-4.71c3.9-0.07,5.44,1.51,4.91,5.29c-0.45,3.21-3.15,15.19-4.94,22.23c-0.41,1.62-0.79,2.99-1.4,4.19",
+                    "M54,15.97c0.77,0.77,1,1.91,1,2.79c0.02,6.32,0.2,22,0.2,22.75",
+                    "M30.98,30.82C45,29.12,57.12,28,80.53,26.34",
+                    "M32.87,44.74c11.38-1.24,28.38-2.99,44.14-3.7",
+                    "M19.98,60.98c2.15,0.67,4.58,0.78,6.77,0.53c13.46-1.53,42.24-5.66,51.88-6.86c5.26-0.66,6.86,1.04,5.72,6.27c-1.92,8.83-9,27.39-15.66,33.19c-5.11,4.45-7.44,2.14-9.69-0.86",
+                    "M53.22,46.43c0.28,1.32,0.29,3.04-0.2,4.57C49.12,63.12,38,81.25,17.14,92.06"
+                ]
+            },
+            {
+                "kanji": "林",
+                "reading_kana": "はやし",
+                "reading_romaji": "hayashi",
+                "meaning": "woods, grove",
+                "readings": {
+                    "kunyomi": ["はやし"],
+                    "onyomi": ["リン"]
+                },
+                "examples": [
+                    { "text": "林（はやし）", "meaning": "small forest, grove" },
+                    { "text": "森林（しんりん）", "meaning": "forest" },
+                    { "text": "林業（りんぎょう）", "meaning": "forestry" },
+                    { "text": "小林（こばやし）", "meaning": "small grove" },
+                    { "text": "林間（りんかん）", "meaning": "among trees" },
+                    { "text": "林檎（りんご）", "meaning": "apple" }
+                ],
+                "sentences": [
+                    { "text": "林の中を歩きます。" },
+                    { "text": "小さな林があります。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/林.png",
+                "easy_image": "assets/kanji/strokes/easy/林.png",
+                "mnemonic": "Two trees (木) together make a small forest.",
+                "gif": [
+                    "M11,40.75c0.75,0.25,3.01,0.42,5,0.25c5.88-0.5,15.5-1.38,24-2.5c1.98-0.26,3.25-0.25,4.5,0",
+                    "M30.75,15.75c1.12,1.12,1.75,2.75,1.75,4.75c0,5,0.07,45.73-0.12,65.5c-0.04,4.18-0.08,7.16-0.13,8.25",
+                    "M31.25,40.5c0,1.62-0.55,3.41-1.05,4.59C26.09,54.68,18.62,67,11.25,73.5",
+                    "M35.25,48.75c3.5,2,7.25,6,9.25,9.5",
+                    "M50.62,37.39c0.94,0.34,2.96,0.59,5.44,0.34c8.2-0.84,18.68-2.6,27.97-3.04c2.49-0.12,4.65-0.34,6.21,0",
+                    "M67,13.5c1.25,1.25,1.75,3,1.75,4.5c0,0.85,0.07,47.55-0.12,67.75c-0.04,4.32-0.08,7.4-0.13,8.5",
+                    "M68,38.25c0,1-0.64,2.87-1.39,4.58C61.25,55,55.38,66.38,45.5,77",
+                    "M69.5,37.75c6.62,12.62,15.94,25.68,22.32,32.52c1.78,1.91,4.12,4.6,6.68,5.48"
+                ]
+            },
+            {
+                "kanji": "森",
+                "reading_kana": "もり",
+                "reading_romaji": "mori",
+                "meaning": "forest, jungle",
+                "readings": {
+                    "kunyomi": ["もり"],
+                    "onyomi": ["シン"]
+                },
+                "examples": [
+                    { "text": "森（もり）", "meaning": "forest" },
+                    { "text": "森林（しんりん）", "meaning": "forest, woods" },
+                    { "text": "森閑（しんかん）", "meaning": "silence of the forest" },
+                    { "text": "森田（もりた）", "meaning": "common Japanese surname" },
+                    { "text": "森羅（しんら）", "meaning": "all things of nature" },
+                    { "text": "森深い（もりぶかい）", "meaning": "deep forest" }
+                ],
+                "sentences": [
+                    { "text": "森で遊びます。" },
+                    { "text": "森は静かです。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/森.png",
+                "easy_image": "assets/kanji/strokes/easy/森.png",
+                "mnemonic": "Three trees (木) together make a big forest.",
+                "gif": [
+                    "M30.12,23.67c0.87,0.24,4.4,0.62,6.7,0.33c11.37-1.4,20.02-2,36.05-3.21c2.32-0.18,2.92-0.24,4.37,0",
+                    "M52.75,10C53.5,10.75,54,11.75,54,13.16c0,4.34,0.06,22-0.15,31.6c-0.03,1.48-0.07,2.69-0.1,3.5",
+                    "M51.5,22.9c0,1.1-0.27,1.78-0.81,2.41C43,34.25,31.34,41.69,20.5,45.5",
+                    "M56,24.4c5.25,4.35,22.25,15.35,29.03,17.6c1.77,0.59,3.07,1.25,4.72,1.5",
+                    "M12.46,61.06c0.77,0.22,3.1,0.42,5.14,0.25c6.65-0.56,15.15-1.69,23.13-2.49c2.04-0.21,3.85-0.42,5.13-0.2",
+                    "M32.61,46.29c0.86,0.86,1.42,1.96,1.42,3.16c0,0.79,0.06,31.46-0.14,44.06c-0.03,2.17-0.07,3.78-0.1,4.6",
+                    "M33.07,60.68c0,1.2-0.44,2.02-1.04,3.12C28,71.12,19.75,83,13.5,88",
+                    "M37.61,67.19c2.08,1.43,4.69,4.07,6.51,6.31",
+                    "M52.28,59.98c1.72,0.14,2.82,0.09,4.54-0.08c8.93-0.91,17.81-1.66,26.47-2.43c2.01-0.18,3.77-0.22,5.04,0",
+                    "M68.12,42.75c1.07,1.06,1.42,2.62,1.42,3.91c0,0.8,0.06,35.28-0.15,48.09c-0.03,2.01-0.06,3.49-0.1,4.25",
+                    "M67.84,59.75c0,1-0.19,1.62-0.81,2.87c-4.52,9.22-14.61,21.74-21.78,26.14",
+                    "M69.77,58.93c7.05,10.52,18.34,24.02,24.07,28.17c1.63,1.18,2.55,2,3.92,2.4"
+                ]
+            },
+            {
+                "kanji": "間",
+                "reading_kana": "あいだ",
+                "reading_romaji": "aida",
+                "meaning": "interval, between",
+                "readings": {
+                    "kunyomi": ["あいだ", "ま"],
+                    "onyomi": ["カン", "ケン"]
+                },
+                "examples": [
+                    { "text": "間（あいだ）", "meaning": "between, interval" },
+                    { "text": "時間（じかん）", "meaning": "time, hours" },
+                    { "text": "人間（にんげん）", "meaning": "human being" },
+                    { "text": "瞬間（しゅんかん）", "meaning": "moment, instant" },
+                    { "text": "間に合う（まにあう）", "meaning": "to be on time" },
+                    { "text": "一年間（いちねんかん）", "meaning": "a year" }
+                ],
+                "sentences": [
+                    { "text": "二つの家の間に公園があります。" },
+                    { "text": "少しの間待ってください。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/間.png",
+                "easy_image": "assets/kanji/strokes/easy/間.png",
+                "mnemonic": "A gate (門) with the sun (日) inside — imagine looking through a gate at the sunlight between.",
+                "gif": [
+                    "M18.64,15.3c0.71,0.71,1.18,1.82,1.18,3.43c0,3.89-0.05,56.65-0.19,72.77c-0.02,1.92-0.03,4.03-0.05,4.65",
+                    "M21.01,16.81c5.75-0.6,18.73-2.74,20.5-2.84c1.85-0.1,2.86,0.28,2.9,2.02c0.06,2.75-0.5,16.1-0.85,20.76c-0.12,1.55-0.19,2.57-0.19,2.7",
+                    "M20.95,27.27c5.99-0.61,14.92-2.02,21.88-2.6",
+                    "M21.02,39.04c8.11-1.19,14.14-2.1,21.31-2.64",
+                    "M63.19,13.1c0.98,0.98,1.34,2.15,1.34,2.97c0,5.8-0.08,12.65-0.06,18.93c0.01,2.01,0.02,3.4,0.06,3.58",
+                    "M65.32,14.77c5.97-0.68,20.69-3.19,22.38-3.28c1.8-0.09,2.81,0.88,2.81,2.82c0,17-0.22,66.12-0.22,78.44c0,10.5-6.35,1.36-7.72,0.23",
+                    "M65.63,24.79c4.49-0.42,19.73-1.99,23.35-1.99",
+                    "M65.22,36.07c6.41-0.32,16.53-1.32,23.49-1.81",
+                    "M40.56,50.95c0.74,0.74,1.04,1.93,1.04,2.99c0,0.83-0.08,20.84-0.05,29.06c0.01,2.25,0.02,2.77,0.05,3",
+                    "M42.26,52.09c5.56-0.48,19.71-1.98,21.3-2.1c1.68-0.13,2.76,1.46,2.63,2.24c-0.21,1.24-0.41,20.66-0.48,29.02c-0.02,2.29-0.03,3.8-0.03,3.97",
+                    "M42.64,66.6c5.11-0.48,17.36-1.73,21.88-2.07",
+                    "M42.25,82.8c5.13-0.3,17-1.55,22.26-2.05"
+                ]
+            },
+            {
+                "kanji": "畑",
+                "reading_kana": "はたけ",
+                "reading_romaji": "hatake",
+                "meaning": "field (cultivated)",
+                "readings": {
+                    "kunyomi": ["はたけ", "はた"],
+                    "onyomi": []
+                },
+                "examples": [
+                    { "text": "畑（はたけ）", "meaning": "field for crops" },
+                    { "text": "畑仕事（はたけしごと）", "meaning": "farm work" },
+                    { "text": "田畑（たはた）", "meaning": "fields and rice paddies" },
+                    { "text": "茶畑（ちゃばたけ）", "meaning": "tea field" },
+                    { "text": "畑作（はたさく）", "meaning": "dry field farming" },
+                    { "text": "畑地（はたけち）", "meaning": "farmland" }
+                ],
+                "sentences": [
+                    { "text": "父は畑で働いています。" },
+                    { "text": "この村には畑がたくさんあります。" }
+                ],
+                "stroke_count": 9,
+                "image": "assets/kanji/strokes/easy/screencap/畑.png",
+                "easy_image": "assets/kanji/strokes/easy/畑.png",
+                "mnemonic": "A rice field (田) with fire (火) — land cleared by burning for cultivation.",
+                "gif": [
+                    "M13.38,38.38c2.37,2.82,5.81,10.81,6.46,13.62",
+                    "M42.15,29.5c0.35,1.12,0.4,2.24-0.18,3.59c-0.97,2.29-6.41,11.05-9.5,14.16",
+                    "M28.5,17.25c0.77,0.75,0.97,1.75,1.03,3c2.09,46-3.28,61.62-17.53,73.5",
+                    "M31.25,66.75c4.45,2.96,10.08,12.31,11.25,16.5",
+                    "M53,32.94c1.09,1.09,1.65,2.7,1.71,3.78c0.62,12.35,0.88,27.26,1.38,42.53c0.04,1.16,0.08,2.31,0.12,3.47",
+                    "M54.88,34.77c10.39-0.89,28.19-2.9,35.95-3.76c2.85-0.32,4.3,2.25,4.14,4.62c-0.51,7.82-1.75,29.09-2.96,40.9c-0.13,1.31-0.27,2.52-0.41,3.58",
+                    "M72.14,34.52c1.29,1.29,1.96,3.28,1.96,5.24c-0.02,10.77,0.19,34.89,0.19,38.52",
+                    "M56.74,56.48c5.39-0.73,31.39-2.73,35.65-2.75",
+                    "M57.26,80.42c10.99-0.92,18.99-1.92,33.43-2.71"
+                ]
+            },
+            {
+                "kanji": "岩",
+                "reading_kana": "いわ",
+                "reading_romaji": "iwa",
+                "meaning": "rock",
+                "readings": {
+                    "kunyomi": ["いわ"],
+                    "onyomi": ["ガン"]
+                },
+                "examples": [
+                    { "text": "岩（いわ）", "meaning": "rock" },
+                    { "text": "岩石（がんせき）", "meaning": "rock, stone" },
+                    { "text": "岩山（いわやま）", "meaning": "rocky mountain" },
+                    { "text": "溶岩（ようがん）", "meaning": "lava" },
+                    { "text": "岩場（いわば）", "meaning": "rocky area" },
+                    { "text": "岩戸（いわと）", "meaning": "rock door/cave" }
+                ],
+                "sentences": [
+                    { "text": "大きな岩の上に座ります。" },
+                    { "text": "川のそばに岩があります。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/岩.png",
+                "easy_image": "assets/kanji/strokes/easy/岩.png",
+                "mnemonic": "Mountain (山) over stone (石) = a large rock.",
+                "gif": [
+                    "M54.84,12.5c0.91,0.75,1.71,2,1.71,3.9c0,0.45-0.04,14.01-0.09,20.35",
+                    "M30.03,21.6c0.72,0.9,0.97,1.65,1.03,3.22c0.11,2.75-1.32,8.87-2.89,14.37c-0.55,1.94,0.37,2.55,2.34,2.16c14.73-2.97,38.9-4.25,50.98-4.48",
+                    "M84.65,17.67c0.85,1.08,1.1,1.83,0.86,3.63c-0.36,2.72-1.28,9.25-2.39,14.78c-0.31,1.56-0.64,3.09-0.98,4.48",
+                    "M17.57,55.43c3.43,0.57,6.14,0.38,9.08,0.14c13.6-1.08,41.48-3.83,58.98-4.06c2.71-0.04,5.44-0.05,8.12,0.37",
+                    "M40.86,57.86c0.26,0.89,0.14,2.64-0.66,4.27c-3.41,6.99-10.82,21.77-25.95,31.12",
+                    "M38.27,69.52c1.25,1.02,1.55,1.29,1.78,2.94c0.66,4.74,1.16,12.99,2.01,20.79c0.14,1.24,0.28,2.47,0.43,3.67",
+                    "M40.99,71.41c10.79-1.2,32.55-3.81,38.37-3.95c2.76-0.07,4.33,1.96,4,3.45c-1.24,5.58-2.97,12.76-4.1,19.38",
+                    "M43.02,94.1c6.58-0.43,23.48-1.85,34.23-2.68c1.96-0.15,2.28-0.15,3.84-0.17"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Lesson 6: Kanji made from picture - 3",
+        "image": "assets/dummy1.webp",
+        "kanji": [
+            {
+                "kanji": "目",
+                "reading_kana": "め",
+                "reading_romaji": "me",
+                "meaning": "eye",
+                "readings": {
+                    "kunyomi": ["め"],
+                    "onyomi": ["モク", "ボク"]
+                },
+                "examples": [
+                    { "text": "目（め）", "meaning": "eye" },
+                    { "text": "目上（めうえ）", "meaning": "one's superiors" },
+                    { "text": "注目（ちゅうもく）", "meaning": "attention" },
+                    { "text": "目立つ（めだつ）", "meaning": "stand out" },
+                    { "text": "目次（もくじ）", "meaning": "table of contents" },
+                    { "text": "一目（ひとめ）", "meaning": "a glance" }
+                ],
+                "sentences": [
+                    { "text": "目が大きいです。" },
+                    { "text": "目を閉じてください。" }
+                ],
+                "stroke_count": 5,
+                "image": "assets/kanji/strokes/easy/screencap/目.png",
+                "easy_image": "assets/kanji/strokes/easy/目.png",
+                "mnemonic": "Looks like an eye with lashes.",
+                "gif": [
+                    "M29.75,19.05c1.35,1.35,1.86,3.21,1.86,5.47c0,1.77,0.19,42.37,0.06,60.23c-0.04,4.91-0.06,8.11-0.06,8.36",
+                    "M32.54,21.39c10.92-1.23,38.33-4.11,41.42-4.38c3.25-0.28,5.54,1.25,5.54,4.18c0,8.95-0.26,39.93-0.26,64.82c0,3,0.01,3.75,0.01,6",
+                    "M33.05,43.64c12.45-1.51,34.83-3.51,45.18-4.09",
+                    "M32.9,65.95C44.25,65,66,62.88,77.72,62.56",
+                    "M33,90.5c9.75-0.5,33.25-2.5,44.79-2.53"
+                ]
+            },
+            {
+                "kanji": "耳",
+                "reading_kana": "みみ",
+                "reading_romaji": "mimi",
+                "meaning": "ear",
+                "readings": {
+                    "kunyomi": ["みみ"],
+                    "onyomi": ["ジ"]
+                },
+                "examples": [
+                    { "text": "耳（みみ）", "meaning": "ear" },
+                    { "text": "耳鼻科（じびか）", "meaning": "ear and nose clinic" },
+                    { "text": "初耳（はつみみ）", "meaning": "something heard for the first time" },
+                    { "text": "耳元（みみもと）", "meaning": "by the ear" },
+                    { "text": "中耳（ちゅうじ）", "meaning": "middle ear" },
+                    { "text": "耳鳴り（みみなり）", "meaning": "ringing in the ears" }
+                ],
+                "sentences": [
+                    { "text": "耳で音を聞きます。" },
+                    { "text": "耳が痛いです。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/耳.png",
+                "easy_image": "assets/kanji/strokes/easy/耳.png",
+                "mnemonic": "Shaped like an ear with folds.",
+                "gif": [
+                    "M20.25,20c3.03,0.85,6.17,0.58,9.24,0.21c14.62-1.76,31.45-3.95,48.12-5.06c3.33-0.22,6.59-0.2,9.89,0.35",
+                    "M36.68,22.5c1.1,1.1,1.64,2.71,1.64,4.73c0,1.6-0.33,40.02-0.33,41.52",
+                    "M39.5,35.5c6.75-0.88,24-2.75,32.25-3.25",
+                    "M39.25,51.25c7-0.5,24.62-2.75,32.25-3",
+                    "M17.25,71c0.75,1.12,2.01,1.81,3.75,1.5c7-1.25,48-8.75,58.75-10.75",
+                    "M71,18.5c1,1,1.75,2.5,1.75,4.25c0,1.05,0.18,44.73,0.23,64.75c0.01,3.74,0.02,6.64,0.02,8.25"
+                ]
+            },
+            {
+                "kanji": "手",
+                "reading_kana": "て",
+                "reading_romaji": "te",
+                "meaning": "hand",
+                "readings": {
+                    "kunyomi": ["て", "た"],
+                    "onyomi": ["シュ"]
+                },
+                "examples": [
+                    { "text": "手（て）", "meaning": "hand" },
+                    { "text": "手紙（てがみ）", "meaning": "letter" },
+                    { "text": "上手（じょうず）", "meaning": "skillful" },
+                    { "text": "下手（へた）", "meaning": "unskillful" },
+                    { "text": "握手（あくしゅ）", "meaning": "handshake" },
+                    { "text": "手伝う（てつだう）", "meaning": "to help" }
+                ],
+                "sentences": [
+                    { "text": "手を洗ってください。" },
+                    { "text": "手で持ちます。" }
+                ],
+                "stroke_count": 4,
+                "image": "assets/kanji/strokes/easy/screencap/手.png",
+                "easy_image": "assets/kanji/strokes/easy/手.png",
+                "mnemonic": "Looks like fingers spread on a hand.",
+                "gif": [
+                    "M61.48,11.5c0.02,1-0.61,1.88-1.67,2.9c-3.27,3.15-13.69,8.23-28.57,11.85",
+                    "M26.38,42.92c1.8,0.46,3.61,0.67,5.68,0.38C46,41.38,58.4,39,71.37,37.75c1.92-0.19,4.62-0.38,7.25,0.04",
+                    "M13.27,62.87c2.71,0.63,4.86,0.6,7.22,0.38c22.63-2.12,46.13-5.62,67.7-7c2.01-0.13,4.83,0,7.46,0.37",
+                    "M48.88,23.55C60.38,31,62.73,63.66,57.83,89.87c-2.08,11.13-8.64,2.34-9.89,1.17"
+                ]
+            },
+            {
+                "kanji": "足",
+                "reading_kana": "あし",
+                "reading_romaji": "ashi",
+                "meaning": "foot, pair, leg",
+                "readings": {
+                    "kunyomi": ["あし", "た(りる)", "た(す)"],
+                    "onyomi": ["ソク"]
+                },
+                "examples": [
+                    { "text": "足（あし）", "meaning": "foot, leg" },
+                    { "text": "足りる（たりる）", "meaning": "to be enough" },
+                    { "text": "遠足（えんそく）", "meaning": "excursion" },
+                    { "text": "二足（にそく）", "meaning": "two pairs" },
+                    { "text": "満足（まんぞく）", "meaning": "satisfaction" },
+                    { "text": "速足（はやあし）", "meaning": "fast pace" }
+                ],
+                "sentences": [
+                    { "text": "足が痛いです。" },
+                    { "text": "足でボールをけります。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/足.png",
+                "easy_image": "assets/kanji/strokes/easy/足.png",
+                "mnemonic": "Looks like a leg with a foot at the bottom.",
+                "gif": [
+                    "M29.75,18.99c0.82,0.82,1.43,1.68,1.66,2.33c1.15,3.39,3.44,13.48,4.61,18.68c0.34,1.51,0.59,2.61,0.68,3",
+                    "M31.56,19.63c12.09-1.87,34.1-5.01,40.27-5.14c2.89-0.06,3.98,2.41,3.7,3.88c-0.73,3.84-3.94,15.23-4.51,17.27",
+                    "M37.25,40.74c7.07-0.43,20.75-2.48,31.53-3.73c1.71-0.2,3.34-0.14,4.86-0.32",
+                    "M52.75,41c0.81,0.81,1.4,1.75,1.4,3.62c0,5.11,0.37,32.49,0.35,33.88",
+                    "M55.75,59.25C56.94,59.25,66.25,57.75,73.54,56.53C75.08,56.27,76.53,56.25,77.75,56.25",
+                    "M36.49,55c0.13,1.5,0.14,3.05-0.2,4.35c-2.04,7.78-10.16,24.15-17.79,30.9",
+                    "M33.25,70.75C41.75,72.12,67,87.38,82,92.5c2.94,1,6.85,1.68,9.75,2"
+                ]
+            },
+            {
+                "kanji": "雨",
+                "reading_kana": "あめ",
+                "reading_romaji": "ame",
+                "meaning": "rain",
+                "readings": {
+                    "kunyomi": ["あめ", "あま"],
+                    "onyomi": ["ウ"]
+                },
+                "examples": [
+                    { "text": "雨（あめ）", "meaning": "rain" },
+                    { "text": "大雨（おおあめ）", "meaning": "heavy rain" },
+                    { "text": "雨天（うてん）", "meaning": "rainy weather" },
+                    { "text": "梅雨（つゆ）", "meaning": "rainy season" },
+                    { "text": "小雨（こさめ）", "meaning": "light rain" },
+                    { "text": "降雨（こうう）", "meaning": "rainfall" }
+                ],
+                "sentences": [
+                    { "text": "今日は雨が降っています。" },
+                    { "text": "明日は雨でしょう。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/雨.png",
+                "easy_image": "assets/kanji/strokes/easy/雨.png",
+                "mnemonic": "The kanji looks like drops of rain falling from a cloud.",
+                "gif": [
+                    "M25.75,22.37c1.87,0.40,4.47,0.62,6.32,0.40c11.68-1.39,28.28-3.77,41.25-4.64c2.49-0.17,4.37-0.12,7.18,0.28",
+                    "M15.5,41.25c1.25,1.5,1.66,3.26,1.89,5.19c1.24,10.69,2.19,26.61,2.66,36.31c0.13,2.7,0.2,5,0.2,6",
+                    "M18.25,44.25c1.42-0.09,62.76-5.33,69.5-6c2.5-0.25,4.61,1,4.5,3.75c-0.5,12.75-1.77,28.11-6,44.75c-1.88,7.38-5.38,1.88-8.5-1.25",
+                    "M52.25,23.5C53.31,24.56,54,26.25,54,28c0,0.82-0.25,37.8-0.43,53c-0.04,3.43-0.07,5.74-0.07,6.25",
+                    "M31,53.5c4.21,1.24,8.95,3.94,11.25,6",
+                    "M30.5,68.75c3.8,1.26,9.68,5.89,11.75,8",
+                    "M66.88,48.88c4.98,1.99,10.63,5.97,12.62,7.62",
+                    "M67.25,66.5c2.75,1,9,5.5,11,7.75"
+                ]
+            },
+            {
+                "kanji": "竹",
+                "reading_kana": "たけ",
+                "reading_romaji": "take",
+                "meaning": "bamboo",
+                "readings": {
+                    "kunyomi": ["たけ"],
+                    "onyomi": ["チク"]
+                },
+                "examples": [
+                    { "text": "竹（たけ）", "meaning": "bamboo" },
+                    { "text": "竹林（ちくりん）", "meaning": "bamboo grove" },
+                    { "text": "竹の子（たけのこ）", "meaning": "bamboo shoot" },
+                    { "text": "竹細工（たけざいく）", "meaning": "bamboo work" },
+                    { "text": "竹田（たけだ）", "meaning": "Japanese name" },
+                    { "text": "竹刀（しない）", "meaning": "bamboo sword" }
+                ],
+                "sentences": [
+                    { "text": "竹林を散歩しました。" },
+                    { "text": "竹の子を食べます。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/竹.png",
+                "easy_image": "assets/kanji/strokes/easy/竹.png",
+                "mnemonic": "Two sprouting stalks represent bamboo shoots.",
+                "gif": [
+                    "M30.2,16.43c0.17,0.95,0.19,2.1-0.09,3.24c-1.74,7.09-7.28,22.56-15.48,31.74",
+                    "M24.48,43.58c6.14,0.04,14.59-2.46,21.58-3.72c1.9-0.34,3.43-0.56,4.32-0.56",
+                    "M35.21,45.61c0.96,0.96,1.55,2.39,1.55,4.13c0,10.53-0.09,29.94-0.24,40.26c-0.04,3.02-0.07,4.71-0.07,5.62",
+                    "M68.7,11.68c0.43,1.2,0.21,2.55-0.1,3.79C66.25,24.75,59.75,38,51.14,49.4",
+                    "M64.48,36.08c8.14,0.04,20.64-3.08,28.54-4.71c2.1-0.43,3.83-0.57,4.86-0.57",
+                    "M76.77,37.83c1.08,1.08,2.01,2.79,2.01,5.02c0,14.56-0.01,42.16-0.01,47.12c0,11.03-4.89,4.66-7.96,1"
+                ]
+            },
+            {
+                "kanji": "米",
+                "reading_kana": "こめ",
+                "reading_romaji": "kome",
+                "meaning": "rice",
+                "readings": {
+                    "kunyomi": ["こめ"],
+                    "onyomi": ["ベイ", "マイ"]
+                },
+                "examples": [
+                    { "text": "米（こめ）", "meaning": "rice (uncooked)" },
+                    { "text": "米国（べいこく）", "meaning": "United States of America (USA)" },
+                    { "text": "中米（ちゅうべい）", "meaning": "Central America" },
+                    { "text": "米屋（こめや）", "meaning": "rice shop" },
+                    { "text": "米食（べいしょく）", "meaning": "rice eating" },
+                    { "text": "米粉（こめこ）", "meaning": "rice flour" }
+                ],
+                "sentences": [
+                    { "text": "米を買いました。" },
+                    { "text": "日本人は米をよく食べます。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/米.png",
+                "easy_image": "assets/kanji/strokes/easy/米.png",
+                "mnemonic": "Looks like grains of rice scattered.",
+                "gif": [
+                    "M26.64,25.46c4.03,2.47,10.1,9.45,11.11,13.29",
+                    "M78.52,19.64c0.1,0.85-0.21,2.19-0.63,2.91C75.25,27,72.25,30.5,66.56,35.22",
+                    "M18,49.25c2.25,0.62,4.8,0.83,8.24,0.5c19.67-1.88,38.77-4.5,52.75-5.25c3.46-0.19,6.13-0.12,8.51,0.5",
+                    "M51.75,13.25C53.06,14.56,54,17,54,18.75c0,4.75,0.06,50.93-0.14,70.51c-0.04,3.54-0.07,5.54-0.11,6.49",
+                    "M49.38,48.25c0,1.47-0.81,3.5-1.26,4.29C41,64.89,27.22,78.84,13.5,85.75",
+                    "M55.75,48.25C60,53,75.38,68.74,83.7,76.96c2.8,2.77,5.74,5.16,9.43,6.79"
+                ]
+            },
+            {
+                "kanji": "貝",
+                "reading_kana": "かい",
+                "reading_romaji": "kai",
+                "meaning": "shell, shellfish",
+                "readings": {
+                    "kunyomi": ["かい"],
+                    "onyomi": ["バイ"]
+                },
+                "examples": [
+                    { "text": "貝（かい）", "meaning": "a shellfish" },
+                    { "text": "貝殻（かいがら）", "meaning": "a shell" },
+                    { "text": "貝類（かいるい）", "meaning": "shellfish" },
+                    { "text": "貝細工（かいざいく）", "meaning": "shellcraft" }
+                ],
+                "sentences": [
+                    { "text": "海で貝を拾いました。" },
+                    { "text": "この貝はきれいです。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/貝.png",
+                "easy_image": "assets/kanji/strokes/easy/貝.png",
+                "mnemonic": "Looks like a clam shell with lines.",
+                "gif": [
+                    "M31.75,17.8c1.16,1.16,1.68,2.84,1.68,4.63c0,1.49-0.18,33.31-0.18,48.31c0,3.5-0.07,3.62-0.07,6.5",
+                    "M33.82,19.85c7.3-0.73,30.8-3.48,37.67-4.11c2.94-0.27,4.51,1,4.51,3.66c0,3.09-0.5,32.69-0.74,47.84c-0.08,4.93-0.13,8.28-0.13,8.6",
+                    "M34.76,38.26c8.99-1.26,33.57-3.64,39.78-3.64",
+                    "M34.82,55.24c10.93-0.99,27.93-2.99,39.51-3.18",
+                    "M34.57,73.74C45.5,73,64.12,71.05,74.08,71.05",
+                    "M41.95,80.5c0.55,1.41-0.42,3.3-1.5,4.33C37.17,87.94,28.56,94.07,22,97.75",
+                    "M65.75,80C72.78,84.75,81.08,93.35,83,97.5"
+                ]
+            },
+            {
+                "kanji": "石",
+                "reading_kana": "いし",
+                "reading_romaji": "ishi",
+                "meaning": "stone",
+                "readings": {
+                    "kunyomi": ["いし"],
+                    "onyomi": ["セキ", "シャク", "コク"]
+                },
+                "examples": [
+                    { "text": "石（いし）", "meaning": "stone, rock" },
+                    { "text": "化石（かせき）", "meaning": "fossil" },
+                    { "text": "石油（せきゆ）", "meaning": "oil, petroleum" },
+                    { "text": "石橋（いしばし）", "meaning": "stone bridge" },
+                    { "text": "磁石（じしゃく）", "meaning": "magnet" },
+                    { "text": "石像（せきぞう）", "meaning": "stone statue" }
+                ],
+                "sentences": [
+                    { "text": "石を投げないでください。" },
+                    { "text": "庭に大きな石があります。" }
+                ],
+                "stroke_count": 5,
+                "image": "assets/kanji/strokes/easy/screencap/石.png",
+                "easy_image": "assets/kanji/strokes/easy/石.png",
+                "mnemonic": "Small rock under a cliff.",
+                "gif": [
+                    "M19.88,26.65c3.2,0.73,6.6,0.59,8.91,0.4c18.28-1.55,33.06-3.55,52.96-4.66c3.87-0.22,6.42-0.02,8.12,0.39",
+                    "M42.42,29.43c0.33,1.45,0.22,2.69-0.15,4.17C39.38,45,30.75,61.62,15,73.5",
+                    "M34.5,56.24c0.71,0.64,1.62,2.13,1.75,2.97c0.87,5.49,1.95,14.48,3.14,24.27c0.2,1.68,0.41,3.36,0.6,5.02",
+                    "M35,56.3c12.06-1.23,38.12-3.55,45.33-4.31c3.05-0.32,4.48,2.33,3.94,4.1c-1.56,5.08-3.24,16.32-4.5,24.38",
+                    "M40.83,84.37c7.19-0.52,22.62-1.77,34.17-2.38c2.39-0.13,4.6-0.21,6.5-0.24"
+                ]
+            },
+            {
+                "kanji": "糸",
+                "reading_kana": "いと",
+                "reading_romaji": "ito",
+                "meaning": "thread, string",
+                "readings": {
+                    "kunyomi": ["いと"],
+                    "onyomi": ["シ"]
+                },
+                "examples": [
+                    { "text": "糸（いと）", "meaning": "thread" },
+                    { "text": "毛糸（けいと）", "meaning": "wool yarn" },
+                    { "text": "糸口（いとぐち）", "meaning": "clue, beginning" },
+                    { "text": "白糸（しらいと）", "meaning": "white thread" }
+                ],
+                "sentences": [
+                    { "text": "糸でボタンをつけます。" },
+                    { "text": "赤い糸があります。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/糸.png",
+                "easy_image": "assets/kanji/strokes/easy/糸.png",
+                "mnemonic": "Looks like threads twisted together.",
+                "gif": [
+                    "M51.25,11.5c0.5,1.5,0.28,2.9-0.75,4.5C46,23,38.12,31.75,32.25,35.75c-1.98,1.35-0.74,3.47,0.25,3.75c5.25,1.5,10.75,4,15.25,6.75",
+                    "M70.5,21c0.62,1.38,0.38,2.75-1,4.25c-11.01,12.01-22.25,23.75-36,37c-1.66,1.6-1.01,2.46,1,2c9.38-2.12,31.75-7,42.5-9",
+                    "M72.25,47.25c3.71,2.78,9.57,11.43,10.5,15.75",
+                    "M53,63c0.75,0.75,1.42,1.85,1.51,3.49c0.29,5.73,0.03,19.24-0.14,27.25c-0.06,3.03-0.11,5.27-0.11,6.01",
+                    "M32.98,74.66c0.39,1.47,0.27,2.59-0.77,4.12c-2.85,4.19-10.79,11.02-15.46,14.31",
+                    "M76.16,73.5c4.38,3.75,11.88,13.75,13.44,17.5"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Lesson 7: Kanji made from picture - 4",
+        "image": "assets/dummy1.webp",
+        "kanji": [
+            {
+                "kanji": "花",
+                "reading_kana": "はな",
+                "reading_romaji": "hana",
+                "meaning": "flower",
+                "readings": {
+                    "kunyomi": ["はな"],
+                    "onyomi": ["カ"]
+                },
+                "examples": [
+                    { "text": "花（はな）", "meaning": "flower" },
+                    { "text": "花火（はなび）", "meaning": "fireworks" },
+                    { "text": "花びん（かびん）", "meaning": "a vase" },
+                    { "text": "花屋（はなや）", "meaning": "flower shop" },
+                    { "text": "生け花（いけばな）", "meaning": "flower arranging" },
+                    { "text": "花畑（はなばたけ）", "meaning": "flower field" }
+                ],
+                "sentences": [
+                    { "text": "花がきれいです。" },
+                    { "text": "庭に花を植えました。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/花.png",
+                "easy_image": "assets/kanji/strokes/easy/花.png",
+                "mnemonic": "Grass radical (艹) plus change (化) — flowers change and bloom.",
+                "gif": [
+                    "M17,29.77c3,0.73,6.35,0.54,9.37,0.29c16.22-1.35,36.31-4.64,56.76-4.79c2.4-0.02,4.77,0.04,7.12,0.51",
+                    "M32.25,16c1.25,0.5,2.25,1.62,2.5,2.75c1.33,5.97,4.86,19.92,5,20.75",
+                    "M71.25,12.5c0.42,1.18,0.47,3.05,0,4.5c-2.19,6.77-6.14,19.12-6.75,20.75",
+                    "M38.25,48.25c0.25,1.75-0.37,3.31-0.98,4.44C33.25,60,24.8,69.67,19.5,74.5",
+                    "M30.75,65.5c0.75,1,1.12,1.97,1.12,3c0,6.64-0.08,16.47-0.11,24c-0.01,1.96-0.01,3.82-0.01,5.5",
+                    "M84.25,50.25c-0.12,1.62-0.84,2.87-2,3.75c-4.62,3.5-11,6.75-19,9.75",
+                    "M58.25,43.75c1.06,1.06,1.5,2.5,1.5,4.75c0,2.96-0.22,20.59-0.22,31.25C59.53,93,63,94.15,77,94.15c16.25,0,18-2.65,18-11.15"
+                ]
+            },
+            {
+                "kanji": "茶",
+                "reading_kana": "ちゃ",
+                "reading_romaji": "cha",
+                "meaning": "tea",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["チャ", "サ"]
+                },
+                "examples": [
+                    { "text": "お茶（おちゃ）", "meaning": "tea" },
+                    { "text": "日本茶（にほんちゃ）", "meaning": "Japanese tea" },
+                    { "text": "茶道（さどう）", "meaning": "tea ceremony" },
+                    { "text": "茶店（ちゃみせ）", "meaning": "tea shop" },
+                    { "text": "紅茶（こうちゃ）", "meaning": "black tea" },
+                    { "text": "緑茶（りょくちゃ）", "meaning": "green tea" }
+                ],
+                "sentences": [
+                    { "text": "お茶を飲みます。" },
+                    { "text": "紅茶とコーヒーはどちらが好きですか。" }
+                ],
+                "stroke_count": 9,
+                "image": "assets/kanji/strokes/easy/screencap/茶.png",
+                "easy_image": "assets/kanji/strokes/easy/茶.png",
+                "mnemonic": "Grass (艹) plus person under roof = leaves brewed into tea.",
+                "gif": [
+                    "M18.5,27.02c2.2,0.53,4.76,0.73,6.96,0.53C41.88,26,68,23.62,82.68,23.01c3.66-0.15,5.87,0.25,7.7,0.51",
+                    "M36.75,15.5c1.05,1.18,1.51,1.78,1.76,3.44c1.05,6.91,1.94,13.8,2.24,16.31",
+                    "M67.75,12.25c0.41,1.59,0.43,2.77,0.06,4.37c-1.62,7.05-2.18,9.88-4.06,18.13",
+                    "M51.5,34.75c0.35,1.84-0.35,3.08-1.28,4.64c-4.89,8.2-14.99,21.54-32.97,31.11",
+                    "M52.5,38.25c5.9,4.37,23.65,17.47,32.05,23.16c3.11,2.1,5.98,3.44,9.7,4.09",
+                    "M34.53,68.21c1.1,0.15,4.05,0.54,6.95,0.19c7.4-0.9,18.9-2.4,28.02-3.17c2.9-0.24,3.66-0.15,5.48,0",
+                    "M52.32,53.94c1.18,1.31,1.81,3.06,1.81,6.15c0,0.46,0,19.56-0.06,30.66c-0.02,3.5-0.05,6.13-0.08,7",
+                    "M38.52,79.14c0.11,1-0.1,1.94-0.64,2.8c-1.7,3.35-6.13,7.94-12.38,12.31",
+                    "M68.5,78.75c4.79,2.51,12.36,10.32,13.56,14.22"
+                ]
+            },
+            {
+                "kanji": "肉",
+                "reading_kana": "にく",
+                "reading_romaji": "niku",
+                "meaning": "flesh, meat",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["ニク"]
+                },
+                "examples": [
+                    { "text": "肉（にく）", "meaning": "meat" },
+                    { "text": "牛肉（ぎゅうにく）", "meaning": "beef" },
+                    { "text": "豚肉（ぶたにく）", "meaning": "pork" },
+                    { "text": "肉体（にくたい）", "meaning": "body, flesh" },
+                    { "text": "筋肉（きんにく）", "meaning": "muscle" },
+                    { "text": "鶏肉（とりにく）", "meaning": "chicken meat" }
+                ],
+                "sentences": [
+                    { "text": "肉を食べます。" },
+                    { "text": "私は牛肉が好きです。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/肉.png",
+                "easy_image": "assets/kanji/strokes/easy/肉.png",
+                "mnemonic": "Looks like a cut of meat hanging inside a shop.",
+                "gif": [
+                    "M19,30.27c1.11,1.11,1.44,2.82,1.44,4.56c0,5.46,0.16,39.85,0.21,53.67c0.01,3.04,0.02,5.09,0.02,5.61",
+                    "M21.01,32.11c16.09-1.31,61.86-4.76,63.38-4.76c3.86,0,5.92,1.9,5.92,5.3c0,1.91,0.24,54.28,0.24,58.68c0,9.67-6.04,2.42-9.44-0.71",
+                    "M53.28,12.75C54,14,54.03,15.33,54.1,16.79c0.65,13.46-8.35,34.46-24.6,38.71",
+                    "M54.5,37.25c8.56,3.18,22.11,13.06,24.25,18",
+                    "M52,51.38c0.12,1.22,0.05,2.34-0.47,3.45c-3.28,7.05-11.03,17.05-21.23,22.4",
+                    "M52,62.25C60.47,65.03,73.88,73.68,76,78"
+                ]
+            },
+            {
+                "kanji": "文",
+                "reading_kana": "ぶん",
+                "reading_romaji": "bun",
+                "meaning": "pattern, letter, sentence, writing",
+                "readings": {
+                    "kunyomi": ["ふみ"],
+                    "onyomi": ["ブン", "モン"]
+                },
+                "examples": [
+                    { "text": "文（ぶん）", "meaning": "sentence" },
+                    { "text": "文学（ぶんがく）", "meaning": "literature" },
+                    { "text": "作文（さくぶん）", "meaning": "composition, writing" },
+                    { "text": "文法（ぶんぽう）", "meaning": "grammar" },
+                    { "text": "文部省（もんぶしょう）", "meaning": "ministry of education" },
+                    { "text": "注文（ちゅうもん）", "meaning": "order (request)" }
+                ],
+                "sentences": [
+                    { "text": "短い文を書きます。" },
+                    { "text": "日本文学を勉強しています。" }
+                ],
+                "stroke_count": 4,
+                "image": "assets/kanji/strokes/easy/screencap/文.png",
+                "easy_image": "assets/kanji/strokes/easy/文.png",
+                "mnemonic": "Looks like a person with decorations — representing writing or culture.",
+                "gif": [
+                    "M51.62,12.75c1.06,1.06,1.73,2.5,1.73,4.01c0,4.32-0.11,7.61-0.11,12.15",
+                    "M16.88,32.72c2.7,0.66,5.71,0.86,8.6,0.54c15.77-1.76,40.15-5.01,56.42-6.1c3.67-0.25,6.15,0.05,8.88,0.69",
+                    "M69.89,32.5c0.36,2.12,0.06,3.82-0.93,6.27C61.62,57,43.75,80.25,18.75,93.75",
+                    "M31,43.75c6,0,27.27,26.79,49.26,42.1c4.13,2.87,7.49,4.77,11.49,6.04"
+                ]
+            },
+            {
+                "kanji": "字",
+                "reading_kana": "じ",
+                "reading_romaji": "ji",
+                "meaning": "character, letter",
+                "readings": {
+                    "kunyomi": ["あざ"],
+                    "onyomi": ["ジ"]
+                },
+                "examples": [
+                    { "text": "字（じ）", "meaning": "character, letter" },
+                    { "text": "名字（みょうじ）", "meaning": "surname" },
+                    { "text": "漢字（かんじ）", "meaning": "Chinese character" },
+                    { "text": "数字（すうじ）", "meaning": "number" },
+                    { "text": "大文字（おおもじ）", "meaning": "uppercase letter" },
+                    { "text": "小文字（こもじ）", "meaning": "lowercase letter" }
+                ],
+                "sentences": [
+                    { "text": "この字は何ですか。" },
+                    { "text": "漢字を習います。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/字.png",
+                "easy_image": "assets/kanji/strokes/easy/字.png",
+                "mnemonic": "A child (子) under a roof (宀) — learning letters at home.",
+                "gif": [
+                    "M52.73,9.5c1.01,1.01,1.75,2.25,1.75,3.76c0,3.53-0.09,5.73-0.1,8.95",
+                    "M21.88,24c0,3.37-4.06,14.25-5.62,16.5",
+                    "M24.07,26.66c16.68-1.91,42.18-5.28,63-5.78c10.95-0.26,4.68,5.37,0.52,8.4",
+                    "M34.91,36.19c2.09,1.06,4.35,1.5,6.87,1.26c4.73-0.45,19.99-2.86,26.18-4.24c3.17-0.71,4.92,0.67,2.1,3.7c-2.15,2.31-9.34,9.46-14.25,12.73",
+                    "M52.71,51.03c5.42,5.22,9.29,26.84,3.67,43.18c-2.57,7.47-8.5,2.78-10.58,0.81",
+                    "M14.38,63.51c3.88,1.24,8.65,0.84,12.38,0.47c15.18-1.5,43-4.92,59.75-5.41c3.45-0.1,7.13-0.23,10.37,1.15"
+                ]
+            },
+            {
+                "kanji": "物",
+                "reading_kana": "もの",
+                "reading_romaji": "mono",
+                "meaning": "thing",
+                "readings": {
+                    "kunyomi": ["もの"],
+                    "onyomi": ["ブツ", "モツ"]
+                },
+                "examples": [
+                    { "text": "物（もの）", "meaning": "thing" },
+                    { "text": "買い物（かいもの）", "meaning": "shopping" },
+                    { "text": "食べ物（たべもの）", "meaning": "food" },
+                    { "text": "生物（せいぶつ）", "meaning": "living creature" },
+                    { "text": "荷物（にもつ）", "meaning": "baggage" },
+                    { "text": "人物（じんぶつ）", "meaning": "person, character" }
+                ],
+                "sentences": [
+                    { "text": "面白い物を見ました。" },
+                    { "text": "食べ物を買いました。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/物.png",
+                "easy_image": "assets/kanji/strokes/easy/物.png",
+                "mnemonic": "Cow (牛) + thing (勿) = a thing, object.",
+                "gif": [
+                    "M24.27,24.64c0.03,0.65,0.07,1.68-0.06,2.61c-0.78,5.5-5.26,17.57-11.4,24.96",
+                    "M24.25,38.75c1,0.12,2.08-0.01,3.24-0.19c6.4-1,11.5-2.03,15.64-2.93c1.75-0.38,3.57-0.44,5.12-0.13",
+                    "M35.37,13.75c1.19,1.19,1.46,2.88,1.46,4c0,0.88-0.16,52.04-0.21,71.5c-0.01,3.29-0.01,5.67-0.01,6.75",
+                    "M14.83,70.21c1.28,0.62,2.49,0.68,3.86-0.21C19.84,69.27,39.15,56.56,44,53",
+                    "M67.27,15.75c0.05,0.66,0.2,1.74-0.1,2.66c-2.36,7.42-7.99,16.52-17.29,25.46",
+                    "M59.25,38.66c1.75,0.47,3.07,0.46,5.16,0.17c6.96-0.96,18.71-3.46,25.66-4.75c5.08-0.95,6.2,2.13,5.42,6.59c-0.77,4.47-5.95,37.3-17.3,49.42c-3.41,3.64-5.21,1.6-8.26-1.06",
+                    "M66.26,41.88c0.06,0.64,0.07,1.99-0.36,2.83c-4.54,8.79-9.7,16.04-20.02,24.7",
+                    "M79.62,39.6c0.51,1.27,0.41,2.72-0.16,4.11c-4.52,11.13-11.71,24.8-27.21,39.28"
+                ]
+            },
+            {
+                "kanji": "牛",
+                "reading_kana": "うし",
+                "reading_romaji": "ushi",
+                "meaning": "cattle, cow, bull, ox",
+                "readings": {
+                    "kunyomi": ["うし"],
+                    "onyomi": ["ギュウ"]
+                },
+                "examples": [
+                    { "text": "牛（うし）", "meaning": "cow" },
+                    { "text": "牛肉（ぎゅうにく）", "meaning": "beef" },
+                    { "text": "牛乳（ぎゅうにゅう）", "meaning": "milk" },
+                    { "text": "水牛（すいぎゅう）", "meaning": "water buffalo" },
+                    { "text": "子牛（こうし）", "meaning": "calf" },
+                    { "text": "牧牛（ぼくぎゅう）", "meaning": "herd of cattle" }
+                ],
+                "sentences": [
+                    { "text": "牛が草を食べています。" },
+                    { "text": "牛乳を飲みます。" }
+                ],
+                "stroke_count": 4,
+                "image": "assets/kanji/strokes/easy/screencap/牛.png",
+                "easy_image": "assets/kanji/strokes/easy/牛.png",
+                "mnemonic": "Looks like a cow’s head with horns.",
+                "gif": [
+                    "M35.12,21.88c0.09,1.35-0.18,2.63-0.72,3.89c-2.43,5.73-7.64,15.99-14.16,21.99",
+                    "M31.13,38.67c2.08,0.21,3.96,0.02,5.35-0.12c12.02-1.17,27.02-3.67,38.51-5.88c2.27-0.44,4.72-0.57,5.88-0.38",
+                    "M13.63,63.23c2.39,0.54,5.96,0.92,9.18,0.54c21.66-2.52,36.43-5.39,62.93-6.73c3.98-0.2,6.39,0.01,8.38,0.28",
+                    "M53.31,11.88c1.19,1.12,2.01,2.87,2.01,4.75c0,0.78-0.07,56.95-0.19,76.12c-0.02,3.09-0.04,5.22-0.06,6"
+                ]
+            },
+            {
+                "kanji": "馬",
+                "reading_kana": "うま",
+                "reading_romaji": "uma",
+                "meaning": "horse",
+                "readings": {
+                    "kunyomi": ["うま"],
+                    "onyomi": ["バ"]
+                },
+                "examples": [
+                    { "text": "馬（うま）", "meaning": "horse" },
+                    { "text": "馬車（ばしゃ）", "meaning": "carriage" },
+                    { "text": "競馬（けいば）", "meaning": "horse racing" },
+                    { "text": "馬力（ばりき）", "meaning": "horsepower" },
+                    { "text": "乗馬（じょうば）", "meaning": "horse riding" },
+                    { "text": "名馬（めいば）", "meaning": "famous horse" }
+                ],
+                "sentences": [
+                    { "text": "馬に乗ります。" },
+                    { "text": "馬が走っています。" }
+                ],
+                "stroke_count": 10,
+                "image": "assets/kanji/strokes/easy/screencap/馬.png",
+                "easy_image": "assets/kanji/strokes/easy/馬.png",
+                "mnemonic": "Looks like a horse with mane and legs.",
+                "gif": [
+                    "M28.5,17c0.75,1,1.2,2.25,1.2,3.62c0,5.72,0.04,26.84-0.13,39.38c-0.03,2-0.06,3.76-0.1,5.2",
+                    "M31.03,19.3c11.22-1.3,37.4-4.84,42.22-5.55c1.68-0.25,4.53-0.53,5.38-0.35",
+                    "M53.13,17.82c0.62,1.18,0.82,2.18,0.82,3.55c0,6.64-0.23,28.88-0.23,39.08",
+                    "M30.78,33.8C42,32.5,66.44,29.71,71.25,29c1.68-0.25,4.53-0.53,5.38-0.35",
+                    "M30.78,48.05C42,46.75,66.69,43.71,71.5,43c1.68-0.25,4.53-0.53,5.38-0.35",
+                    "M30.73,63.53C44,62,78.04,57.88,85.9,57.01c5.12-0.57,7.34,2.58,6.82,6.53c-1.48,11.21-4.23,19.71-7.48,27.21c-4.45,10.27-6.5,5.5-11.7,0.2",
+                    "M17.31,76.25c0.44,6-0.31,13.25-1.6,17",
+                    "M33.75,74.25c2.55,2.65,4.98,9.93,5.62,14.05",
+                    "M51,71c2.03,2.22,5.25,9.12,5.76,12.58",
+                    "M68.25,67.75c2.74,2.14,7.07,8.78,7.75,12.1"
+                ]
+            },
+            {
+                "kanji": "鳥",
+                "reading_kana": "とり",
+                "reading_romaji": "tori",
+                "meaning": "bird",
+                "readings": {
+                    "kunyomi": ["とり"],
+                    "onyomi": ["チョウ"]
+                },
+                "examples": [
+                    { "text": "鳥（とり）", "meaning": "bird" },
+                    { "text": "小鳥（ことり）", "meaning": "small bird" },
+                    { "text": "白鳥（はくちょう）", "meaning": "swan" },
+                    { "text": "鳥肉（とりにく）", "meaning": "chicken meat" },
+                    { "text": "野鳥（やちょう）", "meaning": "wild bird" },
+                    { "text": "焼き鳥（やきとり）", "meaning": "roasted chicken" }
+                ],
+                "sentences": [
+                    { "text": "鳥が空を飛んでいます。" },
+                    { "text": "小鳥の声が聞こえます。" }
+                ],
+                "stroke_count": 11,
+                "image": "assets/kanji/strokes/easy/screencap/鳥.png",
+                "easy_image": "assets/kanji/strokes/easy/鳥.png",
+                "mnemonic": "Looks like a bird with wings and tail.",
+                "gif": [
+                    "M49.72,10.68c0.03,0.27,0.07,0.7-0.06,1.08c-0.76,2.28-5.15,7.3-11.15,10.37",
+                    "M32.88,23.32c0.96,0.8,1.57,2.55,1.57,3.69c0,6.86,0.02,24.01-0.12,35.24c-0.03,2.27-0.06,4.3-0.11,5.95",
+                    "M35.8,25.86c9.2-1.73,23.7-4.36,29.64-4.87c3.06-0.26,4.32,2.26,4.04,3.99c-0.15,0.92-1.49,7.58-3.2,14.78c-0.26,1.09-0.52,2.18-0.78,3.24",
+                    "M35.86,35.44c3.64-0.69,26.27-4.19,30.87-4.38",
+                    "M35.49,45.53c7.01-1.03,21.26-3.53,29.23-4.2",
+                    "M35.78,56.05c11.22-1.3,37.15-4.84,41.97-5.55c1.68-0.25,4.53-0.28,5.38-0.1",
+                    "M34.75,68.27c15.75-2.64,42-5.64,49.75-6.27c4.51-0.36,6.81,2.33,6,5.75c-2.25,9.5-5.82,18.96-9.5,25C77.5,98.5,74.75,96,71,93",
+                    "M20.81,80.25c0.44,6-0.31,13.25-1.6,17",
+                    "M34.38,78.38c2.97,1.96,5.79,7.37,6.54,10.43",
+                    "M48.88,75.12c2.34,1.57,6.04,6.44,6.62,8.88",
+                    "M62.88,72c2.69,1.68,6.95,6.89,7.62,9.5"
+                ]
+            },
+            {
+                "kanji": "魚",
+                "reading_kana": "さかな",
+                "reading_romaji": "sakana",
+                "meaning": "fish",
+                "readings": {
+                    "kunyomi": ["さかな", "うお"],
+                    "onyomi": ["ギョ"]
+                },
+                "examples": [
+                    { "text": "魚（さかな）", "meaning": "fish" },
+                    { "text": "魚屋（さかなや）", "meaning": "fish shop" },
+                    { "text": "金魚（きんぎょ）", "meaning": "goldfish" },
+                    { "text": "魚市場（うおいちば）", "meaning": "fish market" },
+                    { "text": "人魚（にんぎょ）", "meaning": "mermaid" },
+                    { "text": "焼き魚（やきさかな）", "meaning": "grilled fish" }
+                ],
+                "sentences": [
+                    { "text": "魚を食べます。" },
+                    { "text": "川で魚を釣りました。" }
+                ],
+                "stroke_count": 11,
+                "image": "assets/kanji/strokes/easy/screencap/魚.png",
+                "easy_image": "assets/kanji/strokes/easy/魚.png",
+                "mnemonic": "Looks like a fish with fins and tail.",
+                "gif": [
+                    "M48,13c0.14,1.21-0.07,2.22-0.59,3.32C45.08,21.29,37,30.31,26.25,36",
+                    "M49,19.13c1.25,0.37,2.35,0.4,3.8,0.24c4.73-0.53,10.95-1.37,14.14-2.13c2.5-0.6,3.69,1.64,2.06,3.51c-4.94,5.7-9.5,11.12-14.25,17.25",
+                    "M27.49,40.98c1.2,1.2,1.88,2.4,2.11,3.82c0.85,5.2,2.43,14.61,3.41,22.71c0.17,1.36,0.32,2.69,0.47,3.96",
+                    "M30.27,42.78C45.25,40.62,67,37.75,78.41,37.3c3.85-0.15,5.83,1.46,5.59,3.95c-0.5,5.12-1.85,15.04-3.39,23.73c-0.2,1.15-0.41,2.25-0.61,3.27",
+                    "M53.75,41.5c1,0.75,1.12,1.88,1.16,2.98C55.13,50.39,55,65.45,55,66.25",
+                    "M32.47,55.61C43.5,54.38,69.88,52,81.21,51.64",
+                    "M34.2,69.54c12.92-1.29,30.42-3.04,45.8-3.79",
+                    "M26.25,81c0,5.25-5.75,13-7.25,14.5",
+                    "M42.52,79.08c3.15,2.76,6.15,10.84,6.94,15.13",
+                    "M62.37,77.83c3.15,2.76,8.15,11.34,8.93,15.63",
+                    "M84.27,78.58c4.16,2.63,10.75,10.8,11.79,14.88"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Lesson 8: Kanji for Adjectives - 1",
+        "image": "assets/dummy1.webp",
+        "kanji": [
+            {
+                "kanji": "新",
+                "reading_kana": "あたらしい",
+                "reading_romaji": "atarashii",
+                "meaning": "new",
+                "readings": {
+                    "kunyomi": ["あたらしい", "あらた", "にい"],
+                    "onyomi": ["シン"]
+                },
+                "examples": [
+                    { "text": "新しい（あたらしい）", "meaning": "new" },
+                    { "text": "新聞（しんぶん）", "meaning": "newspaper" },
+                    { "text": "新人（しんじん）", "meaning": "newcomer" },
+                    { "text": "新年（しんねん）", "meaning": "new year" },
+                    { "text": "新車（しんしゃ）", "meaning": "new car" },
+                    { "text": "最新（さいしん）", "meaning": "latest" }
+                ],
+                "sentences": [
+                    { "text": "新しい本を買いました。" },
+                    { "text": "新聞を読みます。" }
+                ],
+                "stroke_count": 13,
+                "image": "assets/kanji/strokes/easy/screencap/新.png",
+                "easy_image": "assets/kanji/strokes/easy/新.png",
+                "mnemonic": "A stand (立) and an axe (斤) cutting a tree (木) = making something new.",
+                "gif": [
+                    "M33.72,12.76c0.88,0.88,1.53,2.49,1.53,4.35c0,2.63,0.01,1.9,0.02,9.04",
+                    "M18.32,28.69c1.19,0.11,2.61,0.17,3.79,0.03c7.4-0.84,18.02-2.59,25.62-3.22c1.98-0.16,3.19-0.03,4.18,0.02",
+                    "M23.62,34.38c3.39,4.82,4.03,8.08,4.34,11.36",
+                    "M45.59,29.5c0.62,1.09,0.38,2.59-0.08,3.75c-1.65,4.12-4.74,10.59-5.88,12.61",
+                    "M14.17,50.95c1.78,0.27,3.57,0.27,5.34,0.05c7.96-1.02,21.06-2.74,29.12-3.36c1.96-0.15,3.91-0.03,5.87,0.11",
+                    "M16.76,63.42c0.83,0.22,3.05,0.44,5.23,0.18c8.88-1.09,17.01-2.34,26.08-3.01c2.2-0.16,2.76-0.23,4.13,0",
+                    "M34.38,51c1.12,1.12,1.5,2.75,1.5,4.22c0,1.31-0.15,24.25-0.25,34.78c-0.02,2.8-0.05,4.69-0.06,5",
+                    "M34.25,62.84c0,1.41-0.35,2.47-0.87,3.37c-4.25,7.45-12.94,17.12-19.63,21.04",
+                    "M39.25,68.5c4.71,2.98,7.9,5.97,9.49,8.43",
+                    "M82.74,17.44c-0.12,0.93-0.46,2.3-1.27,3.21C76.25,26.5,70.5,30.62,61.69,35.7",
+                    "M59.2,35.14c0.83,0.83,1.53,2.28,1.53,3.96c0,29.15-2.36,38.52-8.98,48.4",
+                    "M62.89,47.36c1.98-0.11,3.36-0.31,4.54-0.48c7.82-1.13,18.82-2.38,26.29-3.3c1.18-0.15,3.25-0.17,3.99,0",
+                    "M80.32,48.54c0.95,0.95,1.59,2.21,1.59,3.8c0,0.93,0.24,27.72,0.16,40.16c-0.02,2.33-0.04,4.17-0.06,5.25"
+                ]
+            },
+            {
+                "kanji": "古",
+                "reading_kana": "ふるい",
+                "reading_romaji": "furui",
+                "meaning": "old",
+                "readings": {
+                    "kunyomi": ["ふるい"],
+                    "onyomi": ["コ"]
+                },
+                "examples": [
+                    { "text": "古い（ふるい）", "meaning": "old" },
+                    { "text": "中古（ちゅうこ）", "meaning": "second-hand" },
+                    { "text": "古本（ふるほん）", "meaning": "used book" },
+                    { "text": "古代（こだい）", "meaning": "ancient times" },
+                    { "text": "古語（こご）", "meaning": "archaic word" },
+                    { "text": "古寺（こじ）", "meaning": "old temple" }
+                ],
+                "sentences": [
+                    { "text": "この家は古いです。" },
+                    { "text": "古本を買いました。" }
+                ],
+                "stroke_count": 5,
+                "image": "assets/kanji/strokes/easy/screencap/古.png",
+                "easy_image": "assets/kanji/strokes/easy/古.png",
+                "mnemonic": "A mouth (口) under a tombstone-like shape = something old.",
+                "gif": [
+                    "M11.25,43.25c2.75,0.62,5.54,0.83,9.53,0.5c23.85-2,49.47-4.12,67.35-4.75c4.02-0.14,6.87,0,9.12,0.5",
+                    "M52.41,12.5c1.42,1.42,2.13,3.25,2.13,5.06c0,17.05-0.14,39.31-0.14,48.94",
+                    "M31,67.77c1.12,1.12,2,2.73,2.24,4.48c0.61,4.43,1.87,12.12,3.22,20.93c0.2,1.31,0.39,2.59,0.57,3.83",
+                    "M33.77,69.3c11.97-1.17,36.4-3.39,42.99-3.81c3.74-0.24,5.11,1.39,4.26,4.71c-1.18,4.63-3.81,13.6-5.23,20.06",
+                    "M37.88,94.42c7.81-0.36,23.99-1.88,35.14-2.65c1.87-0.13,3.61-0.24,5.18-0.32"
+                ]
+            },
+            {
+                "kanji": "長",
+                "reading_kana": "ながい",
+                "reading_romaji": "nagai",
+                "meaning": "long, eldest, chief, leader",
+                "readings": {
+                    "kunyomi": ["ながい"],
+                    "onyomi": ["チョウ"]
+                },
+                "examples": [
+                    { "text": "長い（ながい）", "meaning": "long" },
+                    { "text": "長男（ちょうおん）", "meaning": "eldest son" },
+                    { "text": "部長（ぶちょう）", "meaning": "department chief" },
+                    { "text": "学長（がくちょう）", "meaning": "university president" },
+                    { "text": "会長（かいちょう）", "meaning": "chairperson" },
+                    { "text": "長所（ちょうしょ）", "meaning": "strong point" }
+                ],
+                "sentences": [
+                    { "text": "長い道を歩きます。" },
+                    { "text": "父は会社の社長です。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/長.png",
+                "easy_image": "assets/kanji/strokes/easy/長.png",
+                "mnemonic": "Hair growing long — represents length or leader.",
+                "gif": [
+                    "M34,14.75C35.25,16,36,18,36,19.5s0,33.5,0,35.75",
+                    "M37.75,16c9.6-0.15,21.73-3.26,26.63-4.2c1.97-0.38,3.9-0.41,5.87,0.06",
+                    "M37.25,29.5C48.12,28.25,57,27,64,25.72c1.96-0.36,3.76-0.25,5.25,0.06",
+                    "M37.5,42.5c8.88-0.86,21.62-2.62,26.75-3.53c1.97-0.35,3.88-0.32,5.75,0",
+                    "M10.88,58.23c3.14,0.86,6.44,0.68,9.62,0.29c19.73-2.35,44.86-6.1,65-7.61c2.97-0.22,5.7-0.08,8.63,0.4",
+                    "M31.25,60.25c0.94,0.94,1.39,2.38,1.39,4c0,11.82-0.7,28.19-0.7,30.19s1.65,3.14,3.74,1.64c2.09-1.5,17.25-11.09,20.03-12.59",
+                    "M76.52,55.25c0.23,1.25-0.33,2.45-1.05,3.41C73.5,61.25,69.62,65,64.62,68.75",
+                    "M46.5,62.25c8.21,0,34.52,25.9,44.28,29.5C93.12,92.61,94.51,93,97,93.5"
+                ]
+            },
+            {
+                "kanji": "短",
+                "reading_kana": "みじかい",
+                "reading_romaji": "mijikai",
+                "meaning": "short",
+                "readings": {
+                    "kunyomi": ["みじかい"],
+                    "onyomi": ["タン"]
+                },
+                "examples": [
+                    { "text": "短い（みじかい）", "meaning": "short" },
+                    { "text": "短時間（たんじかん）", "meaning": "short time" },
+                    { "text": "短期（たんき）", "meaning": "short-term" },
+                    { "text": "短文（たんぶん）", "meaning": "short sentence" },
+                    { "text": "短大（たんだい）", "meaning": "junior college" },
+                    { "text": "短気（たんき）", "meaning": "short-tempered" }
+                ],
+                "sentences": [
+                    { "text": "このペンは短いです。" },
+                    { "text": "彼は短気な人です。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/短.png",
+                "easy_image": "assets/kanji/strokes/easy/短.png",
+                "mnemonic": "An arrow (矢) that is short (豆).",
+                "gif": [
+                    "M25.84,17c0.29,0.75,0.32,1.95,0.18,2.9c-0.79,5.58-6.77,19.35-12.25,26.4",
+                    "M22.07,35.68c0.93,0.32,2.05,0.23,2.79,0.16c3.18-0.32,8.07-0.97,13.69-2.11c1.09-0.22,3.08-0.48,4.17-0.25",
+                    "M10.32,55.34c2.43,0.41,4.64,0.24,6.44-0.01c6.54-0.88,16.6-2.41,23.88-3.19c2.44-0.26,4.49-0.27,6.69,0.33",
+                    "M29.94,37.28c0.95,0.95,1.49,2.47,1.48,4.19c-0.17,27.28-7.55,43.41-19.67,51.17",
+                    "M32.25,67.25c3.74,2.49,8.5,7.25,11,12.25",
+                    "M52.24,25.14c2.01,0.36,3.83,0.38,5.52,0.23c8.62-0.75,18.07-2.45,26.49-3.06c1.89-0.14,3.68-0.24,5.54,0.19",
+                    "M52.79,39.53c1.08,0.72,1.89,1.96,2.17,3.14c0.99,4.18,1.87,9.68,2.83,15.68c0.18,1.11,0.35,2.21,0.51,3.31",
+                    "M55.37,40.88c6.67-0.66,22.19-2.89,28.39-3.32c3.41-0.23,4.81,0.88,3.94,4.32c-0.66,2.6-1.27,4.16-3.25,13.66"
+                ]
+            },
+            {
+                "kanji": "高",
+                "reading_kana": "たかい",
+                "reading_romaji": "takai",
+                "meaning": "tall, high, expensive",
+                "readings": {
+                    "kunyomi": ["たかい", "たか", "たかまる", "たかめる"],
+                    "onyomi": ["コウ"]
+                },
+                "examples": [
+                    { "text": "高い（たかい）", "meaning": "tall, expensive" },
+                    { "text": "高校（こうこう）", "meaning": "high school" },
+                    { "text": "最高（さいこう）", "meaning": "the best" },
+                    { "text": "高速（こうそく）", "meaning": "high speed" },
+                    { "text": "高価（こうか）", "meaning": "high-priced" },
+                    { "text": "背が高い（せがたかい）", "meaning": "tall (person)" }
+                ],
+                "sentences": [
+                    { "text": "このビルはとても高いです。" },
+                    { "text": "この服は値段が高いです。" }
+                ],
+                "stroke_count": 10,
+                "image": "assets/kanji/strokes/easy/screencap/高.png",
+                "easy_image": "assets/kanji/strokes/easy/高.png",
+                "mnemonic": "Looks like a tall building or tower.",
+                "gif": [
+                    "M52.47,11.75c1.08,1.08,1.48,2.25,1.48,4.22c0,1.53-0.12,4.28-0.12,5.45",
+                    "M22.9,25.7c2.68,0.3,4.96,0.26,7.47-0.04c14.76-1.78,35.83-4.16,49.3-5.17c2.89-0.22,4.99-0.12,6.81,0.33",
+                    "M36.25,34.75c1,0.63,1.5,1.5,1.78,2.89c0.72,3.59,1.36,7.37,2.05,11.85c0.2,1.3,0.17,1.82,0.44,3.01",
+                    "M39.05,36.33c9.95-1.71,23.99-3.65,29.61-4.1c2.96-0.23,3.83,1.02,3.14,3.31c-0.88,2.93-2.17,7.01-3.32,10.2",
+                    "M41.28,49.94c6.57-0.42,16.36-1.87,25.72-2.71c1.3-0.12,2.59-0.22,3.85-0.31",
+                    "M21,60.25c1.31,1.31,1.9,2.76,2.21,5c0.79,5.62,2.21,18.19,3.16,26.99c0.15,1.39,0.28,2.67,0.38,3.76",
+                    "M24.06,64c16.08-1.51,58.63-6.55,60.19-6.75c3.75-0.5,6,1.5,5.25,6.25c-1.49,9.45-2.62,19.62-5.25,28.25c-2.05,6.75-5.38,2.5-7.8,0",
+                    "M41.5,71.68c0.66,0.66,1.16,1.63,1.31,2.47c0.89,2.82,1.58,7.24,2.39,11.81c0.21,1.16,0.4,1.78,0.56,2.79"
+                ]
+            },
+            {
+                "kanji": "安",
+                "reading_kana": "やすい",
+                "reading_romaji": "yasui",
+                "meaning": "cheap, safe",
+                "readings": {
+                    "kunyomi": ["やすい"],
+                    "onyomi": ["アン"]
+                },
+                "examples": [
+                    { "text": "安い（やすい）", "meaning": "cheap" },
+                    { "text": "安全（あんぜん）", "meaning": "safety" },
+                    { "text": "安心（あんしん）", "meaning": "relief" },
+                    { "text": "安売（やすう）", "meaning": "cheap sale" },
+                    { "text": "安物（やすもの）", "meaning": "cheap thing" },
+                    { "text": "物価が安い（ぶっかがやすい）", "meaning": "prices are low" }
+                ],
+                "sentences": [
+                    { "text": "この店は安いです。" },
+                    { "text": "旅行は安全でした。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/安.png",
+                "easy_image": "assets/kanji/strokes/easy/安.png",
+                "mnemonic": "A woman (女) under a roof (宀) is peaceful and safe.",
+                "gif": [
+                    "M53.06,13.73c0.92,0.92,1.63,2.6,1.6,3.75c-0.09,3.62-0.09,7.03-0.09,10.33",
+                    "M26.67,28.85c0,3.6-3.32,13.5-4.83,15.9",
+                    "M27.53,30.96c12.72-1.58,40.97-4.21,54.14-4.86c9.82-0.48,1.45,6.65-2.17,9.9",
+                    "M49.87,36.87c0.51,1.45,0.52,3.55,0,5.32c-2.74,9.22-7.03,20.09-13.85,30.42c-1.43,2.17-0.76,2.95,1.26,3.14c8.23,0.75,21.61,4.5,33.74,11.77c4.36,2.61,8.24,5.98,10.24,9.48",
+                    "M70,50c0.38,1.48,0.22,3.46-0.26,5.13c-3.88,13.52-17.45,34.6-43.24,42.49",
+                    "M15.13,60.22c2.85,0.74,6.22,0.42,9.12,0.2c11.33-0.85,40.73-4.55,64.72-4.64c2.27-0.01,6.19,0.33,8.03,0.96"
+                ]
+            },
+            {
+                "kanji": "低",
+                "reading_kana": "ひくい",
+                "reading_romaji": "hikui",
+                "meaning": "low",
+                "readings": {
+                    "kunyomi": ["ひくい"],
+                    "onyomi": ["テイ"]
+                },
+                "examples": [
+                    { "text": "低い（ひくい）", "meaning": "low" },
+                    { "text": "最低（さいてい）", "meaning": "the lowest" },
+                    { "text": "低下（ていかする）", "meaning": "to fall, to go down" },
+                    { "text": "低温（ていおん）", "meaning": "low temperature" },
+                    { "text": "低速（ていそく）", "meaning": "low speed" },
+                    { "text": "低学年（ていがくねん）", "meaning": "lower grades" }
+                ],
+                "sentences": [
+                    { "text": "山が低いです。" },
+                    { "text": "気温が低いです。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/低.png",
+                "easy_image": "assets/kanji/strokes/easy/低.png",
+                "mnemonic": "A person (亻) who is low or short.",
+                "gif": [
+                    "M31.76,18.25c0.24,1.38,0.24,2.62-0.31,3.98C27.15,32.75,20.41,42.48,9.5,55.04",
+                    "M24.03,40.25c1.05,1.05,1.5,2.44,1.5,4.12c0,11.05-0.02,31.15-0.03,42.88c0,3.28,0,5.91,0,7.5",
+                    "M71.24,13.11c0.07,0.41,0.15,1.05-0.14,1.64C69.41,18.2,61.5,25,48.35,30.8",
+                    "M46.16,29.7c1.13,1.13,1.57,2.55,1.57,4.04c0,1.97-0.17,38.69-0.17,41.76c0,3.07,0.78,3.54,3.15,1.5c3.04-2.62,10.67-8.62,13.68-10.48",
+                    "M49.03,50.82c0.64,0.21,1.83-0.17,2.47-0.29c9-1.78,25-5.53,33.03-7.88c1.84-0.54,3.73-0.78,5.63-0.41",
+                    "M63.15,26.32c1.22,0.93,1.9,2.31,2.09,3.93C67.88,52.5,75.62,73.88,93.15,87.1c6.04,4.55,4.36-3.07,4.36-5.7",
+                    "M45.25,94.14c1.75,0.36,3.89,0.42,5.74,0.15c7.88-1.16,20.12-2.32,26.26-2.87c1.91-0.17,4.12-0.17,5.75,0.09"
+                ]
+            },
+            {
+                "kanji": "暗",
+                "reading_kana": "くらい",
+                "reading_romaji": "kurai",
+                "meaning": "dark",
+                "readings": {
+                    "kunyomi": ["くらい"],
+                    "onyomi": ["アン"]
+                },
+                "examples": [
+                    { "text": "暗い（くらい）", "meaning": "dark" },
+                    { "text": "暗室（あんしつ）", "meaning": "darkroom" },
+                    { "text": "暗記（あんき）", "meaning": "memorization" },
+                    { "text": "暗黒（あんこく）", "meaning": "darkness" },
+                    { "text": "暗号（あんごう）", "meaning": "code, cipher" },
+                    { "text": "明暗（めいあん）", "meaning": "light and dark" }
+                ],
+                "sentences": [
+                    { "text": "部屋が暗いです。" },
+                    { "text": "外は暗くなりました。" }
+                ],
+                "stroke_count": 13,
+                "image": "assets/kanji/strokes/easy/screencap/暗.png",
+                "easy_image": "assets/kanji/strokes/easy/暗.png",
+                "mnemonic": "Sun (日) and sound (音) — hard to see or hear in the dark.",
+                "gif": [
+                    "M13.75,31.36c0.85,0.85,1.39,2.13,1.39,3.58c0,1.21-0.07,30.39-0.04,40.88c0.01,2.02,0.02,3.32,0.04,3.56",
+                    "M16.27,32.76c4.13-0.44,13.71-1.5,14.98-1.7c2.89-0.44,4.5,1,4.25,3.75c-0.16,1.81-0.82,29.69-1.04,39.5c-0.04,1.99-0.07,3.25-0.07,3.44",
+                    "M16.24,53.77c3.51-0.33,13.63-1.71,17.6-2.06",
+                    "M16.17,76.13c4.7-0.44,10.7-1.19,17.01-1.84",
+                    "M65.06,11.56c1.04,1.03,1.66,2.26,1.66,3.68c0,4.48,0.02,5.86,0.16,9.66",
+                    "M46.27,27.81c1.66,0.26,3.88,0.11,5.64-0.05c7.8-0.7,20.96-2.82,31.88-3.82c2.18-0.2,4.02-0.13,5.73,0.36",
+                    "M53.75,34.07c3.81,4.94,4.6,9.68,5.14,13.15",
+                    "M78.59,28.57c0.16,1,0.29,2.25,0.04,3.27c-1.32,5.36-3.6,11.36-4.75,13.86",
+                    "M40.8,51.3c1.7,0.26,4.77,0.55,6.56,0.36c12.76-1.35,30.26-3.1,42.25-3.78c3.06-0.17,6.49,0,8.34,0.59",
+                    "M51.59,61.52c0.49,0.81,0.99,1.81,0.99,2.92c0,0.91-0.08,22.69-0.1,31.12c-0.01,1.85-0.01,3.05-0.01,3.26",
+                    "M53.27,63.01c6.92-0.82,21.98-2.82,25.64-3.32c2.5-0.34,3.82,1.13,3.82,3.81c0,2.39-0.7,22.36-0.7,29.57c0,1.12-0.01,2.37-0.01,3.61",
+                    "M53.62,77.95c6.5-0.63,21.63-2.25,28-2.59",
+                    "M53.64,95.61c6.98-0.67,19.78-1.94,26.91-2.32"
+                ]
+            },
+            {
+                "kanji": "多",
+                "reading_kana": "おおい",
+                "reading_romaji": "ooi",
+                "meaning": "many, much",
+                "readings": {
+                    "kunyomi": ["おおい"],
+                    "onyomi": ["タ"]
+                },
+                "examples": [
+                    { "text": "多い（おおい）", "meaning": "many" },
+                    { "text": "多少（たしょう）", "meaning": "more or less" },
+                    { "text": "多数（たすう）", "meaning": "large number" },
+                    { "text": "多分（たぶん）", "meaning": "probably" },
+                    { "text": "多忙（たぼう）", "meaning": "very busy" },
+                    { "text": "多国籍（たこくせき）", "meaning": "multinational" }
+                ],
+                "sentences": [
+                    { "text": "この町には人が多いです。" },
+                    { "text": "多分雨が降ります。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/多.png",
+                "easy_image": "assets/kanji/strokes/easy/多.png",
+                "mnemonic": "Looks like two moons (夕) together = many.",
+                "gif": [
+                    "M45.82,11.92c0.18,1.08-0.22,2.3-0.66,3.01C42.5,19.25,37,26.33,28.5,31.25",
+                    "M48.24,16.65c1.38,0.22,3.15,0.08,4.79-0.12c5.59-0.66,9.72-1.28,14.9-2.3c3.15-0.62,4.07,1.15,3.01,3.46c-4.46,9.74-24.82,31.44-44.28,37.66",
+                    "M40,28.25c2.67,1.56,7,6.5,7.75,9",
+                    "M58.5,42.25c0.25,1.5-0.11,2.78-0.48,3.6C55.25,52,48.75,59.5,33.75,68.5",
+                    "M60.42,48.62c1.58,0.13,3.01,0.09,4.6-0.09c5.86-0.66,9.23-1.16,13.48-2.03c3.13-0.64,4.62,1.62,3.48,4.09c-5,10.79-23.61,34.91-54.73,48.16",
+                    "M48.25,63c2.93,1.73,7.67,7.22,8.5,10"
+                ]
+            },
+            {
+                "kanji": "少",
+                "reading_kana": "すくない",
+                "reading_romaji": "sukunai",
+                "meaning": "few, little",
+                "readings": {
+                    "kunyomi": ["すくない", "すこし"],
+                    "onyomi": ["ショウ"]
+                },
+                "examples": [
+                    { "text": "少ない（すくない）", "meaning": "few" },
+                    { "text": "少し（すこし）", "meaning": "a little" },
+                    { "text": "少女（しょうじょ）", "meaning": "girl" },
+                    { "text": "少年（しょうねん）", "meaning": "boy" },
+                    { "text": "減少（げんしょう）", "meaning": "decrease" },
+                    { "text": "最少（さいしょう）", "meaning": "least" }
+                ],
+                "sentences": [
+                    { "text": "このクラスは学生が少ないです。" },
+                    { "text": "少し日本語が分かります。" }
+                ],
+                "stroke_count": 4,
+                "image": "assets/kanji/strokes/easy/screencap/少.png",
+                "easy_image": "assets/kanji/strokes/easy/少.png",
+                "mnemonic": "Small drops falling — representing few, little.",
+                "gif": [
+                    "M53.46,14c0.9,0.9,1.76,2.23,1.76,4.33c0,12.04-0.01,37.2-0.01,40.65c0,9.77-6.71,2.04-8.21,1.17",
+                    "M36.65,29.04c0.12,1.26-0.02,2.17-0.58,3.32c-2.85,5.83-11.53,15.7-18.65,20.56",
+                    "M77,30c7.23,2.73,16.13,9.04,19.25,14.5",
+                    "M76.75,41c0.14,1.34,0.06,3.54-0.79,5.39C68.67,62.17,49.7,86.63,24,98"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Lesson 9: Kanji for Verbs - 1",
+        "image": "assets/dummy1.webp",
+        "kanji": [
+            {
+                "kanji": "行",
+                "reading_kana": "いく",
+                "reading_romaji": "iku",
+                "meaning": "to go, conduct, line",
+                "readings": {
+                    "kunyomi": ["いく", "ゆく", "おこなう"],
+                    "onyomi": ["コウ", "ギョウ", "アン"]
+                },
+                "examples": [
+                    { "text": "行く（いく）", "meaning": "to go" },
+                    { "text": "旅行（りょこう）", "meaning": "trip, travel" },
+                    { "text": "銀行（ぎんこう）", "meaning": "bank" },
+                    { "text": "行事（ぎょうじ）", "meaning": "event" },
+                    { "text": "行動（こうどう）", "meaning": "action" },
+                    { "text": "～行（ぎょう）", "meaning": "～line" }
+                ],
+                "sentences": [
+                    { "text": "学校へ行きます。" },
+                    { "text": "夏に旅行します。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/行.png",
+                "easy_image": "assets/kanji/strokes/easy/行.png",
+                "mnemonic": "A crossroad showing movement = to go.",
+                "gif": [
+                    "M32.49,12c-0.12,1-0.45,1.9-1.1,2.62C28.29,18.06,22.2,22.6,12.5,28",
+                    "M36.5,31.75c0.07,0.73,0.08,2.28-0.39,3.18C32.12,42.5,23.83,52.5,11,62.75",
+                    "M25.57,51.75c0.9,0.9,1.23,2.25,1.23,3.26c0,0.72,0.04,24.47-0.07,35.49c-0.02,2.19-0.04,3.87-0.07,4.75",
+                    "M50.5,18.45c1.44,0.35,3.81,0.52,5.23,0.35c7.14-0.8,16.01-2.43,24.49-3.06c2.38-0.18,3.83-0.06,5.02,0.11",
+                    "M43.13,41.42c1.5,0.38,4.27,0.58,5.76,0.38c12.86-1.67,28.86-4.05,41.85-5.38c2.49-0.26,4.01,0.18,5.26,0.37",
+                    "M71.52,41.33c1.26,1.26,1.76,2.79,1.76,5.27c0,14.56-0.26,38.66-0.26,43.62c0,8.03-7.21-0.5-8.71-1.75"
+                ]
+            },
+            {
+                "kanji": "来",
+                "reading_kana": "くる",
+                "reading_romaji": "kuru",
+                "meaning": "to come, next",
+                "readings": {
+                    "kunyomi": ["くる", "きます", "こない", "きた"],
+                    "onyomi": ["ライ"]
+                },
+                "examples": [
+                    { "text": "来る（くる）", "meaning": "to come" },
+                    { "text": "来年（らいねん）", "meaning": "next year" },
+                    { "text": "来週（らいしゅう）", "meaning": "next week" },
+                    { "text": "未来（みらい）", "meaning": "future" },
+                    { "text": "来日（らいにち）", "meaning": "coming to Japan" },
+                    { "text": "来客（らいきゃく）", "meaning": "visitor" }
+                ],
+                "sentences": [
+                    { "text": "友だちが家に来ます。" },
+                    { "text": "来年日本へ行きます。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/来.png",
+                "easy_image": "assets/kanji/strokes/easy/来.png",
+                "mnemonic": "Looks like wheat growing — people coming to harvest.",
+                "gif": [
+                    "M25.54,28.33c1.61,0.39,4.58,0.53,6.19,0.39c16.32-1.46,27.01-3.46,43.69-3.67c2.69-0.03,4.31,0.18,5.65,0.38",
+                    "M30.12,37.62c2.85,2.07,7.16,7.91,7.88,11.12",
+                    "M74.52,33c0.08,0.98-0.11,1.9-0.58,2.77c-1.33,3.04-4.7,7.77-9.06,10.86",
+                    "M16.62,57c2.28,0.5,4.9,0.74,8.42,0.5c14.81-1,39.08-3.5,58.03-4.25c3.54-0.14,6.33,0.25,8.55,0.5",
+                    "M51.67,10.75c1.33,1,2.18,2.75,2.18,4.5c0,0.9,0.06,58.96-0.17,78c-0.03,2.77-0.07,4.71-0.1,5.5",
+                    "M49.75,56.5c0,1.5-0.44,2.48-0.82,3.11C42.37,70.49,29,83.75,15.75,90.5",
+                    "M55,56.25c4.38,3.88,19.75,19,29.73,26.28c2.82,2.06,6.52,4.5,10.02,5.22"
+                ]
+            },
+            {
+                "kanji": "帰",
+                "reading_kana": "かえる",
+                "reading_romaji": "kaeru",
+                "meaning": "to return, go (come) back",
+                "readings": {
+                    "kunyomi": ["かえる"],
+                    "onyomi": ["キ"]
+                },
+                "examples": [
+                    { "text": "帰る（かえる）", "meaning": "to return, go home, come back" },
+                    { "text": "帰国（きこく）", "meaning": "return to one's country" },
+                    { "text": "帰宅（きたく）", "meaning": "return home" },
+                    { "text": "帰省（きせい）", "meaning": "homecoming" },
+                    { "text": "帰路（きろ）", "meaning": "the way back" },
+                    { "text": "日帰り（ひがえり）", "meaning": "day trip" }
+                ],
+                "sentences": [
+                    { "text": "学校から家へ帰ります。" },
+                    { "text": "夏休みに国へ帰ります。" }
+                ],
+                "stroke_count": 10,
+                "image": "assets/kanji/strokes/easy/screencap/帰.png",
+                "easy_image": "assets/kanji/strokes/easy/帰.png",
+                "mnemonic": "A person (彳) returning with a broom/cloth = return home.",
+                "gif": [
+                    "M16.46,35.12c0.71,0.71,1.26,1.65,1.26,2.99c0,5.61-0.08,13.76-0.12,19.77c-0.01,1.77-0.02,3.35-0.02,4.63",
+                    "M26.46,17.62c0.84,0.84,1.23,2.1,1.26,3.74c0.66,43.52-0.21,51.27-10.21,62.89",
+                    "M45.75,15.5c1.01,0.24,2.51,0.63,4.18,0.43C57.5,15,71.38,13.38,78,12.25c1.52-0.26,3.42,0.75,3.05,2.44c-1.03,4.73-2.29,13.19-3.06,18.34c-0.22,1.49-0.41,2.74-0.54,3.62",
+                    "M44.89,26.32c1.47,0.38,3.01,0.52,4.49,0.38c10.59-1,21.15-1.96,29.47-2.4",
+                    "M43.68,37.85c1.65,0.5,3.41,0.49,5.08,0.27c8.74-1.13,19.84-2.66,27.98-3.19",
+                    "M40.88,48.75c-0.09,3.63-2.32,9.83-3.12,12",
+                    "M41.49,51.15c11.51-1.9,35.42-5.38,45.63-5.93C96,44.75,89.25,51,85.65,53.7",
+                    "M45.88,60.25c0.87,1,1.31,2.45,1.4,2.97c0.07,0.4,0,8.27-0.08,13.8c-0.02,1.64-0.04,2.48-0.06,3.22",
+                    "M48.28,61.54c7.47-0.86,27.74-3.55,29.36-3.64c2.31-0.13,3.73,0.48,3.73,2.72c0,6.76-0.37,12.13-0.81,17.47c-0.51,6.28-4.2,0.04-5.08-0.87",
+                    "M61.84,50.88c0.91,1.12,1.15,2.12,1.15,3.47c0,0.44-0.01,27.54-0.08,38.66c-0.01,2.19-0.03,3.72-0.04,4.25"
+                ]
+            },
+            {
+                "kanji": "食",
+                "reading_kana": "たべる",
+                "reading_romaji": "taberu",
+                "meaning": "to eat",
+                "readings": {
+                    "kunyomi": ["たべる", "くう", "くらう"],
+                    "onyomi": ["ショク", "ジキ"]
+                },
+                "examples": [
+                    { "text": "食べる（たべる）", "meaning": "to eat" },
+                    { "text": "食事（しょくじ）", "meaning": "meal" },
+                    { "text": "食べ物（たべもの）", "meaning": "food" },
+                    { "text": "朝食（ちょうしょく）", "meaning": "breakfast" },
+                    { "text": "昼食（ちゅうしょく）", "meaning": "lunch" },
+                    { "text": "夕食（ゆうしょく）", "meaning": "dinner" }
+                ],
+                "sentences": [
+                    { "text": "パンを食べます。" },
+                    { "text": "家族と一緒に夕食を食べました。" }
+                ],
+                "stroke_count": 9,
+                "image": "assets/kanji/strokes/easy/screencap/食.png",
+                "easy_image": "assets/kanji/strokes/easy/食.png",
+                "mnemonic": "A person opening their mouth under a roof = to eat.",
+                "gif": [
+                    "M52.75,10.5c0.11,0.98-0.19,2.67-0.97,3.93C45,25.34,31.75,41.19,14,51.5",
+                    "M52.75,16.25c5.09,4.8,25.71,19.61,33.7,24.9c2.68,1.78,5.37,2.79,8.55,3.35",
+                    "M52.25,29.25c1,1,1.5,2.25,1.5,3.5c0,2,0,3,0,5.5",
+                    "M38,40c0.83,0.47,2.19,1,3.86,0.83c9.39-0.96,21.95-2.76,23.25-2.84c1.67-0.1,3.14,0.88,3.11,2.53C68.2,41.8,67,53.25,66.34,62.4c-0.07,0.94-0.13,1.36-0.13,1.99",
+                    "M40.83,51.73C47.25,51.25,59.5,50,66,49.75",
+                    "M40.69,63.9c7.04-0.52,16.55-1.62,24.6-2.04",
+                    "M38.25,40.25c1.12,1.12,1.5,2.62,1.5,4c0,9.12,0,43.62,0,47.25c0,4,1,4.88,4.12,2.88c2.93-1.87,6.75-5.25,10.88-8.38",
+                    "M74,64c0.25,1.25,0.09,2.57-0.75,3.5c-3.5,3.88-4.5,4.88-7.25,7.5",
+                    "M51.5,71C55.75,71,77,90,81,92.75c2.49,1.71,4.62,2.62,7.5,3.5"
+                ]
+            },
+            {
+                "kanji": "飲",
+                "reading_kana": "のむ",
+                "reading_romaji": "nomu",
+                "meaning": "to drink",
+                "readings": {
+                    "kunyomi": ["のむ"],
+                    "onyomi": ["イン"]
+                },
+                "examples": [
+                    { "text": "飲む（のむ）", "meaning": "to drink" },
+                    { "text": "飲食（いんしょく）", "meaning": "food and drink" },
+                    { "text": "飲料（いんりょう）", "meaning": "beverage" },
+                    { "text": "飲酒（いんしゅ）", "meaning": "drinking alcohol" },
+                    { "text": "飲み物（のみもの）", "meaning": "drink" },
+                    { "text": "飲み会（のみかい）", "meaning": "drinking party" }
+                ],
+                "sentences": [
+                    { "text": "水を飲みます。" },
+                    { "text": "友だちとお酒を飲みました。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/飲.png",
+                "easy_image": "assets/kanji/strokes/easy/飲.png",
+                "mnemonic": "The eat radical (飠) plus 'to cover' = drink.",
+                "gif": [
+                    "M31.53,14.5c0.06,0.73,0.24,1.94-0.12,2.92c-2.96,8.1-11.79,20.97-21.04,27.95",
+                    "M33.5,19.5c5.48,2.15,11.9,6.21,15,10.75",
+                    "M32.79,32.26c0.85,0.85,1.28,2.38,1.28,3.32c0,3.54-0.08,5.92-0.08,8.2",
+                    "M20.01,46.32c1.61,0.8,2.86,0.43,4.86,0.03c5.87-1.17,15.18-2.91,16.08-3.04c2.3-0.32,2.98,1.17,2.77,2.63c-0.71,4.9-2.07,13.76-2.78,18.54c-0.27,1.86-0.45,3.1-0.45,3.26",
+                    "M22.71,57.53c4.17-0.91,13.42-2.41,18.53-3.16",
+                    "M22.37,68.85c5.51-0.98,11.63-1.73,17.21-2.47",
+                    "M20.37,47.01c0.69,0.69,1.03,1.8,1.03,2.74c0,5.75-0.29,36.68-0.33,38.97C21,92.75,21.5,93.75,26,90.5c2.1-1.52,7-5,12.5-8.25",
+                    "M37.25,74.25c1.59,2.03,4.09,7.46,5,11.75",
+                    "M61.5,14.25c0.25,1.12,0.42,2.14,0.18,3.31C60,25.75,55.82,40.12,49,49.5",
+                    "M58.22,37.74c1.9,0.39,3.14,0.18,4.51-0.14c1.67-0.39,21.21-5.25,22.76-5.6c6.75-1.5,3.5,4.5-3,11.25",
+                    "M64.85,47.5c0.78,1.5,0.86,2.88,0.62,4.52C63,68.62,57.25,84.5,42.25,95.75",
+                    "M65.42,60.5c3.56,6.77,15.26,21.56,22.62,29.46c1.89,2.03,3.98,4.66,6.71,5.54"
+                ]
+            },
+            {
+                "kanji": "見",
+                "reading_kana": "みる",
+                "reading_romaji": "miru",
+                "meaning": "to see, look, view",
+                "readings": {
+                    "kunyomi": ["みる", "みえる", "みせる"],
+                    "onyomi": ["ケン"]
+                },
+                "examples": [
+                    { "text": "見る（みる）", "meaning": "to see, look" },
+                    { "text": "見学（けんがく）", "meaning": "field trip" },
+                    { "text": "見せる（みせる）", "meaning": "to show" },
+                    { "text": "意見（いけん）", "meaning": "opinion" },
+                    { "text": "見物（けんぶつ）", "meaning": "sightseeing" },
+                    { "text": "見方（みかた）", "meaning": "way of looking" }
+                ],
+                "sentences": [
+                    { "text": "映画を見ます。" },
+                    { "text": "きれいな花を見ました。" }
+                ],
+                "stroke_count": 7,
+                "image": "assets/kanji/strokes/easy/screencap/見.png",
+                "easy_image": "assets/kanji/strokes/easy/見.png",
+                "mnemonic": "An eye (目) with legs = to see.",
+                "gif": [
+                    "M32.5,15.46c0.96,0.96,1.18,2.1,1.18,3.52c0,1.12,0.07,27.43-0.02,39.27c-0.02,3.12-0.02,5.21,0.02,5.5",
+                    "M34.65,17.15c9.23-1.27,22.23-2.65,31.1-3.65c2.99-0.34,4.26,1.01,4.26,3.55c0,2.5-0.1,28.08-0.14,38.96c-0.01,2.91-0.02,4.75-0.02,4.79",
+                    "M34.84,31.1c7.28-0.6,25.03-2.98,33.9-3.38",
+                    "M34.86,44.63C43.38,44,59,42.12,68.6,41.51",
+                    "M34.71,59.66C44.5,59,58.38,57.5,68.45,57.03",
+                    "M41.99,66.75c0.26,1.5,0.01,2.99-0.41,4.04c-2.7,6.83-13.83,20.83-28.41,27.87",
+                    "M54.49,61.37c1.07,1.07,1.33,2.59,1.38,4.43c0.2,8.19,0.04,6.2,0.04,18.2c0,10.12,1.23,11.53,18.54,11.53c18.81,0,19.81-1.53,19.81-10.12"
+                ]
+            },
+            {
+                "kanji": "聞",
+                "reading_kana": "きく",
+                "reading_romaji": "kiku",
+                "meaning": "to listen, hear",
+                "readings": {
+                    "kunyomi": ["きく", "きこえる"],
+                    "onyomi": ["ブン", "モン"]
+                },
+                "examples": [
+                    { "text": "聞く（きく）", "meaning": "to hear, ask" },
+                    { "text": "新聞（しんぶん）", "meaning": "newspaper" },
+                    { "text": "聞こえる（きこえる）", "meaning": "can be heard" },
+                    { "text": "聞き取り（ききとり）", "meaning": "listening comprehension" },
+                    { "text": "伝聞（でんぶん）", "meaning": "hearsay" },
+                    { "text": "聞者（もんじゃ）", "meaning": "listener" }
+                ],
+                "sentences": [
+                    { "text": "音楽を聞きます。" },
+                    { "text": "先生の話をよく聞いてください。" }
+                ],
+                "stroke_count": 14,
+                "image": "assets/kanji/strokes/easy/screencap/聞.png",
+                "easy_image": "assets/kanji/strokes/easy/聞.png",
+                "mnemonic": "An ear (耳) inside a gate (門) = to hear.",
+                "gif": [
+                    "M16.14,17.97c0.94,0.94,1.51,2.16,1.51,3.25c0,0.77-0.03,48.45-0.18,66.29c-0.03,3.16-0.05,5.37-0.07,6.21",
+                    "M19.01,19.6c6.86-1.22,18.49-3.1,21.08-3.39c1.9-0.21,3.03,0.79,3,2.46c-0.04,1.84-0.59,10.46-1.44,20.02c-0.09,1.04-0.15,2-0.15,2.69",
+                    "M18.81,30.43c6.94-1.05,15.82-2.55,22.41-2.9",
+                    "M17.86,42.57C26.25,41.25,33,40,40.42,39.4",
+                    "M66.21,14.22c0.66,0.66,1.17,1.78,1.17,2.93c0,0.56,0.12,13.19,0.17,19.1c0.02,1.71,0.03,2.83,0.03,2.91",
+                    "M68.51,16.1c6.89-1.1,19.28-3.26,21.17-3.36c1.96-0.1,3.57,1.38,3.57,2.98c0,18.78-0.26,60.28-0.26,73.89c0,11.13-6.37,2.13-8.21,0.25",
+                    "M68.59,25.94c5.16-0.69,18.16-2.44,23-2.71",
+                    "M69.13,36.75c6.37-0.75,15.12-2,22.15-2.53",
+                    "M33.5,51.24c1.71,0.31,4.02,0.25,5.71,0.06c9.6-1.05,20.21-3.05,30.66-4.05c2.83-0.27,4.57-0.1,6,0.05",
+                    "M42.71,53c0.89,0.89,1.3,2.26,1.3,3.51S44,79.31,44,83.84",
+                    "M45.13,61.43c4.49-0.43,13.74-2.05,19.78-2.36",
+                    "M44.81,71.67c5.72-0.67,12.31-1.92,20.12-2.95",
+                    "M32.51,85.14c0.99,0.86,2.2,1.23,3.25,0.92c4.87-1.43,28.2-7.83,34.76-9.39",
+                    "M64.84,49.66c0.62,0.63,1.05,1.71,1.05,2.99c0,0.66,0.12,27.55,0.15,39.1c0.01,1.88,0.01,3.36,0.01,4.25"
+                ]
+            },
+            {
+                "kanji": "読",
+                "reading_kana": "よむ",
+                "reading_romaji": "yomu",
+                "meaning": "to read",
+                "readings": {
+                    "kunyomi": ["よむ"],
+                    "onyomi": ["ドク", "トク", "トウ"]
+                },
+                "examples": [
+                    { "text": "読む（よむ）", "meaning": "to read" },
+                    { "text": "読書（どくしょ）", "meaning": "reading books" },
+                    { "text": "読者（どくしゃ）", "meaning": "reader" },
+                    { "text": "読み（よみ）", "meaning": "reading" },
+                    { "text": "速読（そくどく）", "meaning": "speed reading" }
+                ],
+                "sentences": [
+                    { "text": "本を読みます。" },
+                    { "text": "新聞を読みました。" }
+                ],
+                "stroke_count": 14,
+                "image": "assets/kanji/strokes/easy/screencap/読.png",
+                "easy_image": "assets/kanji/strokes/easy/読.png",
+                "mnemonic": "Word radical (言) + sell (売) = to read words.",
+                "gif": [
+                    "M22.38,14.75c2.25,1.63,5.81,6.71,6.37,9.25",
+                    "M10.37,33.08c1.61,0.48,3.62,0.35,5.27,0.14c5.96-0.76,13.52-1.42,20.1-2.38c1.5-0.22,3.09-0.43,4.6-0.16",
+                    "M16.23,46.31c1.17,0.37,2.73,0.18,3.93-0.01c3.99-0.62,8.33-1.2,11.58-1.97c1.35-0.32,3.26-0.58,4.65-0.58",
+                    "M16.73,58.58c1.02,0.35,2.46,0.15,3.53,0.04c3.8-0.4,9.57-1.17,12.55-1.77c1.45-0.29,2.94-0.48,4.22-0.14",
+                    "M15.64,70.4c0.71,0.61,1.08,1.37,1.12,2.29c0.79,3.76,1.71,9.85,2.52,15.05c0.16,1.05,0.32,2.06,0.48,3",
+                    "M17.75,72.05c6.09-0.91,11.59-1.7,17.42-2.67c1.7-0.28,2.73,1.3,2.49,2.58c-0.85,4.46-1.61,6.91-2.88,12.78",
+                    "M20.47,88.3c4.06-0.46,7.76-1.19,12.79-1.92c0.92-0.13,1.88-0.26,2.9-0.39",
+                    "M46.37,26.71c2.31,0.59,4.67,0.42,7,0.15c9.97-1.14,21.82-2.23,29.77-3.06c2.36-0.25,4.38-0.21,6.71,0.14",
+                    "M65.76,13.25c1.06,1.06,1.59,2.08,1.59,3.25c0,8.5-0.07,17.03-0.19,20.46",
+                    "M52.53,38.58c2.22,0.42,4.15,0.3,5.98,0.08C64,38,71.21,37.1,78,36.47c1.61-0.15,3.63-0.29,5.23,0.04",
+                    "M46.14,48.1c-0.11,3.93-1.7,12-2.6,14.35",
+                    "M47,49.96c11.42-1.27,28-3.71,41.35-4.28c9.15-0.39,0.43,7.14-0.74,8.35",
+                    "M59.49,59.25c0.5,1.52,0.71,3.09,0.29,4.83c-2.76,11.61-6.54,22.94-15.26,30.61",
+                    "M71.64,56.26c1.11,1.24,1.65,2.67,1.69,4.37c0.11,4.62-0.13,16.99-0.13,24.62c0,9.5,0.8,10.52,11.3,10.52c11,0,11.38-1.02,11.38-7.31"
+                ]
+            },
+            {
+                "kanji": "書",
+                "reading_kana": "かく",
+                "reading_romaji": "kaku",
+                "meaning": "to write, book, document",
+                "readings": {
+                    "kunyomi": ["かく"],
+                    "onyomi": ["ショ"]
+                },
+                "examples": [
+                    { "text": "書く（かく）", "meaning": "to write" },
+                    { "text": "図書館（としょかん）", "meaning": "library" },
+                    { "text": "書店（しょてん）", "meaning": "a book shop" },
+                    { "text": "読書（どくしょ）", "meaning": "reading books" },
+                    { "text": "書道（しょどう）", "meaning": "calligraphy" },
+                    { "text": "書類（しょるい）", "meaning": "documents" }
+                ],
+                "sentences": [
+                    { "text": "手紙を書きます。" },
+                    { "text": "名前を書いてください。" }
+                ],
+                "stroke_count": 10,
+                "image": "assets/kanji/strokes/easy/screencap/書.png",
+                "easy_image": "assets/kanji/strokes/easy/書.png",
+                "mnemonic": "A hand with a brush writing on paper.",
+                "gif": [
+                    "M30.74,20.63c2.01,0.49,3.84,0.58,5.91,0.39c9.45-0.89,28.54-2.97,37.54-3.64c2.92-0.22,4.18,1.24,3.66,3.55c-0.4,1.76-2.56,9.62-3.88,16.56",
+                    "M11.89,32.34c3.17,0.66,5.87,0.47,9.58,0.19c20.16-1.52,48.41-3.9,67.91-4.64c4.08-0.16,7.07,0.26,8.91,0.59",
+                    "M29.86,41.38c1.64,0.49,3.39,0.52,4.84,0.44c9.67-0.57,27.55-2.07,37.43-2.85c1.93-0.15,3.14-0.08,4.59,0.07",
+                    "M30.04,52.06c1.47,0.26,3.65,0.54,5.12,0.43c12.34-0.98,25.59-2.23,36.78-3.31c2.43-0.23,4.41-0.19,5.63-0.07",
+                    "M17,63.44c2,0.58,5.67,0.57,7.66,0.41c20.78-1.7,42.92-3.93,61.09-4.48c3.33-0.1,5.33,0.15,6.99,0.42",
+                    "M52.69,9.52c1.33,1.33,1.95,2.98,1.95,4.71c0,5.67,0.22,33.72,0.31,45.77",
+                    "M31.25,71.75c0.43,0.46,1.24,1.44,1.43,2.7c1.11,7.42,2.22,14.33,3.18,20.74c0.18,1.2,0.34,2.38,0.49,3.57",
+                    "M33.75,73.75c14.98-2.05,36.1-3.71,44.41-4.26c3.33-0.22,5.09,1.76,4.6,4.33c-0.99,5.22-2.01,11.55-3.81,19.41c-0.3,1.31-0.74,2.55-1.15,3.72",
+                    "M35.5,83.75C46.79,83.03,65.75,81.5,80.25,81",
+                    "M37.25,95.25c10.7-0.68,26.5-1.38,40.5-2"
+                ]
+            },
+            {
+                "kanji": "話",
+                "reading_kana": "はなす",
+                "reading_romaji": "hanasu",
+                "meaning": "to talk, speak",
+                "readings": {
+                    "kunyomi": ["はなす", "はなし"],
+                    "onyomi": ["ワ"]
+                },
+                "examples": [
+                    { "text": "話す（はなす）", "meaning": "to talk" },
+                    { "text": "会話（かいわ）", "meaning": "conversation" },
+                    { "text": "電話（でんわ）", "meaning": "telephone" },
+                    { "text": "話題（わだい）", "meaning": "topic of conversation" },
+                    { "text": "物語（ものがたり）", "meaning": "story, tale" },
+                    { "text": "話（はなし）", "meaning": "a story, a talk" }
+                ],
+                "sentences": [
+                    { "text": "友だちと話します。" },
+                    { "text": "先生の話は面白いです。" }
+                ],
+                "stroke_count": 13,
+                "image": "assets/kanji/strokes/easy/screencap/話.png",
+                "easy_image": "assets/kanji/strokes/easy/話.png",
+                "mnemonic": "Word radical (言) plus tongue (舌) = to talk.",
+                "gif": [
+                    "M24.99,14c2.36,1.5,6.1,6.17,6.7,8.5",
+                    "M11.37,32.83c1.41,0.42,3.07,0.29,4.51,0.17c8.29-0.7,16.95-1.9,23.59-2.81c1.28-0.17,3.22,0.11,3.87,0.23",
+                    "M17.78,47.06c1.05,0.32,2.15,0.35,3.23,0.29c4.11-0.23,10.69-1.59,14.43-1.97c1.31-0.13,2.68-0.13,4.04-0.13",
+                    "M18.58,59.33c1.2,0.36,2.8,0.13,4.04,0.08c3.71-0.16,8.38-0.79,12.92-1.36c1.43-0.18,2.85-0.34,4.3-0.08",
+                    "M17.4,71.9c0.81,0.68,1.33,1.82,1.49,2.87c0.73,4.61,1.4,8.31,2.2,13.18c0.22,1.33,0.43,2.62,0.63,3.8",
+                    "M19.64,73.54c6.67-1.14,13.31-2.75,19.46-3.66c1.85-0.27,2.96,1.26,2.7,2.51c-0.89,4.19-2.46,8.16-4.05,14.07",
+                    "M22.49,89.55c4.76-0.55,8.86-1.17,14.02-1.72c0.93-0.1,1.91,0.04,2.97-0.09",
+                    "M81.75,13.75c-0.12,1.25-0.79,2.39-1.66,3.06c-4.84,3.69-15.34,9.94-29.34,14.94",
+                    "M45.39,45.8c1.55,0.34,4.36,0.62,6.73,0.34C62.8,44.9,76.37,43.07,91,42.23c2.28-0.13,4.49-0.01,6.75,0.29",
+                    "M68.87,27.19c1.4,1.4,1.85,3.06,1.85,4.88c0,1.44-0.21,28.18-0.21,35.16",
+                    "M52.07,67.83c0.93,1.17,1.22,1.76,1.35,2.34c1.38,6.2,2.13,12.33,3.08,20.33c0.13,1.14,0.27,2.31,0.42,3.53",
+                    "M54.62,69.29c12.9-1.37,25.41-2.73,32.68-3.31c2.94-0.24,3.79,2.4,3.37,3.8c-1.47,4.87-3.03,11.64-5.04,18.35",
+                    "M56.64,91.74c7.5-0.57,16.99-1.13,27.14-1.93c1.37-0.11,2.75-0.22,4.13-0.34"
+                ]
+            },
+            {
+                "kanji": "買",
+                "reading_kana": "かう",
+                "reading_romaji": "kau",
+                "meaning": "to buy",
+                "readings": {
+                    "kunyomi": ["かう"],
+                    "onyomi": ["バイ"]
+                },
+                "examples": [
+                    { "text": "買う（かう）", "meaning": "to buy" },
+                    { "text": "買い物（かいもの）", "meaning": "shopping" },
+                    { "text": "購入（こうにゅう）", "meaning": "purchase" },
+                    { "text": "売買（ばいばい）", "meaning": "buying and selling" },
+                    { "text": "買収（ばいしゅう）", "meaning": "acquisition" },
+                    { "text": "買値（かいね）", "meaning": "purchase price" }
+                ],
+                "sentences": [
+                    { "text": "本を買いました。" },
+                    { "text": "スーパーで野菜を買います。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/買.png",
+                "easy_image": "assets/kanji/strokes/easy/買.png",
+                "mnemonic": "A shell (貝) with a net over it = something to buy.",
+                "gif": [
+                    "M20.5,14.64c0.49,0.49,1.44,1.59,1.66,2.43c1.09,4.17,1.51,6.88,2.4,11.91c0.2,1.15,0.39,2.26,0.55,3.26",
+                    "M23.25,16.2c15.2-1.38,58.15-3.72,64.01-4.22c2.74-0.23,4.12,1.39,3.32,3.95c-1.08,3.44-1.82,5.56-3.62,10.4c-0.38,1.02-0.87,1.99-1.32,2.94",
+                    "M43.25,16.5c0.75,0.75,0.68,1.25,0.85,2.27c0.6,3.64,1.21,7.47,1.4,9.23",
+                    "M66.25,14.5c0.5,0.75,0.42,2.03,0.29,3.01c-0.54,4.37-0.79,6.62-1.29,9.24",
+                    "M26.3,30.62c8.83-0.74,51.2-3.49,59.17-3.65",
+                    "M34.7,38.87c1.09,1.09,1.57,2.82,1.57,4.01c0,1.2,0.07,32.68,0.07,33.28s-0.07,2.47-0.07,3.8",
+                    "M37.02,40.77c8.15-0.63,32.05-3.03,34.84-3.03c2.89,0,4.19,1.26,4.19,3.7c0,2.44-0.08,19.9-0.06,33.08c0,1.35,0.04,2.86,0.04,4.34",
+                    "M37.53,52.38c5.97-0.26,31.44-2.43,37.25-2.43",
+                    "M37.5,64.75C46.25,64,65,62.5,74.59,62.1",
+                    "M37.76,76.86c8.24-0.48,27.49-1.73,36.87-2.04",
+                    "M43.77,83c0.23,1.5-0.38,2.82-1.5,3.83C38.75,90,30.5,95.5,21.5,99",
+                    "M69.84,83.97C75,87.91,80.38,94.38,82.5,98.5"
+                ]
+            },
+            {
+                "kanji": "教",
+                "reading_kana": "おしえる",
+                "reading_romaji": "oshieru",
+                "meaning": "educate, to teach, religion",
+                "readings": {
+                    "kunyomi": ["おしえる", "おそわる"],
+                    "onyomi": ["キョウ"]
+                },
+                "examples": [
+                    { "text": "教える（おしえる）", "meaning": "to teach" },
+                    { "text": "教育（きょういく）", "meaning": "education" },
+                    { "text": "教師（きょうし）", "meaning": "teacher" },
+                    { "text": "教科書（きょうかしょ）", "meaning": "textbook" },
+                    { "text": "教会（きょうかい）", "meaning": "a church" },
+                    { "text": "教室（きょうしつ）", "meaning": "classroom" }
+                ],
+                "sentences": [
+                    { "text": "先生が日本語を教えます。" },
+                    { "text": "母に料理を教わりました。" }
+                ],
+                "stroke_count": 11,
+                "image": "assets/kanji/strokes/easy/screencap/教.png",
+                "easy_image": "assets/kanji/strokes/easy/教.png",
+                "mnemonic": "A child (子) and a hand showing something = to teach.",
+                "gif": [
+                    "M15.82,30.26c0.99,0.23,2.81,0.37,3.8,0.23c6.25-0.86,14.63-2.11,21.03-2.96c1.63-0.22,2.65,0.11,3.47,0.22",
+                    "M29.8,13.37c1.1,1.1,1.7,2.53,1.7,4.4c0,7.61,0.12,18.3,0.08,24.14",
+                    "M11.5,45.02c1.38,0.37,3.9,0.56,5.31,0.37c9.19-1.26,23.44-4.01,31.85-4.8c2.29-0.22,3.69,0.17,4.84,0.36",
+                    "M50.62,20.75c0.11,1.15-0.39,2.74-1.21,4.1C38.94,42.29,27.54,54.68,10.5,67.75",
+                    "M29.5,54.75c0.56,0.24,1.88,0.11,2.75,0c3-0.38,7.87-0.91,11-1.75c3.25-0.88,4,0.25,1.56,3c-2.79,3.14-5.53,6.11-8.62,8.81",
+                    "M33.05,65.99c4.33,4.39,8.77,16.18,3.33,26.86c-2.63,5.15-5.13,1.4-7.2-1.24",
+                    "M19.35,78.33c1.15,0.92,2.27,1.05,3.89,0.51c3.72-1.23,16.68-6.15,26.84-10.53",
+                    "M70.25,15.38c0.25,1.25,0.04,2.44-0.36,3.73c-2.77,8.9-8.4,24.07-18.15,35.4",
+                    "M64.77,40.23c1.48,0.15,2.35,0.15,3.48,0.02c5.62-0.62,14.14-2.8,20.93-4C90.62,36,92,36,93.24,36.34",
+                    "M81.07,44.07c0.53,1.23,0.6,2.62,0.02,4.86C76.5,66.5,66.62,85.25,48,94.25",
+                    "M57.5,54.25c5.12,3.5,21.57,26.06,31.68,35.08c2.15,1.92,4.57,3.67,6.69,4.17"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Lesson 10: Kanji for Time",
+        "image": "assets/dummy1.webp",
+        "kanji": [
+            {
+                "kanji": "朝",
+                "reading_kana": "あさ",
+                "reading_romaji": "asa",
+                "meaning": "morning",
+                "readings": {
+                    "kunyomi": ["あさ"],
+                    "onyomi": ["チョウ"]
+                },
+                "examples": [
+                    { "text": "朝（あさ）", "meaning": "morning" },
+                    { "text": "今朝（けさ）", "meaning": "this morning" },
+                    { "text": "毎朝（まいあさ）", "meaning": "every morning" },
+                    { "text": "朝食（ちょうしょく）", "meaning": "breakfast" },
+                    { "text": "早朝（そうちょう）", "meaning": "early morning" },
+                    { "text": "朝日（あさひ）", "meaning": "morning sun" }
+                ],
+                "sentences": [
+                    { "text": "朝ごはんを食べます。" },
+                    { "text": "朝に散歩しました。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/朝.png",
+                "easy_image": "assets/kanji/strokes/easy/朝.png",
+                "mnemonic": "Sun (日) and moon (月) together with trees — the morning when everything appears.",
+                "gif": [
+                    "M16.88,27.13c1.87,0.37,4.34,0.34,5.62,0.12c7.35-1.23,18.38-2.86,24.74-3.37c1.6-0.13,4.33-0.68,5.89-0.07",
+                    "M33.9,11.75c1.1,1,1.76,2.5,1.76,3.7c0,0.68,0.2,16.33,0.12,20.55",
+                    "M17.77,38.44c1.23,0.81,2.01,2.14,2.2,3.32c0.72,4.38,3.12,18.94,3.12,19.29c0,0.4,0.13,1.4,0.26,2.2",
+                    "M20.76,39.32c8.12-1.32,23.99-3.44,29.06-3.83c2.06-0.16,3.43,1.26,3.15,3.7C52.45,43.78,51,52.5,50,57.5c-0.18,0.89-0.49,2.6-0.49,3.2",
+                    "M22.87,50.38c6.5-0.88,23-3.25,27.66-3.65",
+                    "M24.51,61c6.86-0.75,16.99-2.25,24.07-2.95",
+                    "M10.13,75.13c2.12,0.75,5.25,0.78,6.99,0.5C31,73.38,42.55,71.25,52.62,70.5c1.8-0.13,4.61-0.19,5.51,0.06",
+                    "M34.65,62c1.11,1.11,1.51,2.5,1.51,3.95c0,5.55-0.01,16.22-0.08,24.8c-0.02,2.07-0.03,3.68-0.05,4.5",
+                    "M65.6,20.73c0.9,0.9,1.68,2.25,1.73,3.28C69,59.5,64.75,81.5,54.75,93",
+                    "M67.86,21.83c5.79-1.02,19.48-3.54,20.83-3.83c2.32-0.5,4.58,0.62,4.58,3.29c0,2.46-0.11,49.96-0.11,70.41c0,10.8-6.41,1.8-8.44-0.23",
+                    "M69.05,40.67c6.45-0.92,15.95-1.92,22.79-2.73",
+                    "M67.66,60.85c6.53-0.76,16.72-1.72,24.27-2.23"
+                ]
+            },
+            {
+                "kanji": "昼",
+                "reading_kana": "ひる",
+                "reading_romaji": "hiru",
+                "meaning": "noon, daytime",
+                "readings": {
+                    "kunyomi": ["ひる"],
+                    "onyomi": ["チュウ"]
+                },
+                "examples": [
+                    { "text": "昼（ひる）", "meaning": "noon, daytime" },
+                    { "text": "昼ごはん（ひるごはん）", "meaning": "lunch" },
+                    { "text": "昼間（ひるま）", "meaning": "daytime" },
+                    { "text": "昼寝（ひるね）", "meaning": "nap" },
+                    { "text": "真昼（まひる）", "meaning": "midday" },
+                    { "text": "昼休み（ひるやすみ）", "meaning": "lunch break" }
+                ],
+                "sentences": [
+                    { "text": "昼ごはんを食べました。" },
+                    { "text": "昼は暑いです。" }
+                ],
+                "stroke_count": 9,
+                "image": "assets/kanji/strokes/easy/screencap/昼.png",
+                "easy_image": "assets/kanji/strokes/easy/昼.png",
+                "mnemonic": "Sun (日) high in the sky = daytime.",
+                "gif": [
+                    "M29.75,17.19c1.44,0.62,3.73,0.67,5.26,0.54c8.25-0.69,28.36-3.73,36.79-4.35c2.84-0.21,4.75,1.81,4.31,3.63c-0.76,3.15-1.86,5.86-3.08,10.08",
+                    "M33.25,32.5c5.64-0.6,27.15-2.94,37.53-3.94c2.49-0.24,4.34-0.4,5.18-0.44",
+                    "M32.25,18.04c0.73,0.73,1.1,1.77,1.06,2.97C32.5,41.38,27.25,62.25,15,70.58",
+                    "M62,32.38C68.78,43,78.05,52.08,86.45,58.67c2.46,1.93,4.88,3.69,7.93,4.46",
+                    "M33.77,54.39c0.92,0.92,1.55,2.02,1.7,3.34c0.55,4.94,2.28,22.35,2.28,22.73c0,0.43,0.14,2.18,0.27,3.05",
+                    "M36.03,55.57c8.32-0.86,29.01-3.23,30.67-3.33c2.46-0.15,3.54,1.46,3.32,3.29c-0.5,4.24-1.65,16.21-2.24,22.99c-0.08,0.97-0.14,1.41-0.14,2.05",
+                    "M37.75,67.21c5.25-0.34,24.13-2.34,29.72-2.57",
+                    "M38.97,79.82c6.44-0.47,19.72-1.71,27.71-2.11",
+                    "M19.88,92.17c2.37,0.83,5.12,1.08,7.81,0.86c16.94-1.41,35.18-3.53,54.01-3.6c3.18-0.01,5.8,0.32,7.68,1.09"
+                ]
+            },
+            {
+                "kanji": "夜",
+                "reading_kana": "よる",
+                "reading_romaji": "yoru",
+                "meaning": "night",
+                "readings": {
+                    "kunyomi": ["よる", "よ"],
+                    "onyomi": ["ヤ"]
+                },
+                "examples": [
+                    { "text": "夜（よる）", "meaning": "night" },
+                    { "text": "今夜（こんや）", "meaning": "tonight" },
+                    { "text": "夜中（よなか）", "meaning": "midnight" },
+                    { "text": "夜空（よぞら）", "meaning": "night sky" },
+                    { "text": "深夜（しんや）", "meaning": "late at night" },
+                    { "text": "徹夜（てつや）", "meaning": "staying up all night" }
+                ],
+                "sentences": [
+                    { "text": "夜に星を見ます。" },
+                    { "text": "昨夜は雨でした。" }
+                ],
+                "stroke_count": 8,
+                "image": "assets/kanji/strokes/easy/screencap/夜.png",
+                "easy_image": "assets/kanji/strokes/easy/夜.png",
+                "mnemonic": "Roof and evening radical (夕) = night time under the roof.",
+                "gif": [
+                    "M52.27,10.5c1.24,1.24,1.92,2.75,1.92,4.26c0,4.29-0.12,5.13-0.12,8.81",
+                    "M20,27.47c2.58,0.33,5.52,0.3,9.16-0.04c17.5-1.67,34.28-3.92,51.31-4.98c3.54-0.22,5.63-0.21,8.28,0.33",
+                    "M34.26,36c0.31,2-0.06,3.89-0.76,5.34c-4.44,9.2-10.07,17.85-20.25,29.05",
+                    "M27.73,55.9c0.77,1.1,1.26,2.51,1.26,3.84c0,8.77,0.17,23.89,0.04,32.77C29,94.78,28.97,96.68,28.97,98",
+                    "M60.5,32c0.13,1.12,0.18,2.04-0.15,2.89C57.86,41.41,52.87,50.32,45,57",
+                    "M62.21,39.36c1.04,0.14,2.54,0.26,3.52,0.12c4.52-0.61,8.27-1.61,11.9-3.12c3-1.25,4.38,0.75,3.47,3.02C74.75,55.25,61,78.88,38.25,90",
+                    "M56.75,49.12c2.73,1.25,7.04,5.14,7.73,7.08",
+                    "M45,62.75c7.38,0.75,28.23,18.89,38.64,25.59c3.13,2.01,6.66,4,10.36,4.66"
+                ]
+            },
+            {
+                "kanji": "晩",
+                "reading_kana": "ばん",
+                "reading_romaji": "ban",
+                "meaning": "evening, night",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["バン"]
+                },
+                "examples": [
+                    { "text": "晩（ばん）", "meaning": "evening" },
+                    { "text": "晩ごはん（ばんごはん）", "meaning": "dinner" },
+                    { "text": "今晩（こんばん）", "meaning": "tonight" },
+                    { "text": "毎晩（まいばん）", "meaning": "every night" },
+                    { "text": "晩年（ばんねん）", "meaning": "one’s later years" },
+                    { "text": "早晩（そうばん）", "meaning": "sooner or later" }
+                ],
+                "sentences": [
+                    { "text": "晩ごはんを食べます。" },
+                    { "text": "今晩は寒いです。" }
+                ],
+                "stroke_count": 12,
+                "image": "assets/kanji/strokes/easy/screencap/晩.png",
+                "easy_image": "assets/kanji/strokes/easy/晩.png",
+                "mnemonic": "Sun (日) going down with late components = evening.",
+                "gif": [
+                    "M14.27,24.74c0.69,0.69,1.02,1.72,1.02,3.21c0,1.17-0.05,27.59-0.03,39.55c0.01,3.25,0.02,5.43,0.03,5.75",
+                    "M16.22,26.52c2.01-0.32,10.55-2.23,14.65-3.04c3.31-0.66,3.86,0.28,3.8,3.4c-0.11,6.35,0.04,26.17-0.01,37.37c-0.02,4.63-0.03,7.85-0.03,8.14",
+                    "M16.23,46.66c3.64-0.41,14.14-2.04,17.54-2.11",
+                    "M16.39,68.39c4.07-0.38,11.48-1.52,17.12-1.98",
+                    "M57.89,14.65c0.04,0.5,0.16,1.3-0.08,1.99C56.25,21.12,52,28.38,44.44,35.47",
+                    "M56.6,21.75c2.05,0,15.79-2.59,17.94-2.83c1.85-0.2,2.8,2.19,2.03,3.21c-3.25,4.27-8.05,9.13-13.19,15.97",
+                    "M46.76,40.6c0.76,0.76,1.12,1.65,1.4,3.17c0.79,4.23,1.58,7.61,2.24,12.95c0.16,1.27,0.31,2.61,0.46,4.02",
+                    "M48.65,41.96c8.56-1.78,26.47-4.7,33.25-5.7c2.41-0.36,4.77,0.6,4.23,3.62c-0.91,5.09-1.5,7.38-3.4,13.87c-0.27,0.94-0.69,1.93-1.1,3.03",
+                    "M63.88,41c0.87,0.87,1.4,2,1.4,3.25c0,4.75,0,9,0,11",
+                    "M51.38,58.25c3.8-0.5,25.55-3.25,29.74-3.5",
+                    "M56.64,61.75c0.08,0.79,0.32,2.1-0.16,3.18C53.25,72.25,45.5,84.5,28.67,94.17",
+                    "M69.19,59.37c0.97,0.97,1.26,2.29,1.26,3.91c0,6.84-0.14,14.22-0.14,19.57c0,9.03,1.07,10.44,13.22,10.44c12.6,0,13.36-2.28,13.36-8.31"
+                ]
+            },
+            {
+                "kanji": "夕",
+                "reading_kana": "ゆう",
+                "reading_romaji": "yū",
+                "meaning": "evening",
+                "readings": {
+                    "kunyomi": ["ゆう"],
+                    "onyomi": ["セキ"]
+                },
+                "examples": [
+                    { "text": "夕方（ゆうがた）", "meaning": "early evening" },
+                    { "text": "夕日（ゆうひ）", "meaning": "sunset" },
+                    { "text": "夕飯（ゆうはん）", "meaning": "supper" },
+                    { "text": "夕食（ゆうしょく）", "meaning": "evening meal" },
+                    { "text": "七夕（たなばた）", "meaning": "festival" },
+                    { "text": "夕刊（ゆうかん）", "meaning": "evening paper" }
+                ],
+                "sentences": [
+                    { "text": "夕方に散歩します。" },
+                    { "text": "夕飯を作ります。" }
+                ],
+                "stroke_count": 3,
+                "image": "assets/kanji/strokes/easy/screencap/夕.png",
+                "easy_image": "assets/kanji/strokes/easy/夕.png",
+                "mnemonic": "A moon-like shape with a stroke = evening.",
+                "gif": [
+                    "M52.99,13.14c0.26,1.61,0,3.47-0.49,4.61C49,26,41.38,39.25,27.56,48.97",
+                    "M54,23.5c1.75,0.5,3.47,0.6,4.78,0.33c5.22-1.08,10.97-2.58,17.56-4.58c4.26-1.29,6.14,0.55,4.41,4.53C70,48.5,48.62,78.38,17.75,93",
+                    "M45.25,42.62c4.84,2.36,12.04,9.2,13.25,12.88"
+                ]
+            },
+            {
+                "kanji": "方",
+                "reading_kana": "かた",
+                "reading_romaji": "kata",
+                "meaning": "direction, way, means",
+                "readings": {
+                    "kunyomi": ["かた"],
+                    "onyomi": ["ホウ"]
+                },
+                "examples": [
+                    { "text": "~方（かた）", "meaning": "how to ~" },
+                    { "text": "方向（ほうこう）", "meaning": "direction" },
+                    { "text": "方法（ほうほう）", "meaning": "method" },
+                    { "text": "様方（さまかた）", "meaning": "c/o Mr. ~" },
+                    { "text": "地方（ちほう）", "meaning": "region" },
+                    { "text": "夕方（ゆうがた）", "meaning": "evening" }
+                ],
+                "sentences": [
+                    { "text": "あの方は先生です。" },
+                    { "text": "家は北の方にあります。" }
+                ],
+                "stroke_count": 4,
+                "image": "assets/kanji/strokes/easy/screencap/方.png",
+                "easy_image": "assets/kanji/strokes/easy/方.png",
+                "mnemonic": "A compass pointer showing direction.",
+                "gif": [
+                    "M52.86,12c1.07,1.07,1.73,2.5,1.73,4.41c0,4.84-0.15,7.84-0.15,11.65",
+                    "M15.5,31.61c2.5,0.64,6.38,0.89,10.02,0.55C43.97,30.41,67.12,28,85.87,27.2c3.88-0.16,6.36,0.05,9.25,0.7",
+                    "M53.48,47.2c6.64,1.17,13.39,0.92,18.51,0.41c3.41-0.34,5.18,1.75,4.67,4.36c-2.03,10.4-10.53,33.53-16.54,41.1c-4.79,6.04-7.12,1.17-10.09-2.07",
+                    "M54.51,32.75c0.49,1.5,0.39,3.19-0.19,4.88C50.3,49.29,38.68,72.85,20.62,83.88"
+                ]
+            },
+            {
+                "kanji": "午",
+                "reading_kana": "ご",
+                "reading_romaji": "go",
+                "meaning": "noon",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["ゴ"]
+                },
+                "examples": [
+                    { "text": "午前（ごぜん）", "meaning": "morning, A.M." },
+                    { "text": "午後（ごご）", "meaning": "afternoon, P.M." },
+                    { "text": "正午（しょうご）", "meaning": "noon" },
+                    { "text": "午前中（ごぜんちゅう）", "meaning": "in the morning" },
+                    { "text": "午休（ごきゅう）", "meaning": "lunch break" },
+                    { "text": "午時（ごじ）", "meaning": "noon hour" }
+                ],
+                "sentences": [
+                    { "text": "午前十時に会いましょう。" },
+                    { "text": "午後にテストがあります。" }
+                ],
+                "stroke_count": 4,
+                "image": "assets/kanji/strokes/easy/screencap/午.png",
+                "easy_image": "assets/kanji/strokes/easy/午.png",
+                "mnemonic": "Looks like the zodiac sign for horse (午) = noon position of the sun.",
+                "gif": [
+                    "M37.5,9.14c0.06,0.7,0.22,1.85-0.11,2.83C35.25,18.25,27,29.62,17.5,39",
+                    "M32.13,27.28c2.75,0.09,4.3-0.07,5.82-0.21c12.92-1.2,20.78-2.82,33.1-4.68c2.49-0.38,4.69-0.24,5.95,0.03",
+                    "M13.88,54.53c3,0.72,7.23,0.71,9.74,0.46c19.64-1.99,42.64-4.99,63-6.16c4.22-0.24,6.77,0.22,8.89,0.45",
+                    "M53.06,28.13c1.03,1.03,1.79,2.37,1.79,4.33c0,0.88-0.02,44.17-0.13,61.04c-0.02,2.88-0.03,4.96-0.05,5.88"
+                ]
+            },
+            {
+                "kanji": "前",
+                "reading_kana": "まえ",
+                "reading_romaji": "mae",
+                "meaning": "before, in front",
+                "readings": {
+                    "kunyomi": ["まえ"],
+                    "onyomi": ["ゼン"]
+                },
+                "examples": [
+                    { "text": "前（まえ）", "meaning": "front, before" },
+                    { "text": "午前（ごぜん）", "meaning": "morning" },
+                    { "text": "名前（なまえ）", "meaning": "name" },
+                    { "text": "前日（ぜんじつ）", "meaning": "the previous day" },
+                    { "text": "～年前（ねんまえ）", "meaning": "～years before" },
+                    { "text": "前半（ぜんはん）", "meaning": "first half" }
+                ],
+                "sentences": [
+                    { "text": "家の前に車があります。" },
+                    { "text": "試験の前に勉強します。" }
+                ],
+                "stroke_count": 9,
+                "image": "assets/kanji/strokes/easy/screencap/前.png",
+                "easy_image": "assets/kanji/strokes/easy/前.png",
+                "mnemonic": "A person with hands forward = in front.",
+                "gif": [
+                    "M33.5,14.5c3.34,2.07,8.64,8.5,9.48,11.72",
+                    "M72.67,12c0.26,1.14,0.07,2.23-0.52,3.19c-2.12,3.41-6.02,8.65-8.6,11.31",
+                    "M13.38,33.24c2.63,0.72,7.46,0.94,10.08,0.72c21.67-1.83,39.8-3.58,62.68-4.61c4.37-0.2,7.01,0.34,9.2,0.7",
+                    "M24.65,45.46c1.1,1.29,1.63,2.92,1.63,4.17c0,3.05,0.1,28.65,0.08,40.62c0,3.23-0.03,5.46-0.1,6",
+                    "M27.01,46.8c2.3-0.41,13.37-2.3,17.2-2.9c2.2-0.34,3.51,1.1,3.51,3.24c0,1.02-0.16,30.82-0.16,44.63c0,5.48-3.79,2.98-5.93,0.53",
+                    "M27.65,60.01c5.72-0.76,13.63-1.81,18.59-2.32",
+                    "M27.57,73.47c4.41-0.51,13.3-1.54,18.4-1.89",
+                    "M62.27,47.58c1.2,1.2,1.76,2.67,1.76,4.58c0,8.93-0.01,15.1-0.09,18.59c-0.04,1.49-0.09,2.76-0.16,4.05",
+                    "M78.85,39.25c1.26,1.26,2.01,2.88,2.01,5.02c0,14.56-0.01,42.91-0.01,47.87c0,8.62-5.96,1-7.46-0.25"
+                ]
+            },
+            {
+                "kanji": "後",
+                "reading_kana": "あと",
+                "reading_romaji": "ato",
+                "meaning": "after, behind",
+                "readings": {
+                    "kunyomi": ["あと", "うしろ", "のち"],
+                    "onyomi": ["ゴ", "コウ"]
+                },
+                "examples": [
+                    { "text": "後（あと）", "meaning": "after, later" },
+                    { "text": "～年後（ねんご）", "meaning": "～years later" },
+                    { "text": "後ろ（うしろ）", "meaning": "behind, back" },
+                    { "text": "最後（さいご）", "meaning": "last" },
+                    { "text": "以後（いご）", "meaning": "after this" },
+                    { "text": "直後（ちょくご）", "meaning": "immediately after" }
+                ],
+                "sentences": [
+                    { "text": "学校の後で友だちに会います。" },
+                    { "text": "家の後ろに庭があります。" }
+                ],
+                "stroke_count": 9,
+                "image": "assets/kanji/strokes/easy/screencap/後.png",
+                "easy_image": "assets/kanji/strokes/easy/後.png",
+                "mnemonic": "A person walking with footprints behind = after/behind.",
+                "gif": [
+                    "M34.25,18.38c0,1.3-0.24,2.26-0.93,3.05c-3.57,4.07-8.94,8.7-15.91,13.39",
+                    "M38.75,36.62c0.14,1.32-0.42,2.67-1.13,3.79c-3.45,5.4-11.43,14.17-22.37,22.71",
+                    "M28.4,54.36c0.81,0.81,1.38,2.02,1.38,3.28c0,0.68,0.03,25.57-0.07,35.86c-0.02,1.74-0.04,3.05-0.05,3.75",
+                    "M61.16,12.62c0.29,1.07,0.21,2.43-0.39,3.54c-2.52,4.6-6.1,9.01-9.88,12.93c-1.01,1.05-1.26,2.17,0,2.68c2.96,1.19,6.3,3.11,8.88,5.07",
+                    "M76.35,20.12c0.27,1.25-0.3,2.56-1,3.31c-7.6,8.19-16.6,16.57-26.61,25.32c-1.25,1.1-0.74,1.76,0.74,1.41C55.72,48.69,74.5,44.4,82.5,43",
+                    "M77.88,36.25c3.66,2.21,9.46,9.07,10.38,12.5",
+                    "M57.75,53c0.09,1.13,0.02,2.27-0.4,3.33c-2.2,5.51-7.08,13.22-15.6,20.92",
+                    "M59.31,59.82c1.17,0.13,2.31,0.02,3.29-0.09c2.65-0.29,9.84-1.39,13.62-2.29c2.59-0.62,3.24,0.68,2.67,2.4C75.25,70.75,59.25,88.88,43.02,96.5",
+                    "M54.75,67.5c2.52,0,19.5,15.75,31.17,24.23c2.31,1.68,4.74,3.38,7.58,4.01"
+                ]
+            },
+            {
+                "kanji": "毎",
+                "reading_kana": "まい",
+                "reading_romaji": "mai",
+                "meaning": "every",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["マイ"]
+                },
+                "examples": [
+                    { "text": "毎日（まいにち）", "meaning": "every day" },
+                    { "text": "毎朝（まいあさ）", "meaning": "every morning" },
+                    { "text": "毎晩（まいばん）", "meaning": "every night" },
+                    { "text": "毎週（まいしゅう）", "meaning": "every week" },
+                    { "text": "毎月（まいつき）", "meaning": "every month" },
+                    { "text": "毎年（まいとし／まいねん）", "meaning": "every year" },
+                    { "text": "毎回（まいかい）", "meaning": "every time" }
+                ],
+                "sentences": [
+                    { "text": "毎日学校へ行きます。" },
+                    { "text": "毎週日本語を勉強しています。" }
+                ],
+                "stroke_count": 6,
+                "image": "assets/kanji/strokes/easy/screencap/毎.png",
+                "easy_image": "assets/kanji/strokes/easy/毎.png",
+                "mnemonic": "Looks like hair on a head — every person, every day.",
+                "gif": [
+                    "M44.13,10.62c0.11,1.39-0.04,2.48-0.54,3.78c-2.23,5.81-9.37,16.73-16.84,22.34",
+                    "M43.77,23.04c1.73,0.08,3.68,0.03,4.73-0.04c6.88-0.46,19.87-3.02,27.66-4.42c2.11-0.38,3.74-0.39,5.84-0.14",
+                    "M41.55,34.87c1.1,0.91,1.96,3.97,1.36,6.3C40.25,51.5,33.25,67,29.45,72.74c-1.98,2.99-0.52,4.58,1.57,4.62c11.98,0.26,25.1,1.88,37.95,5.72c5.92,1.77,11.28,4.6,15.77,7.92",
+                    "M44.26,37.32c9.17-1.07,22.11-2.57,28.58-3.32c3.9-0.45,6.36,2.01,6.1,5.12c-1.44,17.51-4.81,42.51-11.32,56.07c-2.99,6.22-6.5-1.15-7.52-2.27",
+                    "M58.71,39.5c0.51,1,0.75,2.74,0.53,4c-1.53,8.5-7.11,27-9.92,35",
+                    "M10.88,58.99c2.46,0.56,6.98,0.49,9.45,0.31c21.05-1.54,44.8-3.42,69.3-3.88c4.11-0.08,6.57,0.26,8.62,0.54"
+                ]
+            },
+            {
+                "kanji": "週",
+                "reading_kana": "しゅう",
+                "reading_romaji": "shū",
+                "meaning": "week",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["シュウ"]
+                },
+                "examples": [
+                    { "text": "今週（こんしゅう）", "meaning": "this week" },
+                    { "text": "来週（らいしゅう）", "meaning": "next week" },
+                    { "text": "先週（せんしゅう）", "meaning": "last week" },
+                    { "text": "毎週（まいしゅう）", "meaning": "every week" },
+                    { "text": "週末（しゅうまつ）", "meaning": "weekend" },
+                    { "text": "-週間（いっしゅうかん）", "meaning": "a week" }
+                ],
+                "sentences": [
+                    { "text": "来週旅行に行きます。" },
+                    { "text": "毎週テニスをします。" }
+                ],
+                "stroke_count": 11,
+                "image": "assets/kanji/strokes/easy/screencap/週.png",
+                "easy_image": "assets/kanji/strokes/easy/週.png",
+                "mnemonic": "Movement (辶) around a circle = a weekly cycle.",
+                "gif": [
+                    "M45.93,17.66c1.02,1.02,1.67,2.55,1.67,4.3c0,21.04,2.53,45.54-8.1,58.79",
+                    "M48.49,18.95c9.79-1.25,32.29-4.39,33.41-4.45c4.34-0.24,5.42,1.26,5.42,5.64c0,1.93,0.17,52.16,0.17,56.6c0,9.53-5.28,4.86-8.4,1.69",
+                    "M55.43,31.42c0.83,0.25,2.88,0.54,3.72,0.51c4.54-0.18,13.51-1.92,16.84-2.23c1.39-0.13,2.22-0.07,2.91,0.03",
+                    "M65.84,22.3c0.99,0.99,1.51,2.32,1.51,3.39c0,3.19-0.07,10.44-0.07,16.81",
+                    "M53.61,44.53c1,0.35,2.64,0.41,4.31,0.23C65,44,70.38,43.38,77.01,42.4c1.84-0.27,3.25-0.4,4.81-0.26",
+                    "M56.17,53.75c1.08,0.75,1.6,2.01,1.71,2.97c0.5,4.53,1.05,6.63,1.48,10.27c0.17,1.46,0.3,2.58,0.34,2.94",
+                    "M58.6,55.4c5.86-1.39,13.69-2.83,16.29-3.02c1.73-0.13,2.48,1,2.28,2.58c-0.38,2.92-1.34,5.94-2.12,9.61",
+                    "M60.65,67.64c2.32-0.44,8.3-1.1,13.1-1.63c1.43-0.16,2.69-0.28,3.61-0.34",
+                    "M20.71,19c3.1,1.41,8.02,5.8,8.79,8",
+                    "M13.25,54.95c2.25,0.92,4.29,0.84,5.25,0.48c2.5-0.93,8.31-4.06,9.75-4.68c2.88-1.24,4.14,0.9,1.5,3.78c-6.38,6.98-6,8.23-0.75,14.1c1.83,2.04,2.03,3.44-1.5,6.12c-5.25,4-7.5,5.75-10.75,8.5",
+                    "M13.75,85.75c4.12-0.88,10.41-0.97,15-0.5c7.25,0.75,29.97,5.13,34.5,6c13,2.5,21.25,4.5,30.25,2.75"
+                ]
+            },
+            {
+                "kanji": "曜",
+                "reading_kana": "よう",
+                "reading_romaji": "yō",
+                "meaning": "day of the week",
+                "readings": {
+                    "kunyomi": [],
+                    "onyomi": ["ヨウ"]
+                },
+                "examples": [
+                    { "text": "曜日（ようび）", "meaning": "day of the week" },
+                    { "text": "月曜日（げつようび）", "meaning": "Monday" },
+                    { "text": "火曜日（かようび）", "meaning": "Tuesday" },
+                    { "text": "水曜日（すいようび）", "meaning": "Wednesday" },
+                    { "text": "土曜日（どようび）", "meaning": "Saturday" },
+                    { "text": "日曜日（にちようび）", "meaning": "Sunday" }
+                ],
+                "sentences": [
+                    { "text": "今日は何曜日ですか。" },
+                    { "text": "月曜日から金曜日まで学校があります。" }
+                ],
+                "stroke_count": 18,
+                "image": "assets/kanji/strokes/easy/screencap/曜.png",
+                "easy_image": "assets/kanji/strokes/easy/曜.png",
+                "mnemonic": "Sun (日) plus shining radicals = weekday names.",
+                "gif": [
+                    "M15.5,29.81c1,0.69,1.61,2.1,1.61,3.52c0,1.42-0.2,40.33-0.2,41.04c0,0.71-0.05,1.76-0.05,2.88",
+                    "M18.06,31.1c4.41-0.66,14.19-2.61,15.41-2.61c1.78,0,2.54,1.75,2.54,3.02c0,2.14-0.31,25.27-0.3,40.9c0,1.61-0.1,2.31-0.1,3.38",
+                    "M18.42,51.59c3.71-0.46,11.71-1.59,15.98-2.03",
+                    "M18.12,74.29c4.38-0.42,10.63-1.67,16.08-2.17",
+                    "M41.5,16.5c1.5,0.75,2.5,0.75,4.75,0.5S56.5,15.5,58,15.25s3.5,1.5,3.5,3c0,1.22-0.17,14.07-0.23,20c-0.01,1.35-0.02,2.33-0.02,2.75",
+                    "M43.75,28.25c1.25,0.38,2.98,0.16,4,0c2.38-0.38,9.75-2,12-2.25",
+                    "M45,38.75c1.25,0.38,2.5,0.25,3.5,0s9.25-2,11.5-2.25",
+                    "M70.75,14.75c1.5,0.75,2.75,1,5,0.75s12.5-1.75,14-2s3.5,1.5,3.5,3c0,1.19-0.16,13.38-0.22,19.5C93.01,37.6,93,38.78,93,39.25",
+                    "M74.25,24.5c1.25,0.5,2.99,0.45,4,0.25c2.5-0.5,11.25-2,13.5-2.25",
+                    "M74,35.75c1.5,0.38,3,0.25,4,0s11.5-2,13.75-2.25",
+                    "M54.25,45c0.15,1.27-0.04,2.93-0.52,4.02c-3.07,6.93-6.95,12.8-13.98,21.23",
+                    "M50.55,57.79c0.45,0.96,0.65,1.7,0.7,2.95c0.24,7.07-0.2,22.81-0.27,31.26c-0.02,2.51-0.01,4.47,0.06,5.5",
+                    "M74.25,42.75c0.05,0.54-0.01,1.25-0.17,1.72c-1,2.96-2.27,5.25-4.57,8.86",
+                    "M50.98,56.53c5.87-0.68,25.46-2.41,34.02-3.27c1.92-0.19,3.25-0.26,4.86,0.08",
+                    "M69.83,55.88c0.67,1.12,1.12,2.27,1.12,2.83c0,5.71,0.29,22.65,0.08,31.64",
+                    "M52.51,68.36c5.25-0.53,21.05-2.1,29.5-2.84c2-0.17,3.25-0.02,4.91,0.03",
+                    "M52.18,79.71c5.66-0.46,22.39-1.91,31.08-2.66c2.3-0.2,3.23-0.05,4.61,0.09",
+                    "M52.11,93.02c5.61-0.65,26.25-2.06,36.63-2.86c2.93-0.23,4.26-0.16,5.7,0"
+                ]
+            }
         ]
     }
 ]

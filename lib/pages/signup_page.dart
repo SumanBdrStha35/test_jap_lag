@@ -182,7 +182,6 @@ class _SignupPageState extends State<SignupPage> with SingleTickerProviderStateM
     bool obscureText = false,
     Widget? suffixIcon,
     VoidCallback? onSubmitted,
-    int delay = 0,
   }) {
     return SlideTransition(
       position: _slideAnimation,
