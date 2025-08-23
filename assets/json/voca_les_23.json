@@ -1,0 +1,180 @@
+[
+  {
+    "hiragana": "ききます [せんせいに~]",
+    "kanji": "聞きます [先生に~]",
+    "group": "I",
+    "meaning": "ask [the teacher]"
+  },
+  {
+    "hiragana": "まわします",
+    "kanji": "回します",
+    "group": "I",
+    "meaning": "turn"
+  },
+  {
+    "hiragana": "ひきます",
+    "kanji": "引きます",
+    "group": "I",
+    "meaning": "pull"
+  },
+  {
+    "hiragana": "かえます",
+    "kanji": "変えます",
+    "group": "II",
+    "meaning": "change"
+  },
+  {
+    "hiragana": "さわります [ドアに~]",
+    "kanji": "触ります",
+    "group": "I",
+    "meaning": "touch [a door]"
+  },
+  {
+    "hiragana": "でます [おつりが~]",
+    "kanji": "出ます [お釣りが~]",
+    "group": "II",
+    "meaning": "[change] come out"
+  },
+  {
+    "hiragana": "うごきます [とけいが~]",
+    "kanji": "動きます [時計が~]",
+    "group": "I",
+    "meaning": "[a watch] move, work"
+  },
+  {
+    "hiragana": "あるきます [みちを~]",
+    "kanji": "歩きます [道を~]",
+    "group": "I",
+    "meaning": "walk [along a road]"
+  },
+  {
+    "hiragana": "わたります [はしを~]",
+    "kanji": "渡ります [橋を~]",
+    "group": "I",
+    "meaning": "cross [a bridge]"
+  },
+  {
+    "hiragana": "きをつけます [くるまに~]",
+    "kanji": "気をつけます [車に~]",
+    "group": "II",
+    "meaning": "pay attention [to cars], take care"
+  },
+  {
+    "hiragana": "ひっこしします",
+    "kanji": "引っ越しします",
+    "group": "III",
+    "meaning": "move (house)"
+  },
+  {
+    "hiragana": "でんきや",
+    "kanji": "電気屋",
+    "meaning": "electrician"
+  },
+  {
+    "hiragana": "~や",
+    "kanji": "〜屋",
+    "meaning": "person of shop"
+  },
+  {
+    "hiragana": "サイズ",
+    "meaning": "size"
+  },
+  {
+    "hiragana": "おと",
+    "kanji": "音",
+    "meaning": "sound"
+  },
+  {
+    "hiragana": "きかい",
+    "kanji": "機械",
+    "meaning": "machine"
+  },
+  {
+    "hiragana": "つまみ",
+    "meaning": "knob"
+  },
+  {
+    "hiragana": "こしょう",
+    "kanji": "故障",
+    "meaning": "breakdown (~します: break down)"
+  },
+  {
+    "hiragana": "みち",
+    "kanji": "道",
+    "meaning": "road, way"
+  },
+  {
+    "hiragana": "こうさてん",
+    "kanji": "交差点",
+    "meaning": "crossroad"
+  },
+  {
+    "hiragana": "しんごう",
+    "kanji": "信号",
+    "meaning": "traffic light"
+  },
+  {
+    "hiragana": "かど",
+    "kanji": "角",
+    "meaning": "corner"
+  },
+  {
+    "hiragana": "はし",
+    "kanji": "橋",
+    "meaning": "bridge"
+  },
+  {
+    "hiragana": "ちゅうしゃじょう",
+    "kanji": "駐車場",
+    "meaning": "parking lot, car park"
+  },
+  {
+    "hiragana": "〜め",
+    "kanji": "〜目",
+    "meaning": "the -th (indicating order)"
+  },
+  {
+    "hiragana": "[お]しょうがつ",
+    "kanji": "[お]正月",
+    "meaning": "New Year's Day"
+  },
+  {
+    "hiragana": "ごちそうさまでした。",
+    "meaning": "That was delicious. (said after eating or drinking)"
+  },
+  {
+    "hiragana": "たてもの",
+    "kanji": "建物",
+    "meaning": "building"
+  },
+  {
+    "hiragana": "がいこくじんとうろくしょう",
+    "kanji": "外国人登録証",
+    "meaning": "alien registration card"
+  },
+  {
+    "hiragana": "しょうとくたいし",
+    "kanji": "聖徳太子",
+    "meaning": "Prince Shotoku (574–622)"
+  },
+  {
+    "hiragana": "ほうりゅうじ",
+    "kanji": "法隆寺",
+    "meaning": "Horyuji Temple, a temple in Nara built by Prince Shotoku at the beginning of the 7th century"
+  },
+  {
+    "hiragana": "げんきちゃ",
+    "kanji": "元気茶",
+    "meaning": "fictitious tea"
+  },
+  {
+    "hiragana": "ほんだえき",
+    "kanji": "本田駅",
+    "meaning": "fictitious station"
+  },
+  {
+    "hiragana": "としょかんまえ",
+    "kanji": "図書館前",
+    "meaning": "fictitious bus stop"
+  }
+]

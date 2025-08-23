@@ -1,0 +1,100 @@
+[
+  {
+    "hiragana": "くれます",
+    "group": "II",
+    "meaning": "give (me)"
+  },
+  {
+    "hiragana": "つれていきます",
+    "kanji": "連れて行きます",
+    "group": "I",
+    "meaning": "take (someone)"
+  },
+  {
+    "hiragana": "つれてきます",
+    "kanji": "連れて来ます",
+    "group": "III",
+    "meaning": "bring (someone)"
+  },
+  {
+    "hiragana": "おくります [ひとを~]",
+    "kanji": "送ります [人を~]",
+    "group": "I",
+    "meaning": "escort [someone], go with"
+  },
+  {
+    "hiragana": "しょうかいします",
+    "kanji": "紹介します",
+    "group": "III",
+    "meaning": "introduce"
+  },
+  {
+    "hiragana": "あんないします",
+    "kanji": "案内します",
+    "group": "III",
+    "meaning": "show around, show the way"
+  },
+  {
+    "hiragana": "せつめいします",
+    "kanji": "説明します",
+    "group": "III",
+    "meaning": "explain"
+  },
+  {
+    "hiragana": "いれます [コーヒーを~]",
+    "group": "II",
+    "meaning": "make [coffee]"
+  },
+  {
+    "hiragana": "おじいさん / おじいちゃん",
+    "meaning": "grandfather, old man"
+  },
+  {
+    "hiragana": "おばあさん / おばあちゃん",
+    "meaning": "grandmother, old woman"
+  },
+  {
+    "hiragana": "じゅんび",
+    "kanji": "準備",
+    "meaning": "preparation (~します: prepare)"
+  },
+  {
+    "hiragana": "いみ",
+    "kanji": "意味",
+    "meaning": "meaning"
+  },
+  {
+    "hiragana": "[お]かし",
+    "kanji": "[お]菓子",
+    "meaning": "sweets, snacks"
+  },
+  {
+    "hiragana": "ぜんぶ",
+    "kanji": "全部",
+    "meaning": "all"
+  },
+  {
+    "hiragana": "じぶんで",
+    "kanji": "自分で",
+    "meaning": "by oneself"
+  },
+  {
+    "hiragana": "ほかに",
+    "meaning": "besides"
+  },
+  {
+    "hiragana": "ワゴンしゃ",
+    "kanji": "ワゴン車",
+    "meaning": "station wagon"
+  },
+  {
+    "hiragana": "[お]べんとう",
+    "kanji": "[お]弁当",
+    "meaning": "box lunch"
+  },
+  {
+    "hiragana": "ははのひ",
+    "kanji": "母の日",
+    "meaning": "Mother's Day"
+  }
+]

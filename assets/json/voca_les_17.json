@@ -1,0 +1,197 @@
+[
+  {
+    "hiragana": "おぼえます",
+    "kanji": "覚えます",
+    "group": "II",
+    "meaning": "memorize"
+  },
+  {
+    "hiragana": "わすれます",
+    "kanji": "忘れます",
+    "group": "II",
+    "meaning": "forget"
+  },
+  {
+    "hiragana": "なくします",
+    "group": "I",
+    "meaning": "lose"
+  },
+  {
+    "hiragana": "だします [レポートを~]",
+    "kanji": "出します",
+    "group": "I",
+    "meaning": "hand in [a report]"
+  },
+  {
+    "hiragana": "はらいます",
+    "kanji": "払います",
+    "group": "I",
+    "meaning": "pay"
+  },
+  {
+    "hiragana": "かえします",
+    "kanji": "返します",
+    "group": "I",
+    "meaning": "give back, return"
+  },
+  {
+    "hiragana": "でかけます",
+    "kanji": "出かけます",
+    "group": "II",
+    "meaning": "go out"
+  },
+  {
+    "hiragana": "ぬぎます",
+    "kanji": "脱ぎます",
+    "group": "I",
+    "meaning": "take off (clothes, shoes, etc.)"
+  },
+  {
+    "hiragana": "もっていきます",
+    "kanji": "持って行きます",
+    "group": "I",
+    "meaning": "take (something)"
+  },
+  {
+    "hiragana": "もってきます",
+    "kanji": "持って来ます",
+    "group": "III",
+    "meaning": "bring (something)"
+  },
+  {
+    "hiragana": "しんぱいします",
+    "kanji": "心配します",
+    "group": "III",
+    "meaning": "worry"
+  },
+  {
+    "hiragana": "ざんぎょうします",
+    "kanji": "残業します",
+    "group": "II",
+    "meaning": "work overtime"
+  },
+  {
+    "hiragana": "しゅっちょうします",
+    "kanji": "出張します",
+    "group": "III",
+    "meaning": "go on a business trip"
+  },
+  {
+    "hiragana": "のみます [くすりを~]",
+    "kanji": "飲みます [薬を~]",
+    "group": "I",
+    "meaning": "take [medicine]"
+  },
+  {
+    "hiragana": "はいります [おふろに~]",
+    "kanji": "入ります",
+    "group": "I",
+    "meaning": "take [a bath]"
+  },
+  {
+    "hiragana": "たいせつ [な]",
+    "kanji": "大切 [な]",
+    "meaning": "important, precious"
+  },
+  {
+    "hiragana": "だいじょうぶ [な]",
+    "kanji": "大丈夫 [な]",
+    "meaning": "all right"
+  },
+  {
+    "hiragana": "あぶない",
+    "kanji": "危ない",
+    "meaning": "dangerous"
+  },
+  {
+    "hiragana": "もんだい",
+    "kanji": "問題",
+    "meaning": "question, problem, trouble"
+  },
+  {
+    "hiragana": "こたえ",
+    "kanji": "答え",
+    "meaning": "answer"
+  },
+  {
+    "hiragana": "きんえん",
+    "kanji": "禁煙",
+    "meaning": "no smoking"
+  },
+  {
+    "hiragana": "[けんこう]ほけんしょう",
+    "kanji": "[健康]保険証",
+    "meaning": "[health] insurance card"
+  },
+  {
+    "hiragana": "かぜ",
+    "meaning": "cold, flu"
+  },
+  {
+    "hiragana": "びょうき",
+    "kanji": "病気",
+    "meaning": "illness, disease"
+  },
+  {
+    "hiragana": "ねつ",
+    "kanji": "熱",
+    "meaning": "fever"
+  },
+  {
+    "hiragana": "くすり",
+    "kanji": "薬",
+    "meaning": "medicine"
+  },
+  {
+    "hiragana": "[お]ふろ",
+    "meaning": "bath"
+  },
+  {
+    "hiragana": "うわぎ",
+    "kanji": "上着",
+    "meaning": "jacket, outerwear"
+  },
+  {
+    "hiragana": "したぎ",
+    "kanji": "下着",
+    "meaning": "underwear"
+  },
+  {
+    "hiragana": "せんせい",
+    "kanji": "先生",
+    "meaning": "doctor (used when addressing a medical doctor)"
+  },
+  {
+    "hiragana": "2、3にち",
+    "kanji": "2、3日",
+    "meaning": "a few days"
+  },
+  {
+    "hiragana": "2、3~",
+    "meaning": "a few~ (~ is a counter suffix)"
+  },
+  {
+    "hiragana": "~までに",
+    "meaning": "before, by (indicating time limit)"
+  },
+  {
+    "hiragana": "ですから",
+    "meaning": "therefore, so"
+  },
+  {
+    "hiragana": "どうしましたか。",
+    "meaning": "What's the matter?"
+  },
+  {
+    "hiragana": "[~が] いたいです。",
+    "meaning": "(I) have a pain [in my ~]."
+  },
+  {
+    "hiragana": "のど",
+    "meaning": "throat"
+  },
+  {
+    "hiragana": "おだいじに。",
+    "meaning": "Take care of yourself. (said to people who are ill)"
+  }
+]

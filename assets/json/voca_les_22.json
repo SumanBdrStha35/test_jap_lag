@@ -1,0 +1,117 @@
+[
+  {
+    "hiragana": "きます [シャツを~]",
+    "kanji": "着ます",
+    "group": "II",
+    "meaning": "put on [a shirt, etc.]"
+  },
+  {
+    "hiragana": "はきます [くつを~]",
+    "kanji": "はきます [靴を~]",
+    "group": "I",
+    "meaning": "put on [shoes, trousers, etc.]"
+  },
+  {
+    "hiragana": "かぶります [ぼうしを~]",
+    "kanji": "かぶります [帽子を~]",
+    "group": "I",
+    "meaning": "put on [a hat, etc.]"
+  },
+  {
+    "hiragana": "かけます [めがねを~]",
+    "kanji": "かけます [眼鏡を~]",
+    "group": "II",
+    "meaning": "put on [glasses]"
+  },
+  {
+    "hiragana": "うまれます",
+    "kanji": "生まれます",
+    "group": "II",
+    "meaning": "be born"
+  },
+  {
+    "hiragana": "コート",
+    "meaning": "coat"
+  },
+  {
+    "hiragana": "スーツ",
+    "meaning": "suit"
+  },
+  {
+    "hiragana": "セーター",
+    "meaning": "sweater"
+  },
+  {
+    "hiragana": "ぼうし",
+    "kanji": "帽子",
+    "meaning": "hat, cap"
+  },
+  {
+    "hiragana": "めがね",
+    "kanji": "眼鏡",
+    "meaning": "glasses"
+  },
+  {
+    "hiragana": "よく",
+    "meaning": "often"
+  },
+  {
+    "hiragana": "おめでとうございます。",
+    "meaning": "Congratulations. (used on birthdays, at weddings, New Year's Day, etc.)"
+  },
+  {
+    "hiragana": "こちら",
+    "meaning": "this (polite equivalent of これ)"
+  },
+  {
+    "hiragana": "やちん",
+    "kanji": "家賃",
+    "meaning": "house rent"
+  },
+  {
+    "hiragana": "うーん。",
+    "meaning": "Let me see."
+  },
+  {
+    "hiragana": "ダイニングキチン",
+    "meaning": "kitchen with a dining area"
+  },
+  {
+    "hiragana": "わしつ",
+    "kanji": "和室",
+    "meaning": "Japanese-style room"
+  },
+  {
+    "hiragana": "おしいれ",
+    "kanji": "押し入れ",
+    "meaning": "Japanese-style closet"
+  },
+  {
+    "hiragana": "ふとん",
+    "kanji": "布団",
+    "meaning": "Japanese-style mattress and quilt"
+  },
+  {
+    "hiragana": "アパート",
+    "meaning": "apartment"
+  },
+  {
+    "hiragana": "パリ",
+    "meaning": "Paris"
+  },
+  {
+    "hiragana": "ばんりのちょうじょう",
+    "kanji": "万里の長城",
+    "meaning": "the Great Wall of China"
+  },
+  {
+    "hiragana": "よかかいはつセンター",
+    "kanji": "余暇開発センター",
+    "meaning": "Center for Developing Leisure Activities"
+  },
+  {
+    "hiragana": "レジャーはくしょ",
+    "kanji": "レジャー白書",
+    "meaning": "white paper on leisure"
+  }
+]

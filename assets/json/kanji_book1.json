@@ -1,8 +1,8 @@
-[
-    {
+{
+    "1": {
         "category": "Lesson 1: Kanji made from picture - 1",
         "image": "assets/dummy1.webp",
-        "kanji":[
+        "kanjis": [
             {
                 "kanji": "日",
                 "reading_kana": "にち / ひ",
@@ -308,12 +308,11 @@
             }
 
         ]
-
     },
-    {
+    "2": {
         "category": "Lesson 2: Kanji made from picture - 2",
         "image": "assets/dummy1.webp",
-        "kanji":[
+        "kanjis": [
             {
                 "kanji": "火",
                 "reading_kana": "ひ",
@@ -619,10 +618,10 @@
             }
         ]
     },
-    {
+    "3": {
         "category": "Lesson 3: Numbers",
         "image": "assets/dummy1.webp",
-        "kanji":[
+        "kanjis": [
             {
                 "kanji": "一",
                 "reading_kana": "ひとーつ / イチ",
@@ -1086,10 +1085,10 @@
             }
         ]
     },
-    {
+    "4": {
         "category": "Lesson 4: Writing Kanji",
         "image": "assets/dummy1.webp",
-        "kanji":[
+        "kanjis": [
             {
                 "kanji": "上",
                 "reading_kana": "うえ",
@@ -1410,10 +1409,10 @@
 
         ]
     },
-    {
+    "5": {
         "category": "Lesson 5: Kanji made from a combination of the meanings",
         "image": "assets/dummy1.webp",
-        "kanji":[
+        "kanjis": [
             {
                 "kanji": "明",
                 "reading_kana": "あかるい",
@@ -1775,10 +1774,10 @@
             }
         ]
     },
-    {
+    "6": {
         "category": "Lesson 6: Kanji made from picture - 3",
         "image": "assets/dummy1.webp",
-        "kanji": [
+        "kanjis": [
             {
                 "kanji": "目",
                 "reading_kana": "め",
@@ -2117,10 +2116,10 @@
             }
         ]
     },
-    {
+    "7": {
         "category": "Lesson 7: Kanji made from picture - 4",
         "image": "assets/dummy1.webp",
-        "kanji": [
+        "kanjis": [
             {
                 "kanji": "花",
                 "reading_kana": "はな",
@@ -2479,10 +2478,10 @@
             }
         ]
     },
-    {
+    "8": {
         "category": "Lesson 8: Kanji for Adjectives - 1",
         "image": "assets/dummy1.webp",
-        "kanji": [
+        "kanjis": [
             {
                 "kanji": "新",
                 "reading_kana": "あたらしい",
@@ -2843,10 +2842,10 @@
             }
         ]
     },
-    {
+    "9": {
         "category": "Lesson 9: Kanji for Verbs - 1",
         "image": "assets/dummy1.webp",
-        "kanji": [
+        "kanjis": [
             {
                 "kanji": "行",
                 "reading_kana": "いく",
@@ -3309,10 +3308,10 @@
             }
         ]
     },
-    {
+    "10": {
         "category": "Lesson 10: Kanji for Time",
         "image": "assets/dummy1.webp",
-        "kanji": [
+        "kanjis": [
             {
                 "kanji": "朝",
                 "reading_kana": "あさ",
@@ -3757,4 +3756,4 @@
             }
         ]
     }
-]
+}

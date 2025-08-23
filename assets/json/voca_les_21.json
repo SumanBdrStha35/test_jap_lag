@@ -1,0 +1,179 @@
+[
+  {
+    "hiragana": "おもいます",
+    "kanji": "思います",
+    "group": "I",
+    "meaning": "think"
+  },
+  {
+    "hiragana": "いいます",
+    "kanji": "言います",
+    "group": "I",
+    "meaning": "say"
+  },
+  {
+    "hiragana": "たります",
+    "kanji": "足ります",
+    "group": "II",
+    "meaning": "be enough, be sufficient"
+  },
+  {
+    "hiragana": "かちます",
+    "kanji": "勝ちます",
+    "group": "I",
+    "meaning": "win"
+  },
+  {
+    "hiragana": "まけます",
+    "kanji": "負けます",
+    "group": "II",
+    "meaning": "lose, be beaten"
+  },
+  {
+    "hiragana": "あります [おまつりが~]",
+    "kanji": "あります [お祭りが~]",
+    "group": "I",
+    "meaning": "[a festival] be held, take place"
+  },
+  {
+    "hiragana": "やくにたちます",
+    "kanji": "役に立ちます",
+    "group": "I",
+    "meaning": "be useful"
+  },
+  {
+    "hiragana": "むだ [な]",
+    "kanji": "無駄 [な]",
+    "meaning": "wasteful"
+  },
+  {
+    "hiragana": "ふべん [な]",
+    "kanji": "不便 [な]",
+    "meaning": "inconvenient"
+  },
+  {
+    "hiragana": "おなじ",
+    "kanji": "同じ",
+    "meaning": "the same"
+  },
+  {
+    "hiragana": "すごい",
+    "meaning": "awful, great (expresses astonishment or admiration)"
+  },
+  {
+    "hiragana": "しゅしょう",
+    "kanji": "首相",
+    "meaning": "prime minister"
+  },
+  {
+    "hiragana": "だいとうりょう",
+    "kanji": "大統領",
+    "meaning": "president"
+  },
+  {
+    "hiragana": "せいじ",
+    "kanji": "政治",
+    "meaning": "politics"
+  },
+  {
+    "hiragana": "ニュース",
+    "meaning": "news"
+  },
+  {
+    "hiragana": "スピーチ",
+    "meaning": "speech (~をします: make a speech)"
+  },
+  {
+    "hiragana": "しあい",
+    "kanji": "試合",
+    "meaning": "game, match"
+  },
+  {
+    "hiragana": "アルバイト",
+    "meaning": "side job (~をします: work part time)"
+  },
+  {
+    "hiragana": "いけん",
+    "kanji": "意見",
+    "meaning": "opinion"
+  },
+  {
+    "hiragana": "[お]はなし",
+    "kanji": "[お]話",
+    "meaning": "talk, speech, what one says, story (~をします: talk, tell a story)"
+  },
+  {
+    "hiragana": "ユーモア",
+    "meaning": "humor"
+  },
+  {
+    "hiragana": "むだ",
+    "meaning": "waste"
+  },
+  {
+    "hiragana": "デザイン",
+    "meaning": "design"
+  },
+  {
+    "hiragana": "こうつう",
+    "kanji": "交通",
+    "meaning": "transportation, traffic"
+  },
+  {
+    "hiragana": "ラッシュ",
+    "meaning": "rush hour"
+  },
+  {
+    "hiragana": "さいきん",
+    "kanji": "最近",
+    "meaning": "recently, these days"
+  },
+  {
+    "hiragana": "たぶん",
+    "meaning": "probably, perhaps, maybe"
+  },
+  {
+    "hiragana": "きっと",
+    "meaning": "surely"
+  },
+  {
+    "hiragana": "ほんとうに",
+    "meaning": "really"
+  },
+  {
+    "hiragana": "そんなに",
+    "meaning": "not so much (used with negatives)"
+  },
+  {
+    "hiragana": "~について",
+    "meaning": "about~, concerning~"
+  },
+  {
+    "hiragana": "しかたがありません。",
+    "meaning": "There is no other choice. / It can't be helped."
+  },
+  {
+    "hiragana": "しばらくですね。",
+    "meaning": "It's been a long time (since I last saw you). / Long time no see."
+  },
+  {
+    "hiragana": "~でものみませんか。",
+    "meaning": "How about drinking or something?"
+  },
+  {
+    "hiragana": "みないと･･････。",
+    "meaning": "I've got to watch it."
+  },
+  {
+    "hiragana": "もちろん",
+    "meaning": "of course"
+  },
+  {
+    "hiragana": "カンガルー",
+    "meaning": "kangaroo"
+  },
+  {
+    "hiragana": "キャプテン・クック",
+    "meaning": "Captain James Cook (1728–79)"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "hiragana": "いります [ビザが~]",
+    "kanji": "要ります",
+    "group": "I",
+    "meaning": "need, require [a visa]"
+  },
+  {
+    "hiragana": "しらべます",
+    "kanji": "調べます",
+    "group": "II",
+    "meaning": "check, investigate"
+  },
+  {
+    "hiragana": "なおします",
+    "kanji": "直します",
+    "group": "I",
+    "meaning": "repair, correct"
+  },
+  {
+    "hiragana": "しゅうりします",
+    "kanji": "修理します",
+    "group": "III",
+    "meaning": "repair"
+  },
+  {
+    "hiragana": "でんわします",
+    "kanji": "電話します",
+    "group": "III",
+    "meaning": "phone"
+  },
+  {
+    "hiragana": "ぼく",
+    "kanji": "僕",
+    "meaning": "I (an informal equivalent of わたし used by men)"
+  },
+  {
+    "hiragana": "きみ",
+    "kanji": "君",
+    "meaning": "you (an informal equivalent of あなた used by men)"
+  },
+  {
+    "hiragana": "~くん",
+    "kanji": "~君",
+    "meaning": "Mr. (an informal equivalent of 〜さん used by men)"
+  },
+  {
+    "hiragana": "うん",
+    "meaning": "yes (an informal equivalent of はい)"
+  },
+  {
+    "hiragana": "ううん",
+    "meaning": "no (an informal equivalent of いいえ)"
+  },
+  {
+    "hiragana": "サラリーマン",
+    "meaning": "salaried worker, office worker"
+  },
+  {
+    "hiragana": "ことば",
+    "meaning": "word, language"
+  },
+  {
+    "hiragana": "ぶっか",
+    "kanji": "物価",
+    "meaning": "commodity prices"
+  },
+  {
+    "hiragana": "きもの",
+    "kanji": "着物",
+    "meaning": "kimono (traditional Japanese attire)"
+  },
+  {
+    "hiragana": "ビザ",
+    "meaning": "visa"
+  },
+  {
+    "hiragana": "はじめ",
+    "kanji": "初め",
+    "meaning": "the beginning"
+  },
+  {
+    "hiragana": "おわり",
+    "kanji": "終わり",
+    "meaning": "the end"
+  },
+  {
+    "hiragana": "こっち",
+    "meaning": "this way, this place (an informal equivalent of こちら)"
+  },
+  {
+    "hiragana": "そっち",
+    "meaning": "that way, that place (an informal equivalent of そちら)"
+  },
+  {
+    "hiragana": "あっち",
+    "meaning": "that way, that place over there (an informal equivalent of あちら)"
+  },
+  {
+    "hiragana": "どっち",
+    "meaning": "which one (between two things), which way, where (an informal equivalent of どちら)"
+  },
+  {
+    "hiragana": "このあいだ",
+    "kanji": "この間",
+    "meaning": "the other day"
+  },
+  {
+    "hiragana": "みんなで",
+    "meaning": "all together"
+  },
+  {
+    "hiragana": "~けど",
+    "meaning": "~, but (an informal equivalent of が)"
+  },
+  {
+    "hiragana": "くにへかえるの?",
+    "meaning": "Are you going back to your country?"
+  },
+  {
+    "hiragana": "どうするの?",
+    "meaning": "What will you do?"
+  },
+  {
+    "hiragana": "どうしようかな。",
+    "meaning": "What shall I do?"
+  },
+  {
+    "hiragana": "よかったら",
+    "meaning": "if you like"
+  },
+  {
+    "hiragana": "いろいろ",
+    "meaning": "various"
+  }
+]

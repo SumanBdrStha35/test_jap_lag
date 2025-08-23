@@ -19,7 +19,7 @@ class _KanjiStepsState extends State<KanjiSteps> {
 
   Future<List<KanjiStep>> loadKanjiSteps() async {
     try {
-      final jsonString = await rootBundle.loadString('assets/json/ak.json');
+      final jsonString = await rootBundle.loadString('assets/json/kanji_book1.json');
       final Map<String, dynamic> jsonMap = json.decode(jsonString);
 
       List<KanjiStep> loadedSteps = [];

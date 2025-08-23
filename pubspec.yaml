@@ -54,7 +54,7 @@ flutter:
     # kanji easy
     - assets/kanji/easy/
     # hiragana easy
-    - /assets/hiragana/
+    - assets/hiragana/
     # katakana easy
     # latters
     - assets/data/

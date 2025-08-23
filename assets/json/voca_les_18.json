@@ -1,0 +1,148 @@
+[
+  {
+    "hiragana": "できます",
+    "group": "II",
+    "meaning": "be able to, can"
+  },
+  {
+    "hiragana": "あらいます",
+    "kanji": "洗います",
+    "group": "I",
+    "meaning": "wash"
+  },
+  {
+    "hiragana": "ひきます",
+    "kanji": "弾きます",
+    "group": "I",
+    "meaning": "play (stringed instrument or piano, etc.)"
+  },
+  {
+    "hiragana": "うたいます",
+    "kanji": "歌います",
+    "group": "I",
+    "meaning": "sing"
+  },
+  {
+    "hiragana": "あつめます",
+    "kanji": "集めます",
+    "group": "II",
+    "meaning": "collect, gather"
+  },
+  {
+    "hiragana": "すてます",
+    "kanji": "捨てます",
+    "group": "II",
+    "meaning": "throw away"
+  },
+  {
+    "hiragana": "かえます",
+    "kanji": "換えます",
+    "group": "II",
+    "meaning": "exchange, change"
+  },
+  {
+    "hiragana": "うんてんします",
+    "kanji": "運転します",
+    "group": "III",
+    "meaning": "drive"
+  },
+  {
+    "hiragana": "よやくします",
+    "kanji": "予約します",
+    "group": "III",
+    "meaning": "reserve, book"
+  },
+  {
+    "hiragana": "けんがくします",
+    "kanji": "見学します",
+    "group": "III",
+    "meaning": "visit some place for study"
+  },
+  {
+    "hiragana": "ピアノ",
+    "meaning": "piano"
+  },
+  {
+    "hiragana": "-メートル",
+    "meaning": "-meter"
+  },
+  {
+    "hiragana": "こくさい~",
+    "kanji": "国際~",
+    "meaning": "international~"
+  },
+  {
+    "hiragana": "げんきん",
+    "kanji": "現金",
+    "meaning": "cash"
+  },
+  {
+    "hiragana": "しゅみ",
+    "kanji": "趣味",
+    "meaning": "hobby"
+  },
+  {
+    "hiragana": "にっき",
+    "kanji": "日記",
+    "meaning": "diary"
+  },
+  {
+    "hiragana": "[お]いのり",
+    "kanji": "[お]祈り",
+    "meaning": "prayer (~をします: pray)"
+  },
+  {
+    "hiragana": "かちょう",
+    "kanji": "課長",
+    "meaning": "section chief"
+  },
+  {
+    "hiragana": "ぶちょう",
+    "kanji": "部長",
+    "meaning": "department chief"
+  },
+  {
+    "hiragana": "しゃちょう",
+    "kanji": "社長",
+    "meaning": "president of a company"
+  },
+  {
+    "hiragana": "どうぶつ",
+    "kanji": "動物",
+    "meaning": "animal"
+  },
+  {
+    "hiragana": "うま",
+    "kanji": "馬",
+    "meaning": "horse"
+  },
+  {
+    "hiragana": "へえ",
+    "meaning": "Really! (used when expressing surprise)"
+  },
+  {
+    "hiragana": "それはおもしろいですね。",
+    "meaning": "That must be interesting."
+  },
+  {
+    "hiragana": "なかなか",
+    "meaning": "not easily (used with negatives)"
+  },
+  {
+    "hiragana": "ぼくじょう",
+    "kanji": "牧場",
+    "meaning": "ranch, stock farm"
+  },
+  {
+    "hiragana": "ほんとうですか。",
+    "meaning": "Really?"
+  },
+  {
+    "hiragana": "ぜひ",
+    "meaning": "by all means"
+  },
+  {
+    "hiragana": "ビートルズ",
+    "meaning": "the Beatles, famous British music group"
+  }
+]

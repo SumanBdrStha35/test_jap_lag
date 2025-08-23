@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_app/pages/kanji/kanji_details.dart';
 import 'package:flutter_app/pages/kanji/kanji_test.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:logger/logger.dart';
 
 class KanjiLessonPage extends StatefulWidget {
   final int id;
@@ -17,15 +18,16 @@ class KanjiLessonPage extends StatefulWidget {
 }
 
 class _KanjiLessonPageState extends State<KanjiLessonPage> {
-  late Future<List<dynamic>> kanjiListFuture;
+  late Future<List<Map<String, dynamic>>> kanjiListFuture;
   List<dynamic>? _kanjiList;
 
-  Future<List<dynamic>> loadKanjiData() async {
+  Future<List<Map<String, dynamic>>> loadKanjiData() async {
     final String jsonString = await rootBundle.loadString(
-      'assets/json/ak.json',
+      'assets/json/kanji_book1.json',
     );
     final Map<String, dynamic> jsonMap = json.decode(jsonString);
-    return jsonMap[widget.id.toString()]?['kanji'] ?? [];
+    final List<dynamic> kanjis = jsonMap[widget.id.toString()]?['kanjis'] ?? [];
+    return List<Map<String, dynamic>>.from(kanjis);
   }
 
   @override
@@ -120,6 +122,7 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
               );
             } else {
               final List<dynamic> kanjiList = snapshot.data ?? [];
+              Logger().d('Kanji List: $kanjiList');
               if (kanjiList.isEmpty) {
                 return Center(
                   child: Text(

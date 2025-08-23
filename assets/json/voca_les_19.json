@@ -1,0 +1,158 @@
+[
+  {
+    "hiragana": "のぼります [やまに~]",
+    "kanji": "登ります [山に~]",
+    "group": "I",
+    "meaning": "climb [a mountain]"
+  },
+  {
+    "hiragana": "とまります [ホテルに~]",
+    "kanji": "泊まります",
+    "group": "I",
+    "meaning": "stay [at a hotel]"
+  },
+  {
+    "hiragana": "そうじします",
+    "kanji": "掃除します",
+    "group": "III",
+    "meaning": "clean (a room)"
+  },
+  {
+    "hiragana": "せんたくします",
+    "kanji": "洗濯します",
+    "group": "II",
+    "meaning": "wash (clothes)"
+  },
+  {
+    "hiragana": "れんしゅうします",
+    "kanji": "練習します",
+    "group": "III",
+    "meaning": "practice"
+  },
+  {
+    "hiragana": "なります",
+    "group": "I",
+    "meaning": "become"
+  },
+  {
+    "hiragana": "ねむい",
+    "kanji": "眠い",
+    "meaning": "sleepy"
+  },
+  {
+    "hiragana": "つよい",
+    "kanji": "強い",
+    "meaning": "strong"
+  },
+  {
+    "hiragana": "よわい",
+    "kanji": "弱い",
+    "meaning": "weak"
+  },
+  {
+    "hiragana": "ちょうしがいい",
+    "kanji": "調子がいい",
+    "meaning": "be in good condition"
+  },
+  {
+    "hiragana": "ちょうしがわるい",
+    "kanji": "調子が悪い",
+    "meaning": "be in bad condition"
+  },
+  {
+    "hiragana": "ちょうし",
+    "kanji": "調子",
+    "meaning": "condition"
+  },
+  {
+    "hiragana": "ゴルフ",
+    "meaning": "golf (~をします: play golf)"
+  },
+  {
+    "hiragana": "すもう",
+    "kanji": "相撲",
+    "meaning": "sumo wrestling"
+  },
+  {
+    "hiragana": "パチンコ",
+    "meaning": "pinball game (~をします: play pachinko)"
+  },
+  {
+    "hiragana": "おちゃ",
+    "kanji": "お茶",
+    "meaning": "tea ceremony"
+  },
+  {
+    "hiragana": "ひ",
+    "kanji": "日",
+    "meaning": "day, date"
+  },
+  {
+    "hiragana": "いちど",
+    "kanji": "一度",
+    "meaning": "once"
+  },
+  {
+    "hiragana": "いちども",
+    "kanji": "一度も",
+    "meaning": "not once, never (used with negatives)"
+  },
+  {
+    "hiragana": "だんだん",
+    "meaning": "gradually"
+  },
+  {
+    "hiragana": "もうすぐ",
+    "meaning": "soon"
+  },
+  {
+    "hiragana": "おかげさまで",
+    "meaning": "Thank you. (used when expressing gratitude for help received)"
+  },
+  {
+    "hiragana": "かんぱい",
+    "kanji": "乾杯",
+    "meaning": "Bottoms up. / Cheers!"
+  },
+  {
+    "hiragana": "じつは",
+    "kanji": "実は",
+    "meaning": "actually, to tell the truth"
+  },
+  {
+    "hiragana": "ダイエット",
+    "meaning": "diet (~をします: go on a diet)"
+  },
+  {
+    "hiragana": "なんかい",
+    "kanji": "何回も",
+    "meaning": "many times"
+  },
+  {
+    "hiragana": "しかし",
+    "meaning": "but, however"
+  },
+  {
+    "hiragana": "むり [な]",
+    "kanji": "無理 [な]",
+    "meaning": "excessive, impossible"
+  },
+  {
+    "hiragana": "からだ",
+    "kanji": "体",
+    "meaning": "body"
+  },
+  {
+    "hiragana": "からだにいい",
+    "meaning": "good for one's health"
+  },
+  {
+    "hiragana": "ケーキ",
+    "meaning": "cake"
+  },
+  {
+    "hiragana": "かつしかほくさい",
+    "kanji": "葛飾北斎",
+    "meaning": "famous Edo period wood block artist and painter (1760–1849)"
+  }
+]

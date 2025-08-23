@@ -1,0 +1,85 @@
+[
+  {
+    "hiragana": "かんがえます",
+    "kanji": "考えます",
+    "group": "II",
+    "meaning": "think, consider"
+  },
+  {
+    "hiragana": "つきます [えきに~]",
+    "kanji": "着きます [駅に~]",
+    "group": "I",
+    "meaning": "arrive [at the station]"
+  },
+  {
+    "hiragana": "りゅうがくします",
+    "kanji": "留学します",
+    "group": "III",
+    "meaning": "study abroad"
+  },
+  {
+    "hiragana": "とります [としを~]",
+    "kanji": "取ります [年を~]",
+    "group": "I",
+    "meaning": "grow old"
+  },
+  {
+    "hiragana": "いなか",
+    "kanji": "田舎",
+    "meaning": "countryside, hometown"
+  },
+  {
+    "hiragana": "たいしかん",
+    "kanji": "大使館",
+    "meaning": "embassy"
+  },
+  {
+    "hiragana": "グループ",
+    "meaning": "group"
+  },
+  {
+    "hiragana": "チャンス",
+    "meaning": "chance"
+  },
+  {
+    "hiragana": "おく",
+    "kanji": "億",
+    "meaning": "hundred million"
+  },
+  {
+    "hiragana": "もし [~たら]",
+    "meaning": "if"
+  },
+  {
+    "hiragana": "いくら [~ても]",
+    "meaning": "however, even if ~"
+  },
+  {
+    "hiragana": "てんきん",
+    "kanji": "転勤",
+    "meaning": "transfer (~します: be transferred to another office)"
+  },
+  {
+    "hiragana": "こと",
+    "meaning": "thing, matter (~のこと: thing about ~)"
+  },
+  {
+    "hiragana": "いっぱいのみましょう。",
+    "meaning": "Let's have a drink together."
+  },
+  {
+    "hiragana": "[いろいろ]おせわになりました",
+    "kanji": "[いろいろ]お世話になりました",
+    "meaning": "Thank you for everything you have done for me."
+  },
+  {
+    "hiragana": "がんばります",
+    "kanji": "頑張ります",
+    "group": "I",
+    "meaning": "do one's best"
+  },
+  {
+    "hiragana": "どうぞおげんきで。",
+    "meaning": "Best of luck. (said when expecting a long separation)"
+  }
+]
