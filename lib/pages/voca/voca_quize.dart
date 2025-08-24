@@ -147,7 +147,7 @@ class _VocaQuizePageNoun1 extends State<VocaQuizePage> {
     }
   }
 
-  speak(String text) async {
+  Future<void> speak(String text) async {
     try {
       await flutterTts.setLanguage("ja-JP");
       await flutterTts.setSpeechRate(0.5);

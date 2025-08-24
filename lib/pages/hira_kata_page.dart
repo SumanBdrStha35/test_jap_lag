@@ -349,27 +349,33 @@ class HiraKataPage extends StatelessWidget {
     );
   }
 
-  StudyPage({required String type}) {
+  LetterPage StudyPage({required String type}) {
     if (type == 'ひらがな') {
       return LetterPage(title: 'Hiragana');
     } else if (type == 'カタカナ') {
       return LetterPage(title: 'Katakana');
+    } else{
+      throw ArgumentError('Invalid type: $type');
     }
   }
 
-  CharacterTestPage({required String type}) {
+  LetterTest CharacterTestPage({required String type}) {
     if (type == 'ひらがな') {
       return LetterTest(title: 'Hiragana');
     } else if (type == 'カタカナ') {
       return LetterTest(title: 'Katakana');
+    }else{
+      throw ArgumentError('Invalid type: $type');
     }
   }
 
-  WordTestPage({required String type}) {
+  Center WordTestPage({required String type}) {
     if (type == 'ひらがな') {
       return const Center(child: Text('Hiragana Word Test Page'));
     } else if (type == 'カタカナ') {
       return const Center(child: Text('Katakana Word Test Page'));
+    }else{
+      throw ArgumentError('Invalid type: $type');
     }
   }
 }

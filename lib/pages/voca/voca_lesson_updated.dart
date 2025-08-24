@@ -1,8 +1,11 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_app/pages/voca/voca_lesson_detail.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:logger/logger.dart';
 
 class VocaLessonPageUpdate extends StatefulWidget {
   const VocaLessonPageUpdate({super.key});
@@ -11,7 +14,8 @@ class VocaLessonPageUpdate extends StatefulWidget {
   VocaLessonPageState createState() => VocaLessonPageState();
 }
 
-class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProviderStateMixin {
+class VocaLessonPageState extends State<VocaLessonPageUpdate>
+    with TickerProviderStateMixin {
   final Map<int, int> lessonProgress = {};
   late AnimationController _headerAnimationController;
   late ScrollController _scrollController;
@@ -28,7 +32,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
       vsync: this,
     );
     _loadLessonProgress();
-    
+
     _scrollController.addListener(() {
       if (_scrollController.offset > 100) {
         _headerAnimationController.forward();
@@ -47,7 +51,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
 
   Future<void> _loadLessonProgress() async {
     final box = await Hive.openBox('vocaLessonProgress');
-    
+
     setState(() {
       for (var i = 1; i <= 25; i++) {
         lessonProgress[i] = box.get(i) ?? 0;
@@ -75,73 +79,79 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
 
   List<int> get filteredLessons {
     if (_searchQuery.isEmpty) return List.generate(25, (i) => i + 1);
-    return List.generate(25, (i) => i + 1)
-        .where((lesson) => lesson.toString().contains(_searchQuery))
-        .toList();
+    return List.generate(
+      25,
+      (i) => i + 1,
+    ).where((lesson) => lesson.toString().contains(_searchQuery)).toList();
   }
 
   @override
   Widget build(BuildContext context) {
     final lessons = filteredLessons;
-    
+
     return Scaffold(
       extendBodyBehindAppBar: true,
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: NestedScrollView(
         controller: _scrollController,
-        headerSliverBuilder: (context, innerBoxIsScrolled) => [
-          SliverAppBar(
-            expandedHeight: 200,
-            floating: false,
-            pinned: true,
-            stretch: true,
-            flexibleSpace: FlexibleSpaceBar(
-              stretchModes: const [StretchMode.blurBackground],
-              title: AnimatedOpacity(
-                opacity: innerBoxIsScrolled ? 1.0 : 0.0,
-                duration: const Duration(milliseconds: 200),
-                child: const Text('Vocabulary'),
-              ),
-              background: Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [
-                      Theme.of(context).colorScheme.primary,
-                      Theme.of(context).colorScheme.secondary,
-                    ],
+        headerSliverBuilder:
+            (context, innerBoxIsScrolled) => [
+              SliverAppBar(
+                expandedHeight: 200,
+                floating: false,
+                pinned: true,
+                stretch: true,
+                flexibleSpace: FlexibleSpaceBar(
+                  stretchModes: const [StretchMode.blurBackground],
+                  title: AnimatedOpacity(
+                    opacity: innerBoxIsScrolled ? 1.0 : 0.0,
+                    duration: const Duration(milliseconds: 200),
+                    child: const Text('Vocabulary'),
+                  ),
+                  background: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                        colors: [
+                          Theme.of(context).colorScheme.primary,
+                          Theme.of(context).colorScheme.secondary,
+                        ],
+                      ),
+                    ),
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(
+                            Icons.school,
+                            size: 48,
+                            color: Colors.white,
+                          ),
+                          const SizedBox(height: 8),
+                          const Text(
+                            'Master Japanese Vocabulary',
+                            style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                            ),
+                          ),
+                          const SizedBox(height: 4),
+                          Text(
+                            '${lessons.length} lessons • ${(lessons.map((l) => lessonProgress[l] ?? 0).reduce((a, b) => a + b) / lessons.length).toStringAsFixed(0)}% complete',
+                            style: const TextStyle(
+                              fontSize: 14,
+                              color: Colors.white70,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
-                child: Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      const Icon(Icons.school, size: 48, color: Colors.white),
-                      const SizedBox(height: 8),
-                      const Text(
-                        'Master Japanese Vocabulary',
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        '${lessons.length} lessons • ${(lessons.map((l) => lessonProgress[l] ?? 0).reduce((a, b) => a + b) / lessons.length).toStringAsFixed(0)}% complete',
-                        style: const TextStyle(
-                          fontSize: 14,
-                          color: Colors.white70,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
               ),
-            ),
-          ),
-        ],
+            ],
         body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -149,7 +159,9 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
               end: Alignment.bottomCenter,
               colors: [
                 Theme.of(context).colorScheme.surface,
-                Theme.of(context).colorScheme.surfaceContainerHighest.withOpacity(0.5),
+                Theme.of(
+                  context,
+                ).colorScheme.surfaceContainerHighest.withOpacity(0.5),
               ],
             ),
           ),
@@ -182,22 +194,24 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                 ),
               ),
               Expanded(
-                child: _showGrid 
-                  ? _buildGridView(lessons)
-                  : _buildListView(lessons),
+                child:
+                    _showGrid
+                        ? _buildGridView(lessons)
+                        : _buildListView(lessons),
               ),
             ],
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {
-          final randomLesson = (DateTime.now().millisecond % 25) + 1;
-          _navigateToLesson(randomLesson);
-        },
-        icon: const Icon(Icons.shuffle),
-        label: const Text('Random Lesson'),
-      ).animate().scale(),
+      floatingActionButton:
+          FloatingActionButton.extended(
+            onPressed: () {
+              final randomLesson = (DateTime.now().millisecond % 25) + 1;
+              _navigateToLesson(randomLesson);
+            },
+            icon: const Icon(Icons.shuffle),
+            label: const Text('Random Lesson'),
+          ).animate().scale(),
     );
   }
 
@@ -208,9 +222,9 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
       itemBuilder: (context, index) {
         final lessonNumber = lessons[index];
         return _buildModernLessonCard(lessonNumber)
-          .animate()
-          .fadeIn(delay: Duration(milliseconds: index * 50))
-          .slideY(begin: 0.2, end: 0);
+            .animate()
+            .fadeIn(delay: Duration(milliseconds: index * 50))
+            .slideY(begin: 0.2, end: 0);
       },
     );
   }
@@ -228,9 +242,9 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
       itemBuilder: (context, index) {
         final lessonNumber = lessons[index];
         return _buildCompactLessonCard(lessonNumber)
-          .animate()
-          .fadeIn(delay: Duration(milliseconds: index * 30))
-          .scale(begin: const Offset(0.8, 0.8), end: const Offset(1, 1));
+            .animate()
+            .fadeIn(delay: Duration(milliseconds: index * 30))
+            .scale(begin: const Offset(0.8, 0.8), end: const Offset(1, 1));
       },
     );
   }
@@ -267,23 +281,29 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                   height: 60,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: isCompleted 
-                        ? [Colors.green, Colors.lightGreen]
-                        : [color, color.withOpacity(0.7)],
+                      colors:
+                          isCompleted
+                              ? [Colors.green, Colors.lightGreen]
+                              : [color, color.withOpacity(0.7)],
                     ),
                     shape: BoxShape.circle,
                   ),
                   child: Center(
-                    child: isCompleted
-                      ? const Icon(Icons.check, color: Colors.white, size: 30)
-                      : Text(
-                          lessonNumber.toString(),
-                          style: const TextStyle(
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                          ),
-                        ),
+                    child:
+                        isCompleted
+                            ? const Icon(
+                              Icons.check,
+                              color: Colors.white,
+                              size: 30,
+                            )
+                            : Text(
+                              lessonNumber.toString(),
+                              style: const TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
                   ),
                 ),
                 const SizedBox(width: 16),
@@ -299,19 +319,27 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                         ),
                       ),
                       const SizedBox(height: 4),
-                      Text(
-                        'Vocabulary • ${(progress / 100 * 20).toStringAsFixed(0)} words',
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Theme.of(context).colorScheme.onSurfaceVariant,
-                        ),
+                      //get total number of vocavulary base on lesson
+                      FutureBuilder(
+                        future: showVocabCount(lessonNumber),
+                        builder: (context, snapshot) {
+                          if (snapshot.hasData) {
+                            return snapshot.data!;
+                          } else {
+                            return const CircularProgressIndicator();
+                          }
+                        },
                       ),
+                      // showVocabCount(lessonNumber),
                       const SizedBox(height: 12),
                       ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: LinearProgressIndicator(
                           value: progress / 100,
-                          backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+                          backgroundColor:
+                              Theme.of(
+                                context,
+                              ).colorScheme.surfaceContainerHighest,
                           valueColor: AlwaysStoppedAnimation<Color>(color),
                           minHeight: 8,
                         ),
@@ -343,10 +371,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: [
-            color.withOpacity(0.1),
-            color.withOpacity(0.05),
-          ],
+          colors: [color.withOpacity(0.1), color.withOpacity(0.05)],
         ),
       ),
       child: Material(
@@ -364,23 +389,29 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                   height: 50,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: isCompleted 
-                        ? [Colors.green, Colors.lightGreen]
-                        : [color, color.withOpacity(0.7)],
+                      colors:
+                          isCompleted
+                              ? [Colors.green, Colors.lightGreen]
+                              : [color, color.withOpacity(0.7)],
                     ),
                     shape: BoxShape.circle,
                   ),
                   child: Center(
-                    child: isCompleted
-                      ? const Icon(Icons.check, color: Colors.white, size: 24)
-                      : Text(
-                          lessonNumber.toString(),
-                          style: const TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                          ),
-                        ),
+                    child:
+                        isCompleted
+                            ? const Icon(
+                              Icons.check,
+                              color: Colors.white,
+                              size: 24,
+                            )
+                            : Text(
+                              lessonNumber.toString(),
+                              style: const TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
                   ),
                 ),
                 const SizedBox(height: 12),
@@ -398,7 +429,8 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
                   height: 60,
                   child: CircularProgressIndicator(
                     value: progress / 100,
-                    backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+                    backgroundColor:
+                        Theme.of(context).colorScheme.surfaceContainerHighest,
                     valueColor: AlwaysStoppedAnimation<Color>(color),
                     strokeWidth: 4,
                   ),
@@ -421,27 +453,27 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
 
   void _navigateToLesson(int lessonNumber) async {
     HapticFeedback.lightImpact();
-    
+
     final result = await Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (context, animation, secondaryAnimation) =>
-            VocaLessonDetailPage(lessonNumber: lessonNumber),
+        pageBuilder:
+            (context, animation, secondaryAnimation) =>
+                VocaLessonDetailPage(lessonNumber: lessonNumber),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           return SlideTransition(
             position: Tween<Offset>(
               begin: const Offset(1.0, 0.0),
               end: Offset.zero,
-            ).animate(CurvedAnimation(
-              parent: animation,
-              curve: Curves.easeInOut,
-            )),
+            ).animate(
+              CurvedAnimation(parent: animation, curve: Curves.easeInOut),
+            ),
             child: child,
           );
         },
       ),
     );
-    
+
     if (result != null) {
       final id = result['id'] as int?;
       final progress = result['progress'] as int?;
@@ -463,5 +495,29 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate> with TickerProvide
       Colors.pink,
     ];
     return colors[(lessonNumber - 1) % colors.length];
+  }
+
+  Future<Widget> showVocabCount(int lessonNumber) async {
+    String jsonFileName = 'assets/json/voca_les_${lessonNumber}.json';
+    // final String jsonString = rootBundle.loadString(jsonFileName);
+    String jsonString = await rootBundle.loadString(jsonFileName);
+    final List<dynamic> jsonResponse = json.decode(jsonString);
+    Logger().d('Lesson $lessonNumber has ${jsonResponse.length} words');
+    int vocabCount = jsonResponse.length;
+    return Text(
+      'Vocabulary • $vocabCount words',
+      style: TextStyle(
+        fontSize: 14,
+        color: Theme.of(context).colorScheme.onSurfaceVariant,
+      ),
+    );
+
+    // Text(
+    //   'Vocabulary • ${(progress / 100 * 20).toStringAsFixed(0)} words',
+    //   style: TextStyle(
+    //     fontSize: 14,
+    //     color: Theme.of(context).colorScheme.onSurfaceVariant,
+    //   ),
+    // ),
   }
 }

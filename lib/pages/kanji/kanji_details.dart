@@ -105,7 +105,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
     final strokeCount = kanjiData['stroke_count']?.toString() ?? '';
     final examples = kanjiData['examples'] is List ? kanjiData['examples'] : [];
     final sentences =
-        kanjiData['sentances'] is List ? kanjiData['sentances'] : [];
+        kanjiData['sentences'] is List ? kanjiData['sentences'] : [];
 
     return Container(
       decoration: BoxDecoration(
@@ -353,8 +353,8 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                         )
                         : Wrap(
                           alignment: WrapAlignment.center,
-                          spacing: 8,
-                          runSpacing: 8,
+                          spacing: 5,
+                          runSpacing: 5,
                           children: List.generate(kanjiData['gif'].length, (i) {
                             return KanjiStrokeFrame(
                               frameIndex: i + 1,
@@ -409,36 +409,51 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                       ...examples.map<Widget>((example) {
                         return Padding(
                           padding: const EdgeInsets.only(bottom: 16),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                          child: Row(
                             children: [
-                              Text(
-                                example['text'] ?? '',
-                                style: const TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w600,
-                                  height: 1.4,
-                                ),
-                              ),
-                              const SizedBox(height: 6),
-                              Text(
-                                example['meaning'] ?? '',
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.grey.shade700,
-                                  fontStyle: FontStyle.italic,
-                                ),
-                              ),
-                              if (example != examples.last)
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 16),
-                                  child: Divider(
-                                    height: 1,
-                                    color: Colors.grey.shade300,
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    example['text'] ?? '',
+                                    style: const TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w600,
+                                      height: 1.4,
+                                    ),
                                   ),
+                                  const SizedBox(height: 6),
+                                  Text(
+                                    example['meaning'] ?? '',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: Colors.grey.shade700,
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                                  ),
+                                  if (example != examples.last)
+                                    Padding(
+                                      padding: const EdgeInsets.only(top: 16),
+                                      child: Divider(
+                                        height: 1,
+                                        color: Colors.grey.shade300,
+                                      ),
+                                    ),
+                                ],
+                              ).animate().fadeIn().slideY(begin: 0.1, end: 0),
+                              //speaker
+                              const Spacer(),
+                              IconButton(
+                                icon: Icon(
+                                  Icons.volume_up,
+                                  color: Colors.indigo.shade600,
                                 ),
+                                onPressed: () {
+                                  speak(example['text']);
+                                },
+                              ),
                             ],
-                          ).animate().fadeIn().slideY(begin: 0.1, end: 0),
+                          ),
                         );
                       }).toList(),
                     ],
@@ -506,7 +521,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
 
   Widget _buildReadingCard({
     required String title,
-    required String reading,
+    required List<dynamic> reading,
     required Color color,
     required IconData icon,
     required int delay,
@@ -514,11 +529,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
     return InkWell(
       onTap: () {
         //speak the reading part of the kanji
-        FlutterTts flutterTts = FlutterTts();
-        flutterTts.setLanguage("ja-JP");
-        flutterTts.setPitch(1.0);
-        flutterTts.setSpeechRate(0.5);
-        flutterTts.speak(reading);
+        speak(reading.join(", "));
       },
       child: Card(
         elevation: 4,
@@ -544,7 +555,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
               ),
               const SizedBox(height: 12),
               Text(
-                reading,
+                reading.join(", "),
                 style: const TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
@@ -557,5 +568,13 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
         ),
       ).animate().fadeIn(delay: delay.ms).slideY(begin: 0.1, end: 0),
     );
+  }
+
+  void speak(example) {
+    FlutterTts flutterTts = FlutterTts();
+    flutterTts.setLanguage("ja-JP");
+    flutterTts.setPitch(1.0);
+    flutterTts.setSpeechRate(0.5);
+    flutterTts.speak(example);
   }
 }

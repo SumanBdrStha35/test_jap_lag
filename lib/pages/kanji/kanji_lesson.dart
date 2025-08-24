@@ -27,6 +27,7 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
     );
     final Map<String, dynamic> jsonMap = json.decode(jsonString);
     final List<dynamic> kanjis = jsonMap[widget.id.toString()]?['kanjis'] ?? [];
+    Logger().d('Loaded Kanji Data: $kanjis');
     return List<Map<String, dynamic>>.from(kanjis);
   }
 
@@ -137,6 +138,7 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
                 separatorBuilder: (context, index) => SizedBox(height: 12),
                 itemBuilder: (context, index) {
                   final item = kanjiList[index];
+                  Logger().d('Rendering Kanji Item: $item');
                   if (item is Map<String, dynamic>) {
                     return Card(
                       elevation: 3,
@@ -179,7 +181,7 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      item['kanji'] ?? '',
+                                      (item['kanji'] ?? '') as String,
                                       style: TextStyle(
                                         fontSize: 32,
                                         fontWeight: FontWeight.bold,
@@ -229,41 +231,29 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
                                     ),
                                     SizedBox(height: 8),
                                     // Meaning
-                                    Text(
+                                    _buildReadRow(
                                       'Meaning:',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.grey.shade800,
-                                      ),
-                                    ),
-                                    SizedBox(height: 2),
-                                    Text(
-                                      item['meaning'] ?? '',
-                                      style: TextStyle(
-                                        fontSize: 14,
-                                        color: Colors.grey.shade700,
-                                      ),
+                                      (item['meaning'] ?? '') as String,
+                                      Colors.green.shade700,
                                     ),
                                     SizedBox(height: 8),
                                     // Mnemonic
-                                    Text(
+                                    _buildReadRow(
                                       'Mnemonic:',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.grey.shade800,
-                                      ),
+                                      (item['mnemonic'] ?? '') as String,
+                                      Colors.grey.shade700,
                                     ),
-                                    SizedBox(height: 2),
-                                    Text(
-                                      item['mnemonic'] ?? '',
-                                      style: TextStyle(
-                                        fontSize: 14,
-                                        fontStyle: FontStyle.italic,
-                                        color: Colors.grey.shade700,
-                                      ),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
+                                    // SizedBox(height: 2),
+                                    // Text(
+                                    //   (item['mnemonic'] ?? '') as String,
+                                    //   style: TextStyle(
+                                    //     fontSize: 14,
+                                    //     fontStyle: FontStyle.italic,
+                                    //     color: Colors.grey.shade700,
+                                    //   ),
+                                    //   maxLines: 2,
+                                    //   overflow: TextOverflow.ellipsis,
+                                    // ),
                                   ],
                                 ),
                               ),
@@ -284,7 +274,7 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
     );
   }
 
-  Widget _buildReadingRow(String label, String reading, Color color) {
+  Widget _buildReadRow(String label, String value, Color color) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -298,7 +288,29 @@ class _KanjiLessonPageState extends State<KanjiLessonPage> {
         SizedBox(width: 4),
         Flexible(
           child: Text(
-            reading,
+            value,
+            style: TextStyle(color: color, fontWeight: FontWeight.w500),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildReadingRow(String label, List<dynamic> reading, Color color) {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.grey.shade800,
+          ),
+        ),
+        SizedBox(width: 4),
+        Flexible(
+          child: Text(
+            reading.join(", "),
             style: TextStyle(color: color, fontWeight: FontWeight.w500),
           ),
         ),

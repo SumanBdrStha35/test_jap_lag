@@ -13,11 +13,11 @@
                     "onyomi": ["ニチ", "ジツ"]
                 },
                 "examples": [
-                    { "text": "", "meaning": "the sun/ a day"},
+                    { "text": "日 (ひ)", "meaning": "the sun/ a day"},
                     { "text": "日本 (にほん)", "meaning": "Japan" },
                     { "text": "日曜日 (にちようび)", "meaning": "Sunday" },
                     { "text": "今日 (きょう)", "meaning": "today" },
-                    { "text": "", "meaning":"the 3rd day"}
+                    { "text": "日曜日 (にちようび)", "meaning":"the 3rd day"}
                 ],
                 "sentences": [
                     { "text": "今日は　日曜日です。" },
@@ -328,13 +328,13 @@
                     { "text": "火曜日 (かようび)", "meaning": "Tuesday" }
                 ],
                 "sentences": [
-                    { "text": "aaaaaaaaaaaaaaa" },
-                    { "text": "aaaaaaaaaaaaaaa" }
+                    { "text": "火が出ます。" },
+                    { "text": "火曜日に学校があります。" }
                 ],
                 "stroke_count": 4,
                 "image": "assets/kanji/strokes/easy/screencap/火.png",
                 "easy_image": "assets/kanji/strokes/easy/火.png",
-                "mnemonic": "aaaaaaaaaaaaaaaa",
+                "mnemonic": "Looks like flames of a fire",
                 "gif": [
                     "M24.25,34c3.27,3.33,8.5,13,9.5,17.75",
                     "M83,27.25c0.5,1.38,0.22,2.74-0.5,4.25c-2.38,5-7.5,12.12-12.75,17.25",
@@ -628,8 +628,8 @@
                 "reading_romaji": "ichi",
                 "meaning": "One",
                 "readings": {
-                    "kunyomi": "ひと.つ",
-                    "onyomi": "イチ"
+                    "kunyomi": ["ひと.つ"],
+                    "onyomi": ["イチ"]
                 },
                 "examples": [
                     {"text": "一つ (ひとつ)", "meaning": "one (when couting things)"},

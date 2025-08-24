@@ -250,7 +250,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
   
-  weeklyDaysWidget() {
+  Padding weeklyDaysWidget() {
     // Widget to display the weekly days in the required format
     DateTime now = DateTime.now();
     DateTime startOfWeek = now.subtract(Duration(days: now.weekday % 7));

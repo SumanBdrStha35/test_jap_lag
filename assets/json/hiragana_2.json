@@ -37,35 +37,35 @@
             "romaji": "",
             "stroke_count": 3,
             "mnemonic": "",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "み",
             "romaji": "mi",
             "stroke_count": 2,
             "mnemonic": "Who is number 21?  Me!",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "む",
             "romaji": "mu",
             "stroke_count": 3,
             "mnemonic": "Moo!",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "め",
             "romaji": "me",
             "stroke_count": 2,
             "mnemonic": "This bicycle needs a mechanic.",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "も",
             "romaji": "mo",
             "stroke_count": 3,
             "mnemonic": "You can catch more fish with more bait.",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           }
         ],
         "exercise": [
@@ -105,21 +105,21 @@
             "romaji": "ya",
             "stroke_count": 3,
             "mnemonic": "100% wool yarn (and two knitting needles)",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "ゆ",
             "romaji": "yu",
             "stroke_count": 3,
             "mnemonic": "You stabbed the fish!",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "よ",
             "romaji": "yo",
             "stroke_count": 3,
             "mnemonic": "A Yo-yo",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           }
         ],
         "exercise": [
@@ -159,35 +159,35 @@
             "romaji": "ra",
             "stroke_count": 2,
             "mnemonic": "The fan cheered: Rah! Rah! Rah!",
-            "mnemonic_image": "/assets/hiragana/o.jpeg"
+            "mnemonic_image": "assets/hiragana/o.jpeg"
           },
           {
             "hiragana": "り",
             "romaji": "ri",
             "stroke_count": 2,
             "mnemonic": "A ring on your finger.",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "る",
             "romaji": "ru",
             "stroke_count": 1,
             "mnemonic": "Three (3) rubies",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "れ",
             "romaji": "re",
             "stroke_count": 2,
             "mnemonic": "The radio tower was struck by lightning.",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "ろ",
             "romaji": "ro",
             "stroke_count": 1,
             "mnemonic": "The three (3) rubies rolled away!",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           }
         ],
         "exercise": [
@@ -227,21 +227,21 @@
             "romaji": "wa",
             "stroke_count": 3,
             "mnemonic": "A waterfall rushing past a tree",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "を",
             "romaji": "wo",
             "stroke_count": 3,
             "mnemonic": "“Whoa!” calls the cowboy to his horse. ",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           },
           {
             "hiragana": "ん",
             "romaji": "n",
             "stroke_count": 1,
             "mnemonic": "It sounds a bit like the letter “n.”",
-            "mnemonic_image": "/assets/hiragana/a.jpeg"
+            "mnemonic_image": "assets/hiragana/a.jpeg"
           }
         ],
         "exercise": [
