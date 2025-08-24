@@ -185,7 +185,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
-                        color: Colors.indigo.shade900,
+                        color: Colors.indigo.shade700,
                         height: 1.2,
                       ),
                       textAlign: TextAlign.center,
@@ -311,57 +311,66 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          'Stroke Order',
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.indigo.shade800,
-                          ),
-                        ),
-                        IconButton(
-                          icon: Icon(
-                            _showStrokeOrder ? Icons.grid_view : Icons.list,
-                            color: Colors.indigo.shade600,
-                          ),
-                          onPressed: _toggleStrokeOrder,
-                        ),
-                      ],
+                    // Row(
+                    //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    //   children: [
+                    //     Text(
+                    //       'Stroke Order',
+                    //       style: TextStyle(
+                    //         fontSize: 20,
+                    //         fontWeight: FontWeight.bold,
+                    //         color: Colors.indigo.shade800,
+                    //       ),
+                    //     ),
+                    //     IconButton(
+                    //       icon: Icon(
+                    //         _showStrokeOrder ? Icons.grid_view : Icons.list,
+                    //         color: Colors.indigo.shade600,
+                    //       ),
+                    //       onPressed: _toggleStrokeOrder,
+                    //     ),
+                    //   ],
+                    // ),
+                    Text(
+                      'Stroke Order',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.indigo.shade800,
+                      ),
                     ),
                     const SizedBox(height: 12),
-                    _showStrokeOrder
-                        ? GridView.builder(
-                          shrinkWrap: true,
-                          physics: const NeverScrollableScrollPhysics(),
-                          gridDelegate:
-                              const SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 4,
-                                crossAxisSpacing: 8,
-                                mainAxisSpacing: 8,
-                                childAspectRatio: 1,
-                              ),
-                          itemCount: kanjiData['gif'].length,
-                          itemBuilder: (context, index) {
-                            return KanjiStrokeFrame(
-                              frameIndex: index + 1,
-                              gif: kanjiData['gif'],
-                            );
-                          },
-                        )
-                        : Wrap(
-                          alignment: WrapAlignment.center,
-                          spacing: 5,
-                          runSpacing: 5,
-                          children: List.generate(kanjiData['gif'].length, (i) {
-                            return KanjiStrokeFrame(
-                              frameIndex: i + 1,
-                              gif: kanjiData['gif'],
-                            );
-                          }),
-                        ),
+                    // _showStrokeOrder
+                    //     ? GridView.builder(
+                    //       shrinkWrap: true,
+                    //       physics: const NeverScrollableScrollPhysics(),
+                    //       gridDelegate:
+                    //           const SliverGridDelegateWithFixedCrossAxisCount(
+                    //             crossAxisCount: 4,
+                    //             crossAxisSpacing: 8,
+                    //             mainAxisSpacing: 8,
+                    //             childAspectRatio: 1,
+                    //           ),
+                    //       itemCount: kanjiData['gif'].length,
+                    //       itemBuilder: (context, index) {
+                    //         return KanjiStrokeFrame(
+                    //           frameIndex: index + 1,
+                    //           gif: kanjiData['gif'],
+                    //         );
+                    //       },
+                    //     )
+                    //     :
+                    Wrap(
+                      alignment: WrapAlignment.start,
+                      spacing: 5,
+                      runSpacing: 5,
+                      children: List.generate(kanjiData['gif'].length, (i) {
+                        return KanjiStrokeFrame(
+                          frameIndex: i + 1,
+                          gif: kanjiData['gif'],
+                        );
+                      }),
+                    ),
                   ],
                 ),
               ),

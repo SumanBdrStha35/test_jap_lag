@@ -191,7 +191,7 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            Expanded(
+                            Flexible(
                               child: Text(
                                 word['hiragana'] ?? '',
                                 style: const TextStyle(
@@ -200,13 +200,14 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
                                   color: Colors.blueAccent,
                                 ),
                                 overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
+                                maxLines: 2,
                               ).animate().fadeIn(
                                 duration: const Duration(milliseconds: 500),
                                 delay: Duration(milliseconds: 100 * index),
                               ),
                             ),
-                            if (word['group'] != null && word['group']!.isNotEmpty)
+                            if (word['group'] != null &&
+                                word['group']!.isNotEmpty)
                               Padding(
                                 padding: const EdgeInsets.only(left: 8),
                                 child: Text(
@@ -243,13 +244,13 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.blue[100],
+                      color: Colors.lightBlueAccent,
                       shape: BoxShape.circle,
                     ),
                     child: IconButton(
                       icon: const Icon(
                         Icons.volume_up,
-                        color: Colors.blueAccent,
+                        color: Colors.pinkAccent,
                       ),
                       onPressed: () => startSpeak(word['hiragana'] ?? ''),
                     ),
@@ -259,42 +260,73 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
                   ),
                 ],
               ),
-              const SizedBox(height: 16),
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Colors.grey[100],
-                  borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: Colors.grey[300]!, width: 1),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Meaning:',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.grey[700],
-                      ),
+              const SizedBox(height: 10),
+              //meaning
+              Row(
+                // crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text(
+                    'Meaning:',
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey[700],
                     ),
-                    const SizedBox(height: 4),
-                    Text(
+                  ),
+                  const SizedBox(width: 4),
+                  Flexible(
+                    child: Text(
                       word['meaning'] ?? '',
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w600,
-                        color: Colors.black87,
+                        color: Color.fromARGB(221, 255, 132, 239),
                       ),
                       overflow: TextOverflow.ellipsis,
-                      maxLines: 2,
+                      maxLines: 5,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ).animate().fadeIn(
                 duration: const Duration(milliseconds: 600),
                 delay: Duration(milliseconds: 100 * index),
               ),
+              // Container(
+              //   padding: const EdgeInsets.all(12),
+              //   decoration: BoxDecoration(
+              //     color: Colors.grey[100],
+              //     borderRadius: BorderRadius.circular(12),
+              //     border: Border.all(color: Colors.grey[300]!, width: 1),
+              //   ),
+              //   child: Column(
+              //     crossAxisAlignment: CrossAxisAlignment.start,
+              //     children: [
+              //       Text(
+              //         'Meaning:',
+              //         style: TextStyle(
+              //           fontSize: 14,
+              //           fontWeight: FontWeight.bold,
+              //           color: Colors.grey[700],
+              //         ),
+              //       ),
+              //       const SizedBox(height: 4),
+              //       Text(
+              //         word['meaning'] ?? '',
+              //         style: const TextStyle(
+              //           fontSize: 18,
+              //           fontWeight: FontWeight.w600,
+              //           color: Colors.black87,
+              //         ),
+              //         overflow: TextOverflow.ellipsis,
+              //         maxLines: 2,
+              //       ),
+              //     ],
+              //   ),
+              // ).animate().fadeIn(
+              //   duration: const Duration(milliseconds: 600),
+              //   delay: Duration(milliseconds: 100 * index),
+              // ),
               if ((word['desc'] ?? '').isNotEmpty) ...[
                 const SizedBox(height: 12),
                 Container(
