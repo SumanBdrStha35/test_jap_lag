@@ -62,14 +62,6 @@ class LessonTest extends StatelessWidget {
                   children: [
                     _buildLessonCard(
                       context,
-                      'Greetings',
-                      'Start with essential Japanese greetings',
-                      Icons.waving_hand,
-                      const Color(0xFFFF6B6B),
-                      const FallingLeavesSpring(),
-                    ),
-                    _buildLessonCard(
-                      context,
                       'Vocabulary',
                       'Daily phrases & common expressions',
                       Icons.menu_book,
@@ -83,6 +75,14 @@ class LessonTest extends StatelessWidget {
                       Icons.psychology,
                       const Color(0xFF667EEA),
                       const GramPage(title: "Grammar", selectedIndex: 2,),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Counter Suffixes',
+                      'Learn Japanese counting',
+                      Icons.numbers_outlined,
+                      const Color(0xFFFF6B6B),
+                      const FallingLeavesSpring(),
                     ),
                     _buildLessonCard(
                       context,

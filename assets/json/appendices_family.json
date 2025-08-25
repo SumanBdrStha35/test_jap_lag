@@ -1,0 +1,20 @@
+{
+    "family": [
+        { "key": "1", "name": "そば", "meaning": "grandmother (おばあさん)" },
+        { "key": "2", "name": "そふ", "meaning": "grandfather (おじいさん)" },
+        { "key": "3", "name": "はは", "meaning": "mother (おかあさん)" },
+        { "key": "4", "name": "ちち", "meaning": "father (おとうさん)" },
+        { "key": "5", "name": "あに", "meaning": "elder brother (おにいさん)" },
+        { "key": "6", "name": "あね", "meaning": "elder sister (おねえさん)" },
+        { "key": "7", "name": "いもうと", "meaning": "younger sister (いもうとさん)" },
+        { "key": "8", "name": "おとうと", "meaning": "younger brother (おとうとさん)" },
+        { "key": "9", "name": "おじ", "meaning": "uncle (おじさん)" },
+        { "key": "10", "name": "きょうだい", "meaning": "siblings (brothers and sisters)" },
+        { "key": "11", "name": "りょうしん", "meaning": "parents" },
+        { "key": "12", "name": "こども", "meaning": "children" },
+        { "key": "13", "name": "ひとり", "meaning": "one person" },
+        { "key": "14", "name": "ふたり", "meaning": "two persons" },
+        { "key": "15", "name": "いません", "meaning": "no person" },
+        { "key": "16", "name": "〜にん", "meaning": "counter for 3–10 persons" }
+    ]
+}

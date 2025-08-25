@@ -1,0 +1,26 @@
+{
+  "body_parts": [
+    { "key": "1", "name": "あたま", "meaning": "head" },
+    { "key": "2", "name": "かみ", "meaning": "hair" },
+    { "key": "3", "name": "め", "meaning": "eye" },
+    { "key": "4", "name": "みみ", "meaning": "ear" },
+    { "key": "5", "name": "はな", "meaning": "nose" },
+    { "key": "6", "name": "くち", "meaning": "mouth" },
+    { "key": "7", "name": "は", "meaning": "teeth" },
+    { "key": "8", "name": "した", "meaning": "tongue" },
+    { "key": "9", "name": "かお", "meaning": "face" },
+    { "key": "10", "name": "くび", "meaning": "neck" },
+    { "key": "11", "name": "のど", "meaning": "throat" },
+    { "key": "12", "name": "ゆび", "meaning": "fingers" },
+    { "key": "13", "name": "て", "meaning": "hand" },
+    { "key": "14", "name": "うで", "meaning": "arm" },
+    { "key": "15", "name": "ひじ", "meaning": "elbow" },
+    { "key": "16", "name": "かた", "meaning": "shoulder" },
+    { "key": "17", "name": "むね", "meaning": "chest/breast" },
+    { "key": "18", "name": "せなか", "meaning": "back (of the body)" },
+    { "key": "19", "name": "おなか", "meaning": "stomach/belly" },
+    { "key": "20", "name": "あしり", "meaning": "bottom" },
+    { "key": "21", "name": "ひざ", "meaning": "knee" },
+    { "key": "22", "name": "あし", "meaning": "leg/foot" }
+  ]
+}

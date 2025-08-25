@@ -1,0 +1,18 @@
+{
+    "colors": [
+        { "key": "1", "name": "くろ", "meaning": "black" },
+        { "key": "2", "name": "あか", "meaning": "red" },
+        { "key": "3", "name": "きいろ", "meaning": "yellow" },
+        { "key": "4", "name": "しろ", "meaning": "white" },
+        { "key": "5", "name": "あおい", "meaning": "blue" },
+        { "key": "6", "name": "ちゃいろ", "meaning": "brown" },
+        { "key": "7", "name": "みどり", "meaning": "green" },
+        { "key": "8", "name": "はいいろ", "meaning": "gray" },
+        { "key": "9", "name": "きんいろ", "meaning": "gold" },
+        { "key": "10", "name": "ぎんいろ", "meaning": "silver" },
+        { "key": "11", "name": "むらさき", "meaning": "purple" },
+        { "key": "12", "name": "みずいろ", "meaning": "light blue" },
+        { "key": "13", "name": "ピンク", "meaning": "pink" },
+        { "key": "14", "name": "オレンジ", "meaning": "orange" }
+    ]
+}
