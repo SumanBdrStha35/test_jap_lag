@@ -1,0 +1,110 @@
+[
+  {
+    "title": "N (place) へ 行きます / 来ます / 帰ります",
+    "explanation": "When a verb indicates movement to a certain place, the particle へ is used after the place noun to show the direction. It is pronounced え.",
+    "examples": [
+      {
+        "japanese": "京都へ行きます。",
+        "english": "I will go to Kyoto."
+      },
+      {
+        "japanese": "日本へ来ました。",
+        "english": "I came to Japan."
+      },
+      {
+        "japanese": "うちへ帰ります。",
+        "english": "I will go home."
+      }
+    ]
+  },
+  {
+    "title": "どこへも 行きません / 行きませんでした",
+    "explanation": "When an interrogative takes a particle and the verb is negative, it denies all possibilities.",
+    "examples": [
+      {
+        "japanese": "どこへも行きません。",
+        "english": "I don’t go anywhere."
+      },
+      {
+        "japanese": "何も食べません。",
+        "english": "I don’t eat anything."
+      },
+      {
+        "japanese": "だれもいません。",
+        "english": "Nobody is there."
+      }
+    ]
+  },
+  {
+    "title": "N (vehicle) で 行きます / 来ます / 帰ります",
+    "explanation": "The particle で indicates a means or method. With verbs of movement, it marks the vehicle used. For walking, use あるいて without で.",
+    "examples": [
+      {
+        "japanese": "電車で行きます。",
+        "english": "I’ll go by train."
+      },
+      {
+        "japanese": "タクシーで来ました。",
+        "english": "I came by taxi."
+      },
+      {
+        "japanese": "駅から歩いて帰りました。",
+        "english": "I walked home from the station."
+      }
+    ]
+  },
+  {
+    "title": "N (person/animal) と V",
+    "explanation": "The particle と is used when doing something together with a person or animal. To say 'alone,' use ひとりで (without と).",
+    "examples": [
+      {
+        "japanese": "家族と日本へ来ました。",
+        "english": "I came to Japan with my family."
+      },
+      {
+        "japanese": "一人で東京へ行きます。",
+        "english": "I’ll go to Tokyo alone."
+      }
+    ]
+  },
+  {
+    "title": "いつ",
+    "explanation": "いつ (when) is used to ask about time. Unlike なんじ or なんにち, it does not take に.",
+    "examples": [
+      {
+        "japanese": "いつ日本へ来ましたか。",
+        "english": "When did you come to Japan?",
+        "answer": {
+          "japanese": "3月25日に来ました。",
+          "english": "I came on March 25th."
+        }
+      },
+      {
+        "japanese": "いつ広島へ行きますか。",
+        "english": "When will you go to Hiroshima?",
+        "answer": {
+          "japanese": "来週行きます。",
+          "english": "I’ll go there next week."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Sよ",
+    "explanation": "よ is attached to the end of a sentence to emphasize information the listener doesn’t know, or to state your judgement assertively.",
+    "examples": [
+      {
+        "japanese": "この電車は甲子園へ行きますか。",
+        "english": "Does this train go to Koshien?",
+        "answer": {
+          "japanese": "いいえ、行きません。次の普通ですよ。",
+          "english": "No, it doesn’t. The next local train does."
+        }
+      },
+      {
+        "japanese": "無理なダイエットは体によくないですよ。",
+        "english": "Excessive dieting is bad for your health."
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Past Tense of Noun and な-Adjective Sentences",
+    "explanation": "Nouns and な-adjectives change with でした (past affirmative) and じゃありませんでした (past negative).",
+    "examples": [
+      {"japanese": "きのうは雨でした。", "english": "It was rainy yesterday."},
+      {"japanese": "きのうの試験は簡単じゃありませんでした。", "english": "Yesterday's exam was not easy."}
+    ]
+  },
+  {
+    "title": "Past Tense of い-Adjective Sentences",
+    "explanation": "い-adjectives change by replacing い with かったです (past affirmative) or くなかったです (past negative).",
+    "examples": [
+      {"japanese": "きのうは暑かったです。", "english": "It was hot yesterday."},
+      {"japanese": "きのうのパーティーはあまり楽しくなかったです。", "english": "I didn't enjoy yesterday's party very much."}
+    ]
+  },
+  {
+    "title": "N1はN2より adjective です",
+    "explanation": "This sentence pattern describes the quality and/or state of N1 in comparison with N2.",
+    "examples": [
+      {"japanese": "この車はあの車より大きいです。", "english": "This car is bigger than that car."}
+    ]
+  },
+  {
+    "title": "N1とN2とどちらが adjective ですか ･･･N1/N2のほうが adjective です",
+    "explanation": "Used to ask the listener to choose between two items. Answer with N1/N2のほうが～です.",
+    "examples": [
+      {"japanese": "サッカーと野球とどちらがおもしろいですか。", "english": "Which is more interesting, baseball or football?"},
+      {"japanese": "･･･サッカーのほうがおもしろいです。", "english": "Football is."},
+      {"japanese": "ミラーさんとサントスさんとどちらがテニスが上手ですか。", "english": "Who is a better tennis player, Mr. Miller or Mr. Santos?"},
+      {"japanese": "北海道と大阪とどちらが涼しいですか。", "english": "Which is cooler, Hokkaido or Osaka?"},
+      {"japanese": "春と秋とどちらが好きですか。", "english": "Which do you like better, spring or autumn?"}
+    ]
+  },
+  {
+    "title": "N1[の中]で {なに(何)/どこ/だれ/いつ} がいちばん adjective ですか ･･･N2がいちばん adjective です",
+    "explanation": "Used to ask what/who/where/when is the most 'adjective' within a group (N1の中で). Interrogatives are followed by が.",
+    "examples": [
+      {"japanese": "日本料理の中で何がいちばんおいしいですか。", "english": "Among Japanese dishes, what is the most delicious?"},
+      {"japanese": "･･･てんぷらがいちばんおいしいです。", "english": "...Tempura is."},
+      {"japanese": "ヨーロッパでどこがいちばんよかったですか。", "english": "In Europe, where did you like best?"},
+      {"japanese": "･･･スイスがいちばんよかったです。", "english": "...I liked Switzerland best."},
+      {"japanese": "家族でだれがいちばん背が高いですか。", "english": "Who is the tallest in your family?"},
+      {"japanese": "･･･弟がいちばん背が高いです。", "english": "...My younger brother is."},
+      {"japanese": "1年でいつがいちばん寒いですか。", "english": "When is the coldest time of the year?"},
+      {"japanese": "･･･2月がいちばん寒いです。", "english": "...It's coldest in February."}
+    ]
+  }
+]

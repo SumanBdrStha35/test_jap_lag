@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Nは な-adj [な] です / Nは い-adj (~い) です",
+    "explanation": "です shows politeness at the end of an adjective sentence. な-adjectives appear before です without な, while い-adjectives keep their い before です.",
+    "subpoints": [
+      {
+        "title": "Nは な-adj [な] です / Nは い-adj (~い) です",
+        "examples": [
+          {
+            "japanese": "ワット先生は親切です。",
+            "english": "Mr. Watt is kind."
+          },
+          {
+            "japanese": "富士山は高いです。",
+            "english": "Mt. Fuji is high."
+          }
+        ]
+      },
+      {
+        "title": "な-adj → な-adj [な] じゃありません (ではありません)",
+        "examples": [
+          {
+            "japanese": "あそこは静かじゃありません。",
+            "english": "It's not quiet there."
+          }
+        ]
+      },
+      {
+        "title": "い-adj (~い) → ~くないです",
+        "examples": [
+          {
+            "japanese": "この本はおもしろくないです。",
+            "english": "This book is not interesting."
+          },
+          {
+            "note": "The negative of いいです is よくないです."
+          }
+        ]
+      },
+      {
+        "title": "Questions with Adjectives",
+        "examples": [
+          {
+            "japanese": "ペキンは寒いですか。",
+            "english": "Is it cold in Beijing?",
+            "answers": [
+              {
+                "japanese": "はい、寒いです。",
+                "english": "Yes, it is."
+              }
+            ]
+          },
+          {
+            "japanese": "琵琶湖の水はきれいですか。",
+            "english": "Is the water of Lake Biwa clean?",
+            "answers": [
+              {
+                "japanese": "いいえ、きれいじゃありません。",
+                "english": "No, it isn’t."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "な-adj な N / い-adj(~い) N",
+    "explanation": "な-adjectives require な before a noun. い-adjectives directly modify nouns.",
+    "examples": [
+      {
+        "japanese": "ワット先生は親切な先生です。",
+        "english": "Mr. Watt is a kind teacher."
+      },
+      {
+        "japanese": "富士山は高い山です。",
+        "english": "Mt. Fuji is a high mountain."
+      }
+    ]
+  },
+  {
+    "title": "とても / あまり",
+    "explanation": "とても (very) is used in affirmative sentences. あまり (not very) is used with negative sentences.",
+    "examples": [
+      {
+        "japanese": "ペキンはとても寒いです。",
+        "english": "Beijing is very cold."
+      },
+      {
+        "japanese": "これはとても有名な映画です。",
+        "english": "This is a very famous movie."
+      },
+      {
+        "japanese": "シャンハイはあまり寒くないです。",
+        "english": "Shanghai is not very cold."
+      },
+      {
+        "japanese": "さくら大学はあまり有名な大学じゃありません。",
+        "english": "Sakura University is not a very famous university."
+      }
+    ]
+  },
+  {
+    "title": "N はどうですか",
+    "explanation": "Used to ask an impression or opinion about something the listener has experienced, visited, or met.",
+    "examples": [
+      {
+        "japanese": "日本の生活はどうですか。",
+        "english": "How is life in Japan?",
+        "answer": {
+          "japanese": "楽しいです。",
+          "english": "It’s enjoyable."
+        }
+      }
+    ]
+  },
+  {
+    "title": "N1 はどんな N2 ですか",
+    "explanation": "Used when asking the listener to describe or explain something. どんな is always followed by a noun.",
+    "examples": [
+      {
+        "japanese": "奈良はどんな町ですか。",
+        "english": "What kind of town is Nara?",
+        "answer": {
+          "japanese": "古い町です。",
+          "english": "It’s an old town."
+        }
+      }
+    ]
+  },
+  {
+    "title": "S1 が、S2",
+    "explanation": "が is a conjunctive particle meaning 'but' used to link sentences.",
+    "examples": [
+      {
+        "japanese": "日本の食べ物はおいしいですが、高いです。",
+        "english": "Japanese food is good, but expensive."
+      }
+    ]
+  },
+  {
+    "title": "どれ",
+    "explanation": "Used to ask the listener to choose or identify one from more than two options shown or named.",
+    "examples": [
+      {
+        "japanese": "ミラーさんの傘はどれですか。",
+        "english": "Which is Mr. Miller’s umbrella?",
+        "answer": {
+          "japanese": "あの青い傘です。",
+          "english": "That blue one."
+        }
+      }
+    ]
+  }
+]

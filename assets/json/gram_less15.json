@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Vて-formもいいです ( May I do...? / You may do... )",
+    "explanation": "This expression is used to grant permission. The question form is used to ask for permission. When refusing, a euphemistic answer is often given.",
+    "examples": [
+      {"japanese": "写真を撮ってもいいです。", "english": "You may take pictures."},
+      {"japanese": "たばこを吸ってもいいですか。", "english": "May I smoke?"},
+      {"japanese": "このカタログをもらってもいいですか。", "english": "May I have this catalogue?"},
+      {"japanese": "･･･ええ、いいですよ。どうぞ。", "english": "...Yes. Here you are."},
+      {"japanese": "･･･すみません。ちょっと。", "english": "Sorry. I'm afraid not."}
+    ]
+  },
+  {
+    "title": "Vて-formはいけません ( You must not do... )",
+    "explanation": "This pattern is used to express prohibition. To strongly refuse permission, reply with いいえ、いけません. This expression should not be used by an inferior to a superior.",
+    "examples": [
+      {"japanese": "ここでたばこを吸ってはいけません。禁煙ですから。", "english": "You must not smoke here. Because this is a no-smoking area."},
+      {"japanese": "先生、ここで遊んでもいいですか。", "english": "May we play here, Ma'am?"},
+      {"japanese": "･･･いいえ、いけません。", "english": "No, you must not."}
+    ]
+  },
+  {
+    "title": "Vて-form います ( State from Past Action )",
+    "explanation": "In addition to expressing ongoing actions, Vて-form います is used to describe a continuing state resulting from a past action.",
+    "examples": [
+      {"japanese": "わたしは結婚しています。", "english": "I'm married."},
+      {"japanese": "わたしは田中さんを知っています。", "english": "I know Mr. Tanaka."},
+      {"japanese": "わたしは大阪に住んでいます。", "english": "I live in Osaka."},
+      {"japanese": "わたしはカメラを持っています。", "english": "I have a camera."}
+    ]
+  },
+  {
+    "title": "Vて-form います ( Habitual Action )",
+    "explanation": "Vて-form います can also describe habitual actions that occur repeatedly. It is also used to express one's occupation or regular activity.",
+    "examples": [
+      {"japanese": "IMCはコンピューターソフトを作っています。", "english": "IMC makes computer software."},
+      {"japanese": "スーパーでフィルムを売っています。", "english": "Supermarkets sell films."},
+      {"japanese": "ミラーさんはIMCで働いています。", "english": "Mr. Miller works for IMC."},
+      {"japanese": "妹は大学で勉強しています。", "english": "My younger sister is studying at university."}
+    ]
+  },
+  {
+    "title": "知りません",
+    "explanation": "The negative form of しっています (to know) is しりません (do not know).",
+    "examples": [
+      {"japanese": "市役所の電話番号を知っていますか。", "english": "Do you know the telephone number of the city hall?"},
+      {"japanese": "･･･はい、知っています。", "english": "...Yes, I do."},
+      {"japanese": "･･･いいえ、知りません。", "english": "...No, I don't."}
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "title": "V dictionary form / V ない-form / い-adj (~い) / な-adjな / Nの } とき、~ ( When.. )",
+    "explanation": "とき connects two sentences and expresses the time when the state or action described in the main sentence exists or occurs. The form used before とき is the same as when modifying nouns.",
+    "examples": [
+      {"japanese": "図書館で本を借りるとき、カードが要ります。", "english": "When you borrow books from the library, you need a card."},
+      {"japanese": "使い方がわからないとき、わたしに聞いてください。", "english": "When you don't know how to use it, ask me."},
+      {"japanese": "体の調子が悪いとき、『元気茶』を飲みます。", "english": "When I'm not in good shape, I drink 'Genki-cha.'"},
+      {"japanese": "暇なとき、うちへ遊びに来ませんか。", "english": "Won't you come to my place when you are free?"},
+      {"japanese": "妻が病気のとき、会社を休みます。", "english": "When my wife is sick, I take a day off work."},
+      {"japanese": "若いとき、あまり勉強しませんでした。", "english": "When I was young, I did not study much."},
+      {"japanese": "子どものとき、よく川で泳ぎました。", "english": "I used to swim in a river when I was a child."}
+    ]
+  },
+  {
+    "title": "V dictionary form / Vた-form } とき ~",
+    "explanation": "When the dictionary form is used before とき, it indicates the action has not yet been completed. When the た-form is used, it indicates the action has already been completed.",
+    "examples": [
+      {"japanese": "国へ帰るとき、かばんを買いました。", "english": "I bought a bag when I went back to my country. (before arriving)"},
+      {"japanese": "国へ帰ったとき、かばんを買いました。", "english": "I bought a bag when I went back to my country. (after arriving)"}
+    ]
+  },
+  {
+    "title": "V dictionary form と (then, inevitably...)",
+    "explanation": "と is used when one action inevitably leads to another. Expressions of will, hope, invitation, or request cannot follow this usage.",
+    "examples": [
+      {"japanese": "このボタンを押すと、お釣りが出ます。", "english": "Press this button, and the change will come out."},
+      {"japanese": "これを回すと、音が大きくなります。", "english": "Turn this, and the volume will go up."},
+      {"japanese": "右へ曲がると、郵便局があります。", "english": "Turn to the right, and you will find the post office."}
+    ],
+    "notes": [
+      "Expressions like will, hope, invitation, or request cannot follow と.",
+      "Use たら instead in such cases."
+    ]
+  },
+  {
+    "title": "Nが adjective / V",
+    "explanation": "が is used as the subject marker when describing natural phenomena, states, or scenes.",
+    "examples": [
+      {"japanese": "音が小さいです。", "english": "The volume is low."},
+      {"japanese": "電気が明るくなりました。", "english": "The light became brighter."},
+      {"japanese": "このボタンを押すと、切符が出ます。", "english": "Press this button, and a ticket will come out."}
+    ]
+  },
+  {
+    "title": "N (place) を V (verb of movement)",
+    "explanation": "The particle を is used to denote the place where a person or a thing passes. Common verbs are 散歩します、渡ります、歩きます、曲がります, etc.",
+    "examples": [
+      {"japanese": "公園を散歩します。", "english": "I take a walk in the park."},
+      {"japanese": "道を渡ります。", "english": "I cross the road."},
+      {"japanese": "交差点を右へ曲がります。", "english": "I turn to the right at the intersection."}
+    ]
+  }
+]

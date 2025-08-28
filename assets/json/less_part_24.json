@@ -1,0 +1,14 @@
+{
+  "title": { "hiragana": "ぞうとうのしゅうかん", "kanji": "贈答の習慣", "english": "Exchange of Presents" },
+  "items": [
+    { "hiragana": "おとしだま", "kanji": "お年玉", "english": "Small gift of money given by parents and relatives to children on New Year's Day" },
+    { "hiragana": "にゅうがくいわい", "kanji": "入学祝い", "english": "Gift celebrating admission to schools" },
+    { "hiragana": "そつぎょういわい", "kanji": "卒業祝い", "english": "Graduation gift (money, stationery, book, etc.)" },
+    { "hiragana": "けっこんいわい", "kanji": "結婚祝い", "english": "Wedding gift (money, household goods, etc.)" },
+    { "hiragana": "しゅっさんいわい", "kanji": "出産祝い", "english": "Gift celebrating a birth (baby clothes, toys, etc.)" },
+    { "hiragana": "おちゅうげん", "kanji": "お中元", "english": "Gift given in July or August to someone you are indebted to (doctor, teacher, boss, etc.)" },
+    { "hiragana": "おせいぼ", "kanji": "お歳暮", "english": "Gift given in December to someone you are indebted to (doctor, teacher, boss, etc.)" },
+    { "hiragana": "こうでん", "kanji": "お香典", "english": "Condolence money" },
+    { "hiragana": "おみまい", "kanji": "お見舞い", "english": "Present given when visiting a sick person (flowers, fruits, etc.)" }
+  ]
+}

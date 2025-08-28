@@ -1,0 +1,24 @@
+{
+  "title": { "hiragana": "まつりとめいしょ", "kanji": "祭りと名所", "english": "Festivals & Places of Note" },
+  "places": [
+    { "hiragana": "ろくおんじ", "kanji": "鹿苑寺（金閣寺）", "english": "Rokuonji (Kinkaku-ji / Golden Pavilion)" },
+    { "hiragana": "ひめじじょう", "kanji": "姫路城", "english": "Himeji Castle" },
+    { "hiragana": "げんばくドーム", "kanji": "原爆ドーム", "english": "Atomic Bomb Dome (Hiroshima Peace Memorial)" },
+    { "hiragana": "ひろしま", "kanji": "広島", "english": "Hiroshima" },
+    { "hiragana": "ひめじ", "kanji": "姫路", "english": "Himeji" },
+    { "hiragana": "おおさか", "kanji": "大阪", "english": "Osaka" },
+    { "hiragana": "なら", "kanji": "奈良", "english": "Nara" },
+    { "hiragana": "にっこう", "kanji": "日光", "english": "Nikkō" },
+    { "hiragana": "ふじさん", "kanji": "富士山", "english": "Mount Fuji" },
+    { "hiragana": "とうしょうぐう", "kanji": "東照宮", "english": "Tōshō-gū Shrine" },
+    { "hiragana": "こうきょ", "kanji": "皇居", "english": "Imperial Palace (Tokyo)" },
+    { "hiragana": "とうきょう", "kanji": "東京", "english": "Tokyo" },
+    { "hiragana": "きょうと", "kanji": "京都", "english": "Kyoto" },
+    { "hiragana": "とうだいじ・だいぶつ", "kanji": "東大寺・大仏", "english": "Tōdaiji Temple & Great Buddha (Nara)" }
+  ],
+  "festivals": [
+    { "hiragana": "ぎおんまつり", "kanji": "祇園祭", "english": "Gion Festival (Kyoto)" },
+    { "hiragana": "てんじんまつり", "kanji": "天神祭", "english": "Tenjin Festival (Osaka)" },
+    { "hiragana": "かんだまつり", "kanji": "神田祭", "english": "Kanda Festival (Tokyo)" }
+  ]
+}

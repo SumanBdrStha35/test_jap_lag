@@ -48,7 +48,7 @@ class LessonTest extends StatelessWidget {
                   ],
                 ),
               ),
-              
+
               // Main Content - Grid Section
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -74,7 +74,35 @@ class LessonTest extends StatelessWidget {
                       'Master Japanese sentence structure',
                       Icons.psychology,
                       const Color(0xFF667EEA),
-                      const GramPage(title: "Grammar", selectedIndex: 2,),
+                      const GramPage(title: "Grammar", selectedIndex: 2),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              // Subheader for Small Lessons
+              Text(
+                "Small lessons parts!",
+                style: TextStyle(fontSize: 12, color: Colors.grey),
+              ),
+              SizedBox(height: 5),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: GridView.count(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 16,
+                  mainAxisSpacing: 16,
+                  childAspectRatio: 0.85, // Adjusted ratio for better fit
+                  children: [
+                    _buildLessonCard(
+                      context,
+                      'Greetings',
+                      'Learn common Japanese greetings',
+                      Icons.handshake_outlined,
+                      const Color(0xFFFF6B6B),
+                      const FallingLeavesSpring(),
                     ),
                     _buildLessonCard(
                       context,
@@ -95,7 +123,6 @@ class LessonTest extends StatelessWidget {
                   ],
                 ),
               ),
-              
               const SizedBox(height: 32),
             ],
           ),
@@ -113,10 +140,11 @@ class LessonTest extends StatelessWidget {
     Widget page,
   ) {
     return GestureDetector(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => page),
-      ),
+      onTap:
+          () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => page),
+          ),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,

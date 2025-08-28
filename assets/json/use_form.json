@@ -1,0 +1,87 @@
+{
+  "ます-form": {
+    "patterns": [
+      { "pattern": "ます-formませんか", "sentence": "Won't you have some tea with me?", "lesson": 6 },
+      { "pattern": "ます-formましょう", "sentence": "Let's meet at five.", "lesson": 6 },
+      { "pattern": "ます-formたいです", "sentence": "I want to buy a camera.", "lesson": 13 },
+      { "pattern": "ます-formにいきます", "sentence": "I go to see a movie.", "lesson": 13 },
+      { "pattern": "ます-formましょうか", "sentence": "Shall I call a taxi for you?", "lesson": 14 }
+    ]
+  },
+  "て-form": {
+    "patterns": [
+      { "pattern": "くださいて-form", "sentence": "Please lend me your ballpoint pen.", "lesson": 14 },
+      { "pattern": "て-form います", "sentence": "Ms. Sato is now talking with Mr. Miller.", "lesson": 14 },
+      { "pattern": "て-form います", "sentence": "Maria lives in Osaka.", "lesson": 15 },
+      { "pattern": "て-formもいいです", "sentence": "May I smoke?", "lesson": 15 },
+      { "pattern": "て-formはいけません", "sentence": "Don't take photographs in the museum.", "lesson": 15 },
+      { "pattern": "て-formから", "sentence": "After I finish work, I go swimming.", "lesson": 16 },
+      { "pattern": "て-form、て-form", "sentence": "In the morning, I go jogging, take a shower, then go to the office.", "lesson": 16 },
+      { "pattern": "て-form あげます", "sentence": "I lend a CD to Mr. Miller.", "lesson": 24 },
+      { "pattern": "て-form もらいます", "sentence": "Ms. Sato took me to Osaka Castle.", "lesson": 24 },
+      { "pattern": "て-form くれます", "sentence": "Mr. Yamada took me in his car.", "lesson": 24 }
+    ]
+  },
+  "ない-form": {
+    "patterns": [
+      { "pattern": "ない-formないでください", "sentence": "Please do not take photographs here.", "lesson": 17 },
+      { "pattern": "ない-formなければなりません", "sentence": "You must show your passport.", "lesson": 17 },
+      { "pattern": "ない-formなくてもいいです", "sentence": "You don't need to take off your shoes.", "lesson": 17 }
+    ]
+  },
+  "dictionary-form": {
+    "patterns": [
+      { "pattern": "dictionary form ことができます", "sentence": "I can play the piano.", "lesson": 18 },
+      { "pattern": "dictionary form ことです", "sentence": "My hobby is watching movies.", "lesson": 18 },
+      { "pattern": "dictionary form まえに", "sentence": "I read a book before going to bed.", "lesson": 18 },
+      { "pattern": "dictionary formと", "sentence": "Turn to the right, and you'll find a post office.", "lesson": 23 }
+    ]
+  },
+  "た-form": {
+    "patterns": [
+      { "pattern": "た-form ことがあります", "sentence": "I have been to Hokkaido.", "lesson": 19 },
+      { "pattern": "た-formり、た-formりします", "sentence": "On my holidays I play tennis, take walks and so forth.", "lesson": 19 }
+    ]
+  },
+  "plain-form": {
+    "patterns": [
+      { "pattern": "plain formとおもいます", "sentence": "I think that Mr. Miller has already gone home.", "lesson": 21 },
+      { "pattern": "plain formとおもいます", "sentence": "I think that things are expensive in Japan.", "lesson": 21 },
+      { "pattern": "plain formとおもいます", "sentence": "I think that family is the most important thing.", "lesson": 21 },
+      { "pattern": "plain form といいます", "sentence": "My brother said that he would return by ten.", "lesson": 21 },
+      { "pattern": "verb plain form", "sentence": "Tomorrow you will go to the party, won't you?", "lesson": 21 },
+      { "pattern": "い-adjective plain form でしょう?", "sentence": "The morning rush hours are terrible, aren't they?", "lesson": 21 },
+      { "pattern": "な-adjective plain form", "sentence": "Personal computers are useful, aren't they?", "lesson": 21 },
+      { "pattern": "noun ~だ", "sentence": "He is American, isn't he?", "lesson": 21 },
+      { "pattern": "verb plain form noun", "sentence": "This is the cake that I made.", "lesson": 22 }
+    ]
+  },
+  "plain-form とき": {
+    "patterns": [
+      { "pattern": "verb plain form とき", "sentence": null, "lesson": null },
+      { "pattern": "い-adjective とき", "sentence": null, "lesson": null },
+      { "pattern": "な-adjective なとき", "sentence": null, "lesson": null },
+      { "pattern": "noun のとき", "sentence": null, "lesson": null }
+    ]
+  },
+  "plain-form たら": {
+    "patterns": [
+      { "sentence": "When I read a paper, I put on my glasses.", "lesson": 23 },
+      { "sentence": "When I am sleepy, I drink coffee.", "lesson": 23 },
+      { "sentence": "When I have time, I watch video tapes.", "lesson": 23 },
+      { "sentence": "When it rains, I take a taxi.", "lesson": 23 },
+      { "sentence": "If I have a personal computer, it'll be convenient.", "lesson": 25 },
+      { "sentence": "If the personal computer is cheap, I will buy it.", "lesson": 25 }
+    ]
+  },
+  "conditional": {
+    "patterns": [
+      { "pattern": "verb て-form", "sentence": "If it's simple to use, I will buy it.", "lesson": 25 },
+      { "pattern": "verb て-form", "sentence": "If it's fine, I'll take a walk.", "lesson": 25 },
+      { "pattern": "verb て-form", "sentence": "Though I've checked in the dictionary, I don't understand its meaning.", "lesson": 25 },
+      { "pattern": "い-adjective ~くても", "sentence": "Even if personal computers are cheap, I won't buy one.", "lesson": 25 },
+      { "pattern": "な-adjectiveで", "sentence": "Even if you don't like it, you should eat it.", "lesson": 25 },
+      { "pattern": "noun で", "sentence": "He works even on Sundays.", "lesson": 25 }
+    ]
+  }
+}

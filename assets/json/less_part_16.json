@@ -1,0 +1,27 @@
+{
+  "title": { "hiragana": "ATMのつかいかた", "kanji": "ATMの使い方", "english": "How to Withdraw Money" },
+  "functions": [
+    { "hiragana": "おあずけいれ", "kanji": "お預け入れ", "english": "Deposit" },
+    { "hiragana": "おふりこみ", "kanji": "お振り込み", "english": "Payment" },
+    { "hiragana": "おふりかえ", "kanji": "お振り替え", "english": "Transfer" },
+    { "hiragana": "おひきだし", "kanji": "お引き出し", "english": "Withdrawal (Drawing Out)" },
+    { "hiragana": "つうちょうきにゅう", "kanji": "通帳記入", "english": "Updating Your Passbook" },
+    { "hiragana": "ざんだかしょうかい", "kanji": "残高照会", "english": "Balance Inquiry" }
+  ],
+  "terms": [
+    { "hiragana": "あんしょうばんごう", "kanji": "暗証番号", "english": "Personal Identification Number (PIN)" },
+    { "hiragana": "こうか", "kanji": "硬貨", "english": "Coin" },
+    { "hiragana": "しへい", "kanji": "紙幣", "english": "Banknotes" },
+    { "hiragana": "かくにん", "kanji": "確認", "english": "Confirm" },
+    { "hiragana": "きんがく", "kanji": "金額", "english": "Amount" },
+    { "hiragana": "つうちょう", "kanji": "通帳", "english": "Passbook" }
+  ],
+  "steps": [
+    { "step": 1, "japanese": "「お引き出し」ボタンを押してください。", "english": "Push the 'Withdrawal' button." },
+    { "step": 2, "japanese": "カードを入れてください。", "english": "Insert your card." },
+    { "step": 3, "japanese": "暗証番号を押してください。", "english": "Enter your personal identification number (PIN)." },
+    { "step": 4, "japanese": "金額を押してください。", "english": "Enter the amount." },
+    { "step": 5, "japanese": "正しければ「確認」ボタンを押してください。", "english": "If the amount is correct, press the 'Confirm' button." },
+    { "step": 6, "japanese": "紙幣を取り出してください。", "english": "Take out your notes (banknotes)." }
+  ]
+}

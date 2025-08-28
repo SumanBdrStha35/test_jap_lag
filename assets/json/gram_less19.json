@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Verb た-form",
+    "explanation": "The た-form is made by changing て/で of the て-form into た/だ respectively.",
+    "examples": [
+      {"japanese": "かいて → かいた", "english": "write → wrote", "group": "Group I"},
+      {"japanese": "のんで → のんだ", "english": "drink → drank", "group": "Group I"},
+      {"japanese": "たべて → たべた", "english": "eat → ate", "group": "Group II"},
+      {"japanese": "きて → きた", "english": "come → came", "group": "Group III"},
+      {"japanese": "して → した", "english": "do → did", "group": "Group III"}
+    ]
+  },
+  {
+    "title": "Vた-form ことがあります ( have the experience of V-ing ... )",
+    "explanation": "Used to describe one's past experiences. Different from simply stating what was done at a certain time.",
+    "examples": [
+      {"japanese": "馬に乗ったことがあります。", "english": "I have ridden a horse."},
+      {"japanese": "去年北海道で馬に乗りました。", "english": "I rode a horse in Hokkaido last year."}
+    ]
+  },
+  {
+    "title": "Vた-formり、Vた-formりします ( V ..and V .., and so on )",
+    "explanation": "Used to list representative actions among many. Unlike the て-form sequence, this pattern does not show time order but gives examples.",
+    "examples": [
+      {"japanese": "日曜日はテニスをしたり、映画を見たりします。", "english": "On Sundays I play tennis, see a movie and so on."},
+      {"japanese": "日曜日はテニスをしたり、映画を見たりしました。", "english": "Last Sunday I played tennis, saw a movie and so on."},
+      {"japanese": "日曜日はテニスをして、映画を見ました。", "english": "Last Sunday I played tennis and then saw a movie."}
+    ]
+  },
+  {
+    "title": "い-adj → ~くなります / な-adj [な] → ~になります / Nに なります ( become ... )",
+    "explanation": "なります means 'become' and indicates changes in state or condition.",
+    "examples": [
+      {"japanese": "寒い → 寒くなります", "english": "It gets cold."},
+      {"japanese": "元気[な] → 元気になります", "english": "Get well / become fine."},
+      {"japanese": "25歳になります", "english": "Become 25 years old."}
+    ]
+  },
+  {
+    "title": "そうですね",
+    "explanation": "そうですね is used to agree or sympathize with what someone said. Different from そうですか, which expresses realization or surprise at new information.",
+    "examples": [
+      {"japanese": "寒くなりましたね。", "english": "It's got cold, hasn't it?"},
+      {"japanese": "･･･そうですね。", "english": "...Yes, it has."}
+    ]
+  }
+]

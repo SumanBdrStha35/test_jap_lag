@@ -1,0 +1,52 @@
+{
+  "title": { "hiragana": "やくしょくめい", "kanji": "役職名", "english": "Positions in Society" },
+  "government": [
+    { "hiragana": "くに", "kanji": "国", "english": "Nation" },
+    { "hiragana": "とどうふけん", "kanji": "都道府県", "english": "Prefecture" },
+    { "hiragana": "とし", "kanji": "都市", "english": "City" },
+    { "hiragana": "まち", "kanji": "町", "english": "Town" },
+    { "hiragana": "むら", "kanji": "村", "english": "Village" },
+    { "hiragana": "しゅしょう（ないかくそうりだいじん）", "kanji": "首相（内閣総理大臣）", "english": "Prime Minister" },
+    { "hiragana": "ちじ", "kanji": "知事", "english": "Governor" },
+    { "hiragana": "しちょう", "kanji": "市長", "english": "Mayor" },
+    { "hiragana": "ちょうちょう", "kanji": "町長", "english": "Town Headman" },
+    { "hiragana": "そんちょう", "kanji": "村長", "english": "Village Headman" }
+  ],
+  "education": [
+    { "hiragana": "だいがく", "kanji": "大学", "english": "University" },
+    { "hiragana": "こうとうがっこう", "kanji": "高等学校", "english": "Senior High School" },
+    { "hiragana": "ちゅうがっこう", "kanji": "中学校", "english": "Junior High School" },
+    { "hiragana": "しょうがっこう", "kanji": "小学校", "english": "Elementary School" },
+    { "hiragana": "ようちえん", "kanji": "幼稚園", "english": "Kindergarten" },
+    { "hiragana": "がくちょう", "kanji": "学長", "english": "University President" },
+    { "hiragana": "こうちょう", "kanji": "校長", "english": "Principal" },
+    { "hiragana": "えんちょう", "kanji": "園長", "english": "Director (Kindergarten)" }
+  ],
+  "company": [
+    { "hiragana": "かいしゃ", "kanji": "会社", "english": "Company" },
+    { "hiragana": "かいちょう", "kanji": "会長", "english": "Chairman" },
+    { "hiragana": "しゃちょう", "kanji": "社長", "english": "President" },
+    { "hiragana": "とりしまりやく", "kanji": "取締役", "english": "Director" },
+    { "hiragana": "ぶちょう", "kanji": "部長", "english": "Department Chief" },
+    { "hiragana": "かちょう", "kanji": "課長", "english": "Section Chief" }
+  ],
+  "bank": [
+    { "hiragana": "ぎんこう", "kanji": "銀行", "english": "Bank" },
+    { "hiragana": "とうどり", "kanji": "頭取", "english": "Bank President" },
+    { "hiragana": "してんちょう", "kanji": "支店長", "english": "Branch Manager" }
+  ],
+  "station": [
+    { "hiragana": "えき", "kanji": "駅", "english": "Station" },
+    { "hiragana": "えきちょう", "kanji": "駅長", "english": "Stationmaster" }
+  ],
+  "hospital": [
+    { "hiragana": "びょういん", "kanji": "病院", "english": "Hospital" },
+    { "hiragana": "いんちょう", "kanji": "院長", "english": "Director of Hospital" },
+    { "hiragana": "ぶちょう", "kanji": "部長", "english": "Department Chief" },
+    { "hiragana": "かんごぶちょう", "kanji": "看護部長", "english": "Head Nurse" }
+  ],
+  "police": [
+    { "hiragana": "けいさつしょ", "kanji": "警察署", "english": "Police Station" },
+    { "hiragana": "しょちょう", "kanji": "署長", "english": "Police Chief" }
+  ]
+}

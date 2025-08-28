@@ -1,0 +1,50 @@
+{
+  "title": { "hiragana": "かぞく", "kanji": "家族", "english": "Family" },
+  "groups": [
+    {
+      "group": { "hiragana": "わたしのかぞく", "kanji": "わたしの家族", "english": "My Family" },
+      "members": [
+        { "hiragana": "そぼ", "kanji": "祖母", "english": "Grandmother" },
+        { "hiragana": "そふ", "kanji": "祖父", "english": "Grandfather" },
+        { "hiragana": "そふぼ", "kanji": "祖父母", "english": "Grandparents" },
+        { "hiragana": "はは", "kanji": "母", "english": "Mother" },
+        { "hiragana": "ちち", "kanji": "父", "english": "Father" },
+        { "hiragana": "りょうしん", "kanji": "両親", "english": "Parents" },
+        { "hiragana": "いもうと", "kanji": "妹", "english": "Younger Sister" },
+        { "hiragana": "おとうと", "kanji": "弟", "english": "Younger Brother" },
+        { "hiragana": "あね", "kanji": "姉", "english": "Elder Sister" },
+        { "hiragana": "あに", "kanji": "兄", "english": "Elder Brother" },
+        { "hiragana": "きょうだい", "kanji": "兄弟", "english": "Brothers & Sisters / Siblings" },
+        { "hiragana": "つま", "kanji": "妻", "english": "Wife" },
+        { "hiragana": "おっと", "kanji": "夫", "english": "Husband" },
+        { "hiragana": "ふうふ", "kanji": "夫婦", "english": "Husband & Wife" },
+        { "hiragana": "わたし", "kanji": "私", "english": "I / Me" },
+        { "hiragana": "むすめ", "kanji": "娘", "english": "Daughter" },
+        { "hiragana": "むすこ", "kanji": "息子", "english": "Son" },
+        { "hiragana": "こども", "kanji": "子ども", "english": "Children" }
+      ]
+    },
+    {
+      "group": { "hiragana": "たなかさんのかぞく", "kanji": "田中さんの家族", "english": "Mr./Ms. Tanaka’s Family" },
+      "members": [
+        { "hiragana": "おばあさん", "kanji": "おばあさん", "english": "Grandmother" },
+        { "hiragana": "おじいさん", "kanji": "おじいさん", "english": "Grandfather" },
+        { "hiragana": "おかあさん", "kanji": "お母さん", "english": "Mother" },
+        { "hiragana": "おとうさん", "kanji": "お父さん", "english": "Father" },
+        { "hiragana": "ごりょうしん", "kanji": "ご両親", "english": "Parents" },
+        { "hiragana": "いもうとさん", "kanji": "妹さん", "english": "Younger Sister" },
+        { "hiragana": "おとうとさん", "kanji": "弟さん", "english": "Younger Brother" },
+        { "hiragana": "おねえさん", "kanji": "お姉さん", "english": "Elder Sister" },
+        { "hiragana": "おにいさん", "kanji": "お兄さん", "english": "Elder Brother" },
+        { "hiragana": "ごきょうだい", "kanji": "ご兄弟", "english": "Brothers & Sisters / Siblings" },
+        { "hiragana": "おくさん", "kanji": "奥さん", "english": "Wife" },
+        { "hiragana": "ごしゅじん", "kanji": "ご主人", "english": "Husband" },
+        { "hiragana": "ごふうふ", "kanji": "ご夫婦", "english": "Husband & Wife" },
+        { "hiragana": "たなかさん", "kanji": "田中さん", "english": "Mr./Ms. Tanaka" },
+        { "hiragana": "むすめさん", "kanji": "娘さん", "english": "Daughter" },
+        { "hiragana": "むすこさん", "kanji": "息子さん", "english": "Son" },
+        { "hiragana": "おこさん", "kanji": "お子さん", "english": "Children" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": { "hiragana": "いえのなか", "kanji": "家の中", "english": "Inside the House" },
+  "rooms": [
+    { "hiragana": "げんかん", "kanji": "玄関", "english": "Entrance Hall" },
+    { "hiragana": "トイレ", "kanji": "トイレ", "english": "Toilet" },
+    { "hiragana": "ふろば", "kanji": "風呂場", "english": "Bathroom" },
+    { "hiragana": "せんめんじょ", "kanji": "洗面所", "english": "Washroom" },
+    { "hiragana": "だいどころ", "kanji": "台所", "english": "Kitchen" },
+    { "hiragana": "しょくどう", "kanji": "食堂", "english": "Dining Room" },
+    { "hiragana": "いま", "kanji": "居間", "english": "Living Room" },
+    { "hiragana": "しんしつ", "kanji": "寝室", "english": "Bedroom" },
+    { "hiragana": "ろうか", "kanji": "廊下", "english": "Hallway" },
+    { "hiragana": "ベランダ", "kanji": "ベランダ", "english": "Balcony" }
+  ]
+}

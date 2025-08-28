@@ -1,0 +1,33 @@
+{
+  "title": { "hiragana": "しょくぎょう", "kanji": "職業", "english": "Occupations" },
+  "occupations": [
+    { "hiragana": "かいしゃいん", "kanji": "会社員", "english": "Company Employee" },
+    { "hiragana": "こうむいん", "kanji": "公務員", "english": "Civil Servant" },
+    { "hiragana": "えきいん", "kanji": "駅員", "english": "Station Clerk" },
+    { "hiragana": "ぎんこういん", "kanji": "銀行員", "english": "Bank Clerk" },
+    { "hiragana": "ゆうびんきょくいん", "kanji": "郵便局員", "english": "Postman" },
+    { "hiragana": "てんいん", "kanji": "店員", "english": "Shop Clerk" },
+    { "hiragana": "ちょうりし", "kanji": "調理師", "english": "Cook" },
+    { "hiragana": "りようし", "kanji": "理容師", "english": "Barber" },
+    { "hiragana": "びようし", "kanji": "美容師", "english": "Beautician" },
+    { "hiragana": "きょうし", "kanji": "教師", "english": "Teacher" },
+    { "hiragana": "べんごし", "kanji": "弁護士", "english": "Lawyer" },
+    { "hiragana": "けんきゅうしゃ", "kanji": "研究者", "english": "Researcher" },
+    { "hiragana": "いしゃ", "kanji": "医者", "english": "Doctor" },
+    { "hiragana": "かんごふ", "kanji": "看護婦", "english": "Nurse" },
+    { "hiragana": "うんてんしゅ", "kanji": "運転手", "english": "Driver" },
+    { "hiragana": "けいさつかん", "kanji": "警察官", "english": "Policeman" },
+    { "hiragana": "がいこうかん", "kanji": "外交官", "english": "Diplomat" },
+    { "hiragana": "せいじか", "kanji": "政治家", "english": "Politician" },
+    { "hiragana": "がか", "kanji": "画家", "english": "Painter" },
+    { "hiragana": "さっか", "kanji": "作家", "english": "Author" },
+    { "hiragana": "おんがくか", "kanji": "音楽家", "english": "Musician" },
+    { "hiragana": "けんちくか", "kanji": "建築家", "english": "Architect" },
+    { "hiragana": "エンジニア", "kanji": "エンジニア", "english": "Engineer" },
+    { "hiragana": "デザイナー", "kanji": "デザイナー", "english": "Designer" },
+    { "hiragana": "ジャーナリスト", "kanji": "ジャーナリスト", "english": "Journalist" },
+    { "hiragana": "かしゅ", "kanji": "歌手", "english": "Singer" },
+    { "hiragana": "はいゆう", "kanji": "俳優", "english": "Actor / Actress" },
+    { "hiragana": "スポーツせんしゅ", "kanji": "スポーツ選手", "english": "Athlete" }
+  ]
+}

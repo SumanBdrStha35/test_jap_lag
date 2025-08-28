@@ -1,130 +1,127 @@
 [
-    {
-      "title": "N は N です",
-      "points": [
-        {
-          "subpoint": "1) Particle は",
-          "explanation": "The particle は indicates the topic of the sentence. It is used to mark what you're talking about.",
-          "example": {
-            "japanese": "わたしは マイク・ミラーです。",
-            "english": "I am Mike Miller."
-          },
-          "note": "は is read as わ."
+  {
+    "title": "N は N です",
+    "points": [
+      {
+        "subpoint": "1) Particle は",
+        "explanation": "The particle は indicates the topic of the sentence. You choose a noun you want to talk about, add は, and then make a statement about it.",
+        "example": {
+          "japanese": "わたしは マイク・ミラーです。",
+          "english": "I am Mike Miller."
         },
-        {
-          "subpoint": "2) です",
-          "explanation": "です is used with nouns to make polite assertions. It inflects for negative or past tense.",
-          "example": {
-            "japanese": "わたしは エンジニアです。",
-            "english": "I am an engineer."
-          }
-        }
-      ]
-    },
-    {
-      "title": "N は N じゃありません",
-      "explanation": "じゃありません is the negative form of です for daily conversation. ではありません is more formal.",
-      "example": {
-        "japanese": "サントスさんは 学生じゃ ありません。",
-        "english": "Mr. Santos is not a student."
+        "note": "は is read as わ."
       },
-      "note": "では is read as でわ."
-    },
-    {
-      "title": "S か",
-      "points": [
-        {
-          "subpoint": "1) Particle か",
-          "explanation": "か is added at the end of a sentence to form a question. It indicates doubt or uncertainty."
-        },
-        {
-          "subpoint": "2) Questions about correctness",
-          "examples": [
-            {
-              "japanese": "ミラーさんは アメリカ人ですか。",
-              "english": "Is Mr. Miller an American?"
-            },
-            {
-              "japanese": "はい、アメリカ人です。",
-              "english": "Yes, he is."
-            },
-            {
-              "japanese": "いいえ、ちがいます。",
-              "english": "No, he is not."
-            },
-            {
-              "japanese": "ミラーさんは 先生ですか。",
-              "english": "Is Mr. Miller a teacher?"
-            },
-            {
-              "japanese": "いいえ、先生じゃ ありません。",
-              "english": "No, he is not."
-            }
-          ]
-        },
-        {
-          "subpoint": "3) Questions with interrogatives",
-          "example": {
-            "question": {
-              "japanese": "あの かたは どなたですか。",
-              "english": "Who’s that?"
-            },
-            "answer": {
-              "japanese": "あの かたは ミラーさんです。",
-              "english": "That’s Mr. Miller."
-            }
-          }
+      {
+        "subpoint": "2) です",
+        "explanation": "です is used with nouns as predicates to make polite assertions or judgments. It changes in negative or past tense forms.",
+        "example": {
+          "japanese": "わたしは エンジニアです。",
+          "english": "I am an engineer."
         }
-      ]
-    },
-    {
-      "title": "N も",
-      "explanation": "も replaces は when the same statement applies to a different topic.",
-      "examples": [
-        {
-          "japanese": "ミラーさんは 会社員です。",
-          "english": "Mr. Miller is a company employee."
-        },
-        {
-          "japanese": "グプタさんも 会社員です。",
-          "english": "Mr. Gupta is also a company employee."
-        }
-      ]
-    },
-    {
-      "title": "N の N",
-      "explanation": "の connects two nouns. The first noun modifies the second.",
-      "example": {
-        "japanese": "ミラーさんは IMCの 社員です。",
-        "english": "Mr. Miller is an IMC employee."
       }
+    ]
+  },
+  {
+    "title": "N は N じゃありません",
+    "explanation": "じゃありません is the negative form of です used in daily conversation. ではありません is more formal and used in writing or speeches.",
+    "example": {
+      "japanese": "サントスさんは 学生じゃありません。",
+      "english": "Mr. Santos is not a student."
     },
-    {
-      "title": "～さん",
-      "points": [
-        {
-          "explanation": "さん shows respect and is added to names of others. Never use it with your own name.",
-          "example": {
-            "japanese": "あの かたは ミラーさんです。",
+    "note": "は in では is also read as わ."
+  },
+  {
+    "title": "S か",
+    "points": [
+      {
+        "subpoint": "1) Particle か",
+        "explanation": "Adding か to the end of a sentence makes it a question. It indicates doubt, uncertainty, or inquiry. A question ends with rising intonation."
+      },
+      {
+        "subpoint": "2) Yes/No questions",
+        "explanation": "A sentence becomes a yes/no question by adding か at the end. Word order does not change.",
+        "examples": [
+          {
+            "japanese": "ミラーさんは アメリカ人ですか。",
+            "english": "Is Mr. Miller an American?"
+          },
+          {
+            "japanese": "はい、アメリカ人です。",
+            "english": "Yes, he is."
+          },
+          {
+            "japanese": "ミラーさんは 先生ですか。",
+            "english": "Is Mr. Miller a teacher?"
+          },
+          {
+            "japanese": "いいえ、先生じゃありません。",
+            "english": "No, he is not."
+          }
+        ]
+      },
+      {
+        "subpoint": "3) Questions with interrogatives",
+        "explanation": "An interrogative word replaces the part of the sentence being asked about. The structure and word order remain the same, with か added at the end.",
+        "example": {
+          "question": {
+            "japanese": "あの方は どなたですか。",
+            "english": "Who is that person?"
+          },
+          "answer": {
+            "japanese": "あの方は ミラーさんです。",
             "english": "That’s Mr. Miller."
           }
-        },
-        {
-          "explanation": "When addressing someone, avoid あなた if you know their name; use their family name + さん.",
-          "dialogue": [
-            {
-              "speaker": "Suzuki",
-              "japanese": "ミラーさんは 学生ですか。",
-              "english": "Are you a student?"
-            },
-            {
-              "speaker": "Miller",
-              "japanese": "いいえ、会社員です。",
-              "english": "No, I’m a company employee."
-            }
-          ]
         }
-      ]
+      }
+    ]
+  },
+  {
+    "title": "N も",
+    "explanation": "も is used instead of は when the statement about the topic is the same as the previous topic. It means 'also' or 'too'.",
+    "examples": [
+      {
+        "japanese": "ミラーさんは 会社員です。",
+        "english": "Mr. Miller is a company employee."
+      },
+      {
+        "japanese": "グプタさんも 会社員です。",
+        "english": "Mr. Gupta is also a company employee."
+      }
+    ]
+  },
+  {
+    "title": "N の N",
+    "explanation": "の connects two nouns. The first noun modifies the second. In this lesson, N1 is usually an organization or group that N2 belongs to.",
+    "example": {
+      "japanese": "ミラーさんは IMCの 社員です。",
+      "english": "Mr. Miller is an IMC employee."
     }
+  },
+  {
+    "title": "～さん",
+    "points": [
+      {
+        "explanation": "さん is a polite suffix added to someone’s name to show respect. It should never be used with your own name.",
+        "example": {
+          "japanese": "あの方は ミラーさんです。",
+          "english": "That’s Mr. Miller."
+        }
+      },
+      {
+        "explanation": "When addressing someone directly, あなた (you) is not usually used if you know their name. Instead, use their family name + さん.",
+        "dialogue": [
+          {
+            "speaker": "鈴木",
+            "japanese": "ミラーさんは 学生ですか。",
+            "english": "Mr. Miller, are you a student?"
+          },
+          {
+            "speaker": "ミラー",
+            "japanese": "いいえ、会社員です。",
+            "english": "No, I’m a company employee."
+          } 
+        ]
+      }
+    ]
+  }
 ]
-

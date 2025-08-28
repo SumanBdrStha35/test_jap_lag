@@ -1,0 +1,72 @@
+{
+  "title": { "hiragana": "たべもの", "kanji": "食べ物", "english": "Food" },
+  "categories": [
+    {
+      "category": { "hiragana": "やさい", "kanji": "野菜", "english": "Vegetables" },
+      "items": [
+        { "hiragana": "きゅうり", "kanji": "胡瓜", "english": "Cucumber" },
+        { "hiragana": "トマト", "kanji": "トマト", "english": "Tomato" },
+        { "hiragana": "なす", "kanji": "茄子", "english": "Eggplant" },
+        { "hiragana": "まめ", "kanji": "豆", "english": "Beans / Peas" },
+        { "hiragana": "キャベツ", "kanji": "キャベツ", "english": "Cabbage" },
+        { "hiragana": "ねぎ", "kanji": "葱", "english": "Welsh Onion" },
+        { "hiragana": "はくさい", "kanji": "白菜", "english": "Chinese Cabbage" },
+        { "hiragana": "ほうれんそう", "kanji": "菠薐草", "english": "Spinach" },
+        { "hiragana": "レタス", "kanji": "レタス", "english": "Lettuce" },
+        { "hiragana": "じゃがいも", "kanji": "じゃが芋", "english": "Potato" },
+        { "hiragana": "だいこん", "kanji": "大根", "english": "Japanese Radish" },
+        { "hiragana": "たまねぎ", "kanji": "玉ねぎ", "english": "Onion" },
+        { "hiragana": "にんじん", "kanji": "人参", "english": "Carrot" }
+      ]
+    },
+    {
+      "category": { "hiragana": "くだもの", "kanji": "果物", "english": "Fruits" },
+      "items": [
+        { "hiragana": "いちご", "kanji": "苺", "english": "Strawberry" },
+        { "hiragana": "かき", "kanji": "柿", "english": "Persimmon" },
+        { "hiragana": "もも", "kanji": "桃", "english": "Peach" },
+        { "hiragana": "すいか", "kanji": "西瓜", "english": "Watermelon" },
+        { "hiragana": "ぶどう", "kanji": "葡萄", "english": "Grape" },
+        { "hiragana": "なし", "kanji": "梨", "english": "Japanese Pear" },
+        { "hiragana": "みかん", "kanji": "蜜柑", "english": "Mandarin Orange" },
+        { "hiragana": "りんご", "kanji": "林檎", "english": "Apple" },
+        { "hiragana": "バナナ", "kanji": "バナナ", "english": "Banana" }
+      ]
+    },
+    {
+      "category": { "hiragana": "にく", "kanji": "肉", "english": "Meat" },
+      "items": [
+        { "hiragana": "ぎゅうにく", "kanji": "牛肉", "english": "Beef" },
+        { "hiragana": "とりにく", "kanji": "鶏肉", "english": "Chicken" },
+        { "hiragana": "ぶたにく", "kanji": "豚肉", "english": "Pork" },
+        { "hiragana": "ソーセージ", "kanji": "ソーセージ", "english": "Sausage" },
+        { "hiragana": "ハム", "kanji": "ハム", "english": "Ham" }
+      ]
+    },
+    {
+      "category": { "hiragana": "さかな", "kanji": "魚", "english": "Fish" },
+      "items": [
+        { "hiragana": "あじ", "kanji": "鯵", "english": "Horse Mackerel" },
+        { "hiragana": "さけ", "kanji": "鮭", "english": "Salmon" },
+        { "hiragana": "えび", "kanji": "海老", "english": "Shrimp / Lobster" },
+        { "hiragana": "いわし", "kanji": "鰯", "english": "Sardine" },
+        { "hiragana": "まぐろ", "kanji": "鮪", "english": "Tuna" },
+        { "hiragana": "かに", "kanji": "蟹", "english": "Crab" },
+        { "hiragana": "さば", "kanji": "鯖", "english": "Mackerel" },
+        { "hiragana": "たい", "kanji": "鯛", "english": "Sea Bream" },
+        { "hiragana": "いか", "kanji": "烏賊", "english": "Cuttlefish / Squid" },
+        { "hiragana": "さんま", "kanji": "秋刀魚", "english": "Pacific Saury (Mackerel Pike)" },
+        { "hiragana": "たら", "kanji": "鱈", "english": "Cod" },
+        { "hiragana": "たこ", "kanji": "蛸", "english": "Octopus" },
+        { "hiragana": "かい", "kanji": "貝", "english": "Shellfish" }
+      ]
+    },
+    {
+      "category": { "hiragana": "そのほか", "kanji": "その他", "english": "Others" },
+      "items": [
+        { "hiragana": "こめ", "kanji": "米", "english": "Rice" },
+        { "hiragana": "たまご", "kanji": "卵", "english": "Egg" }
+      ]
+    }
+  ]
+}

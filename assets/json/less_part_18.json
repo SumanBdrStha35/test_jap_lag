@@ -1,0 +1,25 @@
+{
+  "title": { "hiragana": "うごき", "kanji": "動き", "english": "Actions" },
+  "actions": [
+    { "hiragana": "とぶ", "kanji": "飛ぶ", "english": "Fly" },
+    { "hiragana": "とぶ", "kanji": "跳ぶ", "english": "Jump" },
+    { "hiragana": "のぼる", "kanji": "登る", "english": "Climb" },
+    { "hiragana": "はしる", "kanji": "走る", "english": "Run" },
+    { "hiragana": "およぐ", "kanji": "泳ぐ", "english": "Swim" },
+    { "hiragana": "もぐる", "kanji": "もぐる", "english": "Dive" },
+    { "hiragana": "とびこむ", "kanji": "飛び込む", "english": "Dive into" },
+    { "hiragana": "さかだちする", "kanji": "逆立ちする", "english": "Stand upside down" },
+    { "hiragana": "はう", "kanji": "はう", "english": "Crawl" },
+    { "hiragana": "ける", "kanji": "ける", "english": "Kick" },
+    { "hiragana": "ふる", "kanji": "振る", "english": "Wave" },
+    { "hiragana": "もちあげる", "kanji": "持ち上げる", "english": "Lift" },
+    { "hiragana": "なげる", "kanji": "投げる", "english": "Throw" },
+    { "hiragana": "たたく", "kanji": "たたく", "english": "Pat / Hit" },
+    { "hiragana": "ひく", "kanji": "引く", "english": "Pull" },
+    { "hiragana": "おす", "kanji": "押す", "english": "Push" },
+    { "hiragana": "まげる", "kanji": "曲げる", "english": "Bend" },
+    { "hiragana": "のばす", "kanji": "伸ばす", "english": "Extend" },
+    { "hiragana": "ころぶ", "kanji": "転ぶ", "english": "Fall down" },
+    { "hiragana": "ふりむく", "kanji": "振り向く", "english": "Look back" }
+  ]
+}

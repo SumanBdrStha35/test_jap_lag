@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Vて-form、[Vて-form]…",
+    "explanation": "The て-form is used to connect multiple actions in sequence. The actions are mentioned in order of occurrence, and the tense is determined by the final verb.",
+    "examples": [
+      {"japanese": "朝ジョギングをして、シャワーを浴びて、会社へ行きます。", "english": "In the morning, I jog, take a shower, and go to the office."},
+      {"japanese": "神戸へ行って、映画を見て、お茶を飲みました。", "english": "I went to Kobe, saw a movie, and drank tea."}
+    ]
+  },
+  {
+    "title": "い-adjective( not い ) ～くて、～",
+    "explanation": "To connect sentences with い-adjectives, replace い with くて. This can link adjectives or connect an adjective sentence to another sentence.",
+    "examples": [
+      {"japanese": "ミラーさんは若くて、元気です。", "english": "Mr. Miller is young and lively."},
+      {"japanese": "きのうは天気がよくて、暑かったです。", "english": "Yesterday it was fine and hot."}
+    ]
+  },
+  {
+    "title": "Noun/な-adjective } で、～",
+    "explanation": "When connecting noun sentences or な-adjective sentences, です changes to で. Used to describe combined qualities or facts.",
+    "examples": [
+      {"japanese": "カリナさんはインドネシア人で、京都大学の留学生です。", "english": "Ms. Karina is an Indonesian and a student of Kyoto University."},
+      {"japanese": "ミラーさんはハンサムで、親切です。", "english": "Mr. Miller is handsome and kind."},
+      {"japanese": "奈良は静かで、きれいな町です。", "english": "Nara is a quiet and beautiful city."},
+      {"japanese": "カリナさんは学生で、マリアさんは主婦です。", "english": "Ms. Karina is a student and Maria is a housewife."}
+    ],
+    "note": "This cannot be used for contradictory ideas. Use が instead (e.g., この部屋は狭いですが、きれいです)."
+  },
+  {
+    "title": "V1て-formから、V2",
+    "explanation": "Indicates that after completing the first action (V1), the second action (V2) is performed. The tense is determined by the last verb.",
+    "examples": [
+      {"japanese": "国へ帰ってから、父の会社で働きます。", "english": "I will work for my father's company after going back to my country."},
+      {"japanese": "コンサートが終わってから、レストランで食事しました。", "english": "We ate at a restaurant after the concert was over."}
+    ]
+  },
+  {
+    "title": "N1はN2が adjective",
+    "explanation": "Used to describe an attribute of a thing or person. The topic is marked by は, and the described attribute is marked by が.",
+    "examples": [
+      {"japanese": "大阪は食べ物がおいしいです。", "english": "Food is tasty in Osaka."},
+      {"japanese": "ドイツのフランケンはワインが有名です。", "english": "Franken in Germany produces famous wine."},
+      {"japanese": "マリアさんは髪が長いです。", "english": "Maria has long hair."}
+    ]
+  },
+  {
+    "title": "どうやって",
+    "explanation": "どうやって is used to ask about the method or way of doing something. Answers usually describe a sequence of actions using the て-form.",
+    "examples": [
+      {"japanese": "大学までどうやって行きますか。", "english": "How do you go to your university?"},
+      {"japanese": "･･･京都駅から16番のバスに乗って、大学前で降ります。", "english": "...I take a No. 16 bus from Kyoto Station and get off at Daigaku-mae."}
+    ]
+  },
+  {
+    "title": "どの N",
+    "explanation": "どの is used to ask the listener to identify one among several specific options. It functions like この/その/あの but as an interrogative.",
+    "examples": [
+      {"japanese": "サントスさんはどの人ですか。", "english": "Which one is Mr. Santos?"},
+      {"japanese": "･･･あの背が高くて、髪が黒い人です。", "english": "That tall man with black hair is."}
+    ]
+  }
+]

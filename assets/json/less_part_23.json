@@ -1,0 +1,24 @@
+{
+  "title": { "hiragana": "どうろ・こうつう", "kanji": "道路・交通", "english": "Road & Traffic" },
+  "items": [
+    { "hiragana": "ほどう", "kanji": "歩道", "english": "Sidewalk / Pavement" },
+    { "hiragana": "しゃどう", "kanji": "車道", "english": "Road" },
+    { "hiragana": "こうそくどうろ", "kanji": "高速道路", "english": "Expressway / Motorway" },
+    { "hiragana": "とおり", "kanji": "通り", "english": "Street" },
+    { "hiragana": "こうさてん", "kanji": "交差点", "english": "Crossing / Intersection" },
+    { "hiragana": "おうだんほどう", "kanji": "横断歩道", "english": "Pedestrian Crossing" },
+    { "hiragana": "ほどうきょう", "kanji": "歩道橋", "english": "Pedestrian Bridge / Overpass" },
+    { "hiragana": "かど", "kanji": "角", "english": "Corner" },
+    { "hiragana": "しんごう", "kanji": "信号", "english": "Traffic Light" },
+    { "hiragana": "さか", "kanji": "坂", "english": "Slope / Hill" },
+    { "hiragana": "ふみきり", "kanji": "踏切", "english": "Railroad Crossing" },
+    { "katakana": "ガソリンスタンド", "kanji": "ガソリンスタンド", "english": "Gas Station" }
+  ],
+  "traffic_signs": [
+    { "hiragana": "とまれ", "kanji": "止まれ", "english": "Stop" },
+    { "hiragana": "しんにゅうきんし", "kanji": "進入禁止", "english": "No Entry" },
+    { "hiragana": "いっぽうつうこう", "kanji": "一方通行", "english": "One Way" },
+    { "hiragana": "ちゅうしゃきんし", "kanji": "駐車禁止", "english": "No Parking" },
+    { "hiragana": "うせつきんし", "kanji": "右折禁止", "english": "No Right Turn" }
+  ]
+}

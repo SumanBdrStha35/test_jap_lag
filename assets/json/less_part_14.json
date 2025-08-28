@@ -1,0 +1,39 @@
+{
+  "title": { "hiragana": "えき", "kanji": "駅", "english": "Station" },
+  "facilities": [
+    { "hiragana": "きっぷうりば", "kanji": "切符売り場", "english": "Ticket Office / Ticket Area" },
+    { "hiragana": "じどうけんばいき", "kanji": "自動券売機", "english": "Ticket Machine" },
+    { "hiragana": "せいさんき", "kanji": "精算機", "english": "Fare Adjustment Machine" },
+    { "hiragana": "かいさつぐち", "kanji": "改札口", "english": "Ticket Gate / Wicket" },
+    { "hiragana": "でぐち", "kanji": "出口", "english": "Exit" },
+    { "hiragana": "いりぐち", "kanji": "入口", "english": "Entrance" },
+    { "hiragana": "ひがしぐち", "kanji": "東口", "english": "East Exit" },
+    { "hiragana": "にしぐち", "kanji": "西口", "english": "West Exit" },
+    { "hiragana": "みなみぐち", "kanji": "南口", "english": "South Exit" },
+    { "hiragana": "きたぐち", "kanji": "北口", "english": "North Exit" },
+    { "hiragana": "ちゅうおうぐち", "kanji": "中央口", "english": "Central Exit" },
+    { "hiragana": "じこくひょう", "kanji": "時刻表", "english": "Timetable" },
+    { "hiragana": "ホーム", "kanji": "ホーム", "english": "Platform" },
+    { "hiragana": "ばいてん", "kanji": "売店", "english": "Kiosk" },
+    { "hiragana": "コインロッカー", "kanji": "コインロッカー", "english": "Coin Locker" },
+    { "hiragana": "タクシーのりば", "kanji": "タクシー乗り場", "english": "Taxi Stand" },
+    { "hiragana": "バスターミナル", "kanji": "バスターミナル", "english": "Bus Terminal" },
+    { "hiragana": "バスてい", "kanji": "バス停", "english": "Bus Stop" }
+  ],
+  "trains": [
+    { "hiragana": "とっきゅう", "kanji": "特急", "english": "Super Express Train" },
+    { "hiragana": "きゅうこう", "kanji": "急行", "english": "Express Train" },
+    { "hiragana": "かいそく", "kanji": "快速", "english": "Rapid Service Train" },
+    { "hiragana": "じゅんきゅう", "kanji": "準急", "english": "Semi-express Train" },
+    { "hiragana": "ふつう", "kanji": "普通", "english": "Local Train" }
+  ],
+  "tickets": [
+    { "hiragana": "〜はつ", "kanji": "〜発", "english": "Departing ~" },
+    { "hiragana": "〜ちゃく", "kanji": "〜着", "english": "Arriving at ~" },
+    { "hiragana": "とうきょういき", "kanji": "東京行き", "english": "For Tokyo" },
+    { "hiragana": "ていきけん", "kanji": "定期券", "english": "Commuter Pass" },
+    { "hiragana": "かいすうけん", "kanji": "回数券", "english": "Coupon Ticket" },
+    { "hiragana": "かたみち", "kanji": "片道", "english": "One Way" },
+    { "hiragana": "おうふく", "kanji": "往復", "english": "Round Trip" }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Nがあります / わかります / Nが好きです・嫌いです・上手です・下手です",
+    "explanation": "The object of a transitive verb is marked with を, but objects of あります and わかります are marked with が. Adjectives such as 好きです, 嫌いです, 上手です, and 下手です also require が for their objects.",
+    "examples": [
+      {
+        "japanese": "わたしはイタリア料理が好きです。",
+        "english": "I like Italian food."
+      },
+      {
+        "japanese": "わたしは日本語がわかります。",
+        "english": "I understand Japanese."
+      },
+      {
+        "japanese": "わたしは車があります。",
+        "english": "I have a car."
+      }
+    ]
+  },
+  {
+    "title": "どんな N",
+    "explanation": "どんな + noun is used to ask someone to choose or describe one from a group that the noun belongs to.",
+    "examples": [
+      {
+        "japanese": "どんなスポーツが好きですか。",
+        "english": "What sports do you like?",
+        "answer": {
+          "japanese": "サッカーが好きです。",
+          "english": "I like football."
+        }
+      }
+    ]
+  },
+  {
+    "title": "よく / だいたい / たくさん / すこし / あまり / ぜんぜん",
+    "explanation": "Adverbs such as よく, だいたい, たくさん, すこし, あまり, and ぜんぜん modify verbs and adjectives to show degree or amount.",
+    "examples": [
+      {
+        "japanese": "英語がよくわかります。",
+        "english": "I understand English very well."
+      },
+      {
+        "japanese": "英語が少しわかります。",
+        "english": "I understand English a little."
+      },
+      {
+        "japanese": "英語があまりわかりません。",
+        "english": "I don't understand English so well."
+      },
+      {
+        "japanese": "お金がたくさんあります。",
+        "english": "I have a lot of money."
+      },
+      {
+        "japanese": "お金が全然ありません。",
+        "english": "I don't have any money."
+      },
+      {
+        "japanese": "ここは少し寒いです。",
+        "english": "It's a little cold here."
+      },
+      {
+        "japanese": "あの映画は全然おもしろくないです。",
+        "english": "That movie is not interesting at all."
+      }
+    ]
+  },
+  {
+    "title": "S1から、S1",
+    "explanation": "The particle から links two sentences, where the first gives the reason and the second is the result.",
+    "examples": [
+      {
+        "japanese": "時間がありませんから、新聞を読みません。",
+        "english": "Because I don't have time, I don't read the newspaper."
+      },
+      {
+        "japanese": "毎朝新聞を読みますか。",
+        "english": "Do you read a newspaper every morning?",
+        "answer": {
+          "japanese": "いいえ、読みません。時間がありませんから。",
+          "english": "No, I don't. Because I have no time."
+        }
+      }
+    ]
+  },
+  {
+    "title": "どうして",
+    "explanation": "どうして is used to ask for a reason. The answer usually ends with から.",
+    "examples": [
+      {
+        "japanese": "どうして朝新聞を読みませんか。",
+        "english": "Why don't you read a newspaper in the morning?",
+        "answer": {
+          "japanese": "時間がありませんから。",
+          "english": "Because I don't have time."
+        }
+      },
+      {
+        "japanese": "きょうは早く帰ります。",
+        "english": "I'll go home early today.",
+        "dialogue": [
+          {
+            "japanese": "どうしてですか。",
+            "english": "Why?"
+          },
+          {
+            "japanese": "子どもの誕生日ですから。",
+            "english": "Because today's my child's birthday."
+          }
+        ]
+      }
+    ]
+  }
+]

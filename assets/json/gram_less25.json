@@ -1,0 +1,49 @@
+[
+  {
+    "title": "plain past form + ら ~ ( If ... )",
+    "explanation": "Attaching ら to the past tense plain form of verbs, adjectives, etc., makes a conditional expression. Used when the speaker wants to state an opinion, situation, request, etc.",
+    "examples": [
+      {"japanese": "お金があったら、旅行します。", "english": "If I had money, I would travel."},
+      {"japanese": "時間がなかったら、テレビを見ません。", "english": "If I don't have time, I will not watch TV."},
+      {"japanese": "安かったら、パソコンを買いたいです。", "english": "If it's inexpensive, I want to buy a personal computer."},
+      {"japanese": "暇だったら、手伝ってください。", "english": "If you are free, please give me a hand."},
+      {"japanese": "いい天気だったら、散歩しませんか。", "english": "If it's fine, won't you take a walk with me?"}
+    ]
+  },
+  {
+    "title": "Vた-form + ら ~ ( When.. / After.. )",
+    "explanation": "Expresses that something will be done or will happen when an event or action (sure to occur) is completed. The main sentence is always in the present tense.",
+    "examples": [
+      {"japanese": "10時になったら、出かけましょう。", "english": "Let's go out when it gets to ten."},
+      {"japanese": "うちへ帰ったら、すぐシャワーを浴びます。", "english": "I take a shower soon after I return home."}
+    ]
+  },
+  {
+    "title": "Vて-form / い-adj (~くて) / な-adj (~で) / Nで + も ~ ( Even if ... )",
+    "explanation": "Means 'even if ...'. Presents a reverse condition where the expected outcome does not occur or the result is contrary to social norms.",
+    "examples": [
+      {"japanese": "雨が降っても、洗濯します。", "english": "Even if it rains, I'll do the laundry."},
+      {"japanese": "安くても、わたしはグループ旅行が嫌いです。", "english": "Even if group tours are inexpensive, I don't like them."},
+      {"japanese": "便利でも、パソコンを使いません。", "english": "Even if a personal computer is useful, I won't use it."},
+      {"japanese": "日曜日でも、働きます。", "english": "Even if it is Sunday, I will work."}
+    ]
+  },
+  {
+    "title": "もし and いくら",
+    "explanation": "もし is used with plain past form to emphasize a supposition. いくら is used with ~ても (~でも) to emphasize the degree of conditionality.",
+    "examples": [
+      {"japanese": "もし1億円あったら、いろいろな国を旅行したいです。", "english": "If I had 100 million yen, I would want to travel in various countries."},
+      {"japanese": "いくら考えても、わかりません。", "english": "No matter how much I think, I can't understand this."},
+      {"japanese": "いくら高くても、買います。", "english": "No matter how expensive it is, I will buy it."}
+    ]
+  },
+  {
+    "title": "Nが",
+    "explanation": "In subordinate clauses with たら, ても, とき, と, まえに, and から, the subject is indicated by が instead of は.",
+    "examples": [
+      {"japanese": "友達が来るまえに、部屋を掃除します。", "english": "I will clean my room before my friends come."},
+      {"japanese": "妻が病気のとき、会社を休みます。", "english": "When my wife is sick, I take a day off work."},
+      {"japanese": "友達が約束の時間に来なかったら、どうしますか。", "english": "If your friend doesn't come on time, what will you do?"}
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "title": { "hiragana": "しゅくさいじつ", "kanji": "祝祭日", "english": "National Holidays" },
+  "holidays": [
+    {
+      "date": "1月1日",
+      "name": { "hiragana": "がんじつ", "kanji": "元日", "english": "New Year's Day" }
+    },
+    {
+      "date": "1月第2月曜日",
+      "name": { "hiragana": "せいじんのひ", "kanji": "成人の日", "english": "Coming-of-Age Day" }
+    },
+    {
+      "date": "2月11日",
+      "name": { "hiragana": "けんこくきねんのひ", "kanji": "建国記念の日", "english": "National Foundation Day" }
+    },
+    {
+      "date": "3月20日",
+      "name": { "hiragana": "しゅんぶんのひ", "kanji": "春分の日", "english": "Vernal Equinox Day" }
+    },
+    {
+      "date": "4月29日",
+      "name": { "hiragana": "みどりのひ", "kanji": "みどりの日", "english": "Greenery Day" }
+    },
+    {
+      "date": "5月3日",
+      "name": { "hiragana": "けんぽうきねんび", "kanji": "憲法記念日", "english": "Constitution Memorial Day" }
+    },
+    {
+      "date": "5月4日",
+      "name": { "hiragana": "こくみんのきゅうじつ", "kanji": "国民の休日", "english": "Citizen's Holiday" }
+    },
+    {
+      "date": "5月5日",
+      "name": { "hiragana": "こどものひ", "kanji": "こどもの日", "english": "Children's Day" }
+    },
+    {
+      "date": "7月20日",
+      "name": { "hiragana": "うみのひ", "kanji": "海の日", "english": "Marine Day" }
+    },
+    {
+      "date": "9月15日",
+      "name": { "hiragana": "けいろうのひ", "kanji": "敬老の日", "english": "Respect-for-the-Aged Day" }
+    },
+    {
+      "date": "9月23日",
+      "name": { "hiragana": "しゅうぶんのひ", "kanji": "秋分の日", "english": "Autumnal Equinox Day" }
+    },
+    {
+      "date": "10月第2月曜日",
+      "name": { "hiragana": "たいいくのひ", "kanji": "体育の日", "english": "Health and Sports Day" }
+    },
+    {
+      "date": "11月3日",
+      "name": { "hiragana": "ぶんかのひ", "kanji": "文化の日", "english": "Culture Day" }
+    },
+    {
+      "date": "11月23日",
+      "name": { "hiragana": "きんろうかんしゃのひ", "kanji": "勤労感謝の日", "english": "Labor Thanksgiving Day" }
+    },
+    {
+      "date": "12月23日",
+      "name": { "hiragana": "てんのうたんじょうび", "kanji": "天皇誕生日", "english": "The Emperor's Birthday" }
+    }
+  ]
+}

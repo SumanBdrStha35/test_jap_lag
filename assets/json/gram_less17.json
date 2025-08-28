@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Verb ない-form",
+    "explanation": "The ない-form is the plain negative form of verbs. Its formation depends on the verb group.",
+    "examples": [
+        {"japanese": "かきます → かかない", "english": "write → not write", "group": "Group I"},
+        {"japanese": "よみます → よまない", "english": "read → not read", "group": "Group I"},
+        {"japanese": "とります → とらない", "english": "take → not take", "group": "Group I"},
+        {"japanese": "すいます → すわない", "english": "smoke → not smoke", "group": "Group I"},
+        {"japanese": "いそぎます → いそがない", "english": "hurry → not hurry", "group": "Group I"},
+        {"japanese": "あそびます → あそばない", "english": "play → not play", "group": "Group I"},
+        {"japanese": "まちます → またない", "english": "wait → not wait", "group": "Group I"},
+        {"japanese": "はなします → はなさない", "english": "speak → not speak", "group": "Group I"},
+        {"japanese": "たべます → たべない", "english": "eat → not eat", "group": "Group II"},
+        {"japanese": "みます → みない", "english": "see → not see", "group": "Group II"},
+        {"japanese": "べんきょうします → べんきょうしない", "english": "study → not study", "group": "Group III"},
+        {"japanese": "します → しない", "english": "do → not do", "group": "Group III"},
+        {"japanese": "きます → こない", "english": "come → not come", "group": "Group III"}
+    ]
+  },
+  {
+    "title": "Vない-form ないでください ( Please don't... )",
+    "explanation": "Used to request or instruct someone not to do something.",
+    "examples": [
+      {"japanese": "わたしは元気ですから、心配しないでください。", "english": "I am fine, so please don't worry about me."},
+      {"japanese": "ここで写真を撮らないでください。", "english": "Please don't take pictures here."}
+    ]
+  },
+  {
+    "title": "Vない-form なければなりません ( must... / have to... )",
+    "explanation": "Means 'must...' or 'have to...'. Indicates obligation regardless of the speaker's will.",
+    "examples": [
+      {"japanese": "薬を飲まなければなりません。", "english": "I must take medicine."}
+    ]
+  },
+  {
+    "title": "Vない-form なくてもいいです (need not... / don't have to... )",
+    "explanation": "Means 'need not...' or 'don't have to...'. Indicates that an action is unnecessary.",
+    "examples": [
+      {"japanese": "あした来なくてもいいです。", "english": "You don't have to come tomorrow."}
+    ]
+  },
+  {
+    "title": "N(object)は",
+    "explanation": "The particle を (object marker) can be replaced with は to make the object the topic of the sentence.",
+    "examples": [
+      {"japanese": "ここに荷物を置かないでください。", "english": "Please don't put parcels here."},
+      {"japanese": "荷物はここに置かないでください。", "english": "As for parcels, don't put them here."},
+      {"japanese": "会社の食堂で昼ごはんを食べます。", "english": "I have lunch in the company cafeteria."},
+      {"japanese": "昼ごはんは会社の食堂で食べます。", "english": "As for lunch, I have it in the company cafeteria."}
+    ]
+  },
+  {
+    "title": "N(time)までに V",
+    "explanation": "までに indicates a time limit (by which an action must be done). Different from まで, which means 'until'.",
+    "examples": [
+      {"japanese": "会議は5時までに終わります。", "english": "The meeting will be over by five."},
+      {"japanese": "土曜日までに本を返さなければなりません。", "english": "I must return the book by Saturday."},
+      {"japanese": "5時まで働きます。", "english": "I work until five."}
+    ]
+  }
+]

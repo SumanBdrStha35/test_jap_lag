@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Nがあります / います",
+    "explanation": "Used to indicate the existence or presence of something. が marks the subject. あります is used for inanimate things, plants, and places, while います is used for people and animals.",
+    "examples": [
+      {
+        "japanese": "コンピューターがあります。",
+        "english": "There is a computer."
+      },
+      {
+        "japanese": "桜があります。",
+        "english": "There are cherry trees."
+      },
+      {
+        "japanese": "公園があります。",
+        "english": "There is a park."
+      },
+      {
+        "japanese": "男の人がいます。",
+        "english": "There is a man."
+      },
+      {
+        "japanese": "犬がいます。",
+        "english": "There is a dog."
+      }
+    ]
+  },
+  {
+    "title": "N1(place)に Nがあります / います",
+    "explanation": "に marks the place where something exists. Use なに for things and だれ for people when asking questions.",
+    "examples": [
+      {
+        "japanese": "わたしの部屋に机があります。",
+        "english": "There is a desk in my room."
+      },
+      {
+        "japanese": "事務所にミラーさんがいます。",
+        "english": "Mr. Miller is in the office."
+      },
+      {
+        "japanese": "地下に何がありますか。",
+        "english": "What is there in the basement?",
+        "answer": {
+          "japanese": "レストランがあります。",
+          "english": "There are restaurants."
+        }
+      },
+      {
+        "japanese": "受付にだれがいますか。",
+        "english": "Who is at the reception desk?",
+        "answer": {
+          "japanese": "木村さんがいます。",
+          "english": "Ms. Kimura is there."
+        }
+      }
+    ]
+  },
+  {
+    "title": "N1は N1(place)にあります / います",
+    "explanation": "Used when N is the topic, explaining its location. Often replaces が with は. You can also ask where something is using this pattern.",
+    "examples": [
+      {
+        "japanese": "東京ディズニーランドは千葉県にあります。",
+        "english": "Tokyo Disneyland is in Chiba Prefecture."
+      },
+      {
+        "japanese": "ミラーさんは事務所にいます。",
+        "english": "Mr. Miller is in the office."
+      },
+      {
+        "japanese": "東京ディズニーランドはどこにありますか。",
+        "english": "Where is Tokyo Disneyland?",
+        "answer": {
+          "japanese": "千葉県にあります。",
+          "english": "It's in Chiba Prefecture."
+        }
+      },
+      {
+        "japanese": "ミラーさんはどこにいますか。",
+        "english": "Where is Mr. Miller?",
+        "answer": {
+          "japanese": "事務所にいます。",
+          "english": "He's in the office."
+        }
+      },
+      {
+        "japanese": "東京ディズニーランドはどこにありますか。",
+        "english": "Where is Tokyo Disneyland?",
+        "answer": {
+          "japanese": "千葉県です。",
+          "english": "It's in Chiba Prefecture."
+        }
+      }
+    ]
+  },
+  {
+    "title": "N1 (thing/person/place) の N2 (position)",
+    "explanation": "Position nouns such as うえ, した, まえ, うしろ, みぎ, ひだり, なか, そと, となり, ちかく, and あいだ are used with に to indicate position.",
+    "examples": [
+      {
+        "japanese": "机の上に写真があります。",
+        "english": "There is a picture on the desk."
+      },
+      {
+        "japanese": "郵便局は銀行の隣にあります。",
+        "english": "The post office is next to the bank."
+      },
+      {
+        "japanese": "駅の近くで友達に会いました。",
+        "english": "I met a friend near the station."
+      }
+    ]
+  },
+  {
+    "title": "N1 や N2",
+    "explanation": "や is used to connect nouns, listing examples without exhausting the list. Sometimes など is added to emphasize there are more.",
+    "examples": [
+      {
+        "japanese": "箱の中に手紙や写真があります。",
+        "english": "There are letters, pictures, and so on in the box."
+      },
+      {
+        "japanese": "箱の中に手紙や写真などがあります。",
+        "english": "There are letters, pictures, and so on in the box."
+      }
+    ]
+  },
+  {
+    "title": "Word(s) ですか",
+    "explanation": "Used to confirm a word the speaker heard or understood. It repeats the word in question with ですか.",
+    "examples": [
+      {
+        "japanese": "すみません。ユニューヤ・ストアはどこですか。",
+        "english": "Excuse me, where is Yunyu-ya Store?",
+        "dialogue": [
+          {
+            "japanese": "ユニューヤ・ストアですか。",
+            "english": "Yunyu-ya Store?"
+          },
+          {
+            "japanese": "あのビルの中です。",
+            "english": "It's in that building."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Negative Question for Politeness",
+    "explanation": "Using ありませんか instead of ありますか makes the question more polite and shows the speaker is prepared for a negative answer.",
+    "examples": [
+      {
+        "japanese": "チリソースはありませんか。",
+        "english": "Don’t you have chili sauce? / Do you happen to have chili sauce?"
+      }
+    ]
+  }
+]

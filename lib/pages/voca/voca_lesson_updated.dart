@@ -498,7 +498,7 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate>
   }
 
   Future<Widget> showVocabCount(int lessonNumber) async {
-    String jsonFileName = 'assets/json/voca_les_${lessonNumber}.json';
+    String jsonFileName = 'assets/json/voca_les_$lessonNumber.json';
     // final String jsonString = rootBundle.loadString(jsonFileName);
     String jsonString = await rootBundle.loadString(jsonFileName);
     final List<dynamic> jsonResponse = json.decode(jsonString);

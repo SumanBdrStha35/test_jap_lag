@@ -1,0 +1,56 @@
+[
+  {
+    "title": "くれます",
+    "explanation": "あげます means 'give,' but it cannot be used when somebody else gives something to the speaker or the speaker's family. In such cases, くれます is used.",
+    "examples": [
+      {"japanese": "わたしは佐藤さんに花をあげました。", "english": "I gave flowers to Ms. Sato."},
+      {"japanese": "佐藤さんはわたしにクリスマスカードをくれました。", "english": "Ms. Sato gave me a Christmas card."},
+      {"japanese": "佐藤さんは妹にお菓子をくれました。", "english": "Ms. Sato gave candies to my younger sister."}
+    ]
+  },
+  {
+    "title": "Vて-form + あげます / もらいます / くれます",
+    "explanation": "あげます, もらいます, and くれます are used not only for giving/receiving things but also for actions, using the て-form. They express goodwill or gratitude.",
+    "subsections": [
+      {
+        "subtitle": "Vて-form あげます",
+        "explanation": "Indicates that one does something for somebody with goodwill. Avoid using it directly to strangers or superiors, as it may sound patronizing. Use Vます-form ましょうか instead in such cases.",
+        "examples": [
+          {"japanese": "わたしは木村さんに本を貸してあげました。", "english": "I lent Ms. Kimura a book."},
+          {"japanese": "タクシーを呼びましょうか。", "english": "Shall I call a taxi for you?"},
+          {"japanese": "手伝いましょうか。", "english": "May I help you?"}
+        ]
+      },
+      {
+        "subtitle": "Vて-form もらいます",
+        "explanation": "Indicates receiving a favor, often with a sense of gratitude. The receiver of the action is the subject.",
+        "examples": [
+          {"japanese": "わたしは山田さんに図書館の電話番号を教えてもらいました。", "english": "Mr. Yamada told me the telephone number of the library."}
+        ]
+      },
+      {
+        "subtitle": "Vて-form くれます",
+        "explanation": "Similar to Vて-form もらいます, but here the actor (the giver) is the subject. It emphasizes the goodwill of the giver. Often used when the receiver is the speaker, and わたしに is often omitted.",
+        "examples": [
+          {"japanese": "母はセーターを送ってくれました。", "english": "My mother sent me a sweater."}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "N (person) が V",
+    "explanation": "When providing new information in response to a topic, the subject is indicated by が.",
+    "examples": [
+      {"japanese": "すてきなネクタイですね。", "english": "That's a nice tie, isn't it?"},
+      {"japanese": "ええ、佐藤さんがくれました。", "english": "Yes. Ms. Sato gave it to me."}
+    ]
+  },
+  {
+    "title": "Interrogative + が + V",
+    "explanation": "When the subject is questioned in verb sentences, it is indicated by が (similar to あります/います and adjective sentences).",
+    "examples": [
+      {"japanese": "だれが手伝いに行きますか。", "english": "Who will go to give him a hand?"},
+      {"japanese": "カリナさんが行きます。", "english": "Ms. Karina will."}
+    ]
+  }
+]

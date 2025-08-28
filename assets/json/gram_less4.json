@@ -1,0 +1,148 @@
+[
+  {
+    "title": "今何時です",
+    "explanation": "To express time, the counter suffixes 時 (o'clock) and 分 (minutes) are used. 分 is read ふん after 2, 5, 7, or 9 and ぷん after 1, 3, 4, 6, 8, or 10. 1, 6, 8, and 10 change to いっ, ろっ, はっ, and じゅっ (じっ) before ぷん. The interrogative なん is used with a counter to ask questions, so なんじ (what time) or なんぷん (what minute) are used.",
+    "examples": [
+      {
+        "japanese": "今何時ですか。",
+        "english": "What time is it now?",
+        "answer": {
+          "japanese": "7時10分です。",
+          "english": "It's seven ten."
+        }
+      },
+      {
+        "japanese": "ニューヨークは今何時ですか。",
+        "english": "What time is it now in New York?",
+        "answer": {
+          "japanese": "午前4時です。",
+          "english": "It's 4 am."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Vます",
+    "explanation": "A verb with ます works as a predicate and makes the sentence polite.",
+    "examples": [
+      {
+        "japanese": "わたしは毎日勉強します。",
+        "english": "I study every day."
+      }
+    ]
+  },
+  {
+    "title": "Vます / Vません / Vました / Vませんでした",
+    "explanation": "ます is used for habitual actions, truths, or future events. Negative and past forms are as follows: ます → polite present/future, ません → polite negative, ました → polite past, ませんでした → polite past negative.",
+    "examples": [
+      {
+        "japanese": "毎朝6時に起きます。",
+        "english": "I get up at six every morning."
+      },
+      {
+        "japanese": "あした6時に起きます。",
+        "english": "I'll get up at six tomorrow morning."
+      },
+      {
+        "japanese": "けさ6時に起きました。",
+        "english": "I got up at six this morning."
+      },
+      {
+        "japanese": "きのう勉強しましたか。",
+        "english": "Did you study yesterday?",
+        "answer": {
+          "japanese": "はい、勉強しました。 / いいえ、勉強しませんでした。",
+          "english": "Yes, I did. / No, I didn’t."
+        }
+      },
+      {
+        "japanese": "毎朝何時に起きますか。",
+        "english": "What time do you get up every morning?",
+        "answer": {
+          "japanese": "6時に起きます。",
+          "english": "I get up at six."
+        }
+      }
+    ]
+  },
+  {
+    "title": "N (time) に V",
+    "explanation": "When a verb denotes a momentary action or movement, the time is marked with the particle に. に is used when the noun contains a numeral. It may also be used with days of the week, but it's optional.",
+    "examples": [
+      {
+        "japanese": "6時半に起きます。",
+        "english": "I get up at six thirty."
+      },
+      {
+        "japanese": "7月2日に日本へ来ました。",
+        "english": "I came to Japan on July 2nd."
+      },
+      {
+        "japanese": "日曜日[に]奈良へ行きます。",
+        "english": "I'm going to Nara on Sunday."
+      },
+      {
+        "japanese": "きのう勉強しました。",
+        "english": "I studied yesterday."
+      }
+    ]
+  },
+  {
+    "title": "N から N まで",
+    "explanation": "から indicates the starting time/place and まで the ending time/place. They can be used together or separately.",
+    "examples": [
+      {
+        "japanese": "9時から5時まで働きます。",
+        "english": "I work from nine to five."
+      },
+      {
+        "japanese": "大阪から東京まで3時間かかります。",
+        "english": "It takes three hours from Osaka to Tokyo."
+      },
+      {
+        "japanese": "9時から働きます。",
+        "english": "I work from nine."
+      },
+      {
+        "japanese": "銀行は9時から3時までです。",
+        "english": "The bank is open from nine to three."
+      },
+      {
+        "japanese": "昼休みは12時からです。",
+        "english": "Lunchtime starts at twelve."
+      }
+    ]
+  },
+  {
+    "title": "N と N",
+    "explanation": "The particle と connects two nouns equally.",
+    "examples": [
+      {
+        "japanese": "銀行の休みは土曜日と日曜日です。",
+        "english": "The bank is closed on Saturdays and Sundays."
+      }
+    ]
+  },
+  {
+    "title": "Sね",
+    "explanation": "ね is added to the end of a sentence to express empathy or confirm information. It shows the speaker expects the listener’s agreement.",
+    "examples": [
+      {
+        "japanese": "毎日10時ごろまで勉強します。",
+        "english": "I study till about ten every day.",
+        "answer": {
+          "japanese": "大変ですね。",
+          "english": "That must be hard."
+        }
+      },
+      {
+        "japanese": "山田さんの電話番号は871の6813です。",
+        "english": "Mr. Yamada's phone number is 871-6813.",
+        "answer": {
+          "japanese": "871の6813ですね。",
+          "english": "871-6813, right?"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "title": { "hiragana": "ひとのいっしょう", "kanji": "人の一生", "english": "Life" },
+  "stages": [
+    {
+      "age": "0歳",
+      "hiragana": "あかちゃん",
+      "kanji": "赤ちゃん",
+      "english": "Baby",
+      "events": [
+        { "hiragana": "うまれます", "kanji": "生まれます", "english": "Be born" },
+        { "hiragana": "ほいくえん", "kanji": "保育園", "english": "Nursery school" },
+        { "hiragana": "ようちえん", "kanji": "幼稚園", "english": "Kindergarten" }
+      ]
+    },
+    {
+      "age": "6歳",
+      "hiragana": "こども",
+      "kanji": "子ども",
+      "english": "Child",
+      "events": [
+        { "hiragana": "がっこうにはいります", "kanji": "学校に入ります", "english": "Enter school" },
+        { "hiragana": "しょうがっこう", "kanji": "小学校 (6年間)", "english": "Elementary school (6 years)" },
+        { "hiragana": "ちゅうがっこう", "kanji": "中学校 (3年間)", "english": "Junior high school (3 years)" },
+        { "hiragana": "こうとうがっこう", "kanji": "高等学校 (3年間)", "english": "Senior high school (3 years)" }
+      ]
+    },
+    {
+      "age": "18歳",
+      "hiragana": "せいねん",
+      "kanji": "青年",
+      "english": "Youth",
+      "events": [
+        { "hiragana": "だいがく", "kanji": "大学 (4年間)", "english": "University (4 years)" },
+        { "hiragana": "たんだい", "kanji": "短大 (2年間)", "english": "Junior college (2 years)" },
+        { "hiragana": "せんもんがっこう", "kanji": "専門学校 (2年間)", "english": "Technical college (2 years)" },
+        { "hiragana": "だいがくいん", "kanji": "大学院 (2〜6年間)", "english": "Postgraduate course (2–6 years)" }
+      ]
+    },
+    {
+      "age": "30〜40歳",
+      "hiragana": "ちゅうねん",
+      "kanji": "中年",
+      "english": "Middle age",
+      "events": [
+        { "hiragana": "がっこうをでます", "kanji": "学校を出ます", "english": "Graduate from school" },
+        { "hiragana": "しゅうしょくします", "kanji": "就職します", "english": "Get a job" },
+        { "hiragana": "けっこんします", "kanji": "結婚します", "english": "Marry" },
+        { "hiragana": "こどもがうまれます", "kanji": "子どもが生まれます", "english": "Have a child" },
+        { "hiragana": "りこんします", "kanji": "離婚します", "english": "Divorce" },
+        { "hiragana": "さいこんします", "kanji": "再婚します", "english": "Marry again" }
+      ]
+    },
+    {
+      "age": "60歳",
+      "english": "Retirement",
+      "events": [
+        { "hiragana": "しごとをやめます", "kanji": "仕事をやめます", "english": "Retire" }
+      ]
+    },
+    {
+      "age": "70歳",
+      "hiragana": "ろうじん",
+      "kanji": "老人",
+      "english": "Old age"
+    },
+    {
+      "hiragana": "しにます",
+      "kanji": "死にます",
+      "english": "Die"
+    }
+  ],
+  "life_expectancy": {
+    "men": "77.01",
+    "women": "83.59",
+    "year": "1996",
+    "source": "Ministry of Health and Welfare"
+  }
+}

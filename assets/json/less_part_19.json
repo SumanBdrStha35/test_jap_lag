@@ -1,0 +1,20 @@
+{
+  "title": { "hiragana": "でんとうぶんか・ごらく", "kanji": "伝統文化・娯楽", "english": "Traditional Culture & Entertainment" },
+  "items": [
+    { "hiragana": "さどう", "kanji": "茶道", "english": "Tea ceremony (お茶)" },
+    { "hiragana": "かどう", "kanji": "華道", "english": "Flower arrangement (生け花)" },
+    { "hiragana": "しょどう", "kanji": "書道", "english": "Calligraphy" },
+    { "hiragana": "かぶき", "kanji": "歌舞伎", "english": "Kabuki" },
+    { "hiragana": "のう", "kanji": "能", "english": "Noh" },
+    { "hiragana": "ぶんらく", "kanji": "文楽", "english": "Bunraku (Puppet theater)" },
+    { "hiragana": "すもう", "kanji": "相撲", "english": "Sumo" },
+    { "hiragana": "じゅうどう", "kanji": "柔道", "english": "Judo" },
+    { "hiragana": "けんどう", "kanji": "剣道", "english": "Kendo" },
+    { "hiragana": "からて", "kanji": "空手", "english": "Karate" },
+    { "hiragana": "まんざい・らくご", "kanji": "漫才・落語", "english": "Manzai, Rakugo (comic dialogue / comic storytelling)" },
+    { "hiragana": "いご・しょうぎ", "kanji": "囲碁・将棋", "english": "Go, Shogi" },
+    { "hiragana": "パチンコ", "kanji": "パチンコ", "english": "Pachinko" },
+    { "hiragana": "カラオケ", "kanji": "カラオケ", "english": "Karaoke" },
+    { "hiragana": "ぼんおどり", "kanji": "盆踊り", "english": "Bon dance" }
+  ]
+}

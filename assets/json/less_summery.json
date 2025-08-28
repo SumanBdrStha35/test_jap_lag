@@ -1,0 +1,245 @@
+{
+  "は": {
+    "A": [
+      { "sentence": "I am Mike Miller.", "lesson": 1 },
+      { "sentence": "I get up at six in the morning.", "lesson": 4 },
+      { "sentence": "Cherry blossoms are beautiful.", "lesson": 8 }
+    ],
+    "B": [
+      { "sentence": "What time is it now in New York?", "lesson": 4 },
+      { "sentence": "On Sunday I went to Nara with a friend.", "lesson": 6 },
+      { "sentence": "Tokyo Disneyland is in Chiba Prefecture.", "lesson": 10 },
+      { "sentence": "Please send the data by fax.", "lesson": 17 }
+    ]
+  },
+  "も": {
+    "A": [
+      { "sentence": "Maria is Brazilian, too.", "lesson": 1 },
+      { "sentence": "Please send this parcel, too.", "lesson": 11 },
+      { "sentence": "I like both.", "lesson": 12 },
+      { "sentence": "I have been on a diet many times.", "lesson": 19 }
+    ],
+    "B": [
+      { "sentence": "I did not go anywhere.", "lesson": 5 },
+      { "sentence": "I did not eat anything.", "lesson": 6 },
+      { "sentence": "There was no one.", "lesson": 10 }
+    ]
+  },
+  "の": {
+    "A": [
+      { "sentence": "That person is Mr. Miller of IMC.", "lesson": 1 },
+      { "sentence": "This is a book on computers.", "lesson": 2 },
+      { "sentence": "That is my umbrella.", "lesson": 2 },
+      { "sentence": "This is a Japanese car.", "lesson": 3 },
+      { "sentence": "Did you study last night?", "lesson": 4 },
+      { "sentence": "How are your Japanese studies going?", "lesson": 8 },
+      { "sentence": "There is a picture on the desk.", "lesson": 10 },
+      { "sentence": "Please tell me how to read this Kanji.", "lesson": 14 },
+      { "sentence": "I came from Bandung, Indonesia.", "lesson": 16 }
+    ],
+    "B": [
+      { "sentence": "This bag is Ms. Sato's.", "lesson": 2 },
+      { "sentence": "Where was this camera made? ...In Japan.", "lesson": 3 }
+    ],
+    "C": [
+      { "sentence": "Is there one a little bigger?", "lesson": 14 }
+    ]
+  },
+  "を": {
+    "A": [
+      { "sentence": "I drink juice.", "lesson": 6 },
+      { "sentence": "I am going to travel for a week.", "lesson": 11 },
+      { "sentence": "I will pick up my child at two o'clock.", "lesson": 13 }
+    ],
+    "B": [
+      { "sentence": "I took a day off work yesterday.", "lesson": null },
+      { "sentence": "I leave home at eight every morning.", "lesson": 11 },
+      { "sentence": "I get off the train at Kyoto.", "lesson": 13 }
+    ],
+    "C": [
+      { "sentence": "I take a walk in a park every morning.", "lesson": 16 },
+      { "sentence": "I take a walk in a park every morning.", "lesson": 13 },
+      { "sentence": "Please cross at that traffic signal.", "lesson": 23 },
+      { "sentence": "Go straight along this street and you will find the station.", "lesson": 23 }
+    ]
+  },
+  "が": {
+    "A": [
+      { "sentence": "I like Italian food.", "lesson": null },
+      { "sentence": "Mr. Miller is good at cooking.", "lesson": 9 },
+      { "sentence": "I understand Japanese a little.", "lesson": 9 },
+      { "sentence": "Do you have any small change?", "lesson": 9 },
+      { "sentence": "I have two children.", "lesson": 11 },
+      { "sentence": "I want a personal computer.", "lesson": 13 },
+      { "sentence": "Can you ski?", "lesson": 18 },
+      { "sentence": "I need a tape recorder.", "lesson": 20 }
+    ],
+    "B": [
+      { "sentence": "There is a man over there.", "lesson": 10 },
+      { "sentence": "There is a picture on the desk.", "lesson": 10 },
+      { "sentence": "There will be a festival in Kyoto next month.", "lesson": 21 }
+    ],
+    "C": [
+      { "sentence": "Tokyo has a big population.", "lesson": 12 },
+      { "sentence": "Mr. Santos is tall.", "lesson": 16 },
+      { "sentence": "I have a sore throat.", "lesson": 17 }
+    ],
+    "D": [
+      { "sentence": "Which is faster, a bus or a train?", "lesson": 12 },
+      { "sentence": "...A train is faster.", "lesson": 12 },
+      { "sentence": "Baseball is the most interesting of all the sports.", "lesson": 14 }
+    ],
+    "E": [
+      { "sentence": "It is raining now.", "lesson": 23 },
+      { "sentence": "Touch this, and the water will come out.", "lesson": 23 },
+      { "sentence": "The volume is low.", "lesson": 16 }
+    ],
+    "F": [
+      { "sentence": "I am going to go and have a meal after the concert is over.", "lesson": 25 },
+      { "sentence": "What will you do if your friend does not come on time?", "lesson": 23 },
+      { "sentence": "When my wife is sick, I take a day off work.", "lesson": 22 },
+      { "sentence": "Which is the picture that Ms. Karina drew?", "lesson": 24 }
+    ],
+    "G": [
+      { "sentence": "Ms. Sato gave me wine.", "lesson": 24 },
+      { "sentence": "Who paid for you?", "lesson": null }
+    ]
+  },
+  "に": {
+    "A": [
+      { "sentence": "I get up at six o'clock in the morning.", "lesson": 4 },
+      { "sentence": "I came to Japan on March 25th.", "lesson": 5 }
+    ],
+    "B": [
+      { "sentence": "I gave some flowers to Ms. Kimura.", "lesson": 7 },
+      { "sentence": "I write Christmas cards to my family and friends.", "lesson": 7 }
+    ],
+    "C": [
+      { "sentence": "I received a gift from Mr. Santos.", "lesson": null },
+      { "sentence": "I borrowed a book from a person in the company.", "lesson": 7 }
+    ],
+    "D": [
+      { "sentence": "There is a picture on the desk.", "lesson": 7 },
+      { "sentence": "My family is in New York.", "lesson": 10 },
+      { "sentence": "Maria lives in Osaka.", "lesson": 15 }
+    ],
+    "E": [
+      { "sentence": "I will meet a friend tomorrow.", "lesson": 6 },
+      { "sentence": "Have you already got accustomed to living in Japan?", "lesson": 8 },
+      { "sentence": "Let's go in that coffee shop.", "lesson": 13 },
+      { "sentence": "Please sit here.", "lesson": 15 },
+      { "sentence": "I take a train from Umeda.", "lesson": 16 },
+      { "sentence": "Please write your name here.", "lesson": 14 },
+      { "sentence": "Touch this, and the water will come out.", "lesson": 23 }
+    ],
+    "F": [
+      { "sentence": "I play tennis once a week.", "lesson": 11 }
+    ],
+    "G": [
+      { "sentence": "I came to Japan to study economics.", "lesson": 13 },
+      { "sentence": "I will go to Kyoto for cherry blossom viewing.", "lesson": 13 }
+    ],
+    "H": [
+      { "sentence": "Teresa became ten.", "lesson": 19 }
+    ]
+  },
+  "へ": {
+    "A": [
+      { "sentence": "I will go to Kyoto with a friend.", "lesson": 5 },
+      { "sentence": "I will go to France to study cooking.", "lesson": 13 },
+      { "sentence": "Please turn right at that traffic light.", "lesson": 14 }
+    ]
+  },
+  "で": {
+    "A": [
+      { "sentence": "I go home by taxi.", "lesson": 5 },
+      { "sentence": "I send the data by fax.", "lesson": 7 },
+      { "sentence": "Do you write reports in Japanese?", "lesson": 7 }
+    ],
+    "B": [
+      { "sentence": "I buy a newspaper at the station.", "lesson": 6 },
+      { "sentence": "In July there is a festival in Kyoto.", "lesson": 21 },
+      { "sentence": "In July there is a festival in Kyoto.", "lesson": 12 }
+    ],
+    "C": [
+      { "sentence": "I like summer the best of the year.", "lesson": null }
+    ]
+  },
+  "と": {
+    "A": [
+      { "sentence": "I came to Japan with my family.", "lesson": 5 },
+      { "sentence": "Ms. Sato is talking with the department chief in the meeting room.", "lesson": 14 }
+    ],
+    "B": [
+      { "sentence": "I have Saturdays and Sundays off.", "lesson": 4 },
+      { "sentence": "The book store is between a florist's and a supermarket.", "lesson": 10 },
+      { "sentence": "Which is more interesting, football or baseball?", "lesson": 12 }
+    ],
+    "C": [
+      { "sentence": "I think it will rain tomorrow.", "lesson": 21 },
+      { "sentence": "The prime minister said that he would go to America next month.", "lesson": 21 }
+    ]
+  },
+  "や": {
+    "A": [
+      { "sentence": "There are old letters, pictures and things in the box.", "lesson": 10 }
+    ]
+  },
+  "からまで": {
+    "A": [
+      { "sentence": "I work from nine to five.", "lesson": 4 },
+      { "sentence": "The bank is open from nine to three.", "lesson": 4 },
+      { "sentence": "I worked until ten last night.", "lesson": 4 }
+    ],
+    "B": [
+      { "sentence": "Chili sauce is on the second rack from the bottom.", "lesson": 10 },
+      { "sentence": "It takes four hours to fly from my country to Japan.", "lesson": 11 },
+      { "sentence": "Shall I come and get you at the station?", "lesson": 14 }
+    ]
+  },
+  "までに": {
+    "A": [
+      { "sentence": "I have to return the books by Saturday.", "lesson": 17 }
+    ]
+  },
+  "より": {
+    "A": [
+      { "sentence": "China is bigger than Japan.", "lesson": 12 }
+    ]
+  },
+  "でも": {
+    "A": [
+      { "sentence": "Shall we drink a glass of beer or something?", "lesson": 21 }
+    ]
+  },
+  "か": {
+    "A": [
+      { "sentence": "Is Mr. Santos Brazilian?", "lesson": 1 },
+      { "sentence": "Is it a mechanical pencil or a ballpoint pen?", "lesson": 2 },
+      { "sentence": "Shall we go and see a film together?", "lesson": 6 }
+    ],
+    "B": [
+      { "sentence": "Excuse me. Where is Yunyu-ya store?", "lesson": 10 },
+      { "sentence": "...Yunyu-ya store? It's in that building.", "lesson": 10 }
+    ],
+    "C": [
+      { "sentence": "Is this umbrella yours?", "lesson": 2 },
+      { "sentence": "No, it isn't. It's Mr. Schmidt's.", "lesson": 2 },
+      { "sentence": "I see.", "lesson": 2 }
+    ]
+  },
+  "ね": {
+    "A": [
+      { "sentence": "I studied until twelve last night, too. That's tough, isn't it?", "lesson": 4 },
+      { "sentence": "That spoon looks nice, doesn't it?", "lesson": 7 },
+      { "sentence": "Well, let me see, it's 871-6813. 871-6813, right?", "lesson": 4 },
+      { "sentence": "You see the man over there. Who is he?", "lesson": 10 }
+    ]
+  },
+  "よ": {
+    "A": [
+      { "sentence": "Does this train go to Koshien?", "lesson": 5 },
+      { "sentence": "No. The next local train does.", "lesson": 5 }
+    ]
+  }
+}

@@ -1,120 +1,87 @@
 [
-    {
-      "title": "ここ / そこ / あそこ / こちら / そちら / あちら",
-      "explanation": "These demonstratives refer to places. ここ is near the speaker, そこ is near the listener, あそこ is far from both. こちら, そちら, and あちら are politer forms and also used for directions.",
-      "notes": "When the speaker sees the listener as sharing their territory, そこ refers to the place near the listener. あそこ becomes an even more distant location.",
-      "illustration": {
-        "koko": "speaker's location",
-        "soko": "listener's location",
-        "asoko": "distant from both"
+  {
+    "title": "ここ / そこ / あそこ / こちら / そちら / あちら",
+    "explanation": "これ, それ, あれ (Lesson 2) refer to things, while ここ, そこ, あそこ refer to places. ここ is the place near the speaker, そこ near the listener, and あそこ far from both. こちら, そちら, and あちら indicate direction and can also mean location (more polite than そこ and あそこ).",
+    "examples": [
+      {
+        "note": "When the speaker includes the listener in the same space, ここ refers to their shared place, そこ is a little farther away, and あそこ is even more distant."
       }
-    },
-    {
-      "title": "N1 は N2 (place) です",
-      "explanation": "This sentence pattern explains where a place, thing, or person is located.",
-      "examples": [
-        {
-          "japanese": "お手洗いは あそこ です。",
-          "english": "The rest room is there."
-        },
-        {
-          "japanese": "電話は ２階 です。",
-          "english": "The telephone is on the second floor."
-        },
-        {
-          "japanese": "山田さんは 事務所 です。",
-          "english": "Mr. Yamada is in the office."
-        }
-      ]
-    },
-    {
-      "title": "どこ / どちら",
-      "explanation": "どこ means 'where' and どちら means 'which direction.' どちら is more polite. It can also mean 'where' in polite speech.",
-      "examples": [
-        {
-          "japanese": "お手洗いは どこ ですか。",
-          "english": "Where’s the rest room?",
-          "answer": {
-            "japanese": "・・・あそこ です。",
-            "english": "It’s there."
-          }
-        },
-        {
-          "japanese": "エレベーターは どちら ですか。",
-          "english": "Where’s the elevator?",
-          "answer": {
-            "japanese": "・・・あちら です。",
-            "english": "It’s in that direction. (It’s there.)"
-          }
-        }
-      ],
-      "note": "どこ and どちら can also be used to ask names of countries, companies, schools, or organizations a person belongs to.",
-      "additionalExamples": [
-        {
-          "japanese": "学校は どこ ですか。",
-          "english": "What’s the name of your school?"
-        },
-        {
-          "japanese": "会社は どちら ですか。",
-          "english": "What company do you work for?"
-        }
-      ]
-    },
-    {
-      "title": "N1 の N2",
-      "explanation": "When N1 is a place and N2 is a product, this structure indicates the place where the product is made or who made it. どこ is used to ask this question.",
-      "examples": [
-        {
-          "japanese": "これは どこの コンピューター ですか。",
-          "english": "Where is this computer made? / Who is the maker of this computer?",
-          "answers": [
-            {
-              "japanese": "・・・日本 の コンピューター です。",
-              "english": "It’s made in Japan."
-            },
-            {
-              "japanese": "・・・ＩＭＣ の コンピューター です。",
-              "english": "IMC is."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The こ / そ / あ / ど system of demonstrative words",
-      "table": {
-        "thing": {
-          "ko_series": "これ",
-          "so_series": "それ",
-          "a_series": "あれ",
-          "do_series": "どれ"
-        },
-        "thing+N": {
-          "ko_series": "この N",
-          "so_series": "その N",
-          "a_series": "あの N",
-          "do_series": "どの N"
-        },
-        "place": {
-          "ko_series": "ここ",
-          "so_series": "そこ",
-          "a_series": "あそこ",
-          "do_series": "どこ"
-        },
-        "direction (polite)": {
-          "ko_series": "こちら",
-          "so_series": "そちら",
-          "a_series": "あちら",
-          "do_series": "どちら"
-        }
+    ]
+  },
+  {
+    "title": "N は N (place) です",
+    "explanation": "This pattern is used to state where a place, thing, or person is located.",
+    "examples": [
+      {
+        "japanese": "お手洗いは あそこです。",
+        "english": "The restroom is there."
+      },
+      {
+        "japanese": "電話は 2階です。",
+        "english": "The telephone is on the second floor."
+      },
+      {
+        "japanese": "山田さんは 事務所です。",
+        "english": "Mr. Yamada is in the office."
       }
-    },
-    {
-      "title": "6. お国",
-      "explanation": "お is a prefix used to express respect when asking about the listener’s country.",
-      "example": {
-        "japanese": "お国は どちら ですか。",
-        "english": "Where are you from?"
+    ]
+  },
+  {
+    "title": "どこ / どちら",
+    "explanation": "どこ means 'where.' どちら means 'which direction,' but can also mean 'where' in a more polite way. Both can also be used to ask the name of a school, company, or country someone belongs to. You cannot use なん (what).",
+    "examples": [
+      {
+        "japanese": "お手洗いは どこですか。 ･･･あそこです。",
+        "english": "Where's the restroom? ... It's there."
+      },
+      {
+        "japanese": "エレベーターは どちらですか。 ･･･あちらです。",
+        "english": "Where's the elevator? ... It's in that direction."
+      },
+      {
+        "japanese": "学校は どこですか。",
+        "english": "What's the name of your school?"
+      },
+      {
+        "japanese": "会社は どちらですか。",
+        "english": "What company do you work for?"
       }
+    ]
+  },
+  {
+    "title": "N1 の N2 (origin or maker)",
+    "explanation": "When N1 is a country and N2 is a product, it means the product is made in that country. When N1 is a company and N2 is a product, it means the product is made by that company. Used with どこの～ to ask origin or maker.",
+    "examples": [
+      {
+        "japanese": "これは どこの コンピューターですか。",
+        "english": "Where is this computer made? Who made it?"
+      },
+      {
+        "japanese": "・・・日本の コンピューターです。",
+        "english": "It's made in Japan."
+      },
+      {
+        "japanese": "・・・IMCの コンピューターです。",
+        "english": "It's an IMC computer."
+      }
+    ]
+  },
+  {
+    "title": "The こ / そ / あ / ど system",
+    "explanation": "Demonstratives form four series: こ (near speaker), そ (near listener), あ (far from both), and ど (interrogative).",
+    "table": {
+      "thing": ["これ", "それ", "あれ", "どれ (L.8)"],
+      "modifier": ["この N", "その N", "あの N", "どの N (L.16)"],
+      "place": ["ここ", "そこ", "あそこ", "どこ"],
+      "direction/polite place": ["こちら", "そちら", "あちら", "どちら"]
     }
+  },
+  {
+    "title": "お国",
+    "explanation": "The honorific prefix お is added to words related to the listener or a third person to show respect.",
+    "example": {
+      "japanese": "お国は どちらですか。",
+      "english": "Where are you from?"
+    }
+  }
 ]

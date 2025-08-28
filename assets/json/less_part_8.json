@@ -1,0 +1,34 @@
+{
+  "title": { "hiragana": "いろ・あじ", "kanji": "色・味", "english": "Color & Taste" },
+  "categories": [
+    {
+      "category": { "hiragana": "いろ", "kanji": "色", "english": "Colors" },
+      "items": [
+        { "hiragana": "しろ", "kanji": "白", "english": "White", "adjective": "白い (しろい)" },
+        { "hiragana": "きいろ", "kanji": "黄色", "english": "Yellow", "adjective": "黄色い (きいろい)" },
+        { "hiragana": "くろ", "kanji": "黒", "english": "Black", "adjective": "黒い (くろい)" },
+        { "hiragana": "ちゃいろ", "kanji": "茶色", "english": "Brown", "adjective": "茶色い (ちゃいろい)" },
+        { "hiragana": "あか", "kanji": "赤", "english": "Red", "adjective": "赤い (あかい)" },
+        { "hiragana": "ピンク", "kanji": "ピンク", "english": "Pink", "adjective": null },
+        { "hiragana": "あお", "kanji": "青", "english": "Blue", "adjective": "青い (あおい)" },
+        { "hiragana": "オレンジ", "kanji": "オレンジ", "english": "Orange", "adjective": null },
+        { "hiragana": "みどり", "kanji": "緑", "english": "Green", "adjective": null },
+        { "hiragana": "グレー", "kanji": "グレー", "english": "Gray", "adjective": null },
+        { "hiragana": "むらさき", "kanji": "紫", "english": "Purple", "adjective": null },
+        { "hiragana": "ベージュ", "kanji": "ベージュ", "english": "Beige", "adjective": null }
+      ]
+    },
+    {
+      "category": { "hiragana": "あじ", "kanji": "味", "english": "Taste" },
+      "items": [
+        { "hiragana": "あまい", "kanji": "甘い", "english": "Sweet" },
+        { "hiragana": "からい", "kanji": "辛い", "english": "Hot / Spicy" },
+        { "hiragana": "にがい", "kanji": "苦い", "english": "Bitter" },
+        { "hiragana": "しおからい", "kanji": "塩辛い", "english": "Salty" },
+        { "hiragana": "すっぱい", "kanji": "酸っぱい", "english": "Sour" },
+        { "hiragana": "こい", "kanji": "濃い", "english": "Thick / Strong (flavor)" },
+        { "hiragana": "うすい", "kanji": "薄い", "english": "Thin / Weak (flavor)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  { "name": { "hiragana": "さとう", "kanji": "佐藤", "english": "Sato" } },
+  { "name": { "hiragana": "すずき", "kanji": "鈴木", "english": "Suzuki" } },
+  { "name": { "hiragana": "たかはし", "kanji": "高橋", "english": "Takahashi" } },
+  { "name": { "hiragana": "たなか", "kanji": "田中", "english": "Tanaka" } },
+  { "name": { "hiragana": "わたなべ", "kanji": "渡辺", "english": "Watanabe" } },
+  { "name": { "hiragana": "いとう", "kanji": "伊藤", "english": "Ito" } },
+  { "name": { "hiragana": "なかむら", "kanji": "中村", "english": "Nakamura" } },
+  { "name": { "hiragana": "やまもと", "kanji": "山本", "english": "Yamamoto" } },
+  { "name": { "hiragana": "こばやし", "kanji": "小林", "english": "Kobayashi" } },
+  { "name": { "hiragana": "さいとう", "kanji": "斎藤", "english": "Saito" } },
+  { "name": { "hiragana": "かとう", "kanji": "加藤", "english": "Kato" } },
+  { "name": { "hiragana": "よしだ", "kanji": "吉田", "english": "Yoshida" } },
+  { "name": { "hiragana": "やまだ", "kanji": "山田", "english": "Yamada" } },
+  { "name": { "hiragana": "ささき", "kanji": "佐々木", "english": "Sasaki" } },
+  { "name": { "hiragana": "まつもと", "kanji": "松本", "english": "Matsumoto" } },
+  { "name": { "hiragana": "やまぐち", "kanji": "山口", "english": "Yamaguchi" } },
+  { "name": { "hiragana": "きむら", "kanji": "木村", "english": "Kimura" } },
+  { "name": { "hiragana": "いのうえ", "kanji": "井上", "english": "Inoue" } },
+  { "name": { "hiragana": "あべ", "kanji": "阿部", "english": "Abe" } },
+  { "name": { "hiragana": "はやし", "kanji": "林", "english": "Hayashi" } }
+]

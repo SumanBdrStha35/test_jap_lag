@@ -1,0 +1,106 @@
+[
+  {
+    "title": "N (tool/means) で V",
+    "explanation": "で marks the tool, method, or means used for an action.",
+    "examples": [
+      {
+        "japanese": "はしで食べます。",
+        "english": "I eat with chopsticks."
+      },
+      {
+        "japanese": "日本語でレポートを書きます。",
+        "english": "I write a report in Japanese."
+      }
+    ]
+  },
+  {
+    "title": "「Word/Sentence」は〜語で何ですか",
+    "explanation": "Used to ask how to say a word or sentence in another language.",
+    "examples": [
+      {
+        "japanese": "「ありがとう」は英語で何ですか。",
+        "english": "What's \"ありがとう\" in English?",
+        "answer": {
+          "japanese": "「Thank you」です。",
+          "english": "It's \"Thank you.\""
+        }
+      },
+      {
+        "japanese": "「Thank you」は日本語で何ですか。",
+        "english": "What's \"Thank you\" in Japanese?",
+        "answer": {
+          "japanese": "「ありがとう」です。",
+          "english": "It's \"ありがとう.\""
+        }
+      }
+    ]
+  },
+  {
+    "title": "N (person) に V (あげます、かします、おしえます, etc.)",
+    "explanation": "に marks the person to whom something is given, lent, taught, etc.",
+    "examples": [
+      {
+        "japanese": "山田さんは木村さんに花をあげました。",
+        "english": "Mr. Yamada gave flowers to Ms. Kimura."
+      },
+      {
+        "japanese": "イーさんに本を貸しました。",
+        "english": "I lent my book to Ms. Lee."
+      },
+      {
+        "japanese": "太郎君に英語を教えます。",
+        "english": "I teach Taro English."
+      },
+      {
+        "japanese": "会社に電話をかけます。",
+        "english": "I’ll call my office."
+      }
+    ]
+  },
+  {
+    "title": "N (person) に V (もらいます、かります、ならいます, etc.)",
+    "explanation": "に marks the person from whom something is received, borrowed, or learned. から can also be used. For organizations, only から is used.",
+    "examples": [
+      {
+        "japanese": "木村さんは山田さんに花をもらいました。",
+        "english": "Ms. Kimura received flowers from Mr. Yamada."
+      },
+      {
+        "japanese": "カリナさんにCDを借りました。",
+        "english": "I borrowed a CD from Ms. Karina."
+      },
+      {
+        "japanese": "ワンさんに中国語を習います。",
+        "english": "I learn Chinese from Mr. Wang."
+      },
+      {
+        "japanese": "木村さんは山田さんから花をもらいました。",
+        "english": "Ms. Kimura received flowers from Mr. Yamada."
+      },
+      {
+        "japanese": "銀行からお金を借りました。",
+        "english": "I borrowed some money from the bank."
+      }
+    ]
+  },
+  {
+    "title": "もう Vました",
+    "explanation": "もう (already) is used with Vました to show an action has been completed. The question form is もう Vましたか. The correct negative response is まだです (not yet).",
+    "examples": [
+      {
+        "japanese": "もう荷物を送りましたか。",
+        "english": "Have you sent the parcel yet?",
+        "answers": [
+          {
+            "japanese": "はい、もう送りました。",
+            "english": "Yes, I’ve already sent it."
+          },
+          {
+            "japanese": "いいえ、まだです。",
+            "english": "No, not yet."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Plain form と思います",
+    "explanation": "The particle と is used with 思います to indicate ideas, opinions, or conjectures.",
+    "sections": [
+      {
+        "subtitle": "Conjecture",
+        "examples": [
+          {"japanese": "あした雨が降ると思います。", "english": "I think it will rain tomorrow."},
+          {"japanese": "テレサちゃんはもう寝たと思います。", "english": "I think Teresa has already gone to bed."},
+          {"japanese": "ミラーさんはこのニュースを知っていますか。", "english": "Does Mr. Miller know this news?"},
+          {"japanese": "･･･いいえ、たぶん知らないと思います。", "english": "No, I don’t think he does."}
+        ]
+      },
+      {
+        "subtitle": "Opinion",
+        "examples": [
+          {"japanese": "日本は物価が高いと思います。", "english": "I think that prices are high in Japan."},
+          {"japanese": "新しい空港についてどう思いますか。", "english": "What do you think of the new airport?"},
+          {"japanese": "･･･きれいですが、ちょっと交通が不便だと思います。", "english": "...I think that it is clean but the access to it is not easy."},
+          {"japanese": "A: ファクスは便利ですね。", "english": "Fax machines are convenient, aren’t they?"},
+          {"japanese": "B: わたしもそう思います。", "english": "I think so, too."},
+          {"japanese": "C: わたしはそうは思いません。", "english": "I don’t think so."}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "「S」plain form } と言います",
+    "explanation": "The particle と is used with 言います to quote speech. Direct or indirect quotation is possible.",
+    "sections": [
+      {
+        "subtitle": "Direct quotation",
+        "examples": [
+          {"japanese": "寝るまえに「お休みなさい」と言います。", "english": "We say 'Good night' before going to bed."},
+          {"japanese": "ミラーさんは「来週東京へ出張します」と言いました。", "english": "Mr. Miller said 'I will go to Tokyo on a business trip next week.'"}
+        ]
+      },
+      {
+        "subtitle": "Indirect quotation",
+        "examples": [
+          {"japanese": "ミラーさんは来週東京へ出張すると言いました。", "english": "Mr. Miller said that he would go to Tokyo on a business trip next week."}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "V / い-adj} な-adj / N } Plain form } でしょう?",
+    "explanation": "Used with rising intonation to confirm the listener’s agreement or knowledge.",
+    "examples": [
+      {"japanese": "あしたパーティーに行くでしょう?", "english": "You are going to the party tomorrow, aren’t you?"},
+      {"japanese": "･･･ええ、行きます。", "english": "...Yes, I am."},
+      {"japanese": "北海道は寒かったでしょう?", "english": "It was cold in Hokkaido, wasn’t it?"},
+      {"japanese": "･･･いいえ、そんなに寒くなかったです。", "english": "...No, it wasn’t that cold."}
+    ]
+  },
+  {
+    "title": "N1 (place)でN2があります",
+    "explanation": "When N₁ expresses events like concerts, parties, disasters, etc., あります means 'to be held' or 'to take place'.",
+    "examples": [
+      {"japanese": "東京で日本とブラジルのサッカーの試合があります。", "english": "A football game between Japan and Brazil will be held in Tokyo."}
+    ]
+  },
+  {
+    "title": "N (occasion)で",
+    "explanation": "When some action takes place on a certain occasion, that occasion is followed by で.",
+    "examples": [
+      {"japanese": "会議で何か意見を言いましたか。", "english": "Did you give your opinion at the meeting?"}
+    ]
+  },
+  {
+    "title": "Nでも V",
+    "explanation": "でも gives an example out of things of the same kind, often in suggestions or encouragement.",
+    "examples": [
+      {"japanese": "ちょっとビールでも飲みませんか。", "english": "Shall we drink beer or something?"}
+    ]
+  },
+  {
+    "title": "Vない-form ないと...",
+    "explanation": "This is a shortened form of Vないといけません, meaning 'have to'. Similar to Vない-form なければなりません.",
+    "examples": [
+      {"japanese": "もう帰らないと……。", "english": "I have to go home now."}
+    ]
+  }
+]

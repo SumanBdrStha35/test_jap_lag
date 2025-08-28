@@ -1,0 +1,60 @@
+{
+  "building": "デパート (Department Store)",
+  "floors": [
+    {
+      "floor": "屋上",
+      "english": "Rooftop / Amusement Area",
+      "items": ["遊園地 (Amusement area)"]
+    },
+    {
+      "floor": "8階",
+      "english": "8th Floor",
+      "items": ["食堂 (Restaurants)", "催し物会場 (Event hall)"]
+    },
+    {
+      "floor": "7階",
+      "english": "7th Floor",
+      "items": ["時計 (Watches)", "眼鏡 (Glasses)", "カメラ (Cameras)"]
+    },
+    {
+      "floor": "6階",
+      "english": "6th Floor",
+      "items": ["スポーツ用品 (Sporting goods)", "旅行用品 (Leisure goods)"]
+    },
+    {
+      "floor": "5階",
+      "english": "5th Floor",
+      "items": ["子ども服 (Children's clothes)", "おもちゃ (Toys)", "本 (Books)", "文房具 (Stationery)"]
+    },
+    {
+      "floor": "4階",
+      "english": "4th Floor",
+      "items": ["家具 (Furniture)", "食器 (Kitchenware)", "電気製品 (Electrical appliances)"]
+    },
+    {
+      "floor": "3階",
+      "english": "3rd Floor",
+      "items": ["紳士服 (Men's wear)"]
+    },
+    {
+      "floor": "2階",
+      "english": "2nd Floor",
+      "items": ["婦人服 (Ladies' wear)"]
+    },
+    {
+      "floor": "1階",
+      "english": "1st Floor",
+      "items": ["靴 (Shoes)", "かばん (Bags)", "アクセサリー (Accessories)", "化粧品 (Cosmetics)"]
+    },
+    {
+      "floor": "B1階",
+      "english": "Basement 1",
+      "items": ["食料品 (Food)"]
+    },
+    {
+      "floor": "B2階",
+      "english": "Basement 2",
+      "items": ["駐車場 (Parking lot)"]
+    }
+  ]
+}

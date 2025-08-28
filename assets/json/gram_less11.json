@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Basic Counting (ひとつ、ふたつ…とお)",
+    "explanation": "Used to count things up to ten. Eleven and higher use normal numbers.",
+    "examples": []
+  },
+  {
+    "title": "Counter Suffixes",
+    "explanation": "Special counters are used depending on the type of item being counted.",
+    "examples": [
+      {"japanese": "1人（ひとり）", "english": "one person"},
+      {"japanese": "2人（ふたり）", "english": "two people"},
+      {"japanese": "4人（よにん）", "english": "four people"},
+      {"japanese": "1台（いちだい）", "english": "one machine/vehicle"},
+      {"japanese": "2枚（にまい）", "english": "two sheets (paper, shirts, dishes, etc.)"},
+      {"japanese": "3回（さんかい）", "english": "three times"},
+      {"japanese": "10分（じゅっぷん）", "english": "ten minutes"},
+      {"japanese": "2時間（にじかん）", "english": "two hours"},
+      {"japanese": "1日（いちにち）", "english": "one day"},
+      {"japanese": "2日（ふつか）", "english": "two days"},
+      {"japanese": "10日（とおか）", "english": "ten days"},
+      {"japanese": "3週間（さんしゅうかん）", "english": "three weeks"},
+      {"japanese": "2か月（にかげつ）", "english": "two months"},
+      {"japanese": "1年（いちねん）", "english": "one year"}
+    ]
+  },
+  {
+    "title": "Usage of Quantifiers",
+    "explanation": "Quantifiers (number + counter) usually go before verbs they modify.",
+    "examples": [
+      {"japanese": "りんごを4つ買いました。", "english": "I bought four apples."},
+      {"japanese": "外国人の学生が2人います。", "english": "There are two foreign students."},
+      {"japanese": "国で2か月日本語を勉強しました。", "english": "I studied Japanese for two months in my country."}
+    ]
+  },
+  {
+    "title": "Interrogatives",
+    "explanation": "Different words are used to ask 'how many' or 'how long'.",
+    "examples": [
+      {"japanese": "みかんをいくつ買いましたか。", "english": "How many mandarin oranges did you buy?"},
+      {"japanese": "･･･8つ買いました。", "english": "I bought eight."},
+      {"japanese": "この会社に外国人が何人いますか。", "english": "How many foreigners are there in this company?"},
+      {"japanese": "･･･5人います。", "english": "There are five."},
+      {"japanese": "毎晩何時間日本語を勉強しますか。", "english": "How many hours do you study Japanese every night?"},
+      {"japanese": "･･･2時間勉強します。", "english": "Two hours."},
+      {"japanese": "どのくらい日本語を勉強しましたか。", "english": "How long did you study Japanese?"},
+      {"japanese": "･･･3年勉強しました。", "english": "I studied it for three years."},
+      {"japanese": "大阪から東京までどのくらいかかりますか。", "english": "How long does it take from Osaka to Tokyo?"},
+      {"japanese": "･･･新幹線で2時間半かかります。", "english": "It takes two and a half hours by Shinkansen."}
+    ]
+  },
+  {
+    "title": "ぐらい (Approximation)",
+    "explanation": "Used after quantifiers to mean 'about'.",
+    "examples": [
+      {"japanese": "学校に先生が30人ぐらいいます。", "english": "There are about thirty teachers in our school."},
+      {"japanese": "15分ぐらいかかります。", "english": "It takes about fifteen minutes."}
+    ]
+  },
+  {
+    "title": "Quantifier (period) に V",
+    "explanation": "Used to express how often something happens.",
+    "examples": [
+      {"japanese": "1か月に2回映画を見ます。", "english": "I go to the movies twice a month."}
+    ]
+  },
+  {
+    "title": "だけ (Only)",
+    "explanation": "Indicates exclusivity. Used after quantifiers or nouns.",
+    "examples": [
+      {"japanese": "パワー電気に外国人の社員が1人だけいます。", "en": "There is only one foreign employee in Power Electric."},
+      {"japanese": "休みは日曜日だけです。", "english": "I only have Sundays off."}
+    ]
+  }
+]

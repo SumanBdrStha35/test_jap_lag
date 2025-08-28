@@ -1,0 +1,122 @@
+[
+  {
+    "country": { "hiragana": "あめりか", "kanji": "アメリカ", "english": "U.S.A." },
+    "people": { "hiragana": "あめりかじん", "kanji": "アメリカ人", "english": "American" },
+    "language": { "hiragana": "えいご", "kanji": "英語", "english": "English" }
+  },
+  {
+    "country": { "hiragana": "いぎりす", "kanji": "イギリス", "english": "U.K." },
+    "people": { "hiragana": "いぎりすじん", "kanji": "イギリス人", "english": "British" },
+    "language": { "hiragana": "えいご", "kanji": "英語", "english": "English" }
+  },
+  {
+    "country": { "hiragana": "いたりあ", "kanji": "イタリア", "english": "Italy" },
+    "people": { "hiragana": "いたりあじん", "kanji": "イタリア人", "english": "Italian" },
+    "language": { "hiragana": "いたりあご", "kanji": "イタリア語", "english": "Italian" }
+  },
+  {
+    "country": { "hiragana": "いらん", "kanji": "イラン", "english": "Iran" },
+    "people": { "hiragana": "いらんじん", "kanji": "イラン人", "english": "Iranian" },
+    "language": { "hiragana": "ぺるしあご", "kanji": "ペルシア語", "english": "Persian" }
+  },
+  {
+    "country": { "hiragana": "いんど", "kanji": "インド", "english": "India" },
+    "people": { "hiragana": "いんどじん", "kanji": "インド人", "english": "Indian" },
+    "language": { "hiragana": "ひんでぃーご", "kanji": "ヒンディー語", "english": "Hindi" }
+  },
+  {
+    "country": { "hiragana": "いんどねしあ", "kanji": "インドネシア", "english": "Indonesia" },
+    "people": { "hiragana": "いんどねしあじん", "kanji": "インドネシア人", "english": "Indonesian" },
+    "language": { "hiragana": "いんどねしあご", "kanji": "インドネシア語", "english": "Indonesian" }
+  },
+  {
+    "country": { "hiragana": "えじぷと", "kanji": "エジプト", "english": "Egypt" },
+    "people": { "hiragana": "えじぷとじん", "kanji": "エジプト人", "english": "Egyptian" },
+    "language": { "hiragana": "あらびあご", "kanji": "アラビア語", "english": "Arabic" }
+  },
+  {
+    "country": { "hiragana": "おーすとらりあ", "kanji": "オーストラリア", "english": "Australia" },
+    "people": { "hiragana": "おーすとらりあじん", "kanji": "オーストラリア人", "english": "Australian" },
+    "language": { "hiragana": "えいご", "kanji": "英語", "english": "English" }
+  },
+  {
+    "country": { "hiragana": "かなだ", "kanji": "カナダ", "english": "Canada" },
+    "people": { "hiragana": "かなだじん", "kanji": "カナダ人", "english": "Canadian" },
+    "language": { "hiragana": "えいご", "kanji": "英語", "english": "English" }
+  },
+  {
+    "country": { "hiragana": "ふらんす", "kanji": "フランス", "english": "France" },
+    "people": { "hiragana": "ふらんすじん", "kanji": "フランス人", "english": "French" },
+    "language": { "hiragana": "ふらんすご", "kanji": "フランス語", "english": "French" }
+  },
+  {
+    "country": { "hiragana": "かんこく", "kanji": "韓国", "english": "South Korea" },
+    "people": { "hiragana": "かんこくじん", "kanji": "韓国人", "english": "Korean" },
+    "language": { "hiragana": "かんこくご", "kanji": "韓国語", "english": "Korean" }
+  },
+  {
+    "country": { "hiragana": "さうじあらびあ", "kanji": "サウジアラビア", "english": "Saudi Arabia" },
+    "people": { "hiragana": "さうじあらびあじん", "kanji": "サウジアラビア人", "english": "Saudi" },
+    "language": { "hiragana": "あらびあご", "kanji": "アラビア語", "english": "Arabic" }
+  },
+  {
+    "country": { "hiragana": "しんがぽーる", "kanji": "シンガポール", "english": "Singapore" },
+    "people": { "hiragana": "しんがぽーるじん", "kanji": "シンガポール人", "english": "Singaporean" },
+    "language": { "hiragana": "えいご", "kanji": "英語", "english": "English" }
+  },
+  {
+    "country": { "hiragana": "すぺいん", "kanji": "スペイン", "english": "Spain" },
+    "people": { "hiragana": "すぺいんじん", "kanji": "スペイン人", "english": "Spanish" },
+    "language": { "hiragana": "すぺいんご", "kanji": "スペイン語", "english": "Spanish" }
+  },
+  {
+    "country": { "hiragana": "たい", "kanji": "タイ", "english": "Thailand" },
+    "people": { "hiragana": "たいじん", "kanji": "タイ人", "english": "Thai" },
+    "language": { "hiragana": "たいご", "kanji": "タイ語", "english": "Thai" }
+  },
+  {
+    "country": { "hiragana": "ちゅうごく", "kanji": "中国", "english": "China" },
+    "people": { "hiragana": "ちゅうごくじん", "kanji": "中国人", "english": "Chinese" },
+    "language": { "hiragana": "ちゅうごくご", "kanji": "中国語", "english": "Chinese" }
+  },
+  {
+    "country": { "hiragana": "どいつ", "kanji": "ドイツ", "english": "Germany" },
+    "people": { "hiragana": "どいつじん", "kanji": "ドイツ人", "english": "German" },
+    "language": { "hiragana": "どいつご", "kanji": "ドイツ語", "english": "German" }
+  },
+  {
+    "country": { "hiragana": "にほん", "kanji": "日本", "english": "Japan" },
+    "people": { "hiragana": "にほんじん", "kanji": "日本人", "english": "Japanese" },
+    "language": { "hiragana": "にほんご", "kanji": "日本語", "english": "Japanese" }
+  },
+  {
+    "country": { "hiragana": "ふぃりぴん", "kanji": "フィリピン", "english": "Philippines" },
+    "people": { "hiragana": "ふぃりぴんじん", "kanji": "フィリピン人", "english": "Filipino" },
+    "language": { "hiragana": "ふぃりぴのご", "kanji": "フィリピノ語", "english": "Filipino" }
+  },
+  {
+    "country": { "hiragana": "ぶらじる", "kanji": "ブラジル", "english": "Brazil" },
+    "people": { "hiragana": "ぶらじるじん", "kanji": "ブラジル人", "english": "Brazilian" },
+    "language": { "hiragana": "ぽるとがるご", "kanji": "ポルトガル語", "english": "Portuguese" }
+  },
+  {
+    "country": { "hiragana": "べとなむ", "kanji": "ベトナム", "english": "Vietnam" },
+    "people": { "hiragana": "べとなむじん", "kanji": "ベトナム人", "english": "Vietnamese" },
+    "language": { "hiragana": "べとなむご", "kanji": "ベトナム語", "english": "Vietnamese" }
+  },
+  {
+    "country": { "hiragana": "まれーしあ", "kanji": "マレーシア", "english": "Malaysia" },
+    "people": { "hiragana": "まれーしあじん", "kanji": "マレーシア人", "english": "Malaysian" },
+    "language": { "hiragana": "まれーしあご", "kanji": "マレーシア語", "english": "Malay" }
+  },
+  {
+    "country": { "hiragana": "めきしこ", "kanji": "メキシコ", "english": "Mexico" },
+    "people": { "hiragana": "めきしこじん", "kanji": "メキシコ人", "english": "Mexican" },
+    "language": { "hiragana": "すぺいんご", "kanji": "スペイン語", "english": "Spanish" }
+  },
+  {
+    "country": { "hiragana": "ろしあ", "kanji": "ロシア", "english": "Russia" },
+    "people": { "hiragana": "ろしあじん", "kanji": "ロシア人", "english": "Russian" },
+    "language": { "hiragana": "ろしあご", "kanji": "ロシア語", "english": "Russian" }
+  }
+]

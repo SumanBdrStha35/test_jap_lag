@@ -1,0 +1,54 @@
+{
+  "title": { "hiragana": "メニュー", "kanji": "メニュー", "english": "Menu" },
+  "categories": [
+    {
+      "category": { "hiragana": "ごはんもの", "kanji": "ご飯物", "english": "Rice Dishes" },
+      "items": [
+        { "hiragana": "ていしょく", "kanji": "定食", "english": "Set Meal (Japanese style)" },
+        { "hiragana": "ランチ", "kanji": "ランチ", "english": "Set Meal (Western style)" },
+        { "hiragana": "てんどん", "kanji": "天丼", "english": "Bowl of rice with fried seafood and vegetables" },
+        { "hiragana": "おやこどん", "kanji": "親子丼", "english": "Bowl of rice with chicken and egg" },
+        { "hiragana": "ぎゅうどん", "kanji": "牛丼", "english": "Bowl of rice with beef" },
+        { "hiragana": "やきにく", "kanji": "焼肉", "english": "Grilled Meat" },
+        { "hiragana": "やさいいため", "kanji": "野菜いため", "english": "Sautéed Vegetables" },
+        { "hiragana": "つけもの", "kanji": "漬物", "english": "Pickles" },
+        { "hiragana": "みそしる", "kanji": "みそ汁", "english": "Miso Soup" },
+        { "hiragana": "おにぎり", "kanji": "おにぎり", "english": "Rice Ball" },
+        { "hiragana": "てんぷら", "kanji": "天ぷら", "english": "Fried Seafood and Vegetables" },
+        { "hiragana": "すし", "kanji": "寿司", "english": "Sushi (vinegared rice with raw fish)" },
+        { "hiragana": "うどん", "kanji": "うどん", "english": "Japanese Noodles (wheat flour)" },
+        { "hiragana": "そば", "kanji": "そば", "english": "Japanese Noodles (buckwheat flour)" },
+        { "hiragana": "ラーメン", "kanji": "ラーメン", "english": "Chinese-style Noodles in Soup" },
+        { "hiragana": "やきそば", "kanji": "焼きそば", "english": "Chinese Stir-fried Noodles with Pork & Vegetables" },
+        { "hiragana": "おこのみやき", "kanji": "お好み焼き", "english": "Savory Pancake with Meat, Vegetables & Egg" },
+        { "hiragana": "カレーライス", "kanji": "カレーライス", "english": "Curry and Rice" }
+      ]
+    },
+    {
+      "category": { "hiragana": "ようしょく", "kanji": "洋食", "english": "Western-style Dishes" },
+      "items": [
+        { "hiragana": "ハンバーグ", "kanji": "ハンバーグ", "english": "Hamburg Steak" },
+        { "hiragana": "コロッケ", "kanji": "コロッケ", "english": "Croquette" },
+        { "hiragana": "えびフライ", "kanji": "えびフライ", "english": "Fried Shrimp" },
+        { "hiragana": "フライドチキン", "kanji": "フライドチキン", "english": "Fried Chicken" },
+        { "hiragana": "サラダ", "kanji": "サラダ", "english": "Salad" },
+        { "hiragana": "スープ", "kanji": "スープ", "english": "Soup" },
+        { "hiragana": "スパゲティー", "kanji": "スパゲティー", "english": "Spaghetti" },
+        { "hiragana": "ピザ", "kanji": "ピザ", "english": "Pizza" },
+        { "hiragana": "ハンバーガー", "kanji": "ハンバーガー", "english": "Hamburger" },
+        { "hiragana": "サンドウィッチ", "kanji": "サンドウィッチ", "english": "Sandwich" },
+        { "hiragana": "トースト", "kanji": "トースト", "english": "Toast" }
+      ]
+    },
+    {
+      "category": { "hiragana": "のみもの", "kanji": "飲み物", "english": "Drinks" },
+      "items": [
+        { "hiragana": "コーヒー", "kanji": "コーヒー", "english": "Coffee" },
+        { "hiragana": "こうちゃ", "kanji": "紅茶", "english": "Black Tea" },
+        { "hiragana": "ココア", "kanji": "ココア", "english": "Cocoa" },
+        { "hiragana": "ジュース", "kanji": "ジュース", "english": "Juice" },
+        { "hiragana": "コーラ", "kanji": "コーラ", "english": "Cola" }
+      ]
+    }
+  ]
+}

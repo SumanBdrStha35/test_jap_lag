@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Polite style and plain style",
+    "explanation": "Japanese has two styles of speech: polite (ます/です) and plain (dictionary forms, だ, etc.). Polite style is safer and widely used, while plain style is used among close friends, family, and in writing.",
+    "examples": [
+      {"polite": "あした東京へ行きます。", "plain": "あした東京へ行く。", "english": "I will go to Tokyo tomorrow."},
+      {"polite": "毎日忙しいです。", "plain": "毎日忙しい。", "english": "I am busy every day."},
+      {"polite": "相撲が好きです。", "plain": "相撲が好きだ。", "english": "I like sumo."},
+      {"polite": "富士山に登りたいです。", "plain": "富士山に登りたい。", "english": "I want to climb Mt. Fuji."},
+      {"polite": "ドイツへ行ったことがありません。", "plain": "ドイツへ行ったことがない。", "english": "I have never been to Germany."}
+    ]
+  },
+  {
+    "title": "Proper use of the polite style and plain style",
+    "explanation": "Polite style can be used anytime, anywhere, and is the safest choice. It is used with strangers, superiors, or those not close to you. Plain style is used with close friends, colleagues, and family. In writing, plain style is common (newspapers, books, diaries), while most letters use polite style."
+  },
+  {
+    "title": "Conversation in the plain style",
+    "sections": [
+      {
+        "subtitle": "Questions without か",
+        "explanation": "Plain style questions usually omit か, relying on rising intonation.",
+        "examples": [
+          {"japanese": "コーヒーを飲む?", "english": "Do you want a coffee?"},
+          {"japanese": "･･･うん、飲む。", "english": "...Yes, I do."}
+        ]
+      },
+      {
+        "subtitle": "Noun and な-adjective questions",
+        "explanation": "だ (plain form of です) is omitted in questions. In affirmative answers, だ may sound rough. Women usually avoid だ.",
+        "examples": [
+          {"japanese": "今晚暇?", "english": "Are you free tonight?"},
+          {"japanese": "･･･うん、暇／暇だ／暇だよ。", "english": "Yes, I am. (used by men)"},
+          {"japanese": "･･･うん、暇／暇よ。", "english": "Yes, I am. (used by women)"},
+          {"japanese": "･･･ううん、暇じゃない。", "english": "No, I am not."}
+        ]
+      },
+      {
+        "subtitle": "Omission of particles",
+        "explanation": "In plain style, particles like を, は, が are often omitted when meaning is clear. Particles like で, に, から, まで, と cannot be omitted.",
+        "examples": [
+          {"japanese": "ごはん[を]食べる?", "english": "Will you take a meal?"},
+          {"japanese": "あした京都[へ]行かない?", "english": "Won’t you come to Kyoto tomorrow?"},
+          {"japanese": "このりんご[は]おいしいね。", "english": "This apple is tasty, isn’t it?"},
+          {"japanese": "そこにはさみ[が]ある?", "english": "Is there a pair of scissors there?"}
+        ]
+      },
+      {
+        "subtitle": "Dropping い in Vて-formいる",
+        "explanation": "In plain style, the い of いる is often omitted.",
+        "examples": [
+          {"japanese": "辞書、持って[い]る?", "english": "Do you have a dictionary?"},
+          {"japanese": "･･･うん、持って[い]る。", "english": "...Yes, I do."},
+          {"japanese": "･･･ううん、持って[い]ない。", "english": "...No, I don’t."}
+        ]
+      },
+      {
+        "subtitle": "けど in plain style",
+        "explanation": "けど is the plain style equivalent of が (used to connect sentences or soften).",
+        "examples": [
+          {"japanese": "そのカレーライス[は]おいしい?", "english": "Is that curry and rice tasty?"},
+          {"japanese": "･･･うん、辛いけど、おいしい。", "english": "...Yes, it’s hot but tasty."},
+          {"japanese": "相撲のチケット[が]あるけどいっしょに行かない?", "english": "I have tickets for sumo. Won’t you come with me?"},
+          {"japanese": "･･･いいね。", "english": "...Sure."}
+        ]
+      }
+    ]
+  }
+]

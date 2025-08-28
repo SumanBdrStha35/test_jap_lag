@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Verb Conjugation",
+    "explanation": "Japanese verbs change their forms (conjugate) and are divided into three groups. Depending on the conjugation, verbs can express various meanings."
+  },
+  {
+    "title": "Verb Groups",
+    "explanation": "Verbs are divided into three groups depending on their conjugation patterns.",
+    "examples": [
+      {"japanese": "かきます", "english": "to write (Group I)"},
+      {"japanese": "のみます", "english": "to drink (Group I)"},
+      {"japanese": "たべます", "english": "to eat (Group II)"},
+      {"japanese": "みせます", "english": "to show (Group II)"},
+      {"japanese": "みます", "english": "to see (Group II)"},
+      {"japanese": "します", "english": "to do (Group III)"},
+      {"japanese": "勉強します", "english": "to study (Group III: noun + します)"},
+      {"japanese": "きます", "english": "to come (Group III)"}
+    ]
+  },
+  {
+    "title": "Verb て-form",
+    "explanation": "The て-form ends with て or で. It is made differently depending on the verb group. Group I depends on the last sound of the ます-form (いきます → いって is an exception). Group II attaches て. Group III also attaches て."
+  },
+  {
+    "title": "Vて-form ください ( Please do... )",
+    "explanation": "Used to ask, instruct, or encourage the listener to do something. Cannot be used to give orders to a superior. Adding すみませんが makes it more polite.",
+    "examples": [
+      {"japanese": "すみませんが、この漢字の読み方を教えてください。", "english": "Excuse me, could you tell me how to read this kanji, please?"},
+      {"japanese": "ここに住所と名前を書いてください。", "english": "Please write your name and address here."},
+      {"japanese": "ぜひ遊びに来てください。", "english": "Please come to my place."}
+    ]
+  },
+  {
+    "title": "Vて-form います ( be V-ing )",
+    "explanation": "Indicates that an action is in progress (be V-ing).",
+    "examples": [
+      {"japanese": "ミラーさんは今電話をかけています。", "english": "Mr. Miller is making a phone call now."},
+      {"japanese": "今雨が降っていますか。", "english": "Is it raining now?"},
+      {"japanese": "･･･はい、降っています。", "english": "Yes, it is."},
+      {"japanese": "･･･いいえ、降っていません。", "english": "No, it is not."}
+    ]
+  },
+  {
+    "title": "Vます-form ましょうか ( Shall I do...? )",
+    "explanation": "Used when the speaker offers to do something for the listener. The listener may accept politely, decline politely, or ask for clarification.",
+    "examples": [
+      {"japanese": "A: あしたも来ましょうか。 B: ええ、10時に来てください。", "english": "A: Shall I come tomorrow, too? B: Yes, please come at ten."},
+      {"japanese": "A: 傘を貸しましょうか。 B: すみません。お願いします。", "english": "A: Shall I lend you an umbrella? B: Yes, please."},
+      {"japanese": "A: 荷物を持ちましょうか。 B: いいえ、けっこうです。", "english": "A: Shall I carry your parcel? B: No, thank you."}
+    ]
+  },
+  {
+    "title": "S1が、S2 ( ... but ... )",
+    "explanation": "が as a conjunctive particle can mean 'but,' but in polite expressions like 失礼ですが or すみませんが, it serves as an introductory remark.",
+    "examples": [
+      {"japanese": "失礼ですが、お名前は?", "english": "Excuse me, but may I have your name?"},
+      {"japanese": "すみませんが、塩を取ってください。", "english": "Please pass me the salt."}
+    ]
+  },
+  {
+    "title": "Nが V (Natural Phenomena)",
+    "explanation": "When describing natural phenomena, the subject is marked with が.",
+    "examples": [
+      {"japanese": "雨が降っています。", "english": "It is raining."}
+    ]
+  }
+]

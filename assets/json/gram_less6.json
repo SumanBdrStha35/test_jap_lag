@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Nを V (transitive)",
+    "explanation": "を marks the direct object of a transitive verb.",
+    "examples": [
+      {
+        "japanese": "ジュースを飲みます。",
+        "english": "I drink juice."
+      }
+    ]
+  },
+  {
+    "title": "Nをします",
+    "explanation": "します takes a wide range of objects, meaning to perform the action expressed by the noun.",
+    "examples": [
+      {
+        "japanese": "サッカーをします。",
+        "english": "I play football."
+      },
+      {
+        "japanese": "トランプをします。",
+        "english": "I play cards."
+      },
+      {
+        "japanese": "パーティーをします。",
+        "english": "I give a party."
+      },
+      {
+        "japanese": "会議をします。",
+        "english": "I hold a meeting."
+      },
+      {
+        "japanese": "宿題をします。",
+        "english": "I do homework."
+      },
+      {
+        "japanese": "仕事をします。",
+        "english": "I do my work."
+      }
+    ]
+  },
+  {
+    "title": "何をしますか",
+    "explanation": "Used to ask what someone will do or did.",
+    "examples": [
+      {
+        "japanese": "月曜日何をしますか。",
+        "english": "What will you do on Monday?",
+        "answer": {
+          "japanese": "京都へ行きます。",
+          "english": "I'll go to Kyoto."
+        }
+      },
+      {
+        "japanese": "きのう何をしましたか。",
+        "english": "What did you do yesterday?",
+        "answer": {
+          "japanese": "サッカーをしました。",
+          "english": "I played football."
+        }
+      },
+      {
+        "japanese": "月曜日は何をしますか。",
+        "english": "On Monday, what will you do?",
+        "answer": {
+          "japanese": "京都へ行きます。",
+          "english": "I'll go to Kyoto."
+        }
+      }
+    ]
+  },
+  {
+    "title": "なん and なに",
+    "explanation": "Both mean 'what.' なん is used before words starting with た・だ・な rows or before a counter suffix. なに is used otherwise.",
+    "examples": [
+      {
+        "japanese": "それは何ですか。",
+        "english": "What is that?"
+      },
+      {
+        "japanese": "何本ですか。",
+        "english": "How many (long objects) are there?"
+      },
+      {
+        "japanese": "寝るまえに、何と言いますか。",
+        "english": "What do you say before going to bed?"
+      },
+      {
+        "japanese": "テレサちゃんは何歳ですか。",
+        "english": "How old is Teresa?"
+      },
+      {
+        "japanese": "何を買いますか。",
+        "english": "What will you buy?"
+      }
+    ]
+  },
+  {
+    "title": "N (place) で V",
+    "explanation": "で marks the place where an action occurs.",
+    "examples": [
+      {
+        "japanese": "駅で新聞を買います。",
+        "english": "I buy the newspaper at the station."
+      }
+    ]
+  },
+  {
+    "title": "Vませんか",
+    "explanation": "Used to invite someone to do something.",
+    "examples": [
+      {
+        "japanese": "いっしょに京都へ行きませんか。",
+        "english": "Won’t you come to Kyoto with us?",
+        "answer": {
+          "japanese": "ええ、いいですね。",
+          "english": "Yes, that’s a nice idea."
+        }
+      }
+    ]
+  },
+  {
+    "title": "Vましょう",
+    "explanation": "Used when inviting someone positively to do something together. Also used when agreeing to an invitation.",
+    "examples": [
+      {
+        "japanese": "ちょっと休みましょう。",
+        "english": "Let’s have a break."
+      },
+      {
+        "japanese": "いっしょに昼ごはんを食べませんか。",
+        "english": "Won’t you have lunch with me?",
+        "answer": {
+          "japanese": "ええ、食べましょう。",
+          "english": "Yes, let’s eat."
+        }
+      }
+    ]
+  },
+  {
+    "title": "お〜",
+    "explanation": "お is a prefix showing respect or politeness. It is added to various words, such as [お]くに (country), [お]さけ (alcohol), [お]はなみ (cherry-blossom viewing). Some words are usually used with お even without special politeness, such as おちゃ (tea), おかね (money).",
+    "examples": [
+      {
+        "japanese": "お国はどちらですか。",
+        "english": "Where are you from?"
+      },
+      {
+        "japanese": "お酒を飲みます。",
+        "english": "I drink alcohol."
+      },
+      {
+        "japanese": "お花見をします。",
+        "english": "I go cherry-blossom viewing."
+      },
+      {
+        "japanese": "お茶を飲みます。",
+        "english": "I drink tea."
+      },
+      {
+        "japanese": "お金があります。",
+        "english": "I have money."
+      }
+    ]
+  }
+]

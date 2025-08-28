@@ -1,0 +1,53 @@
+{
+  "title": { "hiragana": "おんがく・スポーツ・えいが", "kanji": "音楽・スポーツ・映画", "english": "Music, Sports & Movies" },
+  "categories": [
+    {
+      "category": { "hiragana": "おんがく", "kanji": "音楽", "english": "Music" },
+      "items": [
+        { "hiragana": "ポップス", "kanji": "ポップス", "english": "Pop" },
+        { "hiragana": "ロック", "kanji": "ロック", "english": "Rock" },
+        { "hiragana": "ジャズ", "kanji": "ジャズ", "english": "Jazz" },
+        { "hiragana": "ラテン", "kanji": "ラテン", "english": "Latin American Music" },
+        { "hiragana": "クラシック", "kanji": "クラシック", "english": "Classical Music" },
+        { "hiragana": "みんよう", "kanji": "民謡", "english": "Folk Music" },
+        { "hiragana": "えんか", "kanji": "演歌", "english": "Traditional Japanese Popular Song" },
+        { "hiragana": "ミュージカル", "kanji": "ミュージカル", "english": "Musical" },
+        { "hiragana": "オペラ", "kanji": "オペラ", "english": "Opera" }
+      ]
+    },
+    {
+      "category": { "hiragana": "えいが", "kanji": "映画", "english": "Movies / Films" },
+      "items": [
+        { "hiragana": "エスエフ", "kanji": "SF", "english": "Science Fiction Film" },
+        { "hiragana": "ホラー", "kanji": "ホラー", "english": "Horror Film" },
+        { "hiragana": "アニメ", "kanji": "アニメ", "english": "Animated Film" },
+        { "hiragana": "ドキュメンタリー", "kanji": "ドキュメンタリー", "english": "Documentary Film" },
+        { "hiragana": "れんあい", "kanji": "恋愛", "english": "Romantic Film" },
+        { "hiragana": "ミステリー", "kanji": "ミステリー", "english": "Mystery Film" },
+        { "hiragana": "せんそう", "kanji": "戦争", "english": "War Film" },
+        { "hiragana": "アクション", "kanji": "アクション", "english": "Action Film" },
+        { "hiragana": "きげき", "kanji": "喜劇", "english": "Comedy Film" }
+      ]
+    },
+    {
+      "category": { "hiragana": "スポーツ", "kanji": "スポーツ", "english": "Sports" },
+      "items": [
+        { "hiragana": "ソフトボール", "kanji": "ソフトボール", "english": "Softball" },
+        { "hiragana": "サッカー", "kanji": "サッカー", "english": "Soccer" },
+        { "hiragana": "ラグビー", "kanji": "ラグビー", "english": "Rugby" },
+        { "hiragana": "バレーボール", "kanji": "バレーボール", "english": "Volleyball" },
+        { "hiragana": "バスケットボール", "kanji": "バスケットボール", "english": "Basketball" },
+        { "hiragana": "テニス", "kanji": "テニス", "english": "Tennis" },
+        { "hiragana": "ボウリング", "kanji": "ボウリング", "english": "Bowling" },
+        { "hiragana": "スキー", "kanji": "スキー", "english": "Skiing" },
+        { "hiragana": "スケート", "kanji": "スケート", "english": "Skating" },
+        { "hiragana": "やきゅう", "kanji": "野球", "english": "Baseball" },
+        { "hiragana": "たっきゅう", "kanji": "卓球", "english": "Table Tennis (Ping-Pong)" },
+        { "hiragana": "すもう", "kanji": "相撲", "english": "Sumo" },
+        { "hiragana": "じゅうどう", "kanji": "柔道", "english": "Judo" },
+        { "hiragana": "けんどう", "kanji": "剣道", "english": "Japanese Fencing (Kendo)" },
+        { "hiragana": "すいえい", "kanji": "水泳", "english": "Swimming" }
+      ]
+    }
+  ]
+}

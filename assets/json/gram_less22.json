@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Noun modification",
+    "explanation": "Modifiers always come before the word they modify. Nouns can be modified by words or sentences.",
+    "examples": [
+      {"japanese": "ミラーさんのうち", "english": "Mr. Miller's house"},
+      {"japanese": "新しいうち", "english": "a new house"},
+      {"japanese": "きれいなうち", "english": "a beautiful house"}
+    ]
+  },
+  {
+    "title": "Noun modification by sentences",
+    "explanation": "Sentences in the plain form can modify nouns. な-adjective sentences change 〜だ to 〜な, and noun sentences change 〜だ to 〜の.",
+    "sections": [
+      {
+        "subtitle": "Predicate in plain form",
+        "examples": [
+          {"japanese": "京都へ行く人", "english": "a person who goes to Kyoto"},
+          {"japanese": "京都へ行かない人", "english": "a person who does not go to Kyoto"},
+          {"japanese": "京都へ行った人", "english": "a person who went to Kyoto"},
+          {"japanese": "京都へ行かなかった人", "english": "a person who did not go to Kyoto"},
+          {"japanese": "背が高くて、髪が黒い人", "english": "a person who is tall and has black hair"},
+          {"japanese": "親切できれいな人", "english": "a person who is kind and pretty"},
+          {"japanese": "65歳の人", "english": "a person who is 65 years old"}
+        ]
+      },
+      {
+        "subtitle": "Removing particles",
+        "examples": [
+          {"japanese": "わたしが先週見た映画", "english": "the movie that I saw last week"},
+          {"japanese": "ワンさんが働いている病院", "english": "the hospital where Mr. Wang works"},
+          {"japanese": "わたしがあした会う友達", "english": "the friend whom I will meet tomorrow"}
+        ]
+      },
+      {
+        "subtitle": "Modified noun in different positions",
+        "examples": [
+          {"japanese": "これはミラーさんが住んでいたうちです。", "english": "This is the house where Mr. Miller lived."},
+          {"japanese": "ミラーさんが住んでいたうちは古いです。", "english": "The house where Mr. Miller lived is old."},
+          {"japanese": "ミラーさんが住んでいたうちを買いました。", "english": "I bought the house where Mr. Miller lived."},
+          {"japanese": "わたしはミラーさんが住んでいたうちが好きです。", "english": "I like the house where Mr. Miller lived."},
+          {"japanese": "ミラーさんが住んでいたうちに猫がいました。", "english": "There was a cat in the house where Mr. Miller lived."},
+          {"japanese": "ミラーさんが住んでいたうちへ行ったことがあります。", "english": "I have been to the house where Mr. Miller lived."}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Nが",
+    "explanation": "When a sentence modifies a noun, the subject in the sentence is marked by が instead of は.",
+    "examples": [
+      {"japanese": "これはミラーさんが作ったケーキです。", "english": "This is the cake which Mr. Miller baked."},
+      {"japanese": "わたしはカリナさんがかいた絵が好きです。", "english": "I like the picture that Ms. Karina drew."},
+      {"japanese": "彼が生まれた所を知っていますか。", "english": "Do you know the place where he was born?"}
+    ]
+  },
+  {
+    "title": "V dictionary form + 時間/約束/用事",
+    "explanation": "The dictionary form of a verb can be placed before 時間, 約束, or 用事 to indicate the content of the time, appointment, or business.",
+    "examples": [
+      {"japanese": "わたしは朝ごはんを食べる時間がありません。", "english": "I have no time to eat breakfast."},
+      {"japanese": "わたしは友達と映画を見る約束があります。", "english": "I have an arrangement to see a movie with a friend of mine."},
+      {"japanese": "きょうは市役所へ行く用事があります。", "english": "I have something to do at the city hall today."}
+    ]
+  }
+]

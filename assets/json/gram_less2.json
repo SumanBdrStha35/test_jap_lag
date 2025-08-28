@@ -1,136 +1,138 @@
 [
-    {
-      "title": "これ / それ / あれ",
-      "explanation": "これ, それ, and あれ are demonstratives used as nouns. これ refers to something near the speaker, それ refers to something near the listener, and あれ refers to something far from both.",
-      "examples": [
-        {
-          "japanese": "それは辞書ですか。",
-          "english": "Is that a dictionary?"
-        },
-        {
-          "japanese": "これをください。",
-          "english": "I'll take this. (lit. Please give this to me.)"
-        }
-      ]
-    },
-    {
-      "title": "この N / その N / あの N",
-      "explanation": "この, その, and あの are modifiers for nouns. この N is near the speaker, その N is near the listener, and あの N is far from both.",
-      "examples": [
-        {
-          "japanese": "この 本は わたしの です。",
-          "english": "This book is mine."
-        },
-        {
-          "japanese": "あの 方は どなた ですか。",
-          "english": "Who is that person?"
-        }
-      ]
-    },
-    {
-      "title": "そうです / そうじゃ ありません",
-      "explanation": "そう is used to affirm or deny a noun sentence. そうです is affirmative, and そうじゃ ありません is negative.",
-      "examples": [
-        {
-          "japanese": "それは テレホンカード ですか。",
-          "answers": [
-            {
-              "japanese": "はい、そうです。",
-              "english": "Yes, it is."
-            },
-            {
-              "japanese": "いいえ、そうじゃ ありません。",
-              "english": "No, it isn't."
-            }
-          ]
-        },
-        {
-          "japanese": "それは テレホンカード ですか。",
-          "answers": [
-            {
-              "japanese": "いいえ、違います。",
-              "english": "No, it isn't."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "S1 か、S2 か",
-      "explanation": "Used to ask the listener to choose between two alternatives. The answer states the correct one without はい or いいえ.",
-      "example": {
-        "japanese": "これは「9」ですか、「7」ですか。",
-        "english": "Is this a “9” or a “7”?",
-        "answer": {
-          "japanese": "「9」です。",
-          "english": "It's a “9”."
-        }
+  {
+    "title": "これ / それ / あれ",
+    "explanation": "これ, それ, and あれ are demonstratives used as nouns. これ refers to something near the speaker, それ refers to something near the listener, and あれ refers to something far from both.",
+    "examples": [
+      {
+        "japanese": "それは 辞書ですか。",
+        "english": "Is that a dictionary?"
+      },
+      {
+        "japanese": "これを ください。",
+        "english": "I'll take this. (lit. Please give this to me.)"
       }
-    },
-    {
-      "title": "N1 の N2",
-      "explanation": "の is used to connect two nouns. It can explain what N2 is or who owns N2.",
-      "uses": [
-        {
-          "type": "N1 explains what N2 is",
-          "example": {
-            "japanese": "これは コンピューターの 本です。",
-            "english": "This is a book on computers."
+    ]
+  },
+  {
+    "title": "この N / その N / あの N",
+    "explanation": "この, その, and あの are modifiers for nouns. この N is near the speaker, その N is near the listener, and あの N is far from both.",
+    "examples": [
+      {
+        "japanese": "この 本は わたしの です。",
+        "english": "This book is mine."
+      },
+      {
+        "japanese": "あの 方は どなた ですか。",
+        "english": "Who is that person?"
+      }
+    ],
+    "note": "これ → このかばん; それ → そのかばん; あれ → あのかばん"
+  },
+  {
+    "title": "そうです / そうじゃ ありません",
+    "explanation": "そう is used to affirm or deny a noun sentence. はい、そうです is affirmative, and いいえ、そうじゃありません is negative. The verb ちがいます can also be used instead of そうじゃありません.",
+    "examples": [
+      {
+        "japanese": "それは テレホンカードですか。",
+        "answers": [
+          {
+            "japanese": "はい、そうです。",
+            "english": "Yes, it is."
+          },
+          {
+            "japanese": "いいえ、そうじゃ ありません。",
+            "english": "No, it isn't."
           }
-        },
-        {
-          "type": "N1 explains who owns N2",
-          "examples": [
-            {
-              "japanese": "これは わたしの 本です。",
-              "english": "This is my book."
-            },
-            {
-              "japanese": "あれは だれの かばんですか。",
-              "english": "Whose bag is that?",
-              "answer": {
-                "japanese": "・・・佐藤さんの です。",
-                "english": "It's Ms. Sato's."
-              }
-            },
-            {
-              "japanese": "この かばんは あなたの ですか。",
-              "english": "Is this bag yours?",
-              "answer": {
-                "japanese": "・・・いいえ、わたしのじゃ ありません。",
-                "english": "No, it's not mine."
-              }
-            },
-            {
-              "japanese": "ミラーさんは IMCの 社員ですか。",
-              "english": "Is Mr. Miller an employee of IMC?",
-              "answer": {
-                "japanese": "・・・はい、IMCの 社員です。",
-                "english": "Yes, he is."
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "そうですか",
-      "explanation": "Used when the speaker learns new information and shows understanding or acknowledgment.",
-      "example": {
-        "dialogue": [
+        ]
+      },
+      {
+        "japanese": "それは テレホンカードですか。",
+        "answers": [
           {
-            "japanese": "この かさは シュミットさんの ですか。",
-            "english": "Is this umbrella yours?"
-          },
-          {
-            "japanese": "いいえ、違います。ジュミットさんの です。",
-            "english": "No, it's Mr. Schmidt's."
-          },
-          {
-            "japanese": "そうですか。",
-            "english": "I see."
+            "japanese": "いいえ、違います。",
+            "english": "No, it isn't."
           }
         ]
       }
+    ]
+  },
+  {
+    "title": "S1 か、S2 か",
+    "explanation": "Used to ask the listener to choose between two alternatives. The answer states the correct one without はい or いいえ.",
+    "example": {
+      "japanese": "これは「9」ですか、「7」ですか。",
+      "english": "Is this a '9' or a '7'?",
+      "answer": {
+        "japanese": "「9」です。",
+        "english": "It's a '9.'"
+      }
     }
+  },
+  {
+    "title": "N1 の N2",
+    "explanation": "の is used to connect two nouns. It can explain what N2 is about or who owns N2.",
+    "uses": [
+      {
+        "type": "N1 explains what N2 is about",
+        "example": {
+          "japanese": "これは コンピューターの 本です。",
+          "english": "This is a book on computers."
+        }
+      },
+      {
+        "type": "N1 explains who owns N2",
+        "examples": [
+          {
+            "japanese": "これは わたしの 本です。",
+            "english": "This is my book."
+          },
+          {
+            "japanese": "あれは だれの かばんですか。",
+            "english": "Whose bag is that?",
+            "answer": {
+              "japanese": "・・・佐藤さんの です。",
+              "english": "It's Ms. Sato's."
+            }
+          },
+          {
+            "japanese": "この かばんは あなたの ですか。",
+            "english": "Is this bag yours?",
+            "answer": {
+              "japanese": "・・・いいえ、わたしのじゃ ありません。",
+              "english": "No, it's not mine."
+            }
+          },
+          {
+            "japanese": "ミラーさんは IMCの 社員ですか。",
+            "english": "Is Mr. Miller an employee of IMC?",
+            "answer": {
+              "japanese": "・・・はい、IMCの 社員です。",
+              "english": "Yes, he is."
+            }
+          }
+        ]
+      }
+    ],
+    "note": "When ownership is obvious, N2 may be omitted. However, when N1 is a person, it cannot be omitted."
+  },
+  {
+    "title": "そうですか",
+    "explanation": "Used when the speaker learns new information and shows understanding or acknowledgment. Equivalent to 'I see.'",
+    "example": {
+      "dialogue": [
+        {
+          "japanese": "この かさは あなたの ですか。",
+          "english": "Is this umbrella yours?"
+        },
+        {
+          "japanese": "いいえ、違います。シュミットさんの です。",
+          "english": "No, it isn't. It's Mr. Schmidt's."
+        },
+        {
+          "japanese": "そうですか。",
+          "english": "I see."
+        }
+      ]
+    }
+  }
 ]

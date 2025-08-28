@@ -1,0 +1,30 @@
+{
+  "title": { "hiragana": "いふく", "kanji": "衣服", "english": "Clothes" },
+  "items": [
+    { "katakana": "スーツ", "kanji": "スーツ", "english": "Suit" },
+    { "katakana": "ワンピース", "kanji": "ワンピース", "english": "One-piece dress" },
+    { "hiragana": "うわぎ", "kanji": "上着", "english": "Jacket" },
+    { "katakana": "ズボン / パンツ", "kanji": "ズボン / パンツ", "english": "Trousers / Pants" },
+    { "katakana": "ジーンズ", "kanji": "ジーンズ", "english": "Jeans" },
+    { "katakana": "スカート", "kanji": "スカート", "english": "Skirt" },
+    { "katakana": "ブラウス", "kanji": "ブラウス", "english": "Blouse" },
+    { "katakana": "ワイシャツ", "kanji": "ワイシャツ", "english": "[White] Shirt" },
+    { "katakana": "セーター", "kanji": "セーター", "english": "Sweater" },
+    { "katakana": "マフラー", "kanji": "マフラー", "english": "Muffler / Scarf" },
+    { "hiragana": "てぶくろ", "kanji": "手袋", "english": "Gloves" },
+    { "hiragana": "したぎ", "kanji": "下着", "english": "Underwear" },
+    { "hiragana": "くつした", "kanji": "靴下", "english": "Socks" },
+    { "katakana": "パンスト", "kanji": "パンスト", "english": "Pantyhose / Tights" },
+    { "hiragana": "きもの", "kanji": "着物", "english": "Kimono" },
+    { "hiragana": "おび", "kanji": "帯", "english": "Obi (sash for kimono)" },
+    { "katakana": "オーバーコート", "kanji": "オーバーコート", "english": "Overcoat" },
+    { "katakana": "レインコート", "kanji": "レインコート", "english": "Raincoat" },
+    { "katakana": "ネクタイ", "kanji": "ネクタイ", "english": "Necktie" },
+    { "katakana": "ベルト", "kanji": "ベルト", "english": "Belt" },
+    { "katakana": "ハイヒール", "kanji": "ハイヒール", "english": "High heels" },
+    { "katakana": "ブーツ", "kanji": "ブーツ", "english": "Boots" },
+    { "hiragana": "うんどうぐつ", "kanji": "運動靴", "english": "Sneakers" },
+    { "hiragana": "ぞうり", "kanji": "草履", "english": "Zori (Japanese sandals)" },
+    { "hiragana": "たび", "kanji": "足袋", "english": "Tabi (Japanese socks)" }
+  ]
+}
