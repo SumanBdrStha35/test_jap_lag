@@ -4,10 +4,20 @@
     "explanation": "Used to express the speaker's desire to possess or have an object. The object is marked with が. ほしい is an い-adjective. Cannot be used for the third person's desire.",
     "examples": [
       {"japanese": "わたしは友達が欲しいです。", "english": "I want a friend."},
-      {"japanese": "今何がいちばん欲しいですか。", "english": "What do you want most now?"},
-      {"japanese": "･･･車が欲しいです。", "english": "...I want a car most."},
-      {"japanese": "子どもが欲しいですか。", "english": "Do you want a child?"},
-      {"japanese": "･･･いいえ、欲しくないです。", "english": "...No, I don't."}
+      {
+        "japanese": "今何がいちばん欲しいですか。",
+        "english": "What do you want most now?",
+        "answer": {
+          "japanese": "車が欲しいです。",
+          "english": "I want a car most."
+        }
+      },
+      {"japanese": "子どもが欲しいですか。", "english": "Do you want a child?",
+        "answer": {
+          "japanese": "いいえ、欲しくないです。",
+          "english": "No, I don't."
+        }
+      }
     ]
   },
   {
@@ -16,8 +26,14 @@
     "examples": [
       {"japanese": "わたしは沖縄へ行きたいです。", "english": "I want to go to Okinawa."},
       {"japanese": "わたしはてんぷらを食べたいです。", "english": "I want to eat tempura."},
-      {"japanese": "神戸で何を買いたいですか。", "english": "What do you want to buy in Kobe?"},
-      {"japanese": "･･･靴を買いたいです。", "english": "...I want to buy a pair of shoes."},
+      {
+        "japanese": "神戸で何を買いたいですか。",
+        "english": "What do you want to buy in Kobe?",
+        "answer": {
+          "japanese": "靴を買いたいです。",
+          "english": "I want to buy a pair of shoes."
+        }
+      },
       {"japanese": "おなかが痛いですから、何も食べたくないです。", "english": "Because I have a stomachache, I don't want to eat anything."}
     ]
   },
@@ -43,8 +59,14 @@
     "title": "どこか / 何か",
     "explanation": "どこか means 'somewhere/anywhere' and なにか means 'something/anything.' The particles へ and を can be omitted.",
     "examples": [
-      {"japanese": "冬休みはどこかへ行きましたか。", "english": "Did you go anywhere in the winter vacation?"},
-      {"japanese": "･･･はい、行きました。", "english": "...Yes, I did."},
+      {
+        "japanese": "冬休みはどこかへ行きましたか。",
+        "english": "Did you go anywhere in the winter vacation?",
+        "answer": {
+          "japanese": "はい、行きました。",
+          "english": "Yes, I did."
+        }
+      },
       {"japanese": "のどがかわきましたから、何か飲みたいです。", "english": "I'm thirsty. I want to drink something."}
     ]
   },

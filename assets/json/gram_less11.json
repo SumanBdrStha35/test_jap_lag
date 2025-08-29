@@ -1,8 +1,7 @@
 [
   {
     "title": "Basic Counting (ひとつ、ふたつ…とお)",
-    "explanation": "Used to count things up to ten. Eleven and higher use normal numbers.",
-    "examples": []
+    "explanation": "Used to count things up to ten. Eleven and higher use normal numbers."
   },
   {
     "title": "Counter Suffixes",
@@ -37,16 +36,11 @@
     "title": "Interrogatives",
     "explanation": "Different words are used to ask 'how many' or 'how long'.",
     "examples": [
-      {"japanese": "みかんをいくつ買いましたか。", "english": "How many mandarin oranges did you buy?"},
-      {"japanese": "･･･8つ買いました。", "english": "I bought eight."},
-      {"japanese": "この会社に外国人が何人いますか。", "english": "How many foreigners are there in this company?"},
-      {"japanese": "･･･5人います。", "english": "There are five."},
-      {"japanese": "毎晩何時間日本語を勉強しますか。", "english": "How many hours do you study Japanese every night?"},
-      {"japanese": "･･･2時間勉強します。", "english": "Two hours."},
-      {"japanese": "どのくらい日本語を勉強しましたか。", "english": "How long did you study Japanese?"},
-      {"japanese": "･･･3年勉強しました。", "english": "I studied it for three years."},
-      {"japanese": "大阪から東京までどのくらいかかりますか。", "english": "How long does it take from Osaka to Tokyo?"},
-      {"japanese": "･･･新幹線で2時間半かかります。", "english": "It takes two and a half hours by Shinkansen."}
+      {"japanese": "みかんをいくつ買いましたか。", "english": "How many mandarin oranges did you buy?", "answer": {"japanese": "･･･8つ買いました。", "english": "I bought eight."}},
+      {"japanese": "この会社に外国人が何人いますか。", "english": "How many foreigners are there in this company?", "answer": {"japanese": "･･･5人います。", "english": "There are five."}},
+      {"japanese": "毎晩何時間日本語を勉強しますか。", "english": "How many hours do you study Japanese every night?", "answer": {"japanese": "･･･2時間勉強します。", "english": "Two hours."}},
+      {"japanese": "どのくらい日本語を勉強しましたか。", "english": "How long did you study Japanese?", "answer": {"japanese": "･･･3年勉強しました。", "english": "I studied it for three years."}},
+      {"japanese": "大阪から東京までどのくらいかかりますか。", "english": "How long does it take from Osaka to Tokyo?", "answer": {"japanese": "･･･新幹線で2時間半かかります。", "english": "It takes two and a half hours by Shinkansen."}}
     ]
   },
   {
@@ -68,7 +62,7 @@
     "title": "だけ (Only)",
     "explanation": "Indicates exclusivity. Used after quantifiers or nouns.",
     "examples": [
-      {"japanese": "パワー電気に外国人の社員が1人だけいます。", "en": "There is only one foreign employee in Power Electric."},
+      {"japanese": "パワー電気に外国人の社員が1人だけいます。", "english": "There is only one foreign employee in Power Electric."},
       {"japanese": "休みは日曜日だけです。", "english": "I only have Sundays off."}
     ]
   }

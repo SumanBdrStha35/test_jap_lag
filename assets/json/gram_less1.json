@@ -3,7 +3,7 @@
     "title": "N は N です",
     "points": [
       {
-        "subpoint": "1) Particle は",
+        "subpoint": "Particle は",
         "explanation": "The particle は indicates the topic of the sentence. You choose a noun you want to talk about, add は, and then make a statement about it.",
         "example": {
           "japanese": "わたしは マイク・ミラーです。",
@@ -12,7 +12,7 @@
         "note": "は is read as わ."
       },
       {
-        "subpoint": "2) です",
+        "subpoint": "です",
         "explanation": "です is used with nouns as predicates to make polite assertions or judgments. It changes in negative or past tense forms.",
         "example": {
           "japanese": "わたしは エンジニアです。",
@@ -34,11 +34,11 @@
     "title": "S か",
     "points": [
       {
-        "subpoint": "1) Particle か",
+        "subpoint": "Particle か",
         "explanation": "Adding か to the end of a sentence makes it a question. It indicates doubt, uncertainty, or inquiry. A question ends with rising intonation."
       },
       {
-        "subpoint": "2) Yes/No questions",
+        "subpoint": "Yes/No questions",
         "explanation": "A sentence becomes a yes/no question by adding か at the end. Word order does not change.",
         "examples": [
           {
@@ -60,18 +60,16 @@
         ]
       },
       {
-        "subpoint": "3) Questions with interrogatives",
+        "subpoint": "Questions with interrogatives",
         "explanation": "An interrogative word replaces the part of the sentence being asked about. The structure and word order remain the same, with か added at the end.",
-        "example": {
-          "question": {
-            "japanese": "あの方は どなたですか。",
-            "english": "Who is that person?"
-          },
+        "example":{
+          "japanese": "あの方は どなたですか。",
+          "english": "Who is that person?",
           "answer": {
             "japanese": "あの方は ミラーさんです。",
             "english": "That’s Mr. Miller."
           }
-        }
+        }          
       }
     ]
   },

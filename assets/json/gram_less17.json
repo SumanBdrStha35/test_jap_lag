@@ -3,19 +3,20 @@
     "title": "Verb ない-form",
     "explanation": "The ない-form is the plain negative form of verbs. Its formation depends on the verb group.",
     "examples": [
-        {"japanese": "かきます → かかない", "english": "write → not write", "group": "Group I"},
-        {"japanese": "よみます → よまない", "english": "read → not read", "group": "Group I"},
-        {"japanese": "とります → とらない", "english": "take → not take", "group": "Group I"},
-        {"japanese": "すいます → すわない", "english": "smoke → not smoke", "group": "Group I"},
-        {"japanese": "いそぎます → いそがない", "english": "hurry → not hurry", "group": "Group I"},
-        {"japanese": "あそびます → あそばない", "english": "play → not play", "group": "Group I"},
-        {"japanese": "まちます → またない", "english": "wait → not wait", "group": "Group I"},
-        {"japanese": "はなします → はなさない", "english": "speak → not speak", "group": "Group I"},
-        {"japanese": "たべます → たべない", "english": "eat → not eat", "group": "Group II"},
-        {"japanese": "みます → みない", "english": "see → not see", "group": "Group II"},
-        {"japanese": "べんきょうします → べんきょうしない", "english": "study → not study", "group": "Group III"},
-        {"japanese": "します → しない", "english": "do → not do", "group": "Group III"},
-        {"japanese": "きます → こない", "english": "come → not come", "group": "Group III"}
+        {"group": "Group I" , "japanese": "かきます → かかない", "english": "write → not write"},
+        {"group": "Group I" , "japanese": "よみます → よまない", "english": "read → not read"},
+        {"group": "Group I" , "japanese": "とります → とらない", "english": "take → not take"},
+        {"group": "Group I" , "japanese": "すいます → すわない", "english": "smoke → not smoke"},
+        {"group": "Group I" , "japanese": "いそぎます → いそがない", "english": "hurry → not hurry"},
+        {"group": "Group I" , "japanese": "あそびます → あそばない", "english": "play → not play"},
+        {"group": "Group I" , "japanese": "まちます → またない", "english": "wait → not wait"},
+        {"group": "Group I" , "japanese": "はなします → はなさない", "english": "speak → not speak"},
+        {"group": "Group II" , "japanese": "たべます → たべない", "english": "eat → not eat"},
+        {"group": "Group II" , "japanese": "みます → みない", "english": "see → not see"},
+        {"group": "Group III" , "japanese": "べんきょうします → べんきょうしない", "english": "study → not study"},
+        {"group": "Group III" , "japanese": "します → しない", "english": "do → not do"},
+        {"group": "Group III" , "japanese": "きます → こない", "english": "come → not come"}
+        
     ]
   },
   {
@@ -29,16 +30,12 @@
   {
     "title": "Vない-form なければなりません ( must... / have to... )",
     "explanation": "Means 'must...' or 'have to...'. Indicates obligation regardless of the speaker's will.",
-    "examples": [
-      {"japanese": "薬を飲まなければなりません。", "english": "I must take medicine."}
-    ]
+    "example": {"japanese": "薬を飲まなければなりません。", "english": "I must take medicine."}
   },
   {
     "title": "Vない-form なくてもいいです (need not... / don't have to... )",
     "explanation": "Means 'need not...' or 'don't have to...'. Indicates that an action is unnecessary.",
-    "examples": [
-      {"japanese": "あした来なくてもいいです。", "english": "You don't have to come tomorrow."}
-    ]
+    "example": {"japanese": "あした来なくてもいいです。", "english": "You don't have to come tomorrow."}
   },
   {
     "title": "N(object)は",

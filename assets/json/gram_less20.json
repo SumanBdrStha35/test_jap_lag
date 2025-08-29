@@ -21,18 +21,18 @@
         "subtitle": "Questions without か",
         "explanation": "Plain style questions usually omit か, relying on rising intonation.",
         "examples": [
-          {"japanese": "コーヒーを飲む?", "english": "Do you want a coffee?"},
-          {"japanese": "･･･うん、飲む。", "english": "...Yes, I do."}
+          {"japanese": "コーヒーを飲む?", "english": "Do you want a coffee?", "answer":{"japanese": "･･･うん、飲む。", "english": "...Yes, I do."}}
         ]
       },
       {
         "subtitle": "Noun and な-adjective questions",
         "explanation": "だ (plain form of です) is omitted in questions. In affirmative answers, だ may sound rough. Women usually avoid だ.",
         "examples": [
-          {"japanese": "今晚暇?", "english": "Are you free tonight?"},
-          {"japanese": "･･･うん、暇／暇だ／暇だよ。", "english": "Yes, I am. (used by men)"},
-          {"japanese": "･･･うん、暇／暇よ。", "english": "Yes, I am. (used by women)"},
-          {"japanese": "･･･ううん、暇じゃない。", "english": "No, I am not."}
+          {"japanese": "今晚暇?", "english": "Are you free tonight?", "answers": [
+            {"japanese": "･･･うん、暇／暇だ／暇だよ。", "english": "Yes, I am. (used by men)"},
+            {"japanese": "･･･うん、暇／暇よ。", "english": "Yes, I am. (used by women)"},
+            {"japanese": "･･･ううん、暇じゃない。", "english": "No, I am not."}
+          ]}
         ]
       },
       {
@@ -49,19 +49,23 @@
         "subtitle": "Dropping い in Vて-formいる",
         "explanation": "In plain style, the い of いる is often omitted.",
         "examples": [
-          {"japanese": "辞書、持って[い]る?", "english": "Do you have a dictionary?"},
-          {"japanese": "･･･うん、持って[い]る。", "english": "...Yes, I do."},
-          {"japanese": "･･･ううん、持って[い]ない。", "english": "...No, I don’t."}
+          {"japanese": "辞書、持って[い]る?", "english": "Do you have a dictionary?", "answers": [
+            {"japanese": "･･･うん、持って[い]る。", "english": "...Yes, I do."},
+            {"japanese": "･･･ううん、持って[い]ない。", "english": "...No, I don’t."}
+          ]}
+          
         ]
       },
       {
         "subtitle": "けど in plain style",
         "explanation": "けど is the plain style equivalent of が (used to connect sentences or soften).",
         "examples": [
-          {"japanese": "そのカレーライス[は]おいしい?", "english": "Is that curry and rice tasty?"},
-          {"japanese": "･･･うん、辛いけど、おいしい。", "english": "...Yes, it’s hot but tasty."},
-          {"japanese": "相撲のチケット[が]あるけどいっしょに行かない?", "english": "I have tickets for sumo. Won’t you come with me?"},
-          {"japanese": "･･･いいね。", "english": "...Sure."}
+          {"japanese": "そのカレーライス[は]おいしい?", "english": "Is that curry and rice tasty?", 
+          "answer":{"japanese": "･･･うん、辛いけど、おいしい。", "english": "...Yes, it’s hot but tasty."}
+          },
+          {"japanese": "相撲のチケット[が]あるけどいっしょに行かない?", "english": "I have tickets for sumo. Won’t you come with me?",
+          "answer": {"japanese": "･･･いいね。", "english": "...Sure."}}
+          
         ]
       }
     ]

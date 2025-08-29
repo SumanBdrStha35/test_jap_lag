@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_app/pages/grammer/gama_test1.dart';
+import 'package:flutter_app/pages/grammer/gramScreen.dart';
 import 'package:flutter_app/pages/grammer/gram_quize.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -307,8 +307,7 @@ class _GramPageState extends State<GramPage> {
                     MaterialPageRoute(
                       builder:
                           (context) =>
-                              // GrammarScreen(title: 'Lesson $lessonNumber'),
-                              LessonOneHome(title: '$lessonNumber'),
+                              GrammarScreen(title: 'Lesson $lessonNumber'),
                     ),
                   );
                 },

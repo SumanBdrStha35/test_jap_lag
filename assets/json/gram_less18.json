@@ -3,22 +3,22 @@
     "title": "Verb Dictionary Form",
     "explanation": "The dictionary form is the basic form of a verb. It is the form found in dictionaries. Its formation depends on the verb group.",
     "examples": [
-      {"japanese": "かきます → かく", "english": "write → to write", "group": "Group I"},
-      {"japanese": "のみます → のむ", "english": "drink → to drink", "group": "Group I"},
-      {"japanese": "たべます → たべる", "english": "eat → to eat", "group": "Group II"},
-      {"japanese": "みます → みる", "english": "see → to see", "group": "Group II"},
-      {"japanese": "します → する", "english": "do → to do", "group": "Group III"},
-      {"japanese": "きます → くる", "english": "come → to come", "group": "Group III"}
+      {"group": "Group I", "japanese": "かきます → かく", "english": "write → to write"},
+      {"group": "Group I", "japanese": "のみます → のむ", "english": "drink → to drink"},
+      {"group": "Group II", "japanese": "たべます → たべる", "english": "eat → to eat"},
+      {"group": "Group II", "japanese": "みます → みる", "english": "see → to see"},
+      {"group": "Group III", "japanese": "します → する", "english": "do → to do"},
+      {"group": "Group III", "japanese": "きます → くる", "english": "come → to come"}
     ]
   },
   {
     "title": "N / V Dictionary Form こと } ができます",
     "explanation": "できます expresses ability or possibility. A noun or V-dictionary-formこと + が indicates the content of ability.",
     "examples": [
-      {"japanese": "ミラーさんは日本語ができます。", "english": "Mr. Miller can speak Japanese.", "group": "noun"},
-      {"japanese": "雪がたくさん降りましたから、ことしはスキーができます。", "english": "It snowed a lot, so we can ski this year.", "group": "noun"},
-      {"japanese": "ミラーさんは漢字を読むことができます。", "english": "Mr. Miller can read Kanji.", "group": "verb"},
-      {"japanese": "カードで払うことができます。", "english": "You can pay by credit card.", "group": "verb"}
+      {"group": "noun", "japanese": "ミラーさんは日本語ができます。", "english": "Mr. Miller can speak Japanese."},
+      {"group": "noun", "japanese": "雪がたくさん降りましたから、ことしはスキーができます。", "english": "It snowed a lot, so we can ski this year."},
+      {"group": "verb", "japanese": "ミラーさんは漢字を読むことができます。", "english": "Mr. Miller can read Kanji."},
+      {"group": "verb", "japanese": "カードで払うことができます。", "english": "You can pay by credit card."}
     ]
   },
   {
@@ -33,18 +33,16 @@
     "title": "V Dictionary Form / Nの / Quantifier} + まえに V2 ( ... before ... )",
     "explanation": "Indicates that one action happens before another. With verbs, the dictionary form is always used. Nouns require の before まえに. Quantifiers (time periods) do not require particles.",
     "examples": [
-      {"japanese": "日本へ来るまえに、日本語を勉強しました。", "english": "I studied Japanese before I came to Japan.", "group": "verb"},
-      {"japanese": "寝るまえに、本を読みます。", "english": "I read a book before I go to bed.", "group": "verb"},
-      {"japanese": "食事のまえに、手を洗います。", "english": "I wash my hands before eating.", "group": "noun"},
-      {"japanese": "田中さんは1時間まえに、出かけました。", "english": "Mr. Tanaka left an hour ago.", "group": "quantifier(period)"}
+      {"group": "verb", "japanese": "日本へ来るまえに、日本語を勉強しました。", "english": "I studied Japanese before I came to Japan."},
+      {"group": "verb", "japanese": "寝るまえに、本を読みます。", "english": "I read a book before I go to bed."},
+      {"group": "noun", "japanese": "食事のまえに、手を洗います。", "english": "I wash my hands before eating."},
+      {"group": "quantifier(period)", "japanese": "田中さんは1時間まえに、出かけました。", "english": "Mr. Tanaka left an hour ago."}
     ]
   },
   {
     "title": "なかなか",
     "explanation": "When used with a negative verb, なかなか means 'not easily' or 'rarely'.",
-    "examples": [
-      {"japanese": "日本ではなかなか馬を見ることができません。", "english": "In Japan we can rarely see horses."}
-    ]
+    "example": {"japanese": "日本ではなかなか馬を見ることができません。", "english": "In Japan we can rarely see horses."}
   },
   {
     "title": "ぜひ",

@@ -47,16 +47,28 @@
     "title": "どうやって",
     "explanation": "どうやって is used to ask about the method or way of doing something. Answers usually describe a sequence of actions using the て-form.",
     "examples": [
-      {"japanese": "大学までどうやって行きますか。", "english": "How do you go to your university?"},
-      {"japanese": "･･･京都駅から16番のバスに乗って、大学前で降ります。", "english": "...I take a No. 16 bus from Kyoto Station and get off at Daigaku-mae."}
+      {
+        "japanese": "大学までどうやって行きますか。",
+        "english": "How do you go to your university?",
+        "answer": {
+          "japanese": "京都駅から16番のバスに乗って、大学前で降ります。",
+          "english": "I take a No. 16 bus from Kyoto Station and get off at Daigaku-mae."
+        }
+      }
     ]
   },
   {
     "title": "どの N",
     "explanation": "どの is used to ask the listener to identify one among several specific options. It functions like この/その/あの but as an interrogative.",
     "examples": [
-      {"japanese": "サントスさんはどの人ですか。", "english": "Which one is Mr. Santos?"},
-      {"japanese": "･･･あの背が高くて、髪が黒い人です。", "english": "That tall man with black hair is."}
+      {
+        "japanese": "サントスさんはどの人ですか。",
+        "english": "Which one is Mr. Santos?",
+        "answer": {
+          "japanese": "あの背が高くて、髪が黒い人です。",
+          "english": "That tall man with black hair is."
+        }
+      }
     ]
   }
 ]

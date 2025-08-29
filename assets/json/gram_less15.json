@@ -5,9 +5,20 @@
     "examples": [
       {"japanese": "写真を撮ってもいいです。", "english": "You may take pictures."},
       {"japanese": "たばこを吸ってもいいですか。", "english": "May I smoke?"},
-      {"japanese": "このカタログをもらってもいいですか。", "english": "May I have this catalogue?"},
-      {"japanese": "･･･ええ、いいですよ。どうぞ。", "english": "...Yes. Here you are."},
-      {"japanese": "･･･すみません。ちょっと。", "english": "Sorry. I'm afraid not."}
+      {
+        "japanese": "このカタログをもらってもいいですか。",
+        "english": "May I have this catalogue?",
+        "answers": [
+          {
+            "japanese": "ええ、いいですよ。どうぞ。",
+            "english": "Yes. Here you are."
+          },
+          {
+            "japanese": "すみません。ちょっと。",
+            "english": "Sorry. I'm afraid not."
+          }
+        ]
+      }
     ]
   },
   {
@@ -15,8 +26,14 @@
     "explanation": "This pattern is used to express prohibition. To strongly refuse permission, reply with いいえ、いけません. This expression should not be used by an inferior to a superior.",
     "examples": [
       {"japanese": "ここでたばこを吸ってはいけません。禁煙ですから。", "english": "You must not smoke here. Because this is a no-smoking area."},
-      {"japanese": "先生、ここで遊んでもいいですか。", "english": "May we play here, Ma'am?"},
-      {"japanese": "･･･いいえ、いけません。", "english": "No, you must not."}
+      {
+        "japanese": "先生、ここで遊んでもいいですか。",
+        "english": "May we play here, Ma'am?",
+        "answer": {
+          "japanese": "いいえ、いけません。",
+          "english": "No, you must not."
+        }
+      }
     ]
   },
   {
@@ -43,9 +60,20 @@
     "title": "知りません",
     "explanation": "The negative form of しっています (to know) is しりません (do not know).",
     "examples": [
-      {"japanese": "市役所の電話番号を知っていますか。", "english": "Do you know the telephone number of the city hall?"},
-      {"japanese": "･･･はい、知っています。", "english": "...Yes, I do."},
-      {"japanese": "･･･いいえ、知りません。", "english": "...No, I don't."}
+      {
+        "japanese": "市役所の電話番号を知っていますか。",
+        "english": "Do you know the telephone number of the city hall?",
+        "answers": [
+          {
+            "japanese": "はい、知っています。",
+            "english": "Yes, I do."
+          },
+          {
+            "japanese": "いいえ、知りません。",
+            "english": "No, I don't."
+          }
+        ]
+      }
     ]
   }
 ]

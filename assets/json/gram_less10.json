@@ -82,14 +82,6 @@
           "japanese": "事務所にいます。",
           "english": "He's in the office."
         }
-      },
-      {
-        "japanese": "東京ディズニーランドはどこにありますか。",
-        "english": "Where is Tokyo Disneyland?",
-        "answer": {
-          "japanese": "千葉県です。",
-          "english": "It's in Chiba Prefecture."
-        }
       }
     ]
   },

@@ -31,11 +31,9 @@
           {
             "japanese": "この本はおもしろくないです。",
             "english": "This book is not interesting."
-          },
-          {
-            "note": "The negative of いいです is よくないです."
           }
-        ]
+        ],
+        "note": "The negative of いいです is よくないです."
       },
       {
         "title": "Questions with Adjectives",
@@ -43,22 +41,18 @@
           {
             "japanese": "ペキンは寒いですか。",
             "english": "Is it cold in Beijing?",
-            "answers": [
-              {
-                "japanese": "はい、寒いです。",
-                "english": "Yes, it is."
-              }
-            ]
+            "answer": {
+              "japanese": "はい、寒いです。",
+              "english": "Yes, it is."
+            }
           },
           {
             "japanese": "琵琶湖の水はきれいですか。",
             "english": "Is the water of Lake Biwa clean?",
-            "answers": [
-              {
-                "japanese": "いいえ、きれいじゃありません。",
-                "english": "No, it isn’t."
-              }
-            ]
+            "answer":{
+              "japanese": "いいえ、きれいじゃありません。",
+              "english": "No, it isn’t."
+            }
           }
         ]
       }

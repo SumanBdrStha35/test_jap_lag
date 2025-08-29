@@ -3,11 +3,11 @@
     "title": "Verb た-form",
     "explanation": "The た-form is made by changing て/で of the て-form into た/だ respectively.",
     "examples": [
-      {"japanese": "かいて → かいた", "english": "write → wrote", "group": "Group I"},
-      {"japanese": "のんで → のんだ", "english": "drink → drank", "group": "Group I"},
-      {"japanese": "たべて → たべた", "english": "eat → ate", "group": "Group II"},
-      {"japanese": "きて → きた", "english": "come → came", "group": "Group III"},
-      {"japanese": "して → した", "english": "do → did", "group": "Group III"}
+      {"group": "Group I", "japanese": "かいて → かいた", "english": "write → wrote" },
+      {"group": "Group I", "japanese": "のんで → のんだ", "english": "drink → drank" },
+      {"group": "Group II", "japanese": "たべて → たべた", "english": "eat → ate"},
+      {"group": "Group III", "japanese": "きて → きた", "english": "come → came"},
+      {"group": "Group III", "japanese": "して → した", "english": "do → did" }
     ]
   },
   {
@@ -40,8 +40,14 @@
     "title": "そうですね",
     "explanation": "そうですね is used to agree or sympathize with what someone said. Different from そうですか, which expresses realization or surprise at new information.",
     "examples": [
-      {"japanese": "寒くなりましたね。", "english": "It's got cold, hasn't it?"},
-      {"japanese": "･･･そうですね。", "english": "...Yes, it has."}
+      {
+        "japanese": "寒くなりましたね。", 
+        "english": "It's got cold, hasn't it?",
+        "answer":{
+          "japanese": "･･･そうですね。",
+          "english": "...Yes, it has."
+        }
+      }
     ]
   }
 ]

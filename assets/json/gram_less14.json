@@ -7,14 +7,14 @@
     "title": "Verb Groups",
     "explanation": "Verbs are divided into three groups depending on their conjugation patterns.",
     "examples": [
-      {"japanese": "かきます", "english": "to write (Group I)"},
-      {"japanese": "のみます", "english": "to drink (Group I)"},
-      {"japanese": "たべます", "english": "to eat (Group II)"},
-      {"japanese": "みせます", "english": "to show (Group II)"},
-      {"japanese": "みます", "english": "to see (Group II)"},
-      {"japanese": "します", "english": "to do (Group III)"},
-      {"japanese": "勉強します", "english": "to study (Group III: noun + します)"},
-      {"japanese": "きます", "english": "to come (Group III)"}
+      {"group": "Group I", "japanese": "かきます", "english": "to write"},
+      {"group": "Group I", "japanese": "のみます", "english": "to drink"},
+      {"group": "Group II", "japanese": "たべます", "english": "to eat"},
+      {"group": "Group II", "japanese": "みせます", "english": "to show"},
+      {"group": "Group II", "japanese": "みます", "english": "to see"},
+      {"group": "Group III", "japanese": "します", "english": "to do"},
+      {"group": "Group III", "japanese": "勉強します", "english": "to study (noun + します)"},
+      {"group": "Group III", "japanese": "きます", "english": "to come)"}
     ]
   },
   {
@@ -35,18 +35,32 @@
     "explanation": "Indicates that an action is in progress (be V-ing).",
     "examples": [
       {"japanese": "ミラーさんは今電話をかけています。", "english": "Mr. Miller is making a phone call now."},
-      {"japanese": "今雨が降っていますか。", "english": "Is it raining now?"},
-      {"japanese": "･･･はい、降っています。", "english": "Yes, it is."},
-      {"japanese": "･･･いいえ、降っていません。", "english": "No, it is not."}
+      {
+        "japanese": "今雨が降っていますか。",
+        "english": "Is it raining now?",
+        "answers": [
+          {
+            "japanese": "はい、降っています。",
+            "english": "Yes, it is."
+          },
+          {
+            "japanese": "いいえ、降っていません。",
+            "english": "No, it is not."
+          }
+        ]
+      }
     ]
   },
   {
     "title": "Vます-form ましょうか ( Shall I do...? )",
     "explanation": "Used when the speaker offers to do something for the listener. The listener may accept politely, decline politely, or ask for clarification.",
-    "examples": [
-      {"japanese": "A: あしたも来ましょうか。 B: ええ、10時に来てください。", "english": "A: Shall I come tomorrow, too? B: Yes, please come at ten."},
-      {"japanese": "A: 傘を貸しましょうか。 B: すみません。お願いします。", "english": "A: Shall I lend you an umbrella? B: Yes, please."},
-      {"japanese": "A: 荷物を持ちましょうか。 B: いいえ、けっこうです。", "english": "A: Shall I carry your parcel? B: No, thank you."}
+    "dialogue": [
+      {"japanese": "あしたも来ましょうか。", "english": "Shall I come tomorrow, too?"},
+      {"japanese": "ええ、10時に来てください。", "english": "Yes, please come at ten."},
+      {"japanese": "傘を貸しましょうか。", "english": "Shall I lend you an umbrella?"},
+      {"japanese": "はい、お願いします。", "english": "Yes, please."},
+      {"japanese": "荷物を持ちましょうか。", "english": "Shall I carry your parcel?"},
+      {"japanese": "いいえ、けっこうです。", "english": "No, thank you."}
     ]
   },
   {
