@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:logger/logger.dart';
+import 'gam_les_quiz.dart';
 
 class GrammarScreen extends StatefulWidget {
   final String? title;
@@ -59,6 +60,18 @@ class _GrammarScreenState extends State<GrammarScreen> {
     }
   }
 
+  void _openQuiz() {
+    if (widget.title != null && widget.title!.startsWith('Lesson ')) {
+      final lessonNumber = widget.title!.substring(7);
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => LessQuizPage(lessonNumber: lessonNumber),
+        ),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,6 +85,14 @@ class _GrammarScreenState extends State<GrammarScreen> {
             ),
           ),
         ),
+        actions: [
+          if (widget.title != null && widget.title!.startsWith('Lesson '))
+            IconButton(
+              icon: const Icon(Icons.quiz),
+              onPressed: _openQuiz,
+              tooltip: 'Take Quiz',
+            ),
+        ],
       ),
       body:
           _isLoading
@@ -489,7 +510,7 @@ class ConjugationGroup extends StatelessWidget {
                 style: const TextStyle(fontWeight: FontWeight.w500),
               ),
             );
-          }).toList(),
+          }),
         ],
       ),
     );
