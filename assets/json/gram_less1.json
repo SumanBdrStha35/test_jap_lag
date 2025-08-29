@@ -43,19 +43,19 @@
         "examples": [
           {
             "japanese": "ミラーさんは アメリカ人ですか。",
-            "english": "Is Mr. Miller an American?"
-          },
-          {
-            "japanese": "はい、アメリカ人です。",
-            "english": "Yes, he is."
+            "english": "Is Mr. Miller an American?",
+            "answer": {
+              "japanese": "はい、アメリカ人です。",
+              "english": "Yes, he is."
+            }
           },
           {
             "japanese": "ミラーさんは 先生ですか。",
-            "english": "Is Mr. Miller a teacher?"
-          },
-          {
-            "japanese": "いいえ、先生じゃありません。",
-            "english": "No, he is not."
+            "english": "Is Mr. Miller a teacher?",
+            "answer": {
+              "japanese": "いいえ、先生じゃありません。",
+              "english": "No, he is not."
+            }
           }
         ]
       },

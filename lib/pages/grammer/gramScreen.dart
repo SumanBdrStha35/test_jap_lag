@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'package:logger/logger.dart';
 
 class GrammarScreen extends StatefulWidget {
@@ -16,11 +17,28 @@ class GrammarScreen extends StatefulWidget {
 class _GrammarScreenState extends State<GrammarScreen> {
   List<Map<String, dynamic>> _items = [];
   bool _isLoading = true;
+  final FlutterTts _flutterTts = FlutterTts();
 
   @override
   void initState() {
     super.initState();
+    _initializeTts();
     _loadData();
+  }
+
+  Future<void> _initializeTts() async {
+    await _flutterTts.setLanguage("ja-JP");
+    await _flutterTts.setSpeechRate(0.5);
+    await _flutterTts.setPitch(1.0);
+    await _flutterTts.setVolume(1.0);
+  }
+
+  Future<void> _speak(String text) async {
+    try {
+      await _flutterTts.speak(text);
+    } catch (e) {
+      print("Error in TTS speak: $e");
+    }
   }
 
   Future<void> _loadData() async {
@@ -519,6 +537,8 @@ class ExampleTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final japaneseText = example['japanese']?.toString() ?? '';
+    
     return Container(
       margin: const EdgeInsets.only(top: 8),
       padding: const EdgeInsets.all(12),
@@ -526,16 +546,26 @@ class ExampleTile extends StatelessWidget {
         color: Colors.grey.shade50,
         borderRadius: BorderRadius.circular(8),
       ),
-      // child: Text(
-      //   "${example['japanese']} — ${example['english'] ?? ''}",
-      //   style: const TextStyle(fontWeight: FontWeight.w500),
-      // ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            "${example['japanese']} — ${example['english'] ?? ''}",
-            style: const TextStyle(fontWeight: FontWeight.w500),
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  "${example['japanese']} — ${example['english'] ?? ''}",
+                  style: const TextStyle(fontWeight: FontWeight.w500),
+                ),
+              ),
+              if (japaneseText.isNotEmpty)
+                IconButton(
+                  icon: const Icon(Icons.volume_up, size: 20),
+                  onPressed: () {
+                    final grammarScreenState = context.findAncestorStateOfType<_GrammarScreenState>();
+                    grammarScreenState?._speak(japaneseText);
+                  },
+                ),
+            ],
           ),
           if (example['answer'] != null) AnswerTile(answer: example['answer']),
           if (example['answers'] != null)
@@ -569,11 +599,26 @@ class AnswerTile extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: List.generate(jp.length, (i) {
+          final japaneseText = jp[i].trim();
           return Padding(
             padding: const EdgeInsets.only(bottom: 4),
-            child: Text(
-              "${jp[i]} — ${i < en.length ? en[i] : ''}",
-              style: const TextStyle(fontWeight: FontWeight.w500),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    "${jp[i]} — ${i < en.length ? en[i] : ''}",
+                    style: const TextStyle(fontWeight: FontWeight.w500),
+                  ),
+                ),
+                if (japaneseText.isNotEmpty)
+                  IconButton(
+                    icon: const Icon(Icons.volume_up, size: 16),
+                    onPressed: () {
+                      final grammarScreenState = context.findAncestorStateOfType<_GrammarScreenState>();
+                      grammarScreenState?._speak(japaneseText);
+                    },
+                  ),
+              ],
             ),
           );
         }),
@@ -721,6 +766,8 @@ class DialogueTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final japaneseText = dialogue['japanese']?.toString() ?? '';
+    
     return Container(
       margin: const EdgeInsets.only(top: 8),
       padding: const EdgeInsets.all(12),
@@ -739,7 +786,21 @@ class DialogueTile extends StatelessWidget {
                 color: Colors.teal.shade800,
               ),
             ),
-          Text(dialogue['japanese'], style: const TextStyle(fontSize: 16)),
+          Row(
+            children: [
+              Expanded(
+                child: Text(dialogue['japanese'], style: const TextStyle(fontSize: 16)),
+              ),
+              if (japaneseText.isNotEmpty)
+                IconButton(
+                  icon: const Icon(Icons.volume_up, size: 16),
+                  onPressed: () {
+                    final grammarScreenState = context.findAncestorStateOfType<_GrammarScreenState>();
+                    grammarScreenState?._speak(japaneseText);
+                  },
+                ),
+            ],
+          ),
           if (dialogue['english'] != null)
             Text(
               dialogue['english'],
