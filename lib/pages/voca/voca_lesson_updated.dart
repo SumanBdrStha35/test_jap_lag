@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_app/pages/voca/voca_additional.dart';
 import 'package:flutter_app/pages/voca/voca_lesson_detail.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:logger/logger.dart';
@@ -216,15 +217,45 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate>
   }
 
   Widget _buildListView(List<int> lessons) {
+    // Calculate total items: lessons + less_part files
+    int totalItems = lessons.length;
+    for (var lesson in lessons) {
+      if (_hasLessPartFile(lesson)) {
+        totalItems++;
+      }
+    }
+
     return ListView.builder(
       padding: const EdgeInsets.symmetric(horizontal: 16),
-      itemCount: lessons.length,
+      itemCount: totalItems,
       itemBuilder: (context, index) {
-        final lessonNumber = lessons[index];
-        return _buildModernLessonCard(lessonNumber)
-            .animate()
-            .fadeIn(delay: Duration(milliseconds: index * 50))
-            .slideY(begin: 0.2, end: 0);
+        // Find which lesson and item type this index corresponds to
+        int currentIndex = 0;
+        for (var i = 0; i < lessons.length; i++) {
+          final lessonNumber = lessons[i];
+          
+          // Lesson card
+          if (index == currentIndex) {
+            return _buildModernLessonCard(lessonNumber)
+                .animate()
+                .fadeIn(delay: Duration(milliseconds: i * 50))
+                .slideY(begin: 0.2, end: 0);
+          }
+          currentIndex++;
+          
+          // Less part card (if exists)
+          if (_hasLessPartFile(lessonNumber)) {
+            if (index == currentIndex) {
+              return _buildLessPartCard(lessonNumber)
+                  .animate()
+                  .fadeIn(delay: Duration(milliseconds: i * 50 + 25))
+                  .slideY(begin: 0.2, end: 0);
+            }
+            currentIndex++;
+          }
+        }
+        
+        return Container(); // Fallback
       },
     );
   }
@@ -519,5 +550,101 @@ class VocaLessonPageState extends State<VocaLessonPageUpdate>
     //     color: Theme.of(context).colorScheme.onSurfaceVariant,
     //   ),
     // ),
+  }
+
+  bool _hasLessPartFile(int lessonNumber) {
+    // Check if less_part file exists by trying to load it
+    // We'll use a simple approach - check if the file path exists in our known assets
+    final availableLessParts = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25];
+    return availableLessParts.contains(lessonNumber);
+  }
+
+  Widget _buildLessPartCard(int lessonNumber) {
+    final color = _getLessonColor(lessonNumber);
+    
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16),
+        color: Theme.of(context).colorScheme.surfaceContainer,
+        boxShadow: [
+          BoxShadow(
+            color: color.withOpacity(0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(16),
+          onTap: () {
+            // Handle less_part tap - could navigate to a different page
+            HapticFeedback.lightImpact();
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => VocaAdditionalPage(
+                  lessonNumber: lessonNumber,
+                  isLessPart: true,
+                ),
+              ),
+            );
+          },
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Row(
+              children: [
+                Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    color: color.withOpacity(0.2),
+                    shape: BoxShape.circle,
+                  ),
+                  child: Center(
+                    child: Icon(
+                      Icons.article,
+                      color: color,
+                      size: 20,
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Less Part $lessonNumber',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Theme.of(context).colorScheme.onSurface,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        'Additional vocabulary exercises',
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Icon(
+                  Icons.chevron_right,
+                  color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  size: 20,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }

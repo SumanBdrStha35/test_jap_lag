@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:logger/logger.dart';
 import 'gam_les_quiz.dart';
 
 class GrammarScreen extends StatefulWidget {

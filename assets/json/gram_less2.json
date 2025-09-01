@@ -31,8 +31,7 @@
   {
     "title": "そうです / そうじゃ ありません",
     "explanation": "そう is used to affirm or deny a noun sentence. はい、そうです is affirmative, and いいえ、そうじゃありません is negative. The verb ちがいます can also be used instead of そうじゃありません.",
-    "examples": [
-      {
+    "example": {
         "japanese": "それは テレホンカードですか。",
         "answers": [
           {
@@ -44,17 +43,7 @@
             "english": "No, it isn't."
           }
         ]
-      },
-      {
-        "japanese": "それは テレホンカードですか。",
-        "answers": [
-          {
-            "japanese": "いいえ、違います。",
-            "english": "No, it isn't."
-          }
-        ]
       }
-    ]
   },
   {
     "title": "S1 か、S2 か",
