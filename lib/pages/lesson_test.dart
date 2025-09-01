@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/grammer/gram_page.dart';
-import 'package:flutter_app/pages/kanji/kanji_leaves.dart';
+import 'package:flutter_app/pages/others/greeting.dart';
 import 'package:flutter_app/pages/voca/voca_lesson_updated.dart';
 
 class LessonTest extends StatelessWidget {
@@ -102,23 +102,88 @@ class LessonTest extends StatelessWidget {
                       'Learn common Japanese greetings',
                       Icons.handshake_outlined,
                       const Color(0xFFFF6B6B),
-                      const FallingLeavesSpring(),
+                      const AppendicesPage(
+                        pTitle: 'Greetings',
+                        fileName: 'appendices_aisatsu',
+                      ),
                     ),
                     _buildLessonCard(
                       context,
                       'Counter Suffixes',
                       'Learn Japanese counting',
-                      Icons.numbers_outlined,
+                      Icons.countertops_outlined,
                       const Color(0xFFFF6B6B),
-                      const FallingLeavesSpring(),
+                      const AppendicesPage(
+                        pTitle: 'Counting',
+                        fileName: 'appendices_counter',
+                      ),
                     ),
                     _buildLessonCard(
                       context,
-                      'Kanji',
-                      'Learn Japanese characters visually',
-                      Icons.brush,
+                      'Numbers',
+                      'Learn Japanese numbers',
+                      Icons.numbers_outlined,
                       const Color(0xFFF093FB),
-                      const FallingLeavesSpring(),
+                      const AppendicesPage(
+                        pTitle: 'Numbers',
+                        fileName: 'appendices_number',
+                      ),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Body',
+                      'Person body parts.',
+                      Icons.person_outlined,
+                      const Color(0xFFF093FB),
+                      const AppendicesPage(
+                        pTitle: 'Body',
+                        fileName: 'appendices_body',
+                      ),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Color',
+                      'Color names.',
+                      Icons.color_lens_outlined,
+                      const Color(0xFFF093FB),
+                      const AppendicesPage(
+                        pTitle: 'Color',
+                        fileName: 'appendices_color',
+                      ),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Family',
+                      'Name of family members.',
+                      Icons.family_restroom_outlined,
+                      const Color(0xFFF093FB),
+                      const AppendicesPage(
+                        pTitle: 'Family',
+                        fileName: 'appendices_family',
+                      ),
+                    ),
+                    _buildLessonCard(
+                      context,
+                      'Time',
+                      'Time of day, seasons, and days of the week.',
+                      Icons.family_restroom_outlined,
+                      const Color(0xFFF093FB),
+                      const AppendicesPage(
+                        pTitle: 'Time',
+                        fileName: 'appendices_time',
+                      ),
+                    ),
+                    //verb group I II III
+                    _buildLessonCard(
+                      context,
+                      'Verb',
+                      'Verb group I, II, III.',
+                      Icons.groups_3_outlined,
+                      const Color(0xFFF093FB),
+                      const AppendicesPage(
+                        pTitle: 'Verb',
+                        fileName: 'appendices_verbs',
+                      ),
                     ),
                   ],
                 ),
