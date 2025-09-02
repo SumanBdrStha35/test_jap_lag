@@ -1,0 +1,147 @@
+{
+    "Exercise 1": { 
+        "passage": "しけんは来月の七月八日、木よう日、九時からです。\nふうとうにお金が八万円入っていました。\nきょうは天気がいいです。がっこうの5かいのまどから、北に白い山がよく見えます。",
+        "questions": [
+            { "text": "来月", "options": ["くげつ","らいがつ","くがつ","らいげつ"], "answer": 3 },
+            { "text": "七月", "options": ["しちがつ","しちげつ","なのがつ","なのげつ"], "answer": 0 },
+            { "text": "木よう日", "options": ["きにょうび","すいようび","かようび","もくようび"], "answer": 3 },
+            { "text": "九時", "options": ["くうじ","きゅじ","くじ","きゅうじ"], "answer": 2 },
+            { "text": "お金", "options": ["おちゃ","おかし","おさら","おかね"], "answer": 3 },
+            { "text": "八万円", "options": ["はちまんえん","はっせんえん","はちばんえん","はっけんえん"], "answer": 0 },
+            { "text": "入って", "options": ["いれって","いって","はって","はいって"], "answer": 3 },
+            { "text": "天気", "options": ["げんき","けんき","てんき","でんき"], "answer": 2 },
+            { "text": "北", "options": ["みなみ","きた","ひがし","にし"], "answer": 1 },
+            { "text": "白い", "options": ["たかい","ひろい","しろい","おかい"], "answer": 2 }
+        ],
+        "new": [
+            {"word": "試験", "reading": "shiken", "meaning": "examination, test"},
+            {"word": "来月", "reading": "raigetsu", "meaning": "next month"},
+            {"word": "七月", "reading": "shichigatsu", "meaning": "July"},
+            {"word": "八日", "reading": "youka", "meaning": "eighth day of the month, eight days"},
+            {"word": "木曜日", "reading": "mokuyoubi", "meaning": "Thursday"},
+            {"word": "封筒", "reading": "fuutou", "meaning": "envelope"},
+            {"word": "お金", "reading": "okane", "meaning": "money"},
+            {"word": "八万", "reading": "hachiman", "meaning": "eighty thousand"},
+            {"word": "円", "reading": "en", "meaning": "Yen"},
+            {"word": "入る", "reading": "hairu", "meaning": "to contain, to hold"},
+            {"word": "今日", "reading": "kyou", "meaning": "today, this day"},
+            {"word": "天気", "reading": "tenki", "meaning": "weather"},
+            {"word": "いい", "reading": "ii", "meaning": "good, excellent"},
+            {"word": "学校", "reading": "gakkou", "meaning": "school"},
+            {"word": "階", "reading": "kai", "meaning": "stories"},
+            {"word": "窓", "reading": "mado", "meaning": "window"},
+            {"word": "北", "reading": "kita", "meaning": "north"},
+            {"word": "白い", "reading": "shiroi", "meaning": "white"},
+            {"word": "山", "reading": "yama", "meaning": "mountain"},
+            {"word": "よく", "reading": "yoku", "meaning": "well, properly"},
+            {"word": "見える", "reading": "mieru", "meaning": "to be seen, to be in sight"}
+        ]
+    },
+    "Exercise 2": {
+        "passage": "この山には百本のさくらがあります。春にはおおぜいの人が花見にきます。\nはははまいにち、だいがくのとしょかんではたらいています。",
+        "questions": [
+            { "text": "山", "options": ["まち","むら","かわ","やま"], "answer": 3 },
+            { "text": "百本", "options": ["ひゃくぼん","ひゃっぽん","ひゃっぷん","ひゃくふん"], "answer": 1 },
+            { "text": "春", "options": ["はる","なつ","あき","ふゆ"], "answer": 0 },
+            { "text": "人", "options": ["にん","ひと","じん","いと"], "answer": 1 },
+            { "text": "花見", "options": ["つきみ","はなみ","かぜみ","ゆきみ"], "answer": 1 },
+            { "text": "はは", "options": ["父","火","花","母"], "answer": 3 },
+            { "text": "まいにち", "options": ["宙日","週日","中日","毎日"], "answer": 3 },
+            { "text": "だいがく", "options": ["大核","退学","大学","最核"], "answer": 2 },
+            { "text": "としょかん", "options": ["図書館","図所館","読所管","読書館"], "answer": 0 },
+            { "text": "はたらいて", "options": ["動いて","隠いて","働いて","行いて"], "answer": 2 }
+        ],
+        "new": [
+            { "word": "この", "reading": "kono", "meaning": "this" },
+            { "word": "山", "reading": "yama", "meaning": "mountain" },
+            { "word": "桜", "reading": "sakura", "meaning": "cherry tree, cherry blossom" },
+            { "word": "春", "reading": "haru", "meaning": "spring, springtime" },
+            { "word": "大勢", "reading": "oozei", "meaning": "many, crowd, great number of people" },
+            { "word": "人", "reading": "hito", "meaning": "man, person, people" },
+            { "word": "花見", "reading": "hanami", "meaning": "cherry blossom viewing, flower viewing" },
+            { "word": "来る", "reading": "kuru", "meaning": "to come, to arrive" },
+            { "word": "はは", "reading": "haha", "meaning": "mother" },
+            { "word": "まいにち", "reading": "mainichi", "meaning": "every day" },
+            { "word": "だいがく", "reading": "daigaku", "meaning": "university, college" },
+            { "word": "としょかん", "reading": "toshokan", "meaning": "library" },
+            { "word": "はたらく", "reading": "hataraku", "meaning": "to work, to labor" }
+        ]
+    },
+    "Exercise 3": {
+        "passage": "あには、ちいさいらじおをぽけっとにいれてでかけます。\nそして、でんしゃのなかでききながらかいしゃにいきます。\n先に食べてください。わたしは後で食べます。",
+        "questions": [
+            { "text": "ちいさい", "options": ["中さい","少さい","小さい","大さい"], "answer": 2 },
+            { "text": "らじお", "options": ["ラゾオ","ラジオ","ウゾオ","ウジオ"], "answer": 1 },
+            { "text": "ぽけっと", "options": ["ポケット","パクット","ポクット","パケット"], "answer": 0 },
+            { "text": "でかけ", "options": ["外かけ","行かけ","来かけ","出かけ"], "answer": 3 },
+            { "text": "でんしゃ", "options": ["電車","雷車","電東","雷東"], "answer": 0 },
+            { "text": "きき", "options": ["聞き","開き","閉き","間き"], "answer": 0 },
+            { "text": "かいしゃ", "options": ["社員","社会","会計","会社"], "answer": 3 },
+            { "text": "先", "options": ["せん","つぎ","すぐ","さき"], "answer": 3 },
+            { "text": "食べて", "options": ["とべて","のべて","たべて","くべて"], "answer": 2 },
+            { "text": "後で", "options": ["あとで","のちで","ごで","こうで"], "answer": 0 }
+        ],
+        "new": [
+            { "word": "あに", "reading": "ani", "meaning": "older brother" },
+            { "word": "ちいさい", "reading": "chiisai", "meaning": "small, little, tiny" },
+            { "word": "らじお", "reading": "rajio", "meaning": "radio" },
+            { "word": "ぽけっと", "reading": "poketto", "meaning": "pocket" },
+            { "word": "いれる", "reading": "ireru", "meaning": "to put in, to insert" },
+            { "word": "でかける", "reading": "dekakeru", "meaning": "to depart, to go out" },
+            { "word": "そして", "reading": "soshite", "meaning": "and, and then" },
+            { "word": "でんしゃ", "reading": "densha", "meaning": "(electric) train" },
+            { "word": "なか", "reading": "naka", "meaning": "inside, in, among, within" },
+            { "word": "きく", "reading": "kiku", "meaning": "to listen, to hear" },
+            { "word": "かいしゃ", "reading": "kaisha", "meaning": "company, corporation, workplace" },
+            { "word": "いく", "reading": "iku", "meaning": "to go, to proceed" },
+            { "word": "先に", "reading": "sakini", "meaning": "before, ahead, earlier than" },
+            { "word": "食べる", "reading": "taberu", "meaning": "to eat" },
+            { "word": "後で", "reading": "ato de", "meaning": "afterwards" }
+        ]
+    },
+    "Exercise 4": {
+        "passage": "水を買っていきます。\nお先にしつれいします。\nきのうはゆうはんにぎゅうにくをたべた。\n毎朝、なんじにおきますか。\nわたしのこどもははながすきです。\nこの部屋は明るくてひろいです。\nむいかのごごにあいましょう。\nえきの北口をでて、まっすぐいってください。\nこれはなんのぱーていーですか。\nせんせいは黒いめがねをかけています。",
+        "questions": [
+            { "text": "水を【買って】いきます。", "options": ["かって","つくって","とって","あらって"], "answer": 0 },
+            { "text": "お【先】にしつれいします。", "options": ["せん","ぜん","ざき","さき"], "answer": 3 },
+            { "text": "きのうはゆうはんに【ぎゅうにく】をたべた。", "options": ["牛内","午内","牛肉","午肉"], "answer": 2 },
+            { "text": "【毎朝】、なんじにおきますか。", "options": ["まいにち","まいとし","まいげつ","まいあさ"], "answer": 3 },
+            { "text": "わたしの【こども】ははながすきです。", "options": ["了ども","子ども","于ども","予ども"], "answer": 1 },
+            { "text": "この部屋は【明るくて】ひろいです。", "options": ["かおるくて","あかるくて","あつるくて","あさるくて"], "answer": 1 },
+            { "text": "むいかの【ごご】にあいましょう。", "options": ["午役","牛役","午後","牛後"], "answer": 2 },
+            { "text": "えきの【北口】をでて、まっすぐいってください。", "options": ["にしくち","にしぐち","きたくち","きたぐち"], "answer": 3 },
+            { "text": "これはなんの【ぱーていー】ですか。", "options": ["ベーティー","バーティー","パーディー","パーティー"], "answer": 3 },
+            { "text": "せんせいは【黒い】めがねをかけています。", "options": ["しろい","くらい","くろい","からい"], "answer": 2 }
+        ],
+        "new": [
+            { "word": "水", "reading": "mizu", "meaning": "water" },
+            { "word": "買う", "reading": "kau", "meaning": "to buy" },
+            { "word": "お先に", "reading": "osakini", "meaning": "pardon me for leaving before you" },
+            { "word": "きのう", "reading": "kinou", "meaning": "yesterday" },
+            { "word": "ゆうはん", "reading": "yuuhan", "meaning": "evening meal" },
+            { "word": "ぎゅうにく", "reading": "gyuuniku", "meaning": "beef" },
+            { "word": "たべる", "reading": "taberu", "meaning": "to eat" },
+            { "word": "毎朝", "reading": "maiasa", "meaning": "every morning" },
+            { "word": "なんじ", "reading": "nanji", "meaning": "what time" },
+            { "word": "おきる", "reading": "okiru", "meaning": "to get up, to wake up" },
+            { "word": "こども", "reading": "kodomo", "meaning": "child, children" },
+            { "word": "はな", "reading": "hana", "meaning": "flower, blossom" },
+            { "word": "すき", "reading": "suki", "meaning": "liking, fondness, love" },
+            { "word": "部屋", "reading": "heya", "meaning": "room" },
+            { "word": "明るい", "reading": "akarui", "meaning": "bright, colorful" },
+            { "word": "ひろい", "reading": "hiroi", "meaning": "spacious, vast, wide" },
+            { "word": "むいか", "reading": "muika", "meaning": "sixth day of the month, six days" },
+            { "word": "ごご", "reading": "gogo", "meaning": "afternoon, p.m." },
+            { "word": "あう", "reading": "au", "meaning": "to meet" },
+            { "word": "えき", "reading": "eki", "meaning": "station" },
+            { "word": "北口", "reading": "kitaguchi", "meaning": "north entrance" },
+            { "word": "でる", "reading": "deru", "meaning": "to go out, to exit" },
+            { "word": "まっすぐ", "reading": "massugu", "meaning": "straight (ahead), direct, upright" },
+            { "word": "いく", "reading": "iku", "meaning": "to go, to proceed" },
+            { "word": "せんせい", "reading": "sensei", "meaning": "teacher, master, doctor" },
+            { "word": "黒い", "reading": "kuroi", "meaning": "black" },
+            { "word": "めがね", "reading": "megane", "meaning": "glasses, spectacles" }
+        ]
+    }
+
+}

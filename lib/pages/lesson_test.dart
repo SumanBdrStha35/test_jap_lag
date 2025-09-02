@@ -65,7 +65,7 @@ class LessonTest extends StatelessWidget {
                       'Vocabulary',
                       'Daily phrases & common expressions',
                       Icons.menu_book,
-                      const Color(0xFF4ECDC4),
+                      const Color(0xFF00BCD4),
                       const VocaLessonPageUpdate(),
                     ),
                     _buildLessonCard(
@@ -73,7 +73,7 @@ class LessonTest extends StatelessWidget {
                       'Grammar',
                       'Master Japanese sentence structure',
                       Icons.psychology,
-                      const Color(0xFF667EEA),
+                      const Color(0xFF8BC34A),
                       const GramPage(title: "Grammar", selectedIndex: 2),
                     ),
                   ],
@@ -112,7 +112,7 @@ class LessonTest extends StatelessWidget {
                       'Counter Suffixes',
                       'Learn Japanese counting',
                       Icons.countertops_outlined,
-                      const Color(0xFFFF6B6B),
+                      const Color(0xFFFF9800),
                       const AppendicesPage(
                         pTitle: 'Counting',
                         fileName: 'appendices_counter',
@@ -123,7 +123,7 @@ class LessonTest extends StatelessWidget {
                       'Numbers',
                       'Learn Japanese numbers',
                       Icons.numbers_outlined,
-                      const Color(0xFFF093FB),
+                      const Color(0xFFE91E63),
                       const AppendicesPage(
                         pTitle: 'Numbers',
                         fileName: 'appendices_number',
@@ -134,7 +134,7 @@ class LessonTest extends StatelessWidget {
                       'Body',
                       'Person body parts.',
                       Icons.person_outlined,
-                      const Color(0xFFF093FB),
+                      const Color(0xFF9C27B0),
                       const AppendicesPage(
                         pTitle: 'Body',
                         fileName: 'appendices_body',
@@ -145,7 +145,7 @@ class LessonTest extends StatelessWidget {
                       'Color',
                       'Color names.',
                       Icons.color_lens_outlined,
-                      const Color(0xFFF093FB),
+                      const Color(0xFF3F51B5),
                       const AppendicesPage(
                         pTitle: 'Color',
                         fileName: 'appendices_color',
@@ -156,7 +156,7 @@ class LessonTest extends StatelessWidget {
                       'Family',
                       'Name of family members.',
                       Icons.family_restroom_outlined,
-                      const Color(0xFFF093FB),
+                      const Color(0xFF009688),
                       const AppendicesPage(
                         pTitle: 'Family',
                         fileName: 'appendices_family',
@@ -166,8 +166,8 @@ class LessonTest extends StatelessWidget {
                       context,
                       'Time',
                       'Time of day, seasons, and days of the week.',
-                      Icons.family_restroom_outlined,
-                      const Color(0xFFF093FB),
+                      Icons.timer_outlined,
+                      const Color(0xFF795548),
                       const AppendicesPage(
                         pTitle: 'Time',
                         fileName: 'appendices_time',
@@ -179,7 +179,7 @@ class LessonTest extends StatelessWidget {
                       'Verb',
                       'Verb group I, II, III.',
                       Icons.groups_3_outlined,
-                      const Color(0xFFF093FB),
+                      const Color(0xFF607D8B),
                       const AppendicesPage(
                         pTitle: 'Verb',
                         fileName: 'appendices_verbs',
