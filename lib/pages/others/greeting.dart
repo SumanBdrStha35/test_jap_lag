@@ -109,25 +109,94 @@ class _AppendicesPageState extends State<AppendicesPage> {
 
               if (name != null) {
                 String subtitleText = meaning ?? '';
-                if (item.containsKey('ます-form')) {
-                  subtitleText += '\nます-form: ${item['ます-form']}';
-                  subtitleText += '\nて-form: ${item['て-form']}';
-                  subtitleText += '\nDictionary: ${item['dictionary']}';
-                  subtitleText += '\nない-form: ${item['ない-form']}';
-                  subtitleText += '\nた-form: ${item['た-form']}';
-                }
-                tiles.add(
-                  Card(
-                    child: ListTile(
-                      title: Text(name),
-                      subtitle: subtitleText.isNotEmpty ? Text(subtitleText) : null,
-                      trailing: IconButton(
-                        icon: const Icon(Icons.volume_up),
-                        onPressed: () => _speak(name),
+                bool hasMasForm = item.containsKey('ます-form');
+                if (hasMasForm) {
+                  List<String> titles = [
+                    'ます-form:',
+                    'て-form:',
+                    'Dictionary:',
+                    'ない-form:',
+                    'た-form:',
+                  ];
+                  List<String> values = [
+                    item['ます-form'] as String,
+                    item['て-form'] as String,
+                    item['dictionary'] as String,
+                    item['ない-form'] as String,
+                    item['た-form'] as String,
+                  ];
+                  tiles.add(
+                    Card(
+                      color: Theme.of(context).cardColor,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      elevation: 5.0,
+                      margin: const EdgeInsets.all(10.0),
+                      child: Theme(
+                        data: Theme.of(
+                          context,
+                        ).copyWith(dividerColor: Colors.transparent),
+                        child: ExpansionTile(
+                          title: Row(
+                            children: [
+                              Expanded(child: Text(name)),
+                              IconButton(
+                                icon: const Icon(Icons.volume_up),
+                                onPressed: () => _speak(name),
+                              ),
+                            ],
+                          ),
+                          subtitle:
+                              subtitleText.isNotEmpty
+                                  ? Text(subtitleText)
+                                  : null,
+                          children: [
+                            for (int i = 0; i < titles.length; i++)
+                              Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 16.0,
+                                  vertical: 4.0,
+                                ),
+                                child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      titles[i],
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontFamily: 'NotoSansJP',
+                                      ),
+                                    ),
+                                    SizedBox(width: 8),
+                                    Expanded(child: Text(values[i])),
+                                    IconButton(
+                                      icon: Icon(Icons.volume_up),
+                                      onPressed: () => _speak(values[i]),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                          ],
+                        ),
                       ),
                     ),
-                  ),
-                );
+                  );
+                } else {
+                  tiles.add(
+                    Card(
+                      child: ListTile(
+                        title: Text(name),
+                        subtitle:
+                            subtitleText.isNotEmpty ? Text(subtitleText) : null,
+                        trailing: IconButton(
+                          icon: const Icon(Icons.volume_up),
+                          onPressed: () => _speak(name),
+                        ),
+                      ),
+                    ),
+                  );
+                }
               }
             }
           } else if (items is Map) {
@@ -198,15 +267,40 @@ class _AppendicesPageState extends State<AppendicesPage> {
     if (query.isEmpty) {
       _greetings = _originalGreetings;
     } else {
-      _greetings = _originalGreetings!.where((widget) {
-        if (widget is ListTile) {
-          final title = (widget.title as Text?)?.data ?? '';
-          final subtitle = (widget.subtitle as Text?)?.data ?? '';
-          return title.toLowerCase().contains(query.toLowerCase()) ||
-                 subtitle.toLowerCase().contains(query.toLowerCase());
-        }
-        return false; // Don't include headers in search
-      }).toList();
+      _greetings =
+          _originalGreetings!.where((widget) {
+            Widget? targetWidget = widget;
+
+            // If it's a Card, get its child
+            if (widget is Card) {
+              targetWidget = (widget as Card).child;
+            }
+
+            if (targetWidget is ListTile) {
+              final title = (targetWidget.title as Text?)?.data ?? '';
+              final subtitle = (targetWidget.subtitle as Text?)?.data ?? '';
+              return title.toLowerCase().contains(query.toLowerCase()) ||
+                  subtitle.toLowerCase().contains(query.toLowerCase());
+            } else if (targetWidget is ExpansionTile) {
+              final et = targetWidget as ExpansionTile;
+              String title = '';
+              if (et.title is Row) {
+                Row row = et.title as Row;
+                if (row.children.isNotEmpty && row.children[0] is Expanded) {
+                  Expanded exp = row.children[0] as Expanded;
+                  if (exp.child is Text) {
+                    title = (exp.child as Text).data ?? '';
+                  }
+                }
+              } else if (et.title is Text) {
+                title = (et.title as Text).data ?? '';
+              }
+              final subtitle = (et.subtitle as Text?)?.data ?? '';
+              return title.toLowerCase().contains(query.toLowerCase()) ||
+                  subtitle.toLowerCase().contains(query.toLowerCase());
+            }
+            return false; // Don't include headers (Padding) in search
+          }).toList();
     }
     setState(() {});
   }
@@ -260,87 +354,89 @@ class _AppendicesPageState extends State<AppendicesPage> {
           ),
         ],
       ),
-      body: _errorMessage != null
-          ? Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(Icons.error, size: 64, color: Colors.red),
-                SizedBox(height: 16),
-                Text('Error loading data: $_errorMessage'),
-                SizedBox(height: 16),
-                ElevatedButton(
-                  onPressed: () {
-                    _searchController.clear();
-                    _loadGreeting();
-                  },
-                  child: Text('Retry'),
+      body:
+          _errorMessage != null
+              ? Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.error, size: 64, color: Colors.red),
+                    SizedBox(height: 16),
+                    Text('Error loading data: $_errorMessage'),
+                    SizedBox(height: 16),
+                    ElevatedButton(
+                      onPressed: () {
+                        _searchController.clear();
+                        _loadGreeting();
+                      },
+                      child: Text('Retry'),
+                    ),
+                  ],
                 ),
-              ],
-            ),
-          )
-          : _greetings == null
-          ? Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                CircularProgressIndicator(),
-                SizedBox(height: 16),
-                Text('Loading data...'),
-              ],
-            ),
-          )
-          : Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: TextField(
-                  controller: _searchController,
-                  decoration: InputDecoration(
-                    labelText: 'Search',
-                    prefixIcon: Icon(Icons.search),
-                    border: OutlineInputBorder(),
+              )
+              : _greetings == null
+              ? Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircularProgressIndicator(),
+                    SizedBox(height: 16),
+                    Text('Loading data...'),
+                  ],
+                ),
+              )
+              : Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextField(
+                      controller: _searchController,
+                      decoration: InputDecoration(
+                        labelText: 'Search',
+                        prefixIcon: Icon(Icons.search),
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
                   ),
-                ),
-              ),
-              Expanded(
-                child: ListView.builder(
-                  itemCount: _greetings!.length,
-                  itemBuilder: (context, index) {
-                    final widget = _greetings![index];
-                    if (widget is ListTile) {
-                      final String? title = (widget.title as Text?)?.data;
-                      final String? subtitle = (widget.subtitle as Text?)?.data;
+                  Expanded(
+                    child: ListView.builder(
+                      itemCount: _greetings!.length,
+                      itemBuilder: (context, index) {
+                        final widget = _greetings![index];
+                        if (widget is ListTile) {
+                          final String? title = (widget.title as Text?)?.data;
+                          final String? subtitle =
+                              (widget.subtitle as Text?)?.data;
 
-                      return Card(
-                        color: Theme.of(context).cardColor,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10.0),
-                        ),
-                        elevation: 5.0,
-                        margin: const EdgeInsets.all(10.0),
-                        child: ListTile(
-                          title: Text(
-                            title ?? '',
-                            style: TextStyle(fontWeight: FontWeight.bold),
-                          ),
-                          subtitle: Text(subtitle ?? ''),
-                          trailing: IconButton(
-                            icon: Icon(Icons.volume_up),
-                            onPressed: () {
-                              _speak(title ?? '');
-                            },
-                          ),
-                        ),
-                      );
-                    } else {
-                      return widget;
-                    }
-                  },
-                ),
+                          return Card(
+                            color: Theme.of(context).cardColor,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                            elevation: 5.0,
+                            margin: const EdgeInsets.all(10.0),
+                            child: ListTile(
+                              title: Text(
+                                title ?? '',
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              subtitle: Text(subtitle ?? ''),
+                              trailing: IconButton(
+                                icon: Icon(Icons.volume_up),
+                                onPressed: () {
+                                  _speak(title ?? '');
+                                },
+                              ),
+                            ),
+                          );
+                        } else {
+                          return widget;
+                        }
+                      },
+                    ),
+                  ),
+                ],
               ),
-            ],
-          ),
     );
   }
 }
