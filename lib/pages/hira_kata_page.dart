@@ -1,26 +1,44 @@
+import 'dart:async';
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_app/pages/hirakata/letter_page.dart';
 import 'package:flutter_app/pages/hirakata/letter_test.dart';
 
-class HiraKataApp extends StatelessWidget {
+class HiraKataApp extends StatefulWidget {
   const HiraKataApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const HiraKataPage(),
-      debugShowCheckedModeBanner: false,
-    );
-  }
+  State<HiraKataApp> createState() => _HiraKataAppState();
 }
 
-class HiraKataPage extends StatelessWidget {
+class _HiraKataAppState extends State<HiraKataApp> {
   final Color pinkColor = const Color(0xFFFF9AD5);
   final Color purpleColor = const Color(0xFFB399FF);
   List<Color> get gColorsList => [pinkColor, purpleColor];
+  //auto linearprogress anime
+  final Random _random = Random();
+  double _progress = 0.5;
+  Timer? _timer;
 
-  const HiraKataPage({super.key});
+  @override
+  void initState() {
+    super.initState();
+
+    // Update progress randomly every 1.5 seconds
+    _timer = Timer.periodic(Duration(seconds: 2), (timer) {
+      setState(() {
+        _progress = _random.nextDouble(); // random value between 0 and 1
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
 
   void _handleStudyAction(BuildContext context, String type) {
     Navigator.push(
@@ -271,19 +289,31 @@ class HiraKataPage extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 10),
-                LinearProgressIndicator(
-                      value: progress,
-                      backgroundColor: Colors.grey[300],
-                      color: color,
-                      minHeight: 8,
-                    )
-                    .animate(delay: 600.ms)
-                    .scaleX(
-                      begin: 0,
-                      end: 1,
-                      duration: 800.ms,
-                      curve: Curves.easeOutQuad,
-                    ),
+                TweenAnimationBuilder<double>(
+                  tween: Tween(begin: 0, end: _progress),
+                  duration: 800.ms,
+                  curve: Curves.easeOutQuad,
+                  builder:
+                      (context, value, _) => LinearProgressIndicator(
+                        value: value,
+                        backgroundColor: Colors.grey[300],
+                        color: color,
+                        minHeight: 8,
+                      ),
+                ),
+                // LinearProgressIndicator(
+                //       value: progress,
+                //       backgroundColor: Colors.grey[300],
+                //       color: color,
+                //       minHeight: 8,
+                //     )
+                //     .animate(delay: 600.ms)
+                //     .scaleX(
+                //       begin: 0,
+                //       end: 1,
+                //       duration: 800.ms,
+                //       curve: Curves.easeOutQuad,
+                //     ),
                 const SizedBox(height: 10),
                 // Buttons Grid
                 Wrap(spacing: 10, runSpacing: 10, children: buttons),
@@ -354,7 +384,7 @@ class HiraKataPage extends StatelessWidget {
       return LetterPage(title: 'Hiragana');
     } else if (type == 'カタカナ') {
       return LetterPage(title: 'Katakana');
-    } else{
+    } else {
       throw ArgumentError('Invalid type: $type');
     }
   }
@@ -364,7 +394,7 @@ class HiraKataPage extends StatelessWidget {
       return LetterTest(title: 'Hiragana');
     } else if (type == 'カタカナ') {
       return LetterTest(title: 'Katakana');
-    }else{
+    } else {
       throw ArgumentError('Invalid type: $type');
     }
   }
@@ -374,7 +404,7 @@ class HiraKataPage extends StatelessWidget {
       return const Center(child: Text('Hiragana Word Test Page'));
     } else if (type == 'カタカナ') {
       return const Center(child: Text('Katakana Word Test Page'));
-    }else{
+    } else {
       throw ArgumentError('Invalid type: $type');
     }
   }

@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -26,16 +27,253 @@ class _AppendicesPageState extends State<AppendicesPage> {
   String? _errorMessage;
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
+  bool _isSpeaking = false;
 
   @override
   void initState() {
     super.initState();
     _flutterTts = FlutterTts();
+
+    // Set completion handler to update _isSpeaking state when speech completes
+    _flutterTts!.setCompletionHandler(() {
+      if (mounted) {
+        setState(() {
+          _isSpeaking = false;
+        });
+      }
+    });
+
     _searchController.addListener(() {
       _filterGreetings(_searchController.text);
     });
     _loadGreeting();
   }
+  
+  // Future<void> _stopSpeaking() async {
+  //   if (_flutterTts != null) {
+  //     await _flutterTts!.stop();
+  //     _flutterTts!.setCompletionHandler(() {
+  //       if (mounted) {
+  //         setState(() {
+  //           _isSpeaking = false;
+  //         });
+  //       }
+  //     });
+  //     // if (mounted) {
+  //     //   setState(() {
+  //     //     _isSpeaking = false;
+  //     //   });
+  //     // }
+  //   }
+  // }
+  
+  // void speak(String pTitle) async {
+  //   if (_flutterTts == null) {
+  //     logger.w('FlutterTts is not initialized');
+  //     return;
+  //   }
+
+  //   try {
+  //     // Stop any ongoing speech
+  //     await _stopSpeaking();
+
+  //     setState(() {
+  //       _isSpeaking = true;
+  //     });
+
+  //     // Set TTS parameters
+  //     await _flutterTts!.setLanguage('ja-JP');
+  //     await _flutterTts!.setPitch(1.0);
+  //     await _flutterTts!.setSpeechRate(0.5);
+  //     await _flutterTts!.setVolume(1.0);
+
+  //     // Then speak the list items
+  //     if (_greetings != null) {
+  //       for (var widget in _greetings!) {
+  //         String title = '';
+  //         String subtitle = '';
+
+  //         if (widget is Card) {
+  //           var child = (widget).child;
+  //           if (child is ListTile) {
+  //             title = (child.title as Text?)?.data ?? '';
+  //             subtitle = (child.subtitle as Text?)?.data ?? '';
+  //           } else if (child is ExpansionTile) {
+  //             var et = child;
+  //             if (et.title is Row) {
+  //               Row row = et.title as Row;
+  //               if (row.children.isNotEmpty && row.children[0] is Expanded) {
+  //                 Expanded exp = row.children[0] as Expanded;
+  //                 if (exp.child is Text) {
+  //                   title = (exp.child as Text).data ?? '';
+  //                 }
+  //               }
+  //             } else if (et.title is Text) {
+  //               title = (et.title as Text).data ?? '';
+  //             }
+  //             subtitle = (et.subtitle as Text?)?.data ?? '';
+  //           }
+  //         } else if (widget is ListTile) {
+  //           title = (widget.title as Text?)?.data ?? '';
+  //           subtitle = (widget.subtitle as Text?)?.data ?? '';
+  //         } else if (widget is Padding) {
+  //           var child = (widget).child;
+  //           if (child is Text) {
+  //             title = child.data ?? '';
+  //           }
+  //         }
+
+  //         if (title.isNotEmpty) {
+  //           await _flutterTts!.setLanguage('ja-JP');
+  //           Logger().i('Speaking title: $title');
+  //           Completer<void> titleCompleter = Completer();
+  //           _flutterTts!.setCompletionHandler(() {
+  //             if (!titleCompleter.isCompleted) {
+  //               titleCompleter.complete();
+  //             }
+  //           });
+  //           await _flutterTts!.speak(title);
+  //           await titleCompleter.future;
+  //           await Future.delayed(Duration(milliseconds: 30)); // 30 ms break before subtitle
+  //         }
+  //         if (subtitle.isNotEmpty) {
+  //           await _flutterTts!.setLanguage('en-US');
+  //           Logger().i('Speaking subtitle: $subtitle');
+  //           Completer<void> subtitleCompleter = Completer();
+  //           _flutterTts!.setCompletionHandler(() {
+  //             if (!subtitleCompleter.isCompleted) {
+  //               subtitleCompleter.complete();
+  //             }
+  //           });
+  //           await _flutterTts!.speak(subtitle);
+  //           await subtitleCompleter.future;
+  //           await Future.delayed(Duration(seconds: 1)); // pause after subtitle
+  //         }
+  //       }
+  //     }
+
+  //     setState(() {
+  //       _isSpeaking = false;
+  //     });
+  //   } catch (e) {
+  //     setState(() {
+  //       _isSpeaking = false;
+  //     });
+  //     logger.e('Error in speak function: $e');
+  //   }
+  // }
+  
+  // @override
+  // void dispose() {
+  //   _stopSpeaking();
+  //   _flutterTts = null;
+  //   _searchController.dispose();
+  //   super.dispose();
+  // }
+  
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     appBar: AppBar(
+  //       title: Text(widget.pTitle),
+  //       actions: [
+  //         IconButton(
+  //           icon: Icon(_isSpeaking ? Icons.stop : Icons.play_arrow),
+  //           onPressed: () {
+  //             if (_isSpeaking) {
+  //               _stopSpeaking();
+  //             } else {
+  //               speak(widget.pTitle);
+  //             }
+  //           },
+  //         ),
+  //       ],
+  //     ),
+  //     body:
+  //         _errorMessage != null
+  //             ? Center(
+  //               child: Column(
+  //                 mainAxisAlignment: MainAxisAlignment.center,
+  //                 children: [
+  //                   Icon(Icons.error, size: 64, color: Colors.red),
+  //                   SizedBox(height: 16),
+  //                   Text('Error loading data: $_errorMessage'),
+  //                   SizedBox(height: 16),
+  //                   ElevatedButton(
+  //                     onPressed: () {
+  //                       _searchController.clear();
+  //                       _loadGreeting();
+  //                     },
+  //                     child: Text('Retry'),
+  //                   ),
+  //                 ],
+  //               ),
+  //             )
+  //             : _greetings == null
+  //             ? Center(
+  //               child: Column(
+  //                 mainAxisAlignment: MainAxisAlignment.center,
+  //                 children: [
+  //                   CircularProgressIndicator(),
+  //                   SizedBox(height: 16),
+  //                   Text('Loading data...'),
+  //                 ],
+  //               ),
+  //             )
+  //             : Column(
+  //               children: [
+  //                 Padding(
+  //                   padding: const EdgeInsets.all(8.0),
+  //                   child: TextField(
+  //                     controller: _searchController,
+  //                     decoration: InputDecoration(
+  //                       labelText: 'Search',
+  //                       prefixIcon: Icon(Icons.search),
+  //                       border: OutlineInputBorder(),
+  //                     ),
+  //                   ),
+  //                 ),
+  //                 Expanded(
+  //                   child: ListView.builder(
+  //                     itemCount: _greetings!.length,
+  //                     itemBuilder: (context, index) {
+  //                       final widget = _greetings![index];
+  //                       if (widget is ListTile) {
+  //                         final String? title = (widget.title as Text?)?.data;
+  //                         final String? subtitle =
+  //                             (widget.subtitle as Text?)?.data;
+
+  //                         return Card(
+  //                           color: Theme.of(context).cardColor,
+  //                           shape: RoundedRectangleBorder(
+  //                             borderRadius: BorderRadius.circular(10.0),
+  //                           ),
+  //                           elevation: 5.0,
+  //                           margin: const EdgeInsets.all(10.0),
+  //                           child: ListTile(
+  //                             title: Text(
+  //                               title ?? '',
+  //                               style: TextStyle(fontWeight: FontWeight.bold),
+  //                             ),
+  //                             subtitle: Text(subtitle ?? ''),
+  //                             trailing: IconButton(
+  //                               icon: Icon(Icons.volume_up),
+  //                               onPressed: () {
+  //                                 _speak(title ?? '');
+  //                               },
+  //                             ),
+  //                           ),
+  //                         );
+  //                       } else {
+  //                         return widget;
+  //                       }
+  //                     },
+  //                   ),
+  //                 ),
+  //               ],
+  //             ),
+  //   );
+  // }
 
   Future<void> _loadGreeting() async {
     try {
@@ -273,7 +511,7 @@ class _AppendicesPageState extends State<AppendicesPage> {
 
             // If it's a Card, get its child
             if (widget is Card) {
-              targetWidget = (widget as Card).child;
+              targetWidget = (widget).child;
             }
 
             if (targetWidget is ListTile) {
@@ -282,7 +520,7 @@ class _AppendicesPageState extends State<AppendicesPage> {
               return title.toLowerCase().contains(query.toLowerCase()) ||
                   subtitle.toLowerCase().contains(query.toLowerCase());
             } else if (targetWidget is ExpansionTile) {
-              final et = targetWidget as ExpansionTile;
+              final et = targetWidget;
               String title = '';
               if (et.title is Row) {
                 Row row = et.title as Row;
@@ -346,10 +584,14 @@ class _AppendicesPageState extends State<AppendicesPage> {
         title: Text(widget.pTitle),
         actions: [
           IconButton(
-            icon: Icon(Icons.refresh),
+            icon: Icon(_isSpeaking ? Icons.stop : Icons.play_arrow),
             onPressed: () {
-              _searchController.clear();
-              _loadGreeting();
+              if (_isSpeaking) {
+                _flutterTts!.stop();
+                setState(() => _isSpeaking = false);
+              } else {
+                speak(widget.pTitle);
+              }
             },
           ),
         ],
@@ -438,5 +680,108 @@ class _AppendicesPageState extends State<AppendicesPage> {
                 ],
               ),
     );
+  }
+
+  void speak(String pTitle) async {
+    if (_flutterTts == null) {
+      logger.w('FlutterTts is not initialized');
+      return;
+    }
+
+    try {
+      // Stop any ongoing speech
+      await _flutterTts!.stop();
+
+      setState(() {
+        _isSpeaking = true;
+      });
+
+      // Set TTS parameters
+      await _flutterTts!.setLanguage('ja-JP');
+      await _flutterTts!.setPitch(1.0);
+      await _flutterTts!.setSpeechRate(0.5);
+      await _flutterTts!.setVolume(1.0);
+
+      // First speak the page title
+      // if (pTitle.isNotEmpty) {
+      //   await _flutterTts!.speak(pTitle);
+      // }
+
+      // Then speak the list items
+      if (_greetings != null) {
+        for (var widget in _greetings!) {
+          String title = '';
+          String subtitle = '';
+
+          if (widget is Card) {
+            var child = (widget).child;
+            if (child is ListTile) {
+              title = (child.title as Text?)?.data ?? '';
+              subtitle = (child.subtitle as Text?)?.data ?? '';
+            } else if (child is ExpansionTile) {
+              var et = child;
+              if (et.title is Row) {
+                Row row = et.title as Row;
+                if (row.children.isNotEmpty && row.children[0] is Expanded) {
+                  Expanded exp = row.children[0] as Expanded;
+                  if (exp.child is Text) {
+                    title = (exp.child as Text).data ?? '';
+                  }
+                }
+              } else if (et.title is Text) {
+                title = (et.title as Text).data ?? '';
+              }
+              subtitle = (et.subtitle as Text?)?.data ?? '';
+            }
+          } else if (widget is ListTile) {
+            title = (widget.title as Text?)?.data ?? '';
+            subtitle = (widget.subtitle as Text?)?.data ?? '';
+          } else if (widget is Padding) {
+            var child = (widget).child;
+            if (child is Text) {
+              title = child.data ?? '';
+            }
+          }
+
+          if (title.isNotEmpty) {
+            await _flutterTts!.setLanguage('ja-JP');
+            Logger().i('Speaking title: $title');
+            Completer<void> titleCompleter = Completer();
+            _flutterTts!.setCompletionHandler(() {
+              if (!titleCompleter.isCompleted) {
+                titleCompleter.complete();
+              }
+            });
+            await _flutterTts!.speak(title);
+            await titleCompleter.future;
+            await Future.delayed(Duration(milliseconds: 30)); // 30 ms break before subtitle
+          }
+          if (subtitle.isNotEmpty) {
+            await _flutterTts!.setLanguage('en-US');
+            Logger().i('Speaking subtitle: $subtitle');
+            Completer<void> subtitleCompleter = Completer();
+            _flutterTts!.setCompletionHandler(() {
+              if (!subtitleCompleter.isCompleted) {
+                subtitleCompleter.complete();
+              }
+            });
+            await _flutterTts!.speak(subtitle);
+            await subtitleCompleter.future;
+            await Future.delayed(Duration(seconds: 1)); // pause after subtitle
+          }
+          // Longer break after each item
+          // await Future.delayed(Duration(seconds: 1));
+        }
+      }
+
+      setState(() {
+        _isSpeaking = false;
+      });
+    } catch (e) {
+      setState(() {
+        _isSpeaking = false;
+      });
+      logger.e('Error in speak function: $e');
+    }
   }
 }

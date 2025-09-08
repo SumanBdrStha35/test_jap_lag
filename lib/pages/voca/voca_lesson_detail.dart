@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -17,11 +18,19 @@ class VocaLessonDetailPage extends StatefulWidget {
 class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
   List<Map<String, String>> vocabulary = [];
   final FlutterTts flutterTts = FlutterTts();
+  bool _isSpeaking = false;
 
   @override
   void initState() {
     super.initState();
     loadVocabulary();
+    flutterTts.setCompletionHandler(() {
+      if (mounted) {
+        setState(() {
+          _isSpeaking = false;
+        });
+      }
+    });
   }
 
   Future<void> loadVocabulary() async {
@@ -55,6 +64,19 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
                   SliverAppBar(
                     expandedHeight: 200,
                     pinned: true,
+                    actions: [
+                      IconButton(
+                        icon: Icon(_isSpeaking ? Icons.stop : Icons.play_arrow),
+                        onPressed: () {
+                          if (_isSpeaking) {
+                            flutterTts.stop();
+                            setState(() => _isSpeaking = false);
+                          } else {
+                            speakAll();
+                          }
+                        },
+                      ),
+                    ],
                     flexibleSpace: FlexibleSpaceBar(
                       title: Text(
                         'Lesson ${widget.lessonNumber}',
@@ -383,5 +405,60 @@ class _VocaLessonDetailPageState extends State<VocaLessonDetailPage> {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(s);
+  }
+
+  Future<void> speakAll() async {
+    if (vocabulary.isEmpty) return;
+    setState(() {
+      _isSpeaking = true;
+    });
+    try {
+      for (var word in vocabulary) {
+        String text = word['hiragana'] ?? '';
+        String meaning = word['meaning'] ?? '';
+        //use both text and meaning
+        //after speak text then only speak meaning
+        if (text.isNotEmpty) {
+          await flutterTts.setLanguage("ja-JP");
+          await flutterTts.speak(text);
+          // Wait for speech to complete before continuing
+          Completer<void> completer = Completer();
+          flutterTts.setCompletionHandler(() {
+            if (!completer.isCompleted) {
+              completer.complete();
+            }
+          });
+          await completer.future;
+          await Future.delayed(const Duration(milliseconds: 30));
+        }
+        if (meaning.isNotEmpty) {
+          await flutterTts.setLanguage("en-US");
+          await flutterTts.speak(meaning);
+          // Wait for speech to complete before continuing
+          Completer<void> completer = Completer();
+          flutterTts.setCompletionHandler(() {
+            if (!completer.isCompleted) {
+              completer.complete();
+            }
+          });
+          await completer.future;
+          await Future.delayed(const Duration(milliseconds: 30));
+        }
+      }
+    } catch (e) {
+      // Handle error if needed
+    } finally {
+      if (mounted) {
+        setState(() {
+          _isSpeaking = false;
+        });
+      }
+    }
+  }
+
+  @override
+  void dispose() {
+    flutterTts.stop();
+    super.dispose();
   }
 }

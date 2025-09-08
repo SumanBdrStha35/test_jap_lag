@@ -7,6 +7,8 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:logger/logger.dart';
 
 class KanjiQuizList extends StatelessWidget {
+  const KanjiQuizList({super.key});
+
   //show list from 1 to 15 in card view
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class KanjiQuizList extends StatelessWidget {
       appBar: AppBar(title: Text('Kanji Quiz')),
       body: GridView.count(
         crossAxisCount: 2,
-        children: List.generate(4, (index) {
+        children: List.generate(15, (index) {
           return GestureDetector(
             onTap: () {
               Navigator.push(
@@ -27,9 +29,41 @@ class KanjiQuizList extends StatelessWidget {
               );
               Logger().i('kanji ${index + 1}');
             },
-            child: Card(child: Center(child: Text('Kanji ${index + 1}'))),
+            child: Card(
+              color: Colors.primaries[index % Colors.primaries.length].shade50,
+              child: Center(
+                child: Text(
+                  'Kanji Exercise ${index + 1}',
+                  style: TextStyle(
+                    fontSize: 24,
+                    color:
+                        Colors
+                            .primaries[index % Colors.primaries.length]
+                            .shade900,
+                  ),
+                ),
+              ),
+            ),
           );
         }),
+
+        // crossAxisCount: 2,
+        // children: List.generate(4, (index) {
+        //   return GestureDetector(
+        //     onTap: () {
+        //       Navigator.push(
+        //         context,
+        //         MaterialPageRoute(
+        //           builder: (context) {
+        //             return QuizLoader(score: index + 1);
+        //           },
+        //         ),
+        //       );
+        //       Logger().i('kanji ${index + 1}');
+        //     },
+        //     child: Card(child: Center(child: Text('Kanji ${index + 1}'))),
+        //   );
+        // }),
       ),
     );
   }
@@ -83,7 +117,7 @@ class QuizPage extends StatefulWidget {
   final String title;
   final Map<String, dynamic> data;
 
-  QuizPage({super.key, required this.title, required this.data});
+  const QuizPage({super.key, required this.title, required this.data});
 
   @override
   _QuizPageState createState() => _QuizPageState();

@@ -6,10 +6,7 @@ import 'package:flutter_app/pages/hirakata/kana_quize.dart';
 class LetterTest extends StatefulWidget {
   final String title;
 
-  const LetterTest({
-    super.key,
-    required this.title,
-  });
+  const LetterTest({super.key, required this.title});
 
   @override
   State<LetterTest> createState() => _LetterTestState();
@@ -20,45 +17,56 @@ class _LetterTestState extends State<LetterTest> {
   late Map<String, String> dakutenList = {};
   late Map<String, String> combinationList = {};
   late Map<String, String> allKanaList = {};
-  
+  late List<Map<String, dynamic>> _cardData = [];
+
   @override
   void initState() {
     super.initState();
-    loadData(); 
+    loadData();
   }
 
   Future<void> loadData() async {
     try {
       if (widget.title == "Hiragana") {
-        final jsonString = await rootBundle.loadString('assets/data/hiragana_data.json');
+        final jsonString = await rootBundle.loadString(
+          'assets/data/hiragana_data.json',
+        );
         final jsonData = json.decode(jsonString);
-        
+
         setState(() {
           ganaList = Map<String, String>.from(jsonData['hiraganaList']);
           dakutenList = Map<String, String>.from(jsonData['dakutenList']);
-          combinationList = Map<String, String>.from(jsonData['combinationList']);
-          
+          combinationList = Map<String, String>.from(
+            jsonData['combinationList'],
+          );
+
           // Merge all lists into one
           allKanaList = {};
           allKanaList.addAll(ganaList);
           allKanaList.addAll(dakutenList);
           allKanaList.addAll(combinationList);
         });
+        _cardData = cardData;
       } else if (widget.title == "Katakana") {
-        final jsonString = await rootBundle.loadString('assets/data/katakana_data.json');
+        final jsonString = await rootBundle.loadString(
+          'assets/data/katakana_data.json',
+        );
         final jsonData = json.decode(jsonString);
-        
+
         setState(() {
           ganaList = Map<String, String>.from(jsonData['katakanaList']);
           dakutenList = Map<String, String>.from(jsonData['dakutenList']);
-          combinationList = Map<String, String>.from(jsonData['combinationList']);
-          
+          combinationList = Map<String, String>.from(
+            jsonData['combinationList'],
+          );
+
           // Merge all lists into one
           allKanaList = {};
           allKanaList.addAll(ganaList);
           allKanaList.addAll(dakutenList);
           allKanaList.addAll(combinationList);
         });
+        _cardData = cardData;
       }
     } catch (e) {
       print("Error loading data: $e");
@@ -68,6 +76,7 @@ class _LetterTestState extends State<LetterTest> {
         combinationList = {};
         allKanaList = {};
       });
+      _cardData = cardData;
     }
   }
 
@@ -81,7 +90,7 @@ class _LetterTestState extends State<LetterTest> {
         'color': Colors.blue,
         'count': ganaList.length,
         'data': ganaList,
-        "progress": 30
+        "progress": 0,
       },
       {
         'title': 'Dakuon',
@@ -90,7 +99,7 @@ class _LetterTestState extends State<LetterTest> {
         'color': Colors.red,
         'count': dakutenList.length,
         'data': dakutenList,
-        "progress": 20
+        "progress": 0,
       },
       {
         'title': 'Contracted',
@@ -99,7 +108,7 @@ class _LetterTestState extends State<LetterTest> {
         'color': Colors.green,
         'count': combinationList.length,
         'data': combinationList,
-        "progress": 10
+        "progress": 0,
       },
       {
         'title': 'All Characters',
@@ -108,7 +117,7 @@ class _LetterTestState extends State<LetterTest> {
         'color': Colors.orange,
         'count': allKanaList.length,
         'data': allKanaList,
-        "progress": 70
+        "progress": 0,
       },
     ];
   }
@@ -116,10 +125,7 @@ class _LetterTestState extends State<LetterTest> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-        centerTitle: true,
-      ),
+      appBar: AppBar(title: Text(widget.title), centerTitle: true),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -128,10 +134,7 @@ class _LetterTestState extends State<LetterTest> {
             const SizedBox(height: 20),
             const Text(
               'Select Test Type',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 30),
@@ -141,7 +144,12 @@ class _LetterTestState extends State<LetterTest> {
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
                 childAspectRatio: 0.85,
-                children: cardData.map((card) => _buildTestCard(card)).toList(),
+                children:
+                    _cardData
+                        .asMap()
+                        .entries
+                        .map((entry) => _buildTestCard(entry.value, entry.key))
+                        .toList(),
               ),
             ),
           ],
@@ -150,17 +158,15 @@ class _LetterTestState extends State<LetterTest> {
     );
   }
 
-  Widget _buildTestCard(Map<String, dynamic> card) {
+  Widget _buildTestCard(Map<String, dynamic> card, int index) {
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: InkWell(
         borderRadius: BorderRadius.circular(12),
         onTap: () {
           // Handle card tap
-          _onCardTap(card['title'], card['data'], card['count']);
+          _onCardTap(card['title'], card['data'], card['count'], index);
         },
         child: Container(
           padding: const EdgeInsets.all(16),
@@ -178,11 +184,7 @@ class _LetterTestState extends State<LetterTest> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                card['icon'],
-                size: 48,
-                color: Colors.white,
-              ),
+              Icon(card['icon'], size: 48, color: Colors.white),
               const SizedBox(height: 12),
               Text(
                 card['title'],
@@ -214,7 +216,7 @@ class _LetterTestState extends State<LetterTest> {
                 minHeight: 4,
                 backgroundColor: Colors.black54,
                 valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-              )
+              ),
             ],
           ),
         ),
@@ -222,17 +224,25 @@ class _LetterTestState extends State<LetterTest> {
     );
   }
 
-  void _onCardTap(String title, Map<String, String> data, int count) {
+  void _onCardTap(
+    String title,
+    Map<String, String> data,
+    int count,
+    int index,
+  ) async {
     // Navigate to a new screen with the tapped card's data
-    Navigator.push(
+    final result = await Navigator.push<int>(
       context,
       MaterialPageRoute(
-        builder: (context) => KanaQuize(
-          title: title,
-          kanaType: data,
-          maxChar: count,
-        ),
+        builder:
+            (context) =>
+                KanaQuize(title: title, kanaType: data, maxChar: count),
       ),
     );
+    if (result != null) {
+      setState(() {
+        _cardData[index]['progress'] = result;
+      });
+    }
   }
 }

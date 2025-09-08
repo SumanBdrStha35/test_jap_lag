@@ -114,6 +114,8 @@ class _KanjiQuizState extends State<KanjiQuiz> {
             actions: [
               TextButton(
                 onPressed: () {
+                  //close dialog and go back to KanjiLessonPage
+                  Navigator.pop(context);
                   Navigator.pop(context);
                 },
                 child: const Text('Finish'),

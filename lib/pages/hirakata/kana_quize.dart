@@ -10,7 +10,8 @@ class KanaQuize extends StatelessWidget {
   final Map<String, String>? kanaType;
   final int maxChar;
 
-  const KanaQuize({super.key, 
+  const KanaQuize({
+    super.key,
     required this.title,
     required this.kanaType,
     required this.maxChar,
@@ -20,10 +21,10 @@ class KanaQuize extends StatelessWidget {
   Widget build(BuildContext context) {
     if (title == "Irregular Kana") {
       return IrregularApp(title: title);
-    } else if(title == "Draw Kana") {
+    } else if (title == "Draw Kana") {
       return _WritingTest(title: title);
     } else {
-      return _KanaQuize(kanaType: kanaType, maxChar: maxChar, title: title,);
+      return _KanaQuize(kanaType: kanaType, maxChar: maxChar, title: title);
     }
   }
 }
@@ -37,9 +38,7 @@ class _WritingTest extends StatelessWidget {
   Widget build(BuildContext context) {
     // Placeholder widget for "Draw Kana" mode
     return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
+      appBar: AppBar(title: Text(title)),
       body: Center(
         child: Text(
           'Draw Kana mode coming soon!',
@@ -50,15 +49,15 @@ class _WritingTest extends StatelessWidget {
   }
 }
 
-class _KanaQuize extends StatefulWidget{
-   final String title;
+class _KanaQuize extends StatefulWidget {
+  final String title;
   final Map<String, String>? kanaType;
   final int maxChar;
 
   const _KanaQuize({
     required this.title,
     required this.kanaType,
-    required this.maxChar
+    required this.maxChar,
   });
 
   @override
@@ -111,9 +110,7 @@ class _KanaQuizeState extends State<_KanaQuize> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      appBar: AppBar(title: Text(widget.title)),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -122,11 +119,23 @@ class _KanaQuizeState extends State<_KanaQuize> {
               SizedBox(height: 20),
               Column(
                 children: [
-                  Text('Progress', style: TextStyle(fontSize: 18, color: Colors.blue)),
-                  Text('${correct + incorrect}/${widget.maxChar}', style: TextStyle(fontSize: 18, color: Colors.blue)),
+                  Text(
+                    'Progress',
+                    style: TextStyle(fontSize: 18, color: Colors.blue),
+                  ),
+                  Text(
+                    '${correct + incorrect}/${widget.maxChar}',
+                    style: TextStyle(fontSize: 18, color: Colors.blue),
+                  ),
                   SizedBox(height: 8),
-                  Text('Time elapsed', style: TextStyle(fontSize: 18, color: Colors.blue)),
-                  Text(formatElapsedTime(elapsedSeconds), style: TextStyle(fontSize: 18, color: Colors.blue)),
+                  Text(
+                    'Time elapsed',
+                    style: TextStyle(fontSize: 18, color: Colors.blue),
+                  ),
+                  Text(
+                    formatElapsedTime(elapsedSeconds),
+                    style: TextStyle(fontSize: 18, color: Colors.blue),
+                  ),
                 ],
               ),
               SizedBox(height: 20),
@@ -135,14 +144,26 @@ class _KanaQuizeState extends State<_KanaQuize> {
                 children: [
                   Column(
                     children: [
-                      Text('Correct', style: TextStyle(fontSize: 18, color: Colors.green)),
-                      Text('$correct', style: TextStyle(fontSize: 18, color: Colors.green)),
+                      Text(
+                        'Correct',
+                        style: TextStyle(fontSize: 18, color: Colors.green),
+                      ),
+                      Text(
+                        '$correct',
+                        style: TextStyle(fontSize: 18, color: Colors.green),
+                      ),
                     ],
                   ),
                   Column(
                     children: [
-                      Text('Incorrect', style: TextStyle(fontSize: 18, color: Colors.red)),
-                      Text('$incorrect', style: TextStyle(fontSize: 18, color: Colors.red)),
+                      Text(
+                        'Incorrect',
+                        style: TextStyle(fontSize: 18, color: Colors.red),
+                      ),
+                      Text(
+                        '$incorrect',
+                        style: TextStyle(fontSize: 18, color: Colors.red),
+                      ),
                     ],
                   ),
                 ],
@@ -150,7 +171,11 @@ class _KanaQuizeState extends State<_KanaQuize> {
               SizedBox(height: 30),
               Text(
                 question,
-                style: TextStyle(fontSize: 48, color: Colors.blue, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontSize: 48,
+                  color: Colors.blue,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               SizedBox(height: 30),
               Expanded(
@@ -161,35 +186,40 @@ class _KanaQuizeState extends State<_KanaQuize> {
                     mainAxisSpacing: 20,
                     shrinkWrap: true,
                     padding: EdgeInsets.all(16),
-                    children: visibleButtonLabels.map((label) {
-                      return ElevatedButton(
-                        onPressed: () => onButtonPressed(label),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: selectedAnswer == null
-                              ? Colors.blue
-                              : label == correctAnswer
-                                  ? Colors.green
-                                  : label == selectedAnswer
+                    children:
+                        visibleButtonLabels.map((label) {
+                          return ElevatedButton(
+                            onPressed: () => onButtonPressed(label),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor:
+                                  selectedAnswer == null
+                                      ? Colors.blue
+                                      : label == correctAnswer
+                                      ? Colors.green
+                                      : label == selectedAnswer
                                       ? Colors.red
                                       : Colors.blue,
-                          minimumSize: Size(100, 100),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8.0),
-                          ),
-                        ),
-                        child: Text(
-                          label.replaceAll('_', ''),
-                          style: TextStyle(fontSize: 24, color: Colors.white),
-                        ),
-                      );
-                    }).toList(),
+                              minimumSize: Size(100, 100),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8.0),
+                              ),
+                            ),
+                            child: Text(
+                              label.replaceAll('_', ''),
+                              style: TextStyle(
+                                fontSize: 24,
+                                color: Colors.white,
+                              ),
+                            ),
+                          );
+                        }).toList(),
                   ),
                 ),
               ),
             ],
           ),
         ),
-      )
+      ),
     );
   }
 
@@ -212,23 +242,28 @@ class _KanaQuizeState extends State<_KanaQuize> {
 
       if (correct == widget.maxChar) {
         title = "🎉 Perfect!";
-        message = "Amazing! You scored $correct out of ${widget.maxChar}. You're a Kana master!";
-        lottiePath = 'assets/lottie/perfect.json';
+        message =
+            "Amazing! You scored $correct out of ${widget.maxChar}. You're a Kana master!";
+        lottiePath = 'assets/lottie/cong.json';
       } else if (scoreRatio >= 0.9) {
         title = "🎉 Congratulations!";
-        message = "Excellent! You scored $correct out of ${widget.maxChar}. You're a Kana master!";
+        message =
+            "Excellent! You scored $correct out of ${widget.maxChar}. You're a Kana master!";
         lottiePath = 'assets/lottie/excellent.json';
       } else if (scoreRatio >= 0.75) {
         title = "👍 Great Job!";
-        message = "Good job! You scored $correct out of ${widget.maxChar}. Keep it up!";
+        message =
+            "Good job! You scored $correct out of ${widget.maxChar}. Keep it up!";
         lottiePath = 'assets/lottie/great.json';
       } else if (scoreRatio >= 0.5) {
         title = "👏 Keep Going!";
-        message = "Not bad! You scored $correct out of ${widget.maxChar}. You're getting there.";
+        message =
+            "Not bad! You scored $correct out of ${widget.maxChar}. You're getting there.";
         lottiePath = 'assets/lottie/good.json';
       } else {
         title = "💪 Keep Practicing!";
-        message = "You scored $correct out of ${widget.maxChar}. Don't give up—practice makes perfect!";
+        message =
+            "You scored $correct out of ${widget.maxChar}. Don't give up—practice makes perfect!";
         lottiePath = 'assets/lottie/sad.json';
       }
       Dialogs.materialDialog(
@@ -236,15 +271,12 @@ class _KanaQuizeState extends State<_KanaQuize> {
         barrierDismissible: false,
         title: 'Quiz Complete',
         color: Colors.white,
-        lottieBuilder: Lottie.asset(
-          lottiePath,
-          height: 120,
-        ),
+        lottieBuilder: Lottie.asset(lottiePath, height: 120),
         msg: message,
         actions: [
           IconsButton(
             onPressed: () {
-              Navigator.of(context).pop();
+              Navigator.of(context, rootNavigator: true).pop();
               setState(() {
                 correct = 0;
                 incorrect = 0;
@@ -262,8 +294,8 @@ class _KanaQuizeState extends State<_KanaQuize> {
           ),
           IconsButton(
             onPressed: () {
-              Navigator.of(context).pop();
-              Navigator.of(context).pop();
+              Navigator.of(context, rootNavigator: true).pop(); // Close dialog
+              Navigator.of(context).pop(); // Go back to LetterTest page
             },
             text: 'Back',
             iconData: Icons.arrow_back,
@@ -278,7 +310,8 @@ class _KanaQuizeState extends State<_KanaQuize> {
     // Pick a random romaji from availableRomaji
     final random = Random();
     final romajiToAsk = availableRomaji[random.nextInt(availableRomaji.length)];
-    final kanaCharacter = widget.kanaType != null ? widget.kanaType![romajiToAsk] ?? '' : '';
+    final kanaCharacter =
+        widget.kanaType != null ? widget.kanaType![romajiToAsk] ?? '' : '';
 
     if (kanaCharacter == '' || kanaCharacter.isEmpty) {
       // Skip empty kanaCharacter and pick another question
@@ -302,23 +335,31 @@ class _KanaQuizeState extends State<_KanaQuize> {
     });
   }
 
-  List<String> generateOptions(String correctRomaji, Map<String, String> allKana, int optionCount) {
+  List<String> generateOptions(
+    String correctRomaji,
+    Map<String, String> allKana,
+    int optionCount,
+  ) {
     // Gather candidate romaji keys excluding the correct answer and keys starting with "_empty"
-    final allKeys = allKana.keys.where((k) => k != correctRomaji && !k.startsWith('_empty')).toList();
+    final allKeys =
+        allKana.keys
+            .where((k) => k != correctRomaji && !k.startsWith('_empty'))
+            .toList();
 
     // Similarity filters inspired by original React logic
-    final similar = allKeys.where((key) {
-      final cr = correctRomaji.replaceAll('_', '');
-      final k = key.replaceAll('_', '');
+    final similar =
+        allKeys.where((key) {
+          final cr = correctRomaji.replaceAll('_', '');
+          final k = key.replaceAll('_', '');
 
-      // Conditions with some randomness for variety:
-      final random = Random();
-      if (random.nextDouble() < 0.1) return true;
-      if (cr.isNotEmpty && k.isNotEmpty && cr[0] == k[0]) return true;
-      if (cr.split('').any((ch) => k.contains(ch))) return true;
-      if (cr.length == k.length) return true;
-      return false;
-    }).toList();
+          // Conditions with some randomness for variety:
+          final random = Random();
+          if (random.nextDouble() < 0.1) return true;
+          if (cr.isNotEmpty && k.isNotEmpty && cr[0] == k[0]) return true;
+          if (cr.split('').any((ch) => k.contains(ch))) return true;
+          if (cr.length == k.length) return true;
+          return false;
+        }).toList();
     final random = Random();
     final List<String> chosenOptions = [];
     // Pick from similar first
@@ -342,7 +383,7 @@ class _KanaQuizeState extends State<_KanaQuize> {
     return chosenOptions;
   }
 
-  void onButtonPressed(String answer) async{
+  void onButtonPressed(String answer) async {
     final isCorrect = answer == correctAnswer;
     setState(() {
       selectedAnswer = answer;
@@ -385,15 +426,14 @@ class _KanaQuizeState extends State<_KanaQuize> {
 class IrregularApp extends StatefulWidget {
   final String title;
 
-  const IrregularApp({super.key, 
-    required this.title,
-  });
+  const IrregularApp({super.key, required this.title});
 
   @override
   State<IrregularApp> createState() => _IrregularApp();
 }
 
-class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMixin {
+class _IrregularApp extends State<IrregularApp>
+    with SingleTickerProviderStateMixin {
   final List<Question> _questions = [
     Question("しゃ", "sha"),
     Question("みず", "mizu"),
@@ -429,9 +469,18 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
       duration: Duration(milliseconds: 500),
     );
 
-    _leftCardLeftPosition = Tween<double>(begin: 80, end: -30).animate(_animationController);
-    _centerCardLeftPosition = Tween<double>(begin: -30, end: 80).animate(_animationController);
-    _leftCardOpacity = Tween<double>(begin: 1.0, end: 0.0).animate(_animationController);
+    _leftCardLeftPosition = Tween<double>(
+      begin: 80,
+      end: -30,
+    ).animate(_animationController);
+    _centerCardLeftPosition = Tween<double>(
+      begin: -30,
+      end: 80,
+    ).animate(_animationController);
+    _leftCardOpacity = Tween<double>(
+      begin: 1.0,
+      end: 0.0,
+    ).animate(_animationController);
 
     _animationController.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
@@ -456,7 +505,8 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
     setState(() {
       leftCard = centerCard;
       centerCard = rightCard;
-      List<Question> remaining = _questions.where((q) => !shownQuestions.contains(q)).toList();
+      List<Question> remaining =
+          _questions.where((q) => !shownQuestions.contains(q)).toList();
 
       if (remaining.isNotEmpty) {
         rightCard = remaining[Random().nextInt(remaining.length)];
@@ -469,17 +519,20 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
   void _onRightCardTap() {
     if (_isAnimating) return;
 
-    if (_controller.text.trim().toLowerCase() == centerCard.answer.toLowerCase()) {
+    if (_controller.text.trim().toLowerCase() ==
+        centerCard.answer.toLowerCase()) {
       setState(() {
         _isAnimating = true;
       });
       _animationController.forward();
     } else {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Text("Incorrect, try again!"),
-        backgroundColor: Colors.red,
-        duration: Duration(seconds: 2),
-      ));
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text("Incorrect, try again!"),
+          backgroundColor: Colors.red,
+          duration: Duration(seconds: 2),
+        ),
+      );
     }
   }
 
@@ -505,10 +558,7 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
               child: TextField(
                 controller: _controller,
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.black,
-                ),
+                style: TextStyle(fontSize: 20, color: Colors.black),
                 decoration: InputDecoration(
                   filled: true,
                   fillColor: Colors.white,
@@ -533,9 +583,7 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      appBar: AppBar(title: Text(widget.title)),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SizedBox(
@@ -561,7 +609,13 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(leftCard.text, style: TextStyle(fontSize: 26, color: Colors.white)),
+                            Text(
+                              leftCard.text,
+                              style: TextStyle(
+                                fontSize: 26,
+                                color: Colors.white,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -594,7 +648,10 @@ class _IrregularApp extends State<IrregularApp> with SingleTickerProviderStateMi
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(rightCard.text, style: TextStyle(fontSize: 22, color: Colors.white)),
+                        Text(
+                          rightCard.text,
+                          style: TextStyle(fontSize: 22, color: Colors.white),
+                        ),
                       ],
                     ),
                   ),

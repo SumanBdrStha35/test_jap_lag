@@ -137,7 +137,7 @@ class _TestPageState extends State<TestPage> {
                     //kanji test
                     const SizedBox(height: 20),
                     _buildGlassCard(
-                      icon: Icons.flash_on_outlined,
+                      icon: Icons.quiz_outlined,
                       title: 'Kanji Exercise',
                       subtitle:
                           'Test your word knowledge with interactive quizzes',

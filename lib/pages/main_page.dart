@@ -48,7 +48,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
         },
         children: [
           // HomePage(userID: widget.userID),
-          HiraKataPage(),
+          HiraKataApp(),
           KanjiSteps(title: 'Kanji'),
           // TreeWithFallingLeaves(),
           LessonTest(),
