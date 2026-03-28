@@ -1,6 +1,7 @@
 import 'package:bottom_bar_matu/bottom_bar/bottom_bar_bubble.dart';
 import 'package:bottom_bar_matu/bottom_bar_item.dart';
 import 'package:flutter/material.dart';
+import '../color.dart';
 import 'package:flutter_app/pages/hira_kata_page.dart';
 import 'package:flutter_app/pages/kanji/kanji_steps.dart';
 import 'package:flutter_app/pages/lesson_test.dart';
@@ -9,7 +10,7 @@ import 'package:flutter_app/pages/test_page.dart';
 
 class MainPage extends StatelessWidget {
   final String userID;
-  
+
   const MainPage({super.key, required this.userID});
 
   @override
@@ -24,7 +25,7 @@ class MainPage extends StatelessWidget {
 
 class MainPageWidget extends StatefulWidget {
   final String userID;
-  
+
   const MainPageWidget({super.key, required this.userID});
 
   @override
@@ -58,8 +59,8 @@ class _MainPageWidgetState extends State<MainPageWidget> {
       ),
       bottomNavigationBar: BottomBarBubble(
         selectedIndex: _currentIndex,
-        color: Color(0xFFF48FB1),
-        backgroundColor: Colors.white,
+        color: AppThemeColors.primaryGradientStart.withOpacity(0.8),
+        backgroundColor: Colors.white.withOpacity(0.9),
         onSelect: (index) {
           setState(() {
             _currentIndex = index;
@@ -71,26 +72,11 @@ class _MainPageWidgetState extends State<MainPageWidget> {
           );
         },
         items: [
-          BottomBarItem(
-            iconData: Icons.home,
-            label: 'Hira Kata',
-          ),
-          BottomBarItem(
-            iconData: Icons.menu_book,
-            label: 'Kanji',
-          ),
-          BottomBarItem(
-            iconData: Icons.pages,
-            label: 'Lesson',
-          ),
-          BottomBarItem(
-            iconData: Icons.show_chart,
-            label: 'Test',
-          ),
-          BottomBarItem(
-            iconData: Icons.settings,
-            label: 'Setting',
-          ),
+          BottomBarItem(iconData: Icons.home, label: 'Hira Kata'),
+          BottomBarItem(iconData: Icons.menu_book, label: 'Kanji'),
+          BottomBarItem(iconData: Icons.pages, label: 'Lesson'),
+          BottomBarItem(iconData: Icons.show_chart, label: 'Test'),
+          BottomBarItem(iconData: Icons.settings, label: 'Setting'),
         ],
       ),
     );

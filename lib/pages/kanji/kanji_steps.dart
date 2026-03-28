@@ -276,8 +276,8 @@ class _KanjiStepsState extends State<KanjiSteps> {
           PageRouteBuilder(
             transitionDuration: 500.ms,
             pageBuilder:
-                (_, __, ___) => KanjiLessonPage(id: item.id, name: item.name),
-            transitionsBuilder: (_, animation, __, child) {
+                (_, _, _) => KanjiLessonPage(id: item.id, name: item.name),
+            transitionsBuilder: (_, animation, _, child) {
               return FadeTransition(opacity: animation, child: child);
             },
           ),

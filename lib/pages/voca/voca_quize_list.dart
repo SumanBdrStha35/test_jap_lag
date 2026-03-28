@@ -155,13 +155,13 @@ class _VocaQuizeListPageState extends State<VocaQuizeListPage> {
       context,
       PageRouteBuilder(
         pageBuilder:
-            (_, __, ___) => VocaQuizePage(
+            (_, _, _) => VocaQuizePage(
               id: id,
               title: title,
               progress: progress,
               selected: 1,
             ),
-        transitionsBuilder: (_, animation, __, child) {
+        transitionsBuilder: (_, animation, _, child) {
           return FadeTransition(opacity: animation, child: child);
         },
         transitionDuration: 500.ms,

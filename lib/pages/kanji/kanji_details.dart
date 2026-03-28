@@ -133,7 +133,7 @@ class _KanjiAnimatorScreenState extends State<KanjiAnimationPage>
                     Center(
                       child: AnimatedBuilder(
                         animation: _controller,
-                        builder: (_, __) {
+                        builder: (_, _) {
                           return CustomPaint(
                             size: const Size(200, 200),
                             painter: KanjiStrokePainter(

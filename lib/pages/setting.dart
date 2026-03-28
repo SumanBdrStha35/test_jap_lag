@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../color.dart';
 import 'package:logger/logger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_app/db/DBHelper.dart';
@@ -57,50 +58,89 @@ class _SettingsPageState extends State<SettingsPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Settings'), elevation: 0),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            _buildUserProfileCard(),
-            const SizedBox(height: 20),
-            _buildSectionTitle('Appearance'),
-            _buildThemeCard(),
-            const SizedBox(height: 20),
-            _buildSectionTitle('Text & Display'),
-            _buildFontSizeCard(),
-            const SizedBox(height: 20),
-            _buildSectionTitle('Notifications'),
-            _buildNotificationCard(),
-            const SizedBox(height: 20),
-            _buildResetButton(),
-          ],
+    return Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: AppThemeColors.primaryGradient,
+        ),
+      ),
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          title: const Text(
+            'Settings',
+            style: TextStyle(
+              color: AppThemeColors.textPrimary,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          iconTheme: const IconThemeData(color: AppThemeColors.textPrimary),
+        ),
+        body: SingleChildScrollView(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _buildUserProfileCard(),
+              const SizedBox(height: 20),
+              _buildSectionTitle('Appearance'),
+              _buildThemeCard(),
+              const SizedBox(height: 20),
+              _buildSectionTitle('Text & Display'),
+              _buildFontSizeCard(),
+              const SizedBox(height: 20),
+              _buildSectionTitle('Notifications'),
+              _buildNotificationCard(),
+              const SizedBox(height: 20),
+              _buildResetButton(),
+            ],
+          ),
         ),
       ),
     );
   }
 
   Widget _buildUserProfileCard() {
-    return Card(
-      elevation: 4,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16),
+        gradient: const LinearGradient(
+          colors: [
+            AppThemeColors.glassPrimary,
+            AppThemeColors.glassSecondary,
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        border: Border.all(
+          color: AppThemeColors.glassBorder,
+          width: 1.5,
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: AppThemeColors.cardShadow,
+            blurRadius: 25,
+            offset: Offset(0, 12),
+          ),
+        ],
+      ),
       child: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Row(
           children: [
             CircleAvatar(
               radius: 40,
-              backgroundColor: Colors.grey[300],
-              backgroundImage:
-                  _userData?['profile_image'] != null
-                      ? FileImage(File(_userData!['profile_image']))
-                      : null,
-              child:
-                  _userData?['profile_image'] == null
-                      ? const Icon(Icons.person, size: 40, color: Colors.grey)
-                      : null,
+              backgroundColor: Colors.white.withOpacity(0.2),
+              backgroundImage: _userData?['profile_image'] != null
+                  ? FileImage(File(_userData!['profile_image']))
+                  : null,
+              child: _userData?['profile_image'] == null
+                  ? const Icon(Icons.person, size: 40, color: Colors.white)
+                  : null,
             ),
             const SizedBox(width: 20),
             Expanded(
@@ -109,23 +149,27 @@ class _SettingsPageState extends State<SettingsPage> {
                 children: [
                   Text(
                     _userData?['name'] ?? 'User Name',
-                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    style: const TextStyle(
+                      color: AppThemeColors.textPrimary,
                       fontWeight: FontWeight.bold,
+                      fontSize: 20,
                     ),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     _userData?['email'] ?? 'user@example.com',
-                    style: Theme.of(
-                      context,
-                    ).textTheme.bodyMedium?.copyWith(color: Colors.grey[600]),
+                    style: TextStyle(
+                      color: AppThemeColors.textSecondary,
+                      fontSize: 14,
+                    ),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     _userData?['phone'] ?? 'No contact info',
-                    style: Theme.of(
-                      context,
-                    ).textTheme.bodyMedium?.copyWith(color: Colors.grey[600]),
+                    style: TextStyle(
+                      color: AppThemeColors.textSecondary,
+                      fontSize: 14,
+                    ),
                   ),
                 ],
               ),
@@ -141,35 +185,71 @@ class _SettingsPageState extends State<SettingsPage> {
       padding: const EdgeInsets.only(bottom: 8.0),
       child: Text(
         title,
-        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+        style: const TextStyle(
+          color: AppThemeColors.textPrimary,
           fontWeight: FontWeight.bold,
-          color: Theme.of(context).primaryColor,
+          fontSize: 20,
         ),
       ),
     );
   }
 
   Widget _buildThemeCard() {
-    return Card(
-      elevation: 2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12),
+        gradient: const LinearGradient(
+          colors: [
+            AppThemeColors.glassPrimary,
+            AppThemeColors.glassSecondary,
+          ],
+        ),
+        border: Border.all(
+          color: AppThemeColors.glassBorder,
+          width: 1.5,
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: AppThemeColors.cardShadow,
+            blurRadius: 25,
+            offset: Offset(0, 12),
+          ),
+        ],
+      ),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            Icon(
-              _isDarkMode ? Icons.dark_mode : Icons.light_mode,
-              color: Theme.of(context).primaryColor,
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: _isDarkMode ? AppThemeColors.primaryGradientMid : AppThemeColors.primaryGradientStart,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(
+                _isDarkMode ? Icons.dark_mode : Icons.light_mode,
+                color: Colors.white,
+              ),
             ),
             const SizedBox(width: 16),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Theme', style: Theme.of(context).textTheme.titleMedium),
+                  const Text(
+                    'Theme',
+                    style: TextStyle(
+                      color: AppThemeColors.textPrimary,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
+                  ),
                   Text(
                     _isDarkMode ? 'Dark Mode' : 'Light Mode',
-                    style: Theme.of(context).textTheme.bodySmall,
+                    style: TextStyle(
+                      color: AppThemeColors.textSecondary,
+                      fontSize: 14,
+                    ),
                   ),
                 ],
               ),
@@ -182,7 +262,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   _saveSettings();
                 });
               },
-              activeThumbColor: Theme.of(context).primaryColor,
+              activeColor: AppThemeColors.primaryGradientStart,
             ),
           ],
         ),
@@ -191,9 +271,27 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   Widget _buildFontSizeCard() {
-    return Card(
-      elevation: 2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12),
+        gradient: const LinearGradient(
+          colors: [
+            AppThemeColors.glassPrimary,
+            AppThemeColors.glassSecondary,
+          ],
+        ),
+        border: Border.all(
+          color: AppThemeColors.glassBorder,
+          width: 1.5,
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: AppThemeColors.cardShadow,
+            blurRadius: 25,
+            offset: Offset(0, 12),
+          ),
+        ],
+      ),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -201,11 +299,22 @@ class _SettingsPageState extends State<SettingsPage> {
           children: [
             Row(
               children: [
-                const Icon(Icons.text_fields, color: Colors.blue),
+                Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: AppThemeColors.primaryGradientStart,
+                    shape: BoxShape.circle,
+                  ),
+                  child: const Icon(Icons.text_fields, color: Colors.white),
+                ),
                 const SizedBox(width: 16),
-                Text(
+                const Text(
                   'Font Size',
-                  style: Theme.of(context).textTheme.titleMedium,
+                  style: TextStyle(
+                    color: AppThemeColors.textPrimary,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18,
+                  ),
                 ),
               ],
             ),
@@ -222,21 +331,27 @@ class _SettingsPageState extends State<SettingsPage> {
                   _saveSettings();
                 });
               },
-              activeColor: Theme.of(context).primaryColor,
+              activeColor: AppThemeColors.primaryGradientStart,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text('A', style: TextStyle(fontSize: 12)),
+                const Text('A', style: TextStyle(fontSize: 12, color: AppThemeColors.textPrimary)),
                 Text(
                   'A',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: AppThemeColors.textPrimary),
                 ),
               ],
             ),
             const SizedBox(height: 8),
             Center(
-              child: Text('Sample Text', style: TextStyle(fontSize: _fontSize)),
+              child: Text(
+                'Sample Text',
+                style: TextStyle(
+                  fontSize: _fontSize,
+                  color: AppThemeColors.textPrimary,
+                ),
+              ),
             ),
           ],
         ),
@@ -245,26 +360,58 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   Widget _buildNotificationCard() {
-    return Card(
-      elevation: 2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12),
+        gradient: const LinearGradient(
+          colors: [
+            AppThemeColors.glassPrimary,
+            AppThemeColors.glassSecondary,
+          ],
+        ),
+        border: Border.all(
+          color: AppThemeColors.glassBorder,
+          width: 1.5,
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: AppThemeColors.cardShadow,
+            blurRadius: 25,
+            offset: Offset(0, 12),
+          ),
+        ],
+      ),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
-            const Icon(Icons.notifications, color: Colors.blue),
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: AppThemeColors.primaryGradientEnd,
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(Icons.notifications, color: Colors.white),
+            ),
             const SizedBox(width: 16),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  const Text(
                     'Notifications',
-                    style: Theme.of(context).textTheme.titleMedium,
+                    style: TextStyle(
+                      color: AppThemeColors.textPrimary,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
                   ),
                   Text(
                     _notificationsEnabled ? 'Enabled' : 'Disabled',
-                    style: Theme.of(context).textTheme.bodySmall,
+                    style: TextStyle(
+                      color: AppThemeColors.textSecondary,
+                      fontSize: 14,
+                    ),
                   ),
                 ],
               ),
@@ -277,7 +424,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   _saveSettings();
                 });
               },
-              activeThumbColor: Theme.of(context).primaryColor,
+              activeColor: AppThemeColors.primaryGradientStart,
             ),
           ],
         ),
@@ -287,26 +434,52 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Widget _buildResetButton() {
     return Center(
-      child: ElevatedButton(
-        onPressed: () async {
-          final prefs = await SharedPreferences.getInstance();
-          await prefs.clear();
-          setState(() {
-            _fontSize = 16.0;
-            _isDarkMode = false;
-            _notificationsEnabled = true;
-          });
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Settings reset to defaults')),
-          );
-        },
-        style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.red,
-          foregroundColor: Colors.white,
-          padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(8),
+          gradient: const LinearGradient(
+            colors: [Colors.red, Colors.redAccent],
+          ),
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.red,
+              blurRadius: 10,
+              offset: Offset(0, 4),
+            ),
+          ],
         ),
-        child: const Text('Reset to Defaults'),
+        child: ElevatedButton(
+          onPressed: () async {
+            final prefs = await SharedPreferences.getInstance();
+            await prefs.clear();
+            setState(() {
+              _fontSize = 16.0;
+              _isDarkMode = false;
+              _notificationsEnabled = true;
+            });
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: const Text(
+                  'Settings reset to defaults',
+                  style: TextStyle(color: Colors.white),
+                ),
+                backgroundColor: AppThemeColors.primaryGradientStart,
+              ),
+            );
+          },
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.transparent,
+            shadowColor: Colors.transparent,
+            padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8),
+            ),
+          ),
+          child: const Text(
+            'Reset to Defaults',
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
       ),
     );
   }

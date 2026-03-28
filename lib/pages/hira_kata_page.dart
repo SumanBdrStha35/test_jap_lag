@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import '../color.dart';
 import 'package:flutter_app/pages/hirakata/letter_page.dart';
 import 'package:flutter_app/pages/hirakata/letter_test.dart';
 
@@ -14,9 +15,7 @@ class HiraKataApp extends StatefulWidget {
 }
 
 class _HiraKataAppState extends State<HiraKataApp> {
-  final Color pinkColor = const Color(0xFFFF9AD5);
-  final Color purpleColor = const Color(0xFFB399FF);
-  List<Color> get gColorsList => [pinkColor, purpleColor];
+  List<Color> get gColorsList => AppThemeColors.primaryGradient;
   //auto linearprogress anime
   final Random _random = Random();
   double _progress = 0.5;
@@ -44,8 +43,8 @@ class _HiraKataAppState extends State<HiraKataApp> {
     Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (_, __, ___) => StudyPage(type: type),
-        transitionsBuilder: (_, animation, __, child) {
+        pageBuilder: (_, _, _) => StudyPage(type: type),
+        transitionsBuilder: (_, animation, _, child) {
           return FadeTransition(opacity: animation, child: child);
         },
         transitionDuration: 500.ms,
@@ -57,8 +56,8 @@ class _HiraKataAppState extends State<HiraKataApp> {
     Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (_, __, ___) => CharacterTestPage(type: type),
-        transitionsBuilder: (_, animation, __, child) {
+        pageBuilder: (_, _, _) => CharacterTestPage(type: type),
+        transitionsBuilder: (_, animation, _, child) {
           return SlideTransition(
             position: Tween<Offset>(
               begin: const Offset(1, 0),
@@ -76,8 +75,8 @@ class _HiraKataAppState extends State<HiraKataApp> {
     Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (_, __, ___) => WordTestPage(type: type),
-        transitionsBuilder: (_, animation, __, child) {
+        pageBuilder: (_, _, _) => WordTestPage(type: type),
+        transitionsBuilder: (_, animation, _, child) {
           return ScaleTransition(scale: animation, child: child);
         },
         transitionDuration: 500.ms,
@@ -145,30 +144,30 @@ class _HiraKataAppState extends State<HiraKataApp> {
                       title: "ひらがな",
                       subtitle: "基本の文字",
                       progress: 0.1,
-                      color: pinkColor,
+                      color: AppThemeColors.primaryGradientStart,
                       buttons: [
                         buildCard(
                           Icons.menu_book,
                           "学習",
-                          pinkColor,
+                          AppThemeColors.primaryGradientStart,
                           () => _handleStudyAction(context, 'ひらがな'),
                         ),
                         buildCard(
                           Icons.edit,
                           "文字テスト",
-                          pinkColor,
+                          AppThemeColors.primaryGradientStart,
                           () => _handleCharacterTestAction(context, 'ひらがな'),
                         ),
                         buildCard(
                           Icons.record_voice_over,
                           "単語テスト",
-                          pinkColor,
+                          AppThemeColors.primaryGradientStart,
                           () => _handleWordTestAction(context, 'ひらがな'),
                         ),
                         buildCard(
                           Icons.check_circle,
                           "セクションクリア",
-                          pinkColor,
+                          AppThemeColors.primaryGradientStart,
                           () => _handleSectionClearAction(context, 'ひらがな'),
                         ),
                       ],
@@ -183,30 +182,30 @@ class _HiraKataAppState extends State<HiraKataApp> {
                       title: "カタカナ",
                       subtitle: "基本の文字",
                       progress: 0.8,
-                      color: purpleColor,
+                      color: AppThemeColors.primaryGradientMid,
                       buttons: [
                         buildCard(
                           Icons.menu_book,
                           "学習",
-                          purpleColor,
+                          AppThemeColors.primaryGradientMid,
                           () => _handleStudyAction(context, 'カタカナ'),
                         ),
                         buildCard(
                           Icons.edit,
                           "文字テスト",
-                          purpleColor,
+                          AppThemeColors.primaryGradientMid,
                           () => _handleCharacterTestAction(context, 'カタカナ'),
                         ),
                         buildCard(
                           Icons.record_voice_over,
                           "単語テスト",
-                          purpleColor,
+                          AppThemeColors.primaryGradientMid,
                           () => _handleWordTestAction(context, 'カタカナ'),
                         ),
                         buildCard(
                           Icons.check_circle,
                           "セクションクリア",
-                          purpleColor,
+                          AppThemeColors.primaryGradientMid,
                           () => _handleSectionClearAction(context, 'カタカナ'),
                         ),
                       ],
@@ -262,15 +261,17 @@ class _HiraKataAppState extends State<HiraKataApp> {
                       children: [
                         Text(
                           title,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
-                            color: color,
+                            color: AppThemeColors.textPrimary,
                           ),
                         ),
                         Text(
                           subtitle,
-                          style: const TextStyle(color: Colors.grey),
+                          style: const TextStyle(
+                            color: AppThemeColors.textSecondary,
+                          ),
                         ),
                       ],
                     ),
@@ -296,8 +297,8 @@ class _HiraKataAppState extends State<HiraKataApp> {
                   builder:
                       (context, value, _) => LinearProgressIndicator(
                         value: value,
-                        backgroundColor: Colors.grey[300],
-                        color: color,
+                        backgroundColor: Colors.white24,
+                        color: AppThemeColors.primaryGradientStart,
                         minHeight: 8,
                       ),
                 ),

@@ -432,7 +432,7 @@ class _LeafWidgetState extends State<_LeafWidget>
   Widget build(BuildContext context) {
     return AnimatedBuilder(
       animation: _controller,
-      builder: (_, __) {
+      builder: (_, _) {
         final sway = sin(_controller.value * pi * 2) * 40;
 
         return Positioned(
