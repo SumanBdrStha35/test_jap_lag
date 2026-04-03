@@ -76,7 +76,7 @@ class _ArticleState extends State<ArticlePage> {
                         BoxShadow(
                           color: AppThemeColors.cardShadow,
                           blurRadius: 25,
-                          offset: const Offset(0, 12),
+                          offset: Offset(0, 12),
                         ),
                       ],
                     ),

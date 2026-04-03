@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../color.dart';
-import 'package:logger/logger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_app/db/DBHelper.dart';
 import 'dart:io';
@@ -24,28 +23,57 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   void initState() {
     super.initState();
-    _loadSettings();
+    _initializeData();
+  }
+
+  Future<void> _initializeData() async {
+    try {
+      await _loadSettings();
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Error loading settings: $e')));
+      }
+    }
   }
 
   Future<void> _loadSettings() async {
-    final prefs = await SharedPreferences.getInstance();
-    setState(() {
-      _fontSize = prefs.getDouble('fontSize') ?? 16.0;
-      _isDarkMode = prefs.getBool('isDarkMode') ?? false;
-      _notificationsEnabled = prefs.getBool('notificationsEnabled') ?? true;
-      _userEmail = prefs.getString('userEmail');
-      Logger().d("sdfsdfsd $_userEmail");
-    });
-    _loadUserData();
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      if (mounted) {
+        setState(() {
+          _fontSize = prefs.getDouble('fontSize') ?? 16.0;
+          _isDarkMode = prefs.getBool('isDarkMode') ?? false;
+          _notificationsEnabled = prefs.getBool('notificationsEnabled') ?? true;
+          _userEmail = prefs.getString('userEmail');
+        });
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Error loading settings: $e')));
+      }
+    }
   }
 
   Future<void> _loadUserData() async {
-    if (_userEmail != null) {
-      Logger().d("kjfdsjkfbds $_userEmail");
-      final user = await _dbHelper.getUserByEmail(_userEmail!);
-      setState(() {
-        _userData = user;
-      });
+    try {
+      if (_userEmail != null) {
+        final user = await _dbHelper.getUserByEmail(_userEmail!);
+        if (mounted) {
+          setState(() {
+            _userData = user;
+          });
+        }
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Error loading user data: $e')));
+      }
     }
   }
 
@@ -63,7 +91,11 @@ class _SettingsPageState extends State<SettingsPage> {
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: AppThemeColors.primaryGradient,
+          colors: [
+            AppThemeColors.primaryGradientStart,
+            AppThemeColors.primaryGradientMid,
+            AppThemeColors.primaryGradientEnd,
+          ],
         ),
       ),
       child: Scaffold(
@@ -109,17 +141,11 @@ class _SettingsPageState extends State<SettingsPage> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
         gradient: const LinearGradient(
-          colors: [
-            AppThemeColors.glassPrimary,
-            AppThemeColors.glassSecondary,
-          ],
+          colors: [AppThemeColors.glassPrimary, AppThemeColors.glassSecondary],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        border: Border.all(
-          color: AppThemeColors.glassBorder,
-          width: 1.5,
-        ),
+        border: Border.all(color: AppThemeColors.glassBorder, width: 1.5),
         boxShadow: const [
           BoxShadow(
             color: AppThemeColors.cardShadow,
@@ -135,12 +161,22 @@ class _SettingsPageState extends State<SettingsPage> {
             CircleAvatar(
               radius: 40,
               backgroundColor: Colors.white.withOpacity(0.2),
-              backgroundImage: _userData?['profile_image'] != null
-                  ? FileImage(File(_userData!['profile_image']))
-                  : null,
-              child: _userData?['profile_image'] == null
-                  ? const Icon(Icons.person, size: 40, color: Colors.white)
-                  : null,
+              backgroundImage:
+                  (_userData?['profile_image'] != null &&
+                          _userData!['profile_image'].toString().isNotEmpty &&
+                          File(
+                            _userData!['profile_image'].toString(),
+                          ).existsSync())
+                      ? FileImage(File(_userData!['profile_image'].toString()))
+                      : null,
+              child:
+                  (_userData?['profile_image'] == null ||
+                          _userData!['profile_image'].toString().isEmpty ||
+                          !File(
+                            _userData!['profile_image'].toString(),
+                          ).existsSync())
+                      ? const Icon(Icons.person, size: 40, color: Colors.white)
+                      : null,
             ),
             const SizedBox(width: 20),
             Expanded(
@@ -199,15 +235,9 @@ class _SettingsPageState extends State<SettingsPage> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         gradient: const LinearGradient(
-          colors: [
-            AppThemeColors.glassPrimary,
-            AppThemeColors.glassSecondary,
-          ],
+          colors: [AppThemeColors.glassPrimary, AppThemeColors.glassSecondary],
         ),
-        border: Border.all(
-          color: AppThemeColors.glassBorder,
-          width: 1.5,
-        ),
+        border: Border.all(color: AppThemeColors.glassBorder, width: 1.5),
         boxShadow: const [
           BoxShadow(
             color: AppThemeColors.cardShadow,
@@ -223,7 +253,10 @@ class _SettingsPageState extends State<SettingsPage> {
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: _isDarkMode ? AppThemeColors.primaryGradientMid : AppThemeColors.primaryGradientStart,
+                color:
+                    _isDarkMode
+                        ? AppThemeColors.primaryGradientMid
+                        : AppThemeColors.primaryGradientStart,
                 shape: BoxShape.circle,
               ),
               child: Icon(
@@ -256,13 +289,23 @@ class _SettingsPageState extends State<SettingsPage> {
             ),
             Switch(
               value: _isDarkMode,
-              onChanged: (value) {
+              onChanged: (value) async {
                 setState(() {
                   _isDarkMode = value;
-                  _saveSettings();
                 });
+                await _saveSettings();
+                if (mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: const Text(
+                        'Theme changed. Restart app to apply.',
+                      ),
+                      duration: const Duration(seconds: 2),
+                    ),
+                  );
+                }
               },
-              activeColor: AppThemeColors.primaryGradientStart,
+              activeThumbColor: AppThemeColors.primaryGradientStart,
             ),
           ],
         ),
@@ -275,15 +318,9 @@ class _SettingsPageState extends State<SettingsPage> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         gradient: const LinearGradient(
-          colors: [
-            AppThemeColors.glassPrimary,
-            AppThemeColors.glassSecondary,
-          ],
+          colors: [AppThemeColors.glassPrimary, AppThemeColors.glassSecondary],
         ),
-        border: Border.all(
-          color: AppThemeColors.glassBorder,
-          width: 1.5,
-        ),
+        border: Border.all(color: AppThemeColors.glassBorder, width: 1.5),
         boxShadow: const [
           BoxShadow(
             color: AppThemeColors.cardShadow,
@@ -336,10 +373,20 @@ class _SettingsPageState extends State<SettingsPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Text('A', style: TextStyle(fontSize: 12, color: AppThemeColors.textPrimary)),
+                const Text(
+                  'A',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: AppThemeColors.textPrimary,
+                  ),
+                ),
                 Text(
                   'A',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: AppThemeColors.textPrimary),
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: AppThemeColors.textPrimary,
+                  ),
                 ),
               ],
             ),
@@ -364,15 +411,9 @@ class _SettingsPageState extends State<SettingsPage> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         gradient: const LinearGradient(
-          colors: [
-            AppThemeColors.glassPrimary,
-            AppThemeColors.glassSecondary,
-          ],
+          colors: [AppThemeColors.glassPrimary, AppThemeColors.glassSecondary],
         ),
-        border: Border.all(
-          color: AppThemeColors.glassBorder,
-          width: 1.5,
-        ),
+        border: Border.all(color: AppThemeColors.glassBorder, width: 1.5),
         boxShadow: const [
           BoxShadow(
             color: AppThemeColors.cardShadow,
@@ -424,7 +465,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   _saveSettings();
                 });
               },
-              activeColor: AppThemeColors.primaryGradientStart,
+              activeThumbColor: AppThemeColors.primaryGradientStart,
             ),
           ],
         ),
@@ -441,31 +482,51 @@ class _SettingsPageState extends State<SettingsPage> {
             colors: [Colors.red, Colors.redAccent],
           ),
           boxShadow: const [
-            BoxShadow(
-              color: Colors.red,
-              blurRadius: 10,
-              offset: Offset(0, 4),
-            ),
+            BoxShadow(color: Colors.red, blurRadius: 10, offset: Offset(0, 4)),
           ],
         ),
         child: ElevatedButton(
           onPressed: () async {
-            final prefs = await SharedPreferences.getInstance();
-            await prefs.clear();
-            setState(() {
-              _fontSize = 16.0;
-              _isDarkMode = false;
-              _notificationsEnabled = true;
-            });
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: const Text(
-                  'Settings reset to defaults',
-                  style: TextStyle(color: Colors.white),
-                ),
-                backgroundColor: AppThemeColors.primaryGradientStart,
-              ),
+            final confirmed = await showDialog<bool>(
+              context: context,
+              builder:
+                  (context) => AlertDialog(
+                    title: const Text('Confirm Reset'),
+                    content: const Text(
+                      'This will reset all settings to defaults. Continue?',
+                    ),
+                    actions: [
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, false),
+                        child: const Text('Cancel'),
+                      ),
+                      TextButton(
+                        onPressed: () => Navigator.pop(context, true),
+                        child: const Text('Reset'),
+                      ),
+                    ],
+                  ),
             );
+            if (confirmed == true) {
+              final prefs = await SharedPreferences.getInstance();
+              await prefs.clear();
+              setState(() {
+                _fontSize = 16.0;
+                _isDarkMode = false;
+                _notificationsEnabled = true;
+              });
+              if (mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: const Text(
+                      'Settings reset to defaults',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    backgroundColor: AppThemeColors.primaryGradientStart,
+                  ),
+                );
+              }
+            }
           },
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.transparent,
